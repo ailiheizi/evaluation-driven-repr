@@ -1,5 +1,7 @@
 # Evaluation-Driven Representation Discovery (EDRL)
 
+[![DOI](https://zenodo.org/badge/1285039651.svg)](https://doi.org/10.5281/zenodo.21070906)
+
 **When Audience Reactions Reveal Content Structure Without Labels**
 
 We demonstrate that natural audience evaluations (real-time video comments) contain sufficient semantic structure to automatically discover meaningful content dimensions—without any human-defined labels or feature engineering.
@@ -133,6 +135,7 @@ This is precisely the loop that builds a **world model aligned with human values
   title={Evaluation-Driven Representation Discovery: When Audience Reactions Reveal Content Structure Without Labels},
   author={Zhi Liu (ailiheizi)},
   year={2026},
+  doi={10.5281/zenodo.21070906},
   url={https://github.com/ailiheizi/evaluation-driven-repr}
 }
 ```
