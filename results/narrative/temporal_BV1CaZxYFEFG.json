@@ -1,0 +1,26 @@
+{
+  "video": "【iPhone用户必看】一定要升级到iOS18.4正式版！feat. 25+ 新功能｜大耳朵TV",
+  "bvid": "BV1CaZxYFEFG",
+  "duration": 897,
+  "total_classified": 43,
+  "peaks": {
+    "整体": {
+      "peak_bin": 0,
+      "peak_time": 0,
+      "peak_density": 1.0,
+      "mean_density": 0.5916666666666667,
+      "peak_ratio": 1.6901408450704225
+    },
+    "其他": {
+      "peak_bin": 0,
+      "peak_time": 0,
+      "peak_density": 0.25,
+      "mean_density": 0.010869565217391304,
+      "peak_ratio": 23.0
+    }
+  },
+  "dim_entropy": {
+    "整体": 0.84927182174765,
+    "其他": -0.0
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "video": "手机续航大横评！到底谁的电池最耐用？",
+  "bvid": "BV1tnZqYTEx6",
+  "duration": 1190,
+  "total_classified": 237,
+  "peaks": {
+    "整体": {
+      "peak_bin": 0,
+      "peak_time": 0,
+      "peak_density": 1.0,
+      "mean_density": 0.825,
+      "peak_ratio": 1.2121212121212122
+    }
+  },
+  "dim_entropy": {
+    "整体": 0.9478508595793453
+  }
+}

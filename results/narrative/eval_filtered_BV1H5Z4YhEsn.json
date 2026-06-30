@@ -3,24 +3,24 @@
   "bvid": "BV1H5Z4YhEsn",
   "total_raw": 1800,
   "after_rule_filter": 659,
-  "sample_classified": 150,
-  "evaluative_count": 61,
-  "evaluative_rate": 0.4066666666666667,
+  "sample_classified": 120,
+  "evaluative_count": 42,
+  "evaluative_rate": 0.35,
   "dimension_distribution": {
-    "演技": 4,
-    "叙事手法": 3,
-    "画面": 8,
+    "演技": 7,
+    "节奏": 3,
     "整体": 11,
-    "剧情": 24,
+    "叙事手法": 1,
+    "剧情": 9,
     "音乐": 1,
-    "细节": 3,
-    "节奏": 1,
-    "情感共鸣": 6
+    "细节": 4,
+    "画面": 4,
+    "情感共鸣": 2
   },
   "polarity_distribution": {
-    "-": 12,
-    "0": 39,
-    "+": 10
+    "-": 13,
+    "0": 18,
+    "+": 11
   },
   "evaluative_samples": [
     {
@@ -30,15 +30,15 @@
       "polarity": "-"
     },
     {
-      "t": 15.302,
-      "text": "《一语双关》",
-      "dimension": "叙事手法",
-      "polarity": "0"
-    },
-    {
       "t": 23.951,
       "text": "小杨帕金森",
       "dimension": "演技",
+      "polarity": "-"
+    },
+    {
+      "t": 37.606,
+      "text": "高斯寄偶爱吃，你告诉我这一集几分钟！Look in my eyes！！",
+      "dimension": "节奏",
       "polarity": "-"
     },
     {
@@ -48,34 +48,16 @@
       "polarity": "-"
     },
     {
-      "t": 39.657,
-      "text": "非静止的皇哥",
-      "dimension": "画面",
-      "polarity": "0"
-    },
-    {
       "t": 59.441,
       "text": "【恐怖】",
       "dimension": "整体",
-      "polarity": "0"
-    },
-    {
-      "t": 61.758,
-      "text": "哇，真恐怖啊，海皇恐怖的都要开心死了",
-      "dimension": "整体",
-      "polarity": "0"
+      "polarity": "-"
     },
     {
       "t": 85.304,
       "text": "上来就发汤底的能不能滚。。。。",
-      "dimension": "剧情",
+      "dimension": "叙事手法",
       "polarity": "-"
-    },
-    {
-      "t": 102.419,
-      "text": "《抗击打》",
-      "dimension": "剧情",
-      "polarity": "0"
     },
     {
       "t": 105.24,
@@ -114,10 +96,40 @@
       "polarity": "0"
     },
     {
+      "t": 159.278,
+      "text": "第一个之前看过一模一样的",
+      "dimension": "剧情",
+      "polarity": "0"
+    },
+    {
+      "t": 159.81,
+      "text": "会写惠超标了",
+      "dimension": "细节",
+      "polarity": "+"
+    },
+    {
+      "t": 164.151,
+      "text": "《发现《极度恐怖》》",
+      "dimension": "整体",
+      "polarity": "0"
+    },
+    {
+      "t": 164.297,
+      "text": "汤底是啥我猜不到",
+      "dimension": "剧情",
+      "polarity": "0"
+    },
+    {
       "t": 165.921,
       "text": "不恐怖？？",
       "dimension": "整体",
       "polarity": "-"
+    },
+    {
+      "t": 173.711,
+      "text": "0帧越手？",
+      "dimension": "节奏",
+      "polarity": "0"
     },
     {
       "t": 194.588,
@@ -132,39 +144,15 @@
       "polarity": "0"
     },
     {
+      "t": 208.038,
+      "text": "“体香”",
+      "dimension": "细节",
+      "polarity": "0"
+    },
+    {
       "t": 214.814,
       "text": "灵帧起手",
-      "dimension": "叙事手法",
-      "polarity": "0"
-    },
-    {
-      "t": 239.368,
-      "text": "急急急急急急急急急急急急急急急",
       "dimension": "节奏",
-      "polarity": "-"
-    },
-    {
-      "t": 252.004,
-      "text": "我明白了，开盲盒是他偷快递",
-      "dimension": "剧情",
-      "polarity": "0"
-    },
-    {
-      "t": 268.014,
-      "text": "他是不是COS盗墓的？",
-      "dimension": "剧情",
-      "polarity": "0"
-    },
-    {
-      "t": 283.921,
-      "text": "不会是骨灰盒吧？",
-      "dimension": "剧情",
-      "polarity": "0"
-    },
-    {
-      "t": 284.457,
-      "text": "不会是开户吧",
-      "dimension": "剧情",
       "polarity": "0"
     },
     {
@@ -174,34 +162,10 @@
       "polarity": "-"
     },
     {
-      "t": 346.605,
-      "text": "提醒，这是自杀",
-      "dimension": "剧情",
-      "polarity": "0"
-    },
-    {
-      "t": 361.172,
-      "text": "痒死的？",
-      "dimension": "剧情",
-      "polarity": "0"
-    },
-    {
       "t": 363.389,
       "text": "这也没有《阴森》",
-      "dimension": "整体",
+      "dimension": "画面",
       "polarity": "-"
-    },
-    {
-      "t": 369.853,
-      "text": "什么寒蝉鸣泣之时",
-      "dimension": "剧情",
-      "polarity": "0"
-    },
-    {
-      "t": 375.182,
-      "text": "《蚊子太多》",
-      "dimension": "细节",
-      "polarity": "0"
     },
     {
       "t": 377.797,
@@ -210,58 +174,34 @@
       "polarity": "0"
     },
     {
-      "t": 378.078,
-      "text": "树林里全是蚊子，然后它好痒，然后自己给自己挠死",
-      "dimension": "剧情",
-      "polarity": "0"
-    },
-    {
       "t": 404.301,
       "text": "高斯这个点能想到太厉害了",
-      "dimension": "剧情",
+      "dimension": "演技",
       "polarity": "+"
-    },
-    {
-      "t": 410.331,
-      "text": "他中毒了",
-      "dimension": "剧情",
-      "polarity": "0"
     },
     {
       "t": 413.967,
       "text": "聪明的低斯（doge",
-      "dimension": "剧情",
+      "dimension": "演技",
       "polarity": "+"
     },
     {
       "t": 437.531,
       "text": "《指甲MVP》《蚊子MVP》《皮肤MVP》",
       "dimension": "细节",
-      "polarity": "0"
+      "polarity": "+"
     },
     {
       "t": 444.972,
       "text": "666真阴森",
       "dimension": "画面",
-      "polarity": "0"
-    },
-    {
-      "t": 455.835,
-      "text": "这个我玩过，确实质量很高",
-      "dimension": "整体",
       "polarity": "+"
     },
     {
       "t": 518.815,
       "text": "高子好聪明！",
-      "dimension": "剧情",
+      "dimension": "演技",
       "polarity": "+"
-    },
-    {
-      "t": 563.65,
-      "text": "《他妈是青钢影吗？》",
-      "dimension": "画面",
-      "polarity": "0"
     },
     {
       "t": 568.237,
@@ -270,33 +210,9 @@
       "polarity": "0"
     },
     {
-      "t": 574.185,
-      "text": "我靠我出冷汗了",
-      "dimension": "情感共鸣",
-      "polarity": "0"
-    },
-    {
-      "t": 582.03,
-      "text": "这是能剪的下来的吗",
-      "dimension": "叙事手法",
-      "polarity": "0"
-    },
-    {
-      "t": 584.844,
-      "text": "我为什么在笑啊，我也不知道为什么",
-      "dimension": "情感共鸣",
-      "polarity": "0"
-    },
-    {
-      "t": 598.874,
-      "text": "这个是真的有点恐怖",
-      "dimension": "画面",
-      "polarity": "0"
-    },
-    {
-      "t": 601.739,
-      "text": "环指点彩派",
-      "dimension": "画面",
+      "t": 604.104,
+      "text": "因为学生画的是他们妈妈没有四肢在地上的画。",
+      "dimension": "剧情",
       "polarity": "0"
     },
     {
@@ -314,13 +230,49 @@
     {
       "t": 623.64,
       "text": "完美的黄金回旋",
-      "dimension": "剧情",
+      "dimension": "整体",
       "polarity": "+"
     },
     {
       "t": 630.189,
       "text": "高斯褲子真好看",
       "dimension": "画面",
+      "polarity": "+"
+    },
+    {
+      "t": 649.936,
+      "text": "这个响指帅啊",
+      "dimension": "演技",
+      "polarity": "+"
+    },
+    {
+      "t": 673.837,
+      "text": "更可怕的是现实中正在发生这样的事...",
+      "dimension": "情感共鸣",
+      "polarity": "-"
+    },
+    {
+      "t": 674.271,
+      "text": "小杨这个吓人",
+      "dimension": "整体",
+      "polarity": "-"
+    },
+    {
+      "t": 675.369,
+      "text": "小女孩剪的是怎么想到的我不行了",
+      "dimension": "剧情",
+      "polarity": "0"
+    },
+    {
+      "t": 686.216,
+      "text": "这是真恐怖。",
+      "dimension": "整体",
+      "polarity": "-"
+    },
+    {
+      "t": 689.685,
+      "text": "这才是真正的——中式恐怖",
+      "dimension": "整体",
       "polarity": "+"
     }
   ]

@@ -1,0 +1,233 @@
+{
+  "video": "《王 牌 空 姐》",
+  "bvid": "BV1GEZEYdEwn",
+  "total_raw": 3600,
+  "after_rule_filter": 1690,
+  "sample_classified": 120,
+  "evaluative_count": 35,
+  "evaluative_rate": 0.2916666666666667,
+  "dimension_distribution": {
+    "剧情": 19,
+    "整体": 2,
+    "细节": 6,
+    "画面": 5,
+    "演技": 3
+  },
+  "polarity_distribution": {
+    "-": 9,
+    "0": 20,
+    "+": 6
+  },
+  "evaluative_samples": [
+    {
+      "t": 39.828,
+      "text": "好怕下一秒就是你叉叉",
+      "dimension": "剧情",
+      "polarity": "-"
+    },
+    {
+      "t": 44.729,
+      "text": "实习生拯救公司 这不是背锅跑路一条龙吗",
+      "dimension": "剧情",
+      "polarity": "-"
+    },
+    {
+      "t": 48.05,
+      "text": "起码不是临时工",
+      "dimension": "剧情",
+      "polarity": "0"
+    },
+    {
+      "t": 86.274,
+      "text": "好厉害啊",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 123.933,
+      "text": "假的这灭火器假货",
+      "dimension": "细节",
+      "polarity": "-"
+    },
+    {
+      "t": 162.242,
+      "text": "一个一个系安全带像小学生郊游",
+      "dimension": "画面",
+      "polarity": "0"
+    },
+    {
+      "t": 168.107,
+      "text": "感觉像幼儿园耶",
+      "dimension": "画面",
+      "polarity": "0"
+    },
+    {
+      "t": 180.851,
+      "text": "《战斗机》",
+      "dimension": "剧情",
+      "polarity": "0"
+    },
+    {
+      "t": 267.116,
+      "text": "乘客都很冷静，似乎只有番茄不冷静（bush i",
+      "dimension": "演技",
+      "polarity": "0"
+    },
+    {
+      "t": 267.692,
+      "text": "看起来除了番茄情绪比较激动以外所有人都很冷静",
+      "dimension": "演技",
+      "polarity": "0"
+    },
+    {
+      "t": 313.86,
+      "text": "带着，带着，下降率太高了！",
+      "dimension": "细节",
+      "polarity": "0"
+    },
+    {
+      "t": 342.84,
+      "text": "飞一趟。废了20万",
+      "dimension": "剧情",
+      "polarity": "-"
+    },
+    {
+      "t": 359.903,
+      "text": "拉了个逃生梯还有工资发？",
+      "dimension": "剧情",
+      "polarity": "0"
+    },
+    {
+      "t": 387.777,
+      "text": "快倒闭了想起来装点饮品了是吧",
+      "dimension": "剧情",
+      "polarity": "-"
+    },
+    {
+      "t": 436.87,
+      "text": "《导弹视角》",
+      "dimension": "画面",
+      "polarity": "0"
+    },
+    {
+      "t": 491.685,
+      "text": "真成飞行模式了",
+      "dimension": "剧情",
+      "polarity": "0"
+    },
+    {
+      "t": 516.347,
+      "text": "《花钱升职》",
+      "dimension": "剧情",
+      "polarity": "0"
+    },
+    {
+      "t": 520.727,
+      "text": "可爱的番茄，美丽的空姐",
+      "dimension": "画面",
+      "polarity": "+"
+    },
+    {
+      "t": 520.875,
+      "text": "这个动画真的好好笑",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 556.708,
+      "text": "《dj空姐》",
+      "dimension": "剧情",
+      "polarity": "0"
+    },
+    {
+      "t": 572.755,
+      "text": "最后变成一边开飞机一边服务是吧",
+      "dimension": "剧情",
+      "polarity": "0"
+    },
+    {
+      "t": 583.249,
+      "text": "成超市模拟器了",
+      "dimension": "剧情",
+      "polarity": "0"
+    },
+    {
+      "t": 664.736,
+      "text": "这廉航服务还挺多",
+      "dimension": "剧情",
+      "polarity": "+"
+    },
+    {
+      "t": 738.927,
+      "text": "好良心，还有免费的东西！某boy就不一样了",
+      "dimension": "细节",
+      "polarity": "+"
+    },
+    {
+      "t": 773.27,
+      "text": "拉高《亿点》",
+      "dimension": "剧情",
+      "polarity": "0"
+    },
+    {
+      "t": 783.59,
+      "text": "四刀可乐真不贵，美国自动售货机可乐都是四五刀的",
+      "dimension": "细节",
+      "polarity": "0"
+    },
+    {
+      "t": 787.607,
+      "text": "但是这个是美金，所以还是很贵",
+      "dimension": "细节",
+      "polarity": "-"
+    },
+    {
+      "t": 804.96,
+      "text": "正常个头啊八刀",
+      "dimension": "细节",
+      "polarity": "-"
+    },
+    {
+      "t": 913.119,
+      "text": "《空中赌场》",
+      "dimension": "剧情",
+      "polarity": "0"
+    },
+    {
+      "t": 920.977,
+      "text": "如果彩票能自己抽那这个游戏的性质就变了",
+      "dimension": "剧情",
+      "polarity": "0"
+    },
+    {
+      "t": 1001.965,
+      "text": "达成成就全是空屏",
+      "dimension": "画面",
+      "polarity": "0"
+    },
+    {
+      "t": 1025.842,
+      "text": "工资没卖货赚得多",
+      "dimension": "剧情",
+      "polarity": "-"
+    },
+    {
+      "t": 1027.841,
+      "text": "不会要当机长了吧哈哈",
+      "dimension": "剧情",
+      "polarity": "0"
+    },
+    {
+      "t": 1040.835,
+      "text": "这类游戏破产的开始——招员工",
+      "dimension": "剧情",
+      "polarity": "-"
+    },
+    {
+      "t": 1141.758,
+      "text": "这哥的表情太逗了",
+      "dimension": "演技",
+      "polarity": "+"
+    }
+  ]
+}

@@ -3,24 +3,22 @@
   "bvid": "BV1LSoyYqEuU",
   "total_raw": 4973,
   "after_rule_filter": 2912,
-  "sample_classified": 150,
-  "evaluative_count": 57,
-  "evaluative_rate": 0.38,
+  "sample_classified": 120,
+  "evaluative_count": 34,
+  "evaluative_rate": 0.2833333333333333,
   "dimension_distribution": {
-    "整体": 11,
-    "细节": 13,
-    "剧情": 17,
-    "情感共鸣": 4,
-    "音乐": 2,
-    "演技": 4,
-    "叙事手法": 3,
-    "节奏": 1,
-    "画面": 2
+    "整体": 7,
+    "细节": 7,
+    "演技": 5,
+    "情感共鸣": 5,
+    "剧情": 7,
+    "叙事手法": 2,
+    "节奏": 1
   },
   "polarity_distribution": {
     "+": 13,
-    "0": 30,
-    "-": 14
+    "0": 13,
+    "-": 8
   },
   "evaluative_samples": [
     {
@@ -48,20 +46,14 @@
       "polarity": "0"
     },
     {
-      "t": 60.539,
-      "text": "红桃7出现次数最多",
-      "dimension": "细节",
-      "polarity": "0"
+      "t": 78.71,
+      "text": "woc真对了，好神奇",
+      "dimension": "整体",
+      "polarity": "+"
     },
     {
       "t": 79.139,
       "text": "这里是把方块七的下面一张牌抽出来一点，这样在拨牌的时候方块七停留时间更长，自然记得就是方块七",
-      "dimension": "细节",
-      "polarity": "0"
-    },
-    {
-      "t": 84.116,
-      "text": "因为7是多张7重叠在一起的",
       "dimension": "细节",
       "polarity": "0"
     },
@@ -81,13 +73,7 @@
       "t": 90.596,
       "text": "弹幕里在这里惊讶的只能说生活处处是魔法",
       "dimension": "整体",
-      "polarity": "0"
-    },
-    {
-      "t": 101.418,
-      "text": "《圈套》系列讲了超多魔术",
-      "dimension": "剧情",
-      "polarity": "0"
+      "polarity": "+"
     },
     {
       "t": 123.769,
@@ -98,7 +84,7 @@
     {
       "t": 159.891,
       "text": "这段我一直以为女的是托",
-      "dimension": "剧情",
+      "dimension": "演技",
       "polarity": "0"
     },
     {
@@ -120,44 +106,14 @@
       "polarity": "0"
     },
     {
-      "t": 315.453,
-      "text": "前面的，就是周董给电影写的主题曲啦，后面还有客串",
-      "dimension": "音乐",
-      "polarity": "0"
-    },
-    {
-      "t": 318.335,
-      "text": "周董的now you see me是主题曲",
-      "dimension": "音乐",
-      "polarity": "0"
-    },
-    {
-      "t": 352.04,
-      "text": "其实我感觉玫瑰并不好闻",
-      "dimension": "细节",
-      "polarity": "-"
-    },
-    {
       "t": 387.044,
       "text": "每次看到这一段都会起鸡皮疙瘩，真的太帅了",
       "dimension": "情感共鸣",
       "polarity": "+"
     },
     {
-      "t": 396.848,
-      "text": "第五个是最后才展露身份的吧",
-      "dimension": "剧情",
-      "polarity": "0"
-    },
-    {
-      "t": 438.023,
-      "text": "下一部反派",
-      "dimension": "剧情",
-      "polarity": "0"
-    },
-    {
-      "t": 455.224,
-      "text": "这就扯淡了",
+      "t": 515.986,
+      "text": "能发明空间穿梭机，还当什么魔术师啊",
       "dimension": "剧情",
       "polarity": "-"
     },
@@ -168,21 +124,9 @@
       "polarity": "0"
     },
     {
-      "t": 573.941,
-      "text": "这是单向玻璃",
-      "dimension": "细节",
-      "polarity": "0"
-    },
-    {
-      "t": 670.951,
-      "text": "其实，他们都玩不过班纳",
-      "dimension": "剧情",
-      "polarity": "0"
-    },
-    {
       "t": 784.66,
       "text": "笑死我了",
-      "dimension": "整体",
+      "dimension": "情感共鸣",
       "polarity": "+"
     },
     {
@@ -192,27 +136,9 @@
       "polarity": "+"
     },
     {
-      "t": 838.248,
-      "text": "被调包的金库的钱去哪了，没还回去的话还是犯罪吧",
-      "dimension": "剧情",
-      "polarity": "0"
-    },
-    {
       "t": 875.556,
       "text": "這個是真的魔術大師，可惜~……",
       "dimension": "演技",
-      "polarity": "+"
-    },
-    {
-      "t": 880.866,
-      "text": "这里后面揭秘是纸牌在魔术师小时候就放进树里，长大了在来变魔术，跟程连苏一样就是花很长的时间准备",
-      "dimension": "叙事手法",
-      "polarity": "0"
-    },
-    {
-      "t": 894.995,
-      "text": "为魔术献身的大拿",
-      "dimension": "整体",
       "polarity": "+"
     },
     {
@@ -240,24 +166,6 @@
       "polarity": "0"
     },
     {
-      "t": 1377.74,
-      "text": "就这点袭击警察就完全可以表演的时候去抓了吧",
-      "dimension": "剧情",
-      "polarity": "-"
-    },
-    {
-      "t": 1420.798,
-      "text": "说闹情绪的 真的不懂negotiation 也不懂职场不公",
-      "dimension": "剧情",
-      "polarity": "-"
-    },
-    {
-      "t": 1438.112,
-      "text": "不是这个时候闹情绪，而是只有这个时候发难才会被重视",
-      "dimension": "剧情",
-      "polarity": "0"
-    },
-    {
       "t": 1585.464,
       "text": "这种片子全是硬伤，看个乐呵就行了，不要较真",
       "dimension": "整体",
@@ -276,34 +184,10 @@
       "polarity": "-"
     },
     {
-      "t": 1708.661,
-      "text": "你觉得扯淡你就去看纪录片，好吗？觉得电影不真实就去看纪录片，别在这叫",
-      "dimension": "整体",
-      "polarity": "0"
-    },
-    {
-      "t": 1746.263,
-      "text": "第二部女主换人我居然没看出来。。。。",
-      "dimension": "细节",
-      "polarity": "0"
-    },
-    {
       "t": 1824.848,
       "text": "戴夫弗兰克确实帅",
       "dimension": "演技",
       "polarity": "+"
-    },
-    {
-      "t": 1836.161,
-      "text": "有烟无伤啊",
-      "dimension": "剧情",
-      "polarity": "0"
-    },
-    {
-      "t": 1971.743,
-      "text": "7点几分真高了",
-      "dimension": "整体",
-      "polarity": "-"
     },
     {
       "t": 1974.914,
@@ -312,15 +196,33 @@
       "polarity": "-"
     },
     {
-      "t": 2012.647,
-      "text": "这不是魔法，这是Pr",
-      "dimension": "画面",
-      "polarity": "0"
-    },
-    {
       "t": 2023.353,
       "text": "这你和我说7.8分？",
       "dimension": "整体",
+      "polarity": "-"
+    },
+    {
+      "t": 2071.81,
+      "text": "这下看出来只有黑老头一个狂妄自大，自作聪明的人",
+      "dimension": "演技",
+      "polarity": "-"
+    },
+    {
+      "t": 2336.482,
+      "text": "太细了吧 我的哥",
+      "dimension": "细节",
+      "polarity": "+"
+    },
+    {
+      "t": 2421.419,
+      "text": "看得爽就完事了",
+      "dimension": "情感共鸣",
+      "polarity": "+"
+    },
+    {
+      "t": 2422.101,
+      "text": "第二部更扯淡",
+      "dimension": "剧情",
       "polarity": "-"
     }
   ]

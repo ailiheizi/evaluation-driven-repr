@@ -1,0 +1,324 @@
+{
+  "video": "再见，Switch……",
+  "bvid": "BV11eZ8YLEZ6",
+  "total_raw": 3600,
+  "after_rule_filter": 2747,
+  "sample_classified": 120,
+  "evaluative_count": 52,
+  "evaluative_rate": 0.43333333333333335,
+  "dimension_distribution": {
+    "整体": 26,
+    "画面": 6,
+    "情感共鸣": 4,
+    "其他": 5,
+    "剧情": 1,
+    "细节": 10
+  },
+  "polarity_distribution": {
+    "+": 20,
+    "0": 11,
+    "-": 21
+  },
+  "evaluative_samples": [
+    {
+      "t": 24.104,
+      "text": "老款好评",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 49.131,
+      "text": "Dolly-zoom!",
+      "dimension": "画面",
+      "polarity": "0"
+    },
+    {
+      "t": 56.649,
+      "text": "功能并不完整",
+      "dimension": "整体",
+      "polarity": "-"
+    },
+    {
+      "t": 93.339,
+      "text": "聪哥留给玩家的宝藏",
+      "dimension": "情感共鸣",
+      "polarity": "+"
+    },
+    {
+      "t": 119.598,
+      "text": "ns2看完，回顾还是ns发布震撼，真是横空出世",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 121.145,
+      "text": "虽然任天堂只强调游戏性，但是实在没法抛开不谈机能实在太垃圾了",
+      "dimension": "整体",
+      "polarity": "-"
+    },
+    {
+      "t": 121.339,
+      "text": "ign懂78游戏",
+      "dimension": "其他",
+      "polarity": "-"
+    },
+    {
+      "t": 125.851,
+      "text": "IGN都能把白雪公主这种烂片，打出7分！",
+      "dimension": "剧情",
+      "polarity": "-"
+    },
+    {
+      "t": 135.18,
+      "text": "ign懂个毛线",
+      "dimension": "其他",
+      "polarity": "-"
+    },
+    {
+      "t": 153.569,
+      "text": "其实wiiu真正的问题是机能和第一方游戏速度没跟上，pad的体验和命名反而是小问题",
+      "dimension": "整体",
+      "polarity": "-"
+    },
+    {
+      "t": 222.787,
+      "text": "这活整的到位了，哈哈",
+      "dimension": "细节",
+      "polarity": "+"
+    },
+    {
+      "t": 281.753,
+      "text": "主要是护航的红帽子和绿帽子太狠了",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 293.231,
+      "text": "红蓝配色是最经典的",
+      "dimension": "画面",
+      "polarity": "+"
+    },
+    {
+      "t": 311.049,
+      "text": "招笑xb2",
+      "dimension": "整体",
+      "polarity": "-"
+    },
+    {
+      "t": 311.939,
+      "text": "《出色运行》",
+      "dimension": "细节",
+      "polarity": "-"
+    },
+    {
+      "t": 313.519,
+      "text": "凡事要有对比，你要是前辈看WiiU感觉它性能提升不咋地也就那么回事，但前辈看3DS，woc任天堂第一次换代掌机性能提升那么大",
+      "dimension": "整体",
+      "polarity": "0"
+    },
+    {
+      "t": 318.46,
+      "text": "出色：720p30f",
+      "dimension": "画面",
+      "polarity": "-"
+    },
+    {
+      "t": 319.657,
+      "text": "奇迹般的不是尼尔机械纪元吗，移植的",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 320.64,
+      "text": "《出色的运行》",
+      "dimension": "细节",
+      "polarity": "-"
+    },
+    {
+      "t": 326.418,
+      "text": "还有漂移",
+      "dimension": "细节",
+      "polarity": "-"
+    },
+    {
+      "t": 337.024,
+      "text": "我买俩对，左摇杆一个失灵一个飘逸",
+      "dimension": "细节",
+      "polarity": "-"
+    },
+    {
+      "t": 356.447,
+      "text": "还有滑轨卡不住，的换成金属卡扣",
+      "dimension": "细节",
+      "polarity": "-"
+    },
+    {
+      "t": 356.604,
+      "text": "还好买续航版和oled的switch的Joy玩了几年都没飘逸，老版switch的joy飘了",
+      "dimension": "细节",
+      "polarity": "0"
+    },
+    {
+      "t": 420.154,
+      "text": "老婆！！！！好美！！！！",
+      "dimension": "情感共鸣",
+      "polarity": "+"
+    },
+    {
+      "t": 429.218,
+      "text": "更震惊的是他的护航大作，我就一句话塞尔达护航怎么输",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 446.328,
+      "text": "野炊、马车、奥德赛，功不可没~",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 470.293,
+      "text": "确实神作",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 496.276,
+      "text": "我觉得旷野比王国好",
+      "dimension": "整体",
+      "polarity": "0"
+    },
+    {
+      "t": 502.608,
+      "text": "？拿着大师剑绷不住了",
+      "dimension": "细节",
+      "polarity": "0"
+    },
+    {
+      "t": 521.099,
+      "text": "没有，玩不进去，最多玩到出台地",
+      "dimension": "整体",
+      "polarity": "-"
+    },
+    {
+      "t": 522.959,
+      "text": "真的，玩得多开心，戒的多难过",
+      "dimension": "情感共鸣",
+      "polarity": "0"
+    },
+    {
+      "t": 522.984,
+      "text": "但是没有中文啊！",
+      "dimension": "细节",
+      "polarity": "-"
+    },
+    {
+      "t": 524.46,
+      "text": "喜欢以前的塞尔达",
+      "dimension": "整体",
+      "polarity": "0"
+    },
+    {
+      "t": 537.64,
+      "text": "首发旷野之息没有中文",
+      "dimension": "细节",
+      "polarity": "-"
+    },
+    {
+      "t": 554.482,
+      "text": "Ns这两个护航真的神中神",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 558.08,
+      "text": "没有惊奇好玩",
+      "dimension": "整体",
+      "polarity": "-"
+    },
+    {
+      "t": 563.971,
+      "text": "回忆都回来了~",
+      "dimension": "情感共鸣",
+      "polarity": "+"
+    },
+    {
+      "t": 609.621,
+      "text": "真神登场",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 610.564,
+      "text": "ns玩蔚蓝崩溃了",
+      "dimension": "其他",
+      "polarity": "-"
+    },
+    {
+      "t": 679.101,
+      "text": "头发是怎么回事？",
+      "dimension": "画面",
+      "polarity": "0"
+    },
+    {
+      "t": 695.813,
+      "text": "换摇杆是基本操作啊  我TV都是用PRO  手感无敌好",
+      "dimension": "其他",
+      "polarity": "+"
+    },
+    {
+      "t": 813.38,
+      "text": "任天堂好多神作",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 875.646,
+      "text": "才不是电子垃圾",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 895.166,
+      "text": "电子垃圾，540p",
+      "dimension": "画面",
+      "polarity": "-"
+    },
+    {
+      "t": 917.353,
+      "text": "只不过再次证明了任天堂世界第一",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 945.163,
+      "text": "steam deck是真的不错",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 974.101,
+      "text": "不得不说还得是小宁子的视频质量高呀",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 990.313,
+      "text": "pc掌机实在太重了",
+      "dimension": "其他",
+      "polarity": "-"
+    },
+    {
+      "t": 1042.711,
+      "text": "XBOX估计马上就88了，以后主机市场估计只有任天堂和SONY了",
+      "dimension": "整体",
+      "polarity": "0"
+    },
+    {
+      "t": 1056.526,
+      "text": "超越不了了",
+      "dimension": "整体",
+      "polarity": "0"
+    }
+  ]
+}

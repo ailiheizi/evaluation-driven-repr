@@ -3,21 +3,20 @@
   "bvid": "BV1w6ZEYrEsb",
   "total_raw": 1800,
   "after_rule_filter": 721,
-  "sample_classified": 150,
-  "evaluative_count": 47,
-  "evaluative_rate": 0.31333333333333335,
+  "sample_classified": 120,
+  "evaluative_count": 34,
+  "evaluative_rate": 0.2833333333333333,
   "dimension_distribution": {
-    "其他": 18,
-    "情感共鸣": 2,
-    "整体": 9,
-    "细节": 12,
-    "节奏": 5,
-    "画面": 1
+    "其他": 14,
+    "情感共鸣": 1,
+    "整体": 10,
+    "细节": 5,
+    "节奏": 4
   },
   "polarity_distribution": {
-    "0": 18,
-    "+": 15,
-    "-": 14
+    "0": 10,
+    "+": 13,
+    "-": 11
   },
   "evaluative_samples": [
     {
@@ -75,28 +74,10 @@
       "polarity": "+"
     },
     {
-      "t": 39.971,
-      "text": "你的操作好下饭",
-      "dimension": "其他",
-      "polarity": "-"
-    },
-    {
-      "t": 42.789,
-      "text": "重口，白嘴吃太过刺激",
-      "dimension": "其他",
-      "polarity": "0"
-    },
-    {
       "t": 43.369,
       "text": "下饭只是说和米饭很搭配，",
       "dimension": "其他",
       "polarity": "0"
-    },
-    {
-      "t": 45.19,
-      "text": "外焦里嫩",
-      "dimension": "其他",
-      "polarity": "+"
     },
     {
       "t": 49.913,
@@ -111,16 +92,10 @@
       "polarity": "+"
     },
     {
-      "t": 60.117,
-      "text": "狠狠爱住了",
-      "dimension": "情感共鸣",
-      "polarity": "+"
-    },
-    {
-      "t": 73.659,
-      "text": "建议直接封神",
-      "dimension": "整体",
-      "polarity": "+"
+      "t": 57.825,
+      "text": "酸甜口简直就是恶魔",
+      "dimension": "其他",
+      "polarity": "-"
     },
     {
       "t": 76.294,
@@ -129,33 +104,9 @@
       "polarity": "+"
     },
     {
-      "t": 84.037,
-      "text": "剛剛的背景是用叉子挖飯嗎",
-      "dimension": "细节",
-      "polarity": "0"
-    },
-    {
-      "t": 110.571,
-      "text": "理解不了霓虹人面条配饭吃。",
+      "t": 80.432,
+      "text": "好吃不一定下饭，下饭的一定好吃",
       "dimension": "其他",
-      "polarity": "-"
-    },
-    {
-      "t": 118.456,
-      "text": "这很美国",
-      "dimension": "其他",
-      "polarity": "0"
-    },
-    {
-      "t": 158.622,
-      "text": "但是好吃啊菜",
-      "dimension": "其他",
-      "polarity": "+"
-    },
-    {
-      "t": 287.21,
-      "text": "糙米炒饭口感还不错",
-      "dimension": "细节",
       "polarity": "0"
     },
     {
@@ -174,25 +125,25 @@
       "t": 323.501,
       "text": "现在的全麦面粉都是加了其他东西的，并非100%的全麦",
       "dimension": "细节",
-      "polarity": "0"
-    },
-    {
-      "t": 330.56,
-      "text": "喜欢全麦的别逗了，现代社会我们吃的全麦和古近代的全麦不是一个东西…",
-      "dimension": "细节",
       "polarity": "-"
     },
     {
-      "t": 378.211,
-      "text": "番茄炒蛋大多是清淡啊.....",
-      "dimension": "细节",
-      "polarity": "0"
-    },
-    {
-      "t": 409.579,
-      "text": "人类美食的最伟大发明",
+      "t": 391.393,
+      "text": "我们是一堆辣椒炒肉，yyds",
       "dimension": "整体",
       "polarity": "+"
+    },
+    {
+      "t": 397.867,
+      "text": "土豆丝唯一真神",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 447.87,
+      "text": "麻婆豆腐要勾三道芡",
+      "dimension": "细节",
+      "polarity": "0"
     },
     {
       "t": 449.241,
@@ -204,7 +155,7 @@
       "t": 481.409,
       "text": "现在外卖根本吃不到这么好的菜",
       "dimension": "整体",
-      "polarity": "+"
+      "polarity": "-"
     },
     {
       "t": 483.03,
@@ -225,24 +176,6 @@
       "polarity": "-"
     },
     {
-      "t": 511.511,
-      "text": "不是从宽敞明亮的老式灶台，搬到了筒子楼里逼仄黑暗的厨房嘛",
-      "dimension": "画面",
-      "polarity": "0"
-    },
-    {
-      "t": 542.075,
-      "text": "想要爆炒还是老式的大锅，放柴火，有烟囱",
-      "dimension": "细节",
-      "polarity": "0"
-    },
-    {
-      "t": 583.365,
-      "text": "你快点啊，怎么这么磨蹭？",
-      "dimension": "节奏",
-      "polarity": "-"
-    },
-    {
       "t": 584.783,
       "text": "柴火土灶才是炒菜王者",
       "dimension": "整体",
@@ -255,28 +188,16 @@
       "polarity": "-"
     },
     {
-      "t": 597.51,
-      "text": "急死我了",
+      "t": 671.465,
+      "text": "听到你说出方太，大家终于舒服了！！",
       "dimension": "节奏",
-      "polarity": "-"
+      "polarity": "+"
     },
     {
-      "t": 694.326,
-      "text": "清洁问题才是首要",
-      "dimension": "细节",
-      "polarity": "0"
-    },
-    {
-      "t": 700.394,
-      "text": "蒸烤一体机一定要看多长时间能上蒸汽，快的几分钟，慢的得半个小时",
-      "dimension": "细节",
-      "polarity": "0"
-    },
-    {
-      "t": 705.73,
-      "text": "真的 就这个平放的触控，就PASS了，炒菜之后的台子一擦一个不吱声",
-      "dimension": "细节",
-      "polarity": "-"
+      "t": 699.877,
+      "text": "这么好价格必须打下来",
+      "dimension": "整体",
+      "polarity": "+"
     },
     {
       "t": 706.53,
@@ -297,8 +218,8 @@
       "polarity": "-"
     },
     {
-      "t": 790.345,
-      "text": "up太牛了",
+      "t": 771.018,
+      "text": "1万多我真的会心动",
       "dimension": "整体",
       "polarity": "+"
     }

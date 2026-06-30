@@ -1,0 +1,204 @@
+{
+  "video": "【iPhone用户必看】一定要升级到iOS18.4正式版！feat. 25+ 新功能｜大耳朵TV",
+  "bvid": "BV1CaZxYFEFG",
+  "total_raw": 1625,
+  "after_rule_filter": 870,
+  "sample_classified": 120,
+  "evaluative_count": 30,
+  "evaluative_rate": 0.25,
+  "dimension_distribution": {
+    "整体": 15,
+    "演技": 3,
+    "音乐": 2,
+    "细节": 3,
+    "其他": 5,
+    "画面": 2
+  },
+  "polarity_distribution": {
+    "-": 21,
+    "+": 6,
+    "0": 3
+  },
+  "evaluative_samples": [
+    {
+      "t": 1.003,
+      "text": "瞎舔瞎扯淡",
+      "dimension": "整体",
+      "polarity": "-"
+    },
+    {
+      "t": 32.4,
+      "text": "都是没用的功能",
+      "dimension": "整体",
+      "polarity": "-"
+    },
+    {
+      "t": 33.142,
+      "text": "就这带东北口音的英语。。。。。。。。",
+      "dimension": "演技",
+      "polarity": "-"
+    },
+    {
+      "t": 65.398,
+      "text": "散装英语听着真难受啊",
+      "dimension": "演技",
+      "polarity": "-"
+    },
+    {
+      "t": 77.083,
+      "text": "这人是嘴瓢吗",
+      "dimension": "演技",
+      "polarity": "-"
+    },
+    {
+      "t": 77.971,
+      "text": "这个音乐很好听，但是不能设置停止时间，我还想拿这个助眠可惜了",
+      "dimension": "音乐",
+      "polarity": "+"
+    },
+    {
+      "t": 108.942,
+      "text": "我都设置完了，现在来这个有啥用",
+      "dimension": "整体",
+      "polarity": "-"
+    },
+    {
+      "t": 124.228,
+      "text": "不是得得得，是当当当当，当挡了挡当，当当当当当",
+      "dimension": "音乐",
+      "polarity": "0"
+    },
+    {
+      "t": 125.69,
+      "text": "巨大的进步！简直是史诗级的。。。超级无语，啥玩意儿",
+      "dimension": "整体",
+      "polarity": "-"
+    },
+    {
+      "t": 127.465,
+      "text": "有点像原始人",
+      "dimension": "整体",
+      "polarity": "-"
+    },
+    {
+      "t": 127.778,
+      "text": "极为先进的3.5mm接口",
+      "dimension": "细节",
+      "polarity": "+"
+    },
+    {
+      "t": 131.071,
+      "text": "极大的改变",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 131.679,
+      "text": "这也算很大改进？？？",
+      "dimension": "整体",
+      "polarity": "-"
+    },
+    {
+      "t": 134.813,
+      "text": "这些细节也是iOS为什么舒服的原因",
+      "dimension": "细节",
+      "polarity": "+"
+    },
+    {
+      "t": 141.224,
+      "text": "就这点东西，也能被吹得天花乱坠",
+      "dimension": "整体",
+      "polarity": "-"
+    },
+    {
+      "t": 152.439,
+      "text": "西八系统就是一坨",
+      "dimension": "整体",
+      "polarity": "-"
+    },
+    {
+      "t": 158.497,
+      "text": "信号不用看也知道不满",
+      "dimension": "细节",
+      "polarity": "-"
+    },
+    {
+      "t": 161.171,
+      "text": "阿库的团队很努力",
+      "dimension": "其他",
+      "polarity": "+"
+    },
+    {
+      "t": 170.224,
+      "text": "好丑，有必要吗？这箭头还简约吗",
+      "dimension": "画面",
+      "polarity": "-"
+    },
+    {
+      "t": 188.439,
+      "text": "“史诗级”更新",
+      "dimension": "整体",
+      "polarity": "-"
+    },
+    {
+      "t": 213.36,
+      "text": "看到目前感觉没啥用",
+      "dimension": "整体",
+      "polarity": "-"
+    },
+    {
+      "t": 230.986,
+      "text": "感觉全是脱放",
+      "dimension": "整体",
+      "polarity": "-"
+    },
+    {
+      "t": 238.507,
+      "text": "越来越安卓了",
+      "dimension": "整体",
+      "polarity": "-"
+    },
+    {
+      "t": 271.337,
+      "text": "灵动岛好灵动",
+      "dimension": "画面",
+      "polarity": "+"
+    },
+    {
+      "t": 357.673,
+      "text": "这是周杰伦的问题",
+      "dimension": "其他",
+      "polarity": "0"
+    },
+    {
+      "t": 480.689,
+      "text": "这智能怎么还倒退了啊",
+      "dimension": "其他",
+      "polarity": "-"
+    },
+    {
+      "t": 508.905,
+      "text": "所以发音乱飘是不行的",
+      "dimension": "其他",
+      "polarity": "-"
+    },
+    {
+      "t": 529.421,
+      "text": "整半天就这，还不如deepseek",
+      "dimension": "整体",
+      "polarity": "-"
+    },
+    {
+      "t": 534.297,
+      "text": "就硬吹呗",
+      "dimension": "整体",
+      "polarity": "-"
+    },
+    {
+      "t": 756.068,
+      "text": "全网唯一一个还在用Vision Pro的up",
+      "dimension": "其他",
+      "polarity": "0"
+    }
+  ]
+}

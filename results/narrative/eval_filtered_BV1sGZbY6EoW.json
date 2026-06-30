@@ -1,0 +1,324 @@
+{
+  "video": "蒙德：高清重置",
+  "bvid": "BV1sGZbY6EoW",
+  "total_raw": 600,
+  "after_rule_filter": 295,
+  "sample_classified": 120,
+  "evaluative_count": 68,
+  "evaluative_rate": 0.5666666666666667,
+  "dimension_distribution": {
+    "画面": 39,
+    "整体": 13,
+    "音乐": 4,
+    "细节": 3,
+    "情感共鸣": 8,
+    "剧情": 1
+  },
+  "polarity_distribution": {
+    "0": 24,
+    "+": 38,
+    "-": 6
+  },
+  "evaluative_samples": [
+    {
+      "t": 0.52,
+      "text": "这很像泰拉瑞亚众神之怒的永恒花园",
+      "dimension": "画面",
+      "polarity": "0"
+    },
+    {
+      "t": 0.616,
+      "text": "当我的世界加了光影包时↑",
+      "dimension": "画面",
+      "polarity": "0"
+    },
+    {
+      "t": 0.965,
+      "text": "开启光影后",
+      "dimension": "画面",
+      "polarity": "0"
+    },
+    {
+      "t": 1.188,
+      "text": "《艾尔登原神》",
+      "dimension": "整体",
+      "polarity": "0"
+    },
+    {
+      "t": 2.578,
+      "text": "4090能跑60帧吗",
+      "dimension": "画面",
+      "polarity": "0"
+    },
+    {
+      "t": 3.418,
+      "text": "《虚幻5》",
+      "dimension": "画面",
+      "polarity": "0"
+    },
+    {
+      "t": 3.488,
+      "text": "笑死，城里还有城墙箭塔，悬空的风车",
+      "dimension": "画面",
+      "polarity": "0"
+    },
+    {
+      "t": 4.758,
+      "text": "很真实，但还是喜欢现在的画风",
+      "dimension": "画面",
+      "polarity": "+"
+    },
+    {
+      "t": 6.099,
+      "text": "BGM犯规了！！！",
+      "dimension": "音乐",
+      "polarity": "+"
+    },
+    {
+      "t": 6.527,
+      "text": "其实真正的星落湖面积是很大的。",
+      "dimension": "细节",
+      "polarity": "0"
+    },
+    {
+      "t": 6.527,
+      "text": "这是加了光追吧",
+      "dimension": "画面",
+      "polarity": "0"
+    },
+    {
+      "t": 8.557,
+      "text": "熟悉的大陆，可惜不想再回去了，就成为记忆也蛮好。",
+      "dimension": "情感共鸣",
+      "polarity": "0"
+    },
+    {
+      "t": 8.596,
+      "text": "一眼AI",
+      "dimension": "画面",
+      "polarity": "-"
+    },
+    {
+      "t": 8.629,
+      "text": "这下真分不清游戏和现实了",
+      "dimension": "画面",
+      "polarity": "0"
+    },
+    {
+      "t": 9.092,
+      "text": "2d没这感觉，3D这景色真的好荒凉啊，怪不得到处是怪",
+      "dimension": "画面",
+      "polarity": "-"
+    },
+    {
+      "t": 9.932,
+      "text": "这AI牛",
+      "dimension": "画面",
+      "polarity": "+"
+    },
+    {
+      "t": 10.88,
+      "text": "每次补血都来风起地，最喜欢逛蒙德，好自由",
+      "dimension": "情感共鸣",
+      "polarity": "+"
+    },
+    {
+      "t": 10.891,
+      "text": "虽然是AI，但真的想玩",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 12.84,
+      "text": "飞碟社你看看人家",
+      "dimension": "画面",
+      "polarity": "+"
+    },
+    {
+      "t": 13.071,
+      "text": "成刺客信条英灵殿了",
+      "dimension": "画面",
+      "polarity": "0"
+    },
+    {
+      "t": 13.158,
+      "text": "这画质游戏显卡得爆炸",
+      "dimension": "画面",
+      "polarity": "-"
+    },
+    {
+      "t": 14.568,
+      "text": "想起旅行的意义了",
+      "dimension": "情感共鸣",
+      "polarity": "+"
+    },
+    {
+      "t": 14.68,
+      "text": "你确定这不是AI生成的吗",
+      "dimension": "画面",
+      "polarity": "-"
+    },
+    {
+      "t": 16.43,
+      "text": "如果真做成这样门票1000我愿意去",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 16.456,
+      "text": "风龙废墟确实封神了",
+      "dimension": "画面",
+      "polarity": "+"
+    },
+    {
+      "t": 17.953,
+      "text": "听到这个bgm，肝在疼了",
+      "dimension": "音乐",
+      "polarity": "0"
+    },
+    {
+      "t": 17.965,
+      "text": "成西幻风格了，指环王那种",
+      "dimension": "画面",
+      "polarity": "0"
+    },
+    {
+      "t": 18.151,
+      "text": "3A版原神",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 18.212,
+      "text": "这个视频是写实风，游戏是动画风，不是同一个风格",
+      "dimension": "画面",
+      "polarity": "0"
+    },
+    {
+      "t": 18.366,
+      "text": "高清重置太棒了！",
+      "dimension": "画面",
+      "polarity": "+"
+    },
+    {
+      "t": 19.26,
+      "text": "原神虚幻五引擎版",
+      "dimension": "画面",
+      "polarity": "0"
+    },
+    {
+      "t": 19.291,
+      "text": "这废墟的感觉太对了",
+      "dimension": "画面",
+      "polarity": "+"
+    },
+    {
+      "t": 21.011,
+      "text": "虽然已经不玩了，刷到的时候还是莫名的感动",
+      "dimension": "情感共鸣",
+      "polarity": "+"
+    },
+    {
+      "t": 23.692,
+      "text": "原神要是这种质量绝对不退坑！！！！！！！！！！！！",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 29.38,
+      "text": "帅啊！！！",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 30.021,
+      "text": "真的是这种画风我愿意重开",
+      "dimension": "画面",
+      "polarity": "+"
+    },
+    {
+      "t": 30.34,
+      "text": "可不能是凯尔莫罕啊，这边打架前吃料理，那边可是猛猛炫药剂啊",
+      "dimension": "剧情",
+      "polarity": "0"
+    },
+    {
+      "t": 31.72,
+      "text": "老米给我好好学习。",
+      "dimension": "整体",
+      "polarity": "-"
+    },
+    {
+      "t": 32.74,
+      "text": "如果有一天可以做到头号玩家那个程度，那么原神类的游戏还会火的。",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 33.366,
+      "text": "好想玩这种风格的原神",
+      "dimension": "画面",
+      "polarity": "+"
+    },
+    {
+      "t": 33.982,
+      "text": "摘星崖的美景…",
+      "dimension": "画面",
+      "polarity": "+"
+    },
+    {
+      "t": 34.196,
+      "text": "谢谢你让我重温那刚开始快乐的冒险 币给你",
+      "dimension": "情感共鸣",
+      "polarity": "+"
+    },
+    {
+      "t": 35.2,
+      "text": "我那会最喜欢呆在雪山听这个音乐",
+      "dimension": "音乐",
+      "polarity": "+"
+    },
+    {
+      "t": 37.126,
+      "text": "用虚幻引擎的话说不定就是这样了，但是手机应该吃不消（",
+      "dimension": "画面",
+      "polarity": "0"
+    },
+    {
+      "t": 37.709,
+      "text": "当时的原神那种画风以当时的手机都难以承载，这种画风就更别提了。",
+      "dimension": "画面",
+      "polarity": "0"
+    },
+    {
+      "t": 38.851,
+      "text": "真的太好看了，真的很想去。。虽然我知道是ai调的",
+      "dimension": "画面",
+      "polarity": "+"
+    },
+    {
+      "t": 39.432,
+      "text": "嗯 这画质就舒服多了",
+      "dimension": "画面",
+      "polarity": "+"
+    },
+    {
+      "t": 44.57,
+      "text": "也太美了",
+      "dimension": "画面",
+      "polarity": "+"
+    },
+    {
+      "t": 44.795,
+      "text": "如果写实风的原神再配上VR，我不敢想象有多爽",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 45.69,
+      "text": "跟高档小区似的",
+      "dimension": "画面",
+      "polarity": "+"
+    }
+  ]
+}

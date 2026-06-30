@@ -1,0 +1,240 @@
+{
+  "video": "发个旧视频证明还在永久免费",
+  "bvid": "BV19AZWY3EHr",
+  "total_raw": 1200,
+  "after_rule_filter": 126,
+  "sample_classified": 120,
+  "evaluative_count": 36,
+  "evaluative_rate": 0.3,
+  "dimension_distribution": {
+    "情感共鸣": 11,
+    "整体": 16,
+    "其他": 1,
+    "细节": 6,
+    "剧情": 1,
+    "节奏": 1
+  },
+  "polarity_distribution": {
+    "+": 29,
+    "0": 4,
+    "-": 3
+  },
+  "evaluative_samples": [
+    {
+      "t": 6.635,
+      "text": "泪目，UP主还在更新",
+      "dimension": "情感共鸣",
+      "polarity": "+"
+    },
+    {
+      "t": 8.448,
+      "text": "用过，真挺好，太伟大了",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 14.961,
+      "text": "真的很好，还免费，虽然速度比不上那些付费的，但是它是免费的，真心希望能坚持下去",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 15.44,
+      "text": "不是这多少年前的测试视频了",
+      "dimension": "其他",
+      "polarity": "0"
+    },
+    {
+      "t": 20.843,
+      "text": "永久免费赛高！",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 24.28,
+      "text": "这也太绝了吧",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 27.18,
+      "text": "看完直接被圈粉",
+      "dimension": "情感共鸣",
+      "polarity": "+"
+    },
+    {
+      "t": 32.28,
+      "text": "瞬间被治愈了",
+      "dimension": "情感共鸣",
+      "polarity": "+"
+    },
+    {
+      "t": 34.617,
+      "text": "泪目，UP主还在更新！",
+      "dimension": "情感共鸣",
+      "polarity": "+"
+    },
+    {
+      "t": 40.091,
+      "text": "建议直接封神",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 43.272,
+      "text": "四月一号发布就挺幽默",
+      "dimension": "细节",
+      "polarity": "-"
+    },
+    {
+      "t": 51.181,
+      "text": "为了展示容错选apex",
+      "dimension": "细节",
+      "polarity": "0"
+    },
+    {
+      "t": 52.503,
+      "text": "良心，必须一键三连",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 56.214,
+      "text": "这个是真牛，不得不下了",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 57.271,
+      "text": "先生大义",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 57.94,
+      "text": "这个有点牛逼了",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 59.538,
+      "text": "看完心情都变好了",
+      "dimension": "情感共鸣",
+      "polarity": "+"
+    },
+    {
+      "t": 60.166,
+      "text": "无需注册两兆的安装包在线安装，延迟也在正常范围，这他妈简直打工人神器啊",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 61.571,
+      "text": "为啥呢，无私的博爱反而让人不适",
+      "dimension": "情感共鸣",
+      "polarity": "-"
+    },
+    {
+      "t": 62.059,
+      "text": "忍不住多看几遍",
+      "dimension": "情感共鸣",
+      "polarity": "+"
+    },
+    {
+      "t": 65.47,
+      "text": "这是什么  这就是普罗米修斯",
+      "dimension": "剧情",
+      "polarity": "+"
+    },
+    {
+      "t": 77.16,
+      "text": "广告植入我都夸好，必须看会广告才能用我都夸好",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 78.54,
+      "text": "打了把PUBG试过了，跟雷神的没什么区别，完全能用",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 80.371,
+      "text": "愚人节只能信你这一条视频",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 87.153,
+      "text": "延迟两极分化",
+      "dimension": "节奏",
+      "polarity": "-"
+    },
+    {
+      "t": 88.792,
+      "text": "每一秒都不想错过",
+      "dimension": "情感共鸣",
+      "polarity": "+"
+    },
+    {
+      "t": 89.143,
+      "text": "玩台服很流畅，右上角显示80到90ms，但是没感觉有延迟",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 91.678,
+      "text": "永远滴神！",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 96.937,
+      "text": "这也太可爱了吧",
+      "dimension": "情感共鸣",
+      "polarity": "+"
+    },
+    {
+      "t": 136.061,
+      "text": "泪目，UP主还在坚持",
+      "dimension": "情感共鸣",
+      "polarity": "+"
+    },
+    {
+      "t": 139.482,
+      "text": "这也太好看了吧",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 147.099,
+      "text": "狠狠戳中笑点",
+      "dimension": "情感共鸣",
+      "polarity": "+"
+    },
+    {
+      "t": 225.086,
+      "text": "竟然还有warframe",
+      "dimension": "细节",
+      "polarity": "+"
+    },
+    {
+      "t": 226.662,
+      "text": "我测 这个也测",
+      "dimension": "细节",
+      "polarity": "0"
+    },
+    {
+      "t": 231.416,
+      "text": "竟然有warframe，点了！！",
+      "dimension": "细节",
+      "polarity": "+"
+    },
+    {
+      "t": 236.55,
+      "text": "？这也有仓鼠？",
+      "dimension": "细节",
+      "polarity": "0"
+    }
+  ]
+}

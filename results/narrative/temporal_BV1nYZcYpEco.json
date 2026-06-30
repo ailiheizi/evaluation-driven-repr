@@ -1,0 +1,58 @@
+{
+  "video": "首次揭秘，影视飓风百人团建幕后！",
+  "bvid": "BV1nYZcYpEco",
+  "duration": 899,
+  "total_classified": 72,
+  "peaks": {
+    "画面": {
+      "peak_bin": 8,
+      "peak_time": 240,
+      "peak_density": 1.0,
+      "mean_density": 0.2,
+      "peak_ratio": 5.0
+    },
+    "整体": {
+      "peak_bin": 6,
+      "peak_time": 180,
+      "peak_density": 1.0,
+      "mean_density": 0.12438271604938271,
+      "peak_ratio": 8.03970223325062
+    },
+    "节奏": {
+      "peak_bin": 18,
+      "peak_time": 540,
+      "peak_density": 1.0,
+      "mean_density": 0.27149470899470896,
+      "peak_ratio": 3.683313032886724
+    },
+    "剧情": {
+      "peak_bin": 23,
+      "peak_time": 690,
+      "peak_density": 1.0,
+      "mean_density": 0.08333333333333333,
+      "peak_ratio": 12.0
+    },
+    "细节": {
+      "peak_bin": 0,
+      "peak_time": 0,
+      "peak_density": 0.5,
+      "mean_density": 0.038461538461538464,
+      "peak_ratio": 13.0
+    },
+    "情感共鸣": {
+      "peak_bin": 0,
+      "peak_time": 0,
+      "peak_density": 1.0,
+      "mean_density": 0.14285714285714285,
+      "peak_ratio": 7.0
+    }
+  },
+  "dim_entropy": {
+    "画面": 0.5607683957434116,
+    "整体": 0.5076881118428078,
+    "节奏": 0.6796524049669397,
+    "剧情": 0.3901607780573991,
+    "细节": -0.0,
+    "情感共鸣": -0.0
+  }
+}

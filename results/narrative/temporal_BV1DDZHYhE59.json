@@ -1,0 +1,58 @@
+{
+  "video": "盘点男组合那些神级翻唱，你最喜欢哪个组合呢？",
+  "bvid": "BV1DDZHYhE59",
+  "duration": 324,
+  "total_classified": 85,
+  "peaks": {
+    "画面": {
+      "peak_bin": 9,
+      "peak_time": 270,
+      "peak_density": 1.0,
+      "mean_density": 0.18473193473193472,
+      "peak_ratio": 5.413249211356467
+    },
+    "音乐": {
+      "peak_bin": 5,
+      "peak_time": 150,
+      "peak_density": 1.0,
+      "mean_density": 0.6648018648018649,
+      "peak_ratio": 1.5042075736325384
+    },
+    "演技": {
+      "peak_bin": 8,
+      "peak_time": 240,
+      "peak_density": 0.3333333333333333,
+      "mean_density": 0.0606060606060606,
+      "peak_ratio": 5.5
+    },
+    "整体": {
+      "peak_bin": 9,
+      "peak_time": 270,
+      "peak_density": 0.25,
+      "mean_density": 0.04884615384615385,
+      "peak_ratio": 5.118110236220472
+    },
+    "情感共鸣": {
+      "peak_bin": 0,
+      "peak_time": 0,
+      "peak_density": 0.3333333333333333,
+      "mean_density": 0.06666666666666667,
+      "peak_ratio": 5.0
+    },
+    "其他": {
+      "peak_bin": 0,
+      "peak_time": 0,
+      "peak_density": 0.16666666666666666,
+      "mean_density": 0.03333333333333333,
+      "peak_ratio": 5.0
+    }
+  },
+  "dim_entropy": {
+    "画面": 0.550370843178577,
+    "音乐": 0.9398377687067542,
+    "演技": 0.40632081138902837,
+    "整体": 0.3945789803985147,
+    "情感共鸣": -0.0,
+    "其他": -0.0
+  }
+}

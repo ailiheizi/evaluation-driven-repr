@@ -1,46 +1,270 @@
 {
-  "total_videos": 19,
-  "successful": 16,
+  "total_videos": 49,
+  "successful": 40,
   "results": [
+    {
+      "bvid": "BV11PZsY8EtB",
+      "title": "我国首个脑机接口指导价发布，震惊世界科技和医学两界",
+      "status": "too_few_evaluative",
+      "raw_count": 1200,
+      "filtered_count": 64,
+      "evaluative_count": 9,
+      "eval_rate": 0.140625
+    },
+    {
+      "bvid": "BV11eZ8Y5EVi",
+      "title": "循环歌单|【八方来财】|“【来财の小曲】谁懂憋佬仔出来时的救赎感”",
+      "status": "ok",
+      "raw_count": 3069,
+      "filtered_count": 213,
+      "evaluative_count": 32,
+      "eval_rate": 0.26666666666666666,
+      "dimensions": {
+        "其他": 2,
+        "情感共鸣": 5,
+        "整体": 9,
+        "音乐": 7,
+        "剧情": 2,
+        "节奏": 6,
+        "细节": 1
+      },
+      "polarity": {
+        "0": 10,
+        "+": 16,
+        "-": 6
+      },
+      "dim_entropy": {
+        "音乐": 0.2572780072293762,
+        "情感共鸣": 0.18278619420925116,
+        "整体": 0.21727173811770756,
+        "节奏": -0.0
+      },
+      "peaks": {
+        "音乐": {
+          "peak_bin": 4,
+          "peak_time": 120,
+          "peak_density": 1.0,
+          "mean_density": 0.016627312081857536,
+          "peak_ratio": 60.142011834319526
+        },
+        "情感共鸣": {
+          "peak_bin": 27,
+          "peak_time": 810,
+          "peak_density": 1.0,
+          "mean_density": 0.01357733175914994,
+          "peak_ratio": 73.65217391304348
+        },
+        "整体": {
+          "peak_bin": 2,
+          "peak_time": 60,
+          "peak_density": 1.0,
+          "mean_density": 0.017316017316017313,
+          "peak_ratio": 57.750000000000014
+        },
+        "节奏": {
+          "peak_bin": 0,
+          "peak_time": 0,
+          "peak_density": 0.25,
+          "mean_density": 0.0020833333333333333,
+          "peak_ratio": 25.0
+        }
+      },
+      "duration": 3619
+    },
+    {
+      "bvid": "BV11eZ8YLEZ6",
+      "title": "再见，Switch……",
+      "status": "ok",
+      "raw_count": 3600,
+      "filtered_count": 2747,
+      "evaluative_count": 52,
+      "eval_rate": 0.43333333333333335,
+      "dimensions": {
+        "整体": 26,
+        "画面": 6,
+        "情感共鸣": 4,
+        "其他": 5,
+        "剧情": 1,
+        "细节": 10
+      },
+      "polarity": {
+        "+": 20,
+        "0": 11,
+        "-": 21
+      },
+      "dim_entropy": {
+        "整体": 0.9797763473974518,
+        "其他": 0.5841013681895906,
+        "细节": 0.5061268226611021,
+        "情感共鸣": 0.11077574129858653,
+        "画面": 0.15842137709934276
+      },
+      "peaks": {
+        "整体": {
+          "peak_bin": 1,
+          "peak_time": 30,
+          "peak_density": 1.0,
+          "mean_density": 0.8425924874454286,
+          "peak_ratio": 1.1868133349156713
+        },
+        "其他": {
+          "peak_bin": 28,
+          "peak_time": 840,
+          "peak_density": 0.3333333333333333,
+          "mean_density": 0.041135778635778636,
+          "peak_ratio": 8.103245991396166
+        },
+        "细节": {
+          "peak_bin": 6,
+          "peak_time": 180,
+          "peak_density": 0.4444444444444444,
+          "mean_density": 0.053574346405228755,
+          "peak_ratio": 8.295844452916509
+        },
+        "情感共鸣": {
+          "peak_bin": 0,
+          "peak_time": 0,
+          "peak_density": 0.25,
+          "mean_density": 0.009523809523809523,
+          "peak_ratio": 25.0
+        },
+        "画面": {
+          "peak_bin": 1,
+          "peak_time": 30,
+          "peak_density": 0.23529411764705882,
+          "mean_density": 0.010784313725490196,
+          "peak_ratio": 21.818181818181817
+        }
+      },
+      "duration": 1082
+    },
+    {
+      "bvid": "BV127ZvYhEHb",
+      "title": "《 她 她 她 》",
+      "status": "ok",
+      "raw_count": 836,
+      "filtered_count": 491,
+      "evaluative_count": 72,
+      "eval_rate": 0.6,
+      "dimensions": {
+        "整体": 8,
+        "演技": 7,
+        "剧情": 15,
+        "音乐": 7,
+        "情感共鸣": 12,
+        "节奏": 3,
+        "细节": 3,
+        "画面": 2,
+        "叙事手法": 2,
+        "剪辑": 13
+      },
+      "polarity": {
+        "+": 50,
+        "0": 20,
+        "-": 2
+      },
+      "dim_entropy": {
+        "剪辑": 0.9779814399434846,
+        "演技": 0.7781500556255821,
+        "剧情": 0.8966836127219009,
+        "音乐": 0.7752248161692054,
+        "情感共鸣": 0.9705872998736013,
+        "整体": 0.7032405040259964
+      },
+      "peaks": {
+        "剪辑": {
+          "peak_bin": 8,
+          "peak_time": 240,
+          "peak_density": 0.76,
+          "mean_density": 0.4653646071721711,
+          "peak_ratio": 1.6331280640747623
+        },
+        "演技": {
+          "peak_bin": 7,
+          "peak_time": 210,
+          "peak_density": 0.21428571428571427,
+          "mean_density": 0.08143178804469127,
+          "peak_ratio": 2.631474998045116
+        },
+        "剧情": {
+          "peak_bin": 5,
+          "peak_time": 150,
+          "peak_density": 0.15384615384615385,
+          "mean_density": 0.07776374950596308,
+          "peak_ratio": 1.9783788053372686
+        },
+        "音乐": {
+          "peak_bin": 5,
+          "peak_time": 150,
+          "peak_density": 0.15384615384615385,
+          "mean_density": 0.06835399969576833,
+          "peak_ratio": 2.250726431970274
+        },
+        "情感共鸣": {
+          "peak_bin": 4,
+          "peak_time": 120,
+          "peak_density": 0.5,
+          "mean_density": 0.2780076939601412,
+          "peak_ratio": 1.7985113752703783
+        },
+        "整体": {
+          "peak_bin": 5,
+          "peak_time": 150,
+          "peak_density": 0.07692307692307693,
+          "mean_density": 0.02907816162126507,
+          "peak_ratio": 2.6453899639522787
+        }
+      },
+      "duration": 255
+    },
     {
       "bvid": "BV14HZqYiETU",
       "title": "如何成为<班级面壁人>",
       "status": "ok",
       "raw_count": 1200,
       "filtered_count": 781,
-      "evaluative_count": 41,
-      "eval_rate": 0.2733333333333333,
+      "evaluative_count": 27,
+      "eval_rate": 0.225,
       "dimensions": {
-        "剧情": 29,
-        "细节": 4,
-        "节奏": 4,
-        "整体": 1,
-        "情感共鸣": 2,
-        "演技": 1
+        "画面": 1,
+        "节奏": 2,
+        "细节": 3,
+        "整体": 6,
+        "演技": 2,
+        "剧情": 11,
+        "情感共鸣": 2
       },
       "polarity": {
-        "+": 13,
-        "0": 20,
-        "-": 8
+        "0": 7,
+        "-": 6,
+        "+": 14
       },
       "dim_entropy": {
-        "剧情": 0.9989021260670946,
-        "节奏": 0.268064694594085
+        "整体": 0.8318598458931603,
+        "剧情": 0.8483089547200785,
+        "节奏": -0.0
       },
       "peaks": {
-        "剧情": {
-          "peak_bin": 0,
-          "peak_time": 0,
+        "整体": {
+          "peak_bin": 6,
+          "peak_time": 180,
           "peak_density": 1.0,
-          "mean_density": 0.9722222222222222,
-          "peak_ratio": 1.0285714285714287
+          "mean_density": 0.4629310344827586,
+          "peak_ratio": 2.1601489757914343
+        },
+        "剧情": {
+          "peak_bin": 5,
+          "peak_time": 150,
+          "peak_density": 1.0,
+          "mean_density": 0.4601458885941645,
+          "peak_ratio": 2.1732238074650523
         },
         "节奏": {
           "peak_bin": 0,
           "peak_time": 0,
-          "peak_density": 0.25,
-          "mean_density": 0.03611111111111111,
-          "peak_ratio": 6.923076923076923
+          "peak_density": 1.0,
+          "mean_density": 0.1,
+          "peak_ratio": 10.0
         }
       },
       "duration": 388
@@ -51,68 +275,266 @@
       "status": "ok",
       "raw_count": 1200,
       "filtered_count": 319,
-      "evaluative_count": 81,
-      "eval_rate": 0.54,
+      "evaluative_count": 51,
+      "eval_rate": 0.425,
       "dimensions": {
-        "剧情": 25,
-        "整体": 13,
+        "整体": 10,
+        "画面": 13,
+        "情感共鸣": 8,
+        "氛围": 1,
+        "叙事手法": 4,
+        "剧情": 9,
         "节奏": 2,
-        "画面": 23,
-        "情感共鸣": 12,
-        "细节": 4,
-        "叙事手法": 1,
-        "音乐": 1
+        "细节": 4
       },
       "polarity": {
-        "0": 41,
-        "+": 35,
-        "-": 5
+        "+": 28,
+        "0": 19,
+        "-": 4
       },
       "dim_entropy": {
-        "情感共鸣": 0.549786964182693,
-        "画面": 0.6305242337451844,
-        "整体": 0.48912273005285534,
-        "剧情": 0.5346224858420893,
-        "细节": 0.25775582136471664
+        "整体": 0.5260150675635453,
+        "画面": 0.478413200048713,
+        "情感共鸣": 0.5256730583715591,
+        "剧情": 0.46033430745437937,
+        "叙事手法": 0.26133542653496894,
+        "细节": -0.0
       },
       "peaks": {
+        "整体": {
+          "peak_bin": 0,
+          "peak_time": 0,
+          "peak_density": 1.0,
+          "mean_density": 0.09541847041847042,
+          "peak_ratio": 10.48015122873346
+        },
+        "画面": {
+          "peak_bin": 13,
+          "peak_time": 390,
+          "peak_density": 1.0,
+          "mean_density": 0.06415853449751754,
+          "peak_ratio": 15.586390927284858
+        },
         "情感共鸣": {
           "peak_bin": 5,
           "peak_time": 150,
           "peak_density": 0.5,
-          "mean_density": 0.05082972582972582,
-          "peak_ratio": 9.836763662171755
-        },
-        "画面": {
-          "peak_bin": 8,
-          "peak_time": 240,
-          "peak_density": 0.75,
-          "mean_density": 0.081516354016354,
-          "peak_ratio": 9.200607768221985
-        },
-        "整体": {
-          "peak_bin": 3,
-          "peak_time": 90,
-          "peak_density": 0.4444444444444444,
-          "mean_density": 0.0326058201058201,
-          "peak_ratio": 13.630831643002029
+          "mean_density": 0.04920268055861276,
+          "peak_ratio": 10.162047968186902
         },
         "剧情": {
-          "peak_bin": 14,
-          "peak_time": 420,
-          "peak_density": 0.8,
-          "mean_density": 0.07504810004810004,
-          "peak_ratio": 10.659830155423812
+          "peak_bin": 12,
+          "peak_time": 360,
+          "peak_density": 0.42857142857142855,
+          "mean_density": 0.035170102966713135,
+          "peak_ratio": 12.185674547983309
+        },
+        "叙事手法": {
+          "peak_bin": 1,
+          "peak_time": 30,
+          "peak_density": 0.16666666666666666,
+          "mean_density": 0.006248929977743537,
+          "peak_ratio": 16.666666666666664
         },
         "细节": {
           "peak_bin": 0,
           "peak_time": 0,
-          "peak_density": 0.25,
-          "mean_density": 0.011111111111111112,
-          "peak_ratio": 22.5
+          "peak_density": 0.14285714285714285,
+          "mean_density": 0.00303951367781155,
+          "peak_ratio": 14.285714285714285
         }
       },
       "duration": 1798
+    },
+    {
+      "bvid": "BV17WZ4YsEiX",
+      "title": "2025全球最全电脑故障解决指南",
+      "status": "ok",
+      "raw_count": 3129,
+      "filtered_count": 1973,
+      "evaluative_count": 24,
+      "eval_rate": 0.2,
+      "dimensions": {
+        "画面": 2,
+        "整体": 10,
+        "细节": 9,
+        "其他": 3
+      },
+      "polarity": {
+        "-": 11,
+        "0": 2,
+        "+": 11
+      },
+      "dim_entropy": {
+        "细节": 0.7702560996279226,
+        "整体": 0.39970680336532977
+      },
+      "peaks": {
+        "细节": {
+          "peak_bin": 2,
+          "peak_time": 60,
+          "peak_density": 1.0,
+          "mean_density": 0.3201628352490421,
+          "peak_ratio": 3.12341062079282
+        },
+        "整体": {
+          "peak_bin": 14,
+          "peak_time": 420,
+          "peak_density": 1.0,
+          "mean_density": 0.04190613026819923,
+          "peak_ratio": 23.862857142857145
+        }
+      },
+      "duration": 3474
+    },
+    {
+      "bvid": "BV17tZhYMEDq",
+      "title": "射手，我们该算算旧账了！",
+      "status": "ok",
+      "raw_count": 1200,
+      "filtered_count": 246,
+      "evaluative_count": 49,
+      "eval_rate": 0.4083333333333333,
+      "dimensions": {
+        "剧情": 14,
+        "细节": 20,
+        "画面": 2,
+        "整体": 5,
+        "情感共鸣": 5,
+        "演技": 1,
+        "音乐": 1,
+        "节奏": 1
+      },
+      "polarity": {
+        "0": 33,
+        "-": 12,
+        "+": 4
+      },
+      "dim_entropy": {
+        "细节": 0.9855895871553122,
+        "剧情": 0.78807788963373,
+        "情感共鸣": 0.5447114137764152
+      },
+      "peaks": {
+        "细节": {
+          "peak_bin": 3,
+          "peak_time": 90,
+          "peak_density": 0.875,
+          "mean_density": 0.736400504257647,
+          "peak_ratio": 1.1882121141159088
+        },
+        "剧情": {
+          "peak_bin": 1,
+          "peak_time": 30,
+          "peak_density": 0.3076923076923077,
+          "mean_density": 0.11994553065981638,
+          "peak_ratio": 2.5652669674284865
+        },
+        "情感共鸣": {
+          "peak_bin": 2,
+          "peak_time": 60,
+          "peak_density": 0.5714285714285714,
+          "mean_density": 0.14365396508253653,
+          "peak_ratio": 3.9778127328421222
+        }
+      },
+      "duration": 204
+    },
+    {
+      "bvid": "BV19AZWY3EHr",
+      "title": "发个旧视频证明还在永久免费",
+      "status": "ok",
+      "raw_count": 1200,
+      "filtered_count": 126,
+      "evaluative_count": 36,
+      "eval_rate": 0.3,
+      "dimensions": {
+        "情感共鸣": 11,
+        "整体": 16,
+        "其他": 1,
+        "细节": 6,
+        "剧情": 1,
+        "节奏": 1
+      },
+      "polarity": {
+        "+": 29,
+        "0": 4,
+        "-": 3
+      },
+      "dim_entropy": {
+        "情感共鸣": 0.7220444658992695,
+        "整体": 0.7750971350046733,
+        "细节": -0.0
+      },
+      "peaks": {
+        "情感共鸣": {
+          "peak_bin": 4,
+          "peak_time": 120,
+          "peak_density": 0.5,
+          "mean_density": 0.223015873015873,
+          "peak_ratio": 2.2419928825622777
+        },
+        "整体": {
+          "peak_bin": 3,
+          "peak_time": 90,
+          "peak_density": 1.0,
+          "mean_density": 0.3992063492063492,
+          "peak_ratio": 2.5049701789264414
+        },
+        "细节": {
+          "peak_bin": 0,
+          "peak_time": 0,
+          "peak_density": 0.4,
+          "mean_density": 0.2,
+          "peak_ratio": 2.0
+        }
+      },
+      "duration": 243
+    },
+    {
+      "bvid": "BV1B8ZJYTEPg",
+      "title": "现代修仙，没钱纯靠自律【自律狠人】【第一季超长电影版】",
+      "status": "ok",
+      "raw_count": 4146,
+      "filtered_count": 2305,
+      "evaluative_count": 57,
+      "eval_rate": 0.475,
+      "dimensions": {
+        "剧情": 43,
+        "画面": 5,
+        "节奏": 3,
+        "叙事手法": 1,
+        "情感共鸣": 1,
+        "演技": 2,
+        "音乐": 1,
+        "细节": 1
+      },
+      "polarity": {
+        "0": 43,
+        "+": 2,
+        "-": 12
+      },
+      "dim_entropy": {
+        "剧情": 0.827677510876868,
+        "节奏": -0.0
+      },
+      "peaks": {
+        "剧情": {
+          "peak_bin": 0,
+          "peak_time": 0,
+          "peak_density": 1.0,
+          "mean_density": 0.4494949494949495,
+          "peak_ratio": 2.2247191011235956
+        },
+        "节奏": {
+          "peak_bin": 0,
+          "peak_time": 0,
+          "peak_density": 0.5,
+          "mean_density": 0.16666666666666666,
+          "peak_ratio": 3.0
+        }
+      },
+      "duration": 2960
     },
     {
       "bvid": "BV1BtZJYBE4G",
@@ -120,52 +542,366 @@
       "status": "ok",
       "raw_count": 7200,
       "filtered_count": 3498,
-      "evaluative_count": 41,
-      "eval_rate": 0.2733333333333333,
+      "evaluative_count": 34,
+      "eval_rate": 0.2833333333333333,
       "dimensions": {
-        "剧情": 18,
+        "剧情": 13,
+        "细节": 2,
         "音乐": 1,
-        "画面": 1,
-        "整体": 10,
-        "情感共鸣": 6,
-        "细节": 1,
+        "整体": 7,
+        "情感共鸣": 9,
         "叙事手法": 1,
-        "演技": 3
+        "演技": 1
       },
       "polarity": {
-        "+": 26,
-        "-": 7,
-        "0": 8
+        "-": 5,
+        "0": 5,
+        "+": 24
       },
       "dim_entropy": {
-        "剧情": 0.9587613422289801,
-        "情感共鸣": 0.6211375730025596,
-        "整体": 0.6883696806096429
+        "剧情": 0.9152633441177915,
+        "情感共鸣": 0.49797349325198254,
+        "整体": 0.6548664095370585
       },
       "peaks": {
         "剧情": {
-          "peak_bin": 1,
-          "peak_time": 30,
+          "peak_bin": 0,
+          "peak_time": 0,
           "peak_density": 1.0,
-          "mean_density": 0.7253849171324901,
-          "peak_ratio": 1.3785784297157533
+          "mean_density": 0.6166682159771822,
+          "peak_ratio": 1.621617547477105
         },
         "情感共鸣": {
-          "peak_bin": 45,
-          "peak_time": 1350,
-          "peak_density": 1.0,
-          "mean_density": 0.06241751775732358,
-          "peak_ratio": 16.021143357349676
-        },
-        "整体": {
           "peak_bin": 34,
           "peak_time": 1020,
           "peak_density": 1.0,
-          "mean_density": 0.12613137453562986,
-          "peak_ratio": 7.928241515496351
+          "mean_density": 0.055349574173103586,
+          "peak_ratio": 18.066986330780793
+        },
+        "整体": {
+          "peak_bin": 3,
+          "peak_time": 90,
+          "peak_density": 1.0,
+          "mean_density": 0.12296896485867075,
+          "peak_ratio": 8.132133186201155
         }
       },
       "duration": 3081
+    },
+    {
+      "bvid": "BV1CaZxYFEFG",
+      "title": "【iPhone用户必看】一定要升级到iOS18.4正式版！feat. 25+ 新功能｜大耳朵TV",
+      "status": "ok",
+      "raw_count": 1625,
+      "filtered_count": 870,
+      "evaluative_count": 30,
+      "eval_rate": 0.25,
+      "dimensions": {
+        "整体": 15,
+        "演技": 3,
+        "音乐": 2,
+        "细节": 3,
+        "其他": 5,
+        "画面": 2
+      },
+      "polarity": {
+        "-": 21,
+        "+": 6,
+        "0": 3
+      },
+      "dim_entropy": {
+        "整体": 0.84927182174765,
+        "其他": -0.0
+      },
+      "peaks": {
+        "整体": {
+          "peak_bin": 0,
+          "peak_time": 0,
+          "peak_density": 1.0,
+          "mean_density": 0.5916666666666667,
+          "peak_ratio": 1.6901408450704225
+        },
+        "其他": {
+          "peak_bin": 0,
+          "peak_time": 0,
+          "peak_density": 0.25,
+          "mean_density": 0.010869565217391304,
+          "peak_ratio": 23.0
+        }
+      },
+      "duration": 897
+    },
+    {
+      "bvid": "BV1DDZHYhE59",
+      "title": "盘点男组合那些神级翻唱，你最喜欢哪个组合呢？",
+      "status": "ok",
+      "raw_count": 871,
+      "filtered_count": 348,
+      "evaluative_count": 52,
+      "eval_rate": 0.43333333333333335,
+      "dimensions": {
+        "音乐": 26,
+        "画面": 7,
+        "演技": 5,
+        "整体": 7,
+        "其他": 2,
+        "细节": 2,
+        "情感共鸣": 2,
+        "叙事手法": 1
+      },
+      "polarity": {
+        "-": 21,
+        "+": 23,
+        "0": 8
+      },
+      "dim_entropy": {
+        "画面": 0.550370843178577,
+        "音乐": 0.9398377687067542,
+        "演技": 0.40632081138902837,
+        "整体": 0.3945789803985147,
+        "情感共鸣": -0.0,
+        "其他": -0.0
+      },
+      "peaks": {
+        "画面": {
+          "peak_bin": 9,
+          "peak_time": 270,
+          "peak_density": 1.0,
+          "mean_density": 0.18473193473193472,
+          "peak_ratio": 5.413249211356467
+        },
+        "音乐": {
+          "peak_bin": 5,
+          "peak_time": 150,
+          "peak_density": 1.0,
+          "mean_density": 0.6648018648018649,
+          "peak_ratio": 1.5042075736325384
+        },
+        "演技": {
+          "peak_bin": 8,
+          "peak_time": 240,
+          "peak_density": 0.3333333333333333,
+          "mean_density": 0.0606060606060606,
+          "peak_ratio": 5.5
+        },
+        "整体": {
+          "peak_bin": 9,
+          "peak_time": 270,
+          "peak_density": 0.25,
+          "mean_density": 0.04884615384615385,
+          "peak_ratio": 5.118110236220472
+        },
+        "情感共鸣": {
+          "peak_bin": 0,
+          "peak_time": 0,
+          "peak_density": 0.3333333333333333,
+          "mean_density": 0.06666666666666667,
+          "peak_ratio": 5.0
+        },
+        "其他": {
+          "peak_bin": 0,
+          "peak_time": 0,
+          "peak_density": 0.16666666666666666,
+          "mean_density": 0.03333333333333333,
+          "peak_ratio": 5.0
+        }
+      },
+      "duration": 324
+    },
+    {
+      "bvid": "BV1EPZEYKEvW",
+      "title": "垃圾场上的妙妙屋【日本世博会】",
+      "status": "ok",
+      "raw_count": 1200,
+      "filtered_count": 622,
+      "evaluative_count": 43,
+      "eval_rate": 0.35833333333333334,
+      "dimensions": {
+        "画面": 11,
+        "剧情": 8,
+        "细节": 11,
+        "其他": 4,
+        "整体": 5,
+        "情感共鸣": 2,
+        "演技": 1,
+        "技术": 1
+      },
+      "polarity": {
+        "-": 27,
+        "0": 8,
+        "+": 8
+      },
+      "dim_entropy": {
+        "画面": 0.5343618993198271,
+        "剧情": 0.6386852087907545,
+        "细节": 0.7107006721479819,
+        "其他": -0.0,
+        "整体": 0.6483610913245326,
+        "情感共鸣": -0.0
+      },
+      "peaks": {
+        "画面": {
+          "peak_bin": 1,
+          "peak_time": 30,
+          "peak_density": 0.7142857142857143,
+          "mean_density": 0.1773879142300195,
+          "peak_ratio": 4.026687598116169
+        },
+        "剧情": {
+          "peak_bin": 6,
+          "peak_time": 180,
+          "peak_density": 1.0,
+          "mean_density": 0.21529518240044557,
+          "peak_ratio": 4.644785772029103
+        },
+        "细节": {
+          "peak_bin": 9,
+          "peak_time": 270,
+          "peak_density": 0.6666666666666666,
+          "mean_density": 0.20213728766360342,
+          "peak_ratio": 3.29808851386258
+        },
+        "其他": {
+          "peak_bin": 0,
+          "peak_time": 0,
+          "peak_density": 0.05263157894736842,
+          "mean_density": 0.0043859649122807015,
+          "peak_ratio": 5.263157894736842
+        },
+        "整体": {
+          "peak_bin": 8,
+          "peak_time": 240,
+          "peak_density": 1.0,
+          "mean_density": 0.25661375661375657,
+          "peak_ratio": 3.896907216494846
+        },
+        "情感共鸣": {
+          "peak_bin": 0,
+          "peak_time": 0,
+          "peak_density": 0.5,
+          "mean_density": 0.0625,
+          "peak_ratio": 8.0
+        }
+      },
+      "duration": 354
+    },
+    {
+      "bvid": "BV1FWZkY6E6N",
+      "title": "她 真 是 病 了 ！有 病 治 病！停止这场闹剧吧！未删减《小小的勇气 》",
+      "status": "ok",
+      "raw_count": 1800,
+      "filtered_count": 1299,
+      "evaluative_count": 64,
+      "eval_rate": 0.5333333333333333,
+      "dimensions": {
+        "演技": 22,
+        "整体": 7,
+        "画面": 3,
+        "剧情": 16,
+        "叙事手法": 4,
+        "细节": 8,
+        "情感共鸣": 4
+      },
+      "polarity": {
+        "-": 55,
+        "0": 7,
+        "+": 2
+      },
+      "dim_entropy": {
+        "演技": 0.978643151042204,
+        "整体": 0.6742535644625486,
+        "情感共鸣": 0.5864932091665,
+        "剧情": 0.8555845305547488,
+        "细节": 0.4039750125692609
+      },
+      "peaks": {
+        "演技": {
+          "peak_bin": 9,
+          "peak_time": 270,
+          "peak_density": 1.0,
+          "mean_density": 0.6226048106482889,
+          "peak_ratio": 1.6061552736136866
+        },
+        "整体": {
+          "peak_bin": 22,
+          "peak_time": 660,
+          "peak_density": 0.5,
+          "mean_density": 0.08355497159844985,
+          "peak_ratio": 5.984084375049638
+        },
+        "情感共鸣": {
+          "peak_bin": 16,
+          "peak_time": 480,
+          "peak_density": 0.5,
+          "mean_density": 0.05696248196248196,
+          "peak_ratio": 8.77770740975301
+        },
+        "剧情": {
+          "peak_bin": 2,
+          "peak_time": 60,
+          "peak_density": 0.6923076923076923,
+          "mean_density": 0.21804533849988392,
+          "peak_ratio": 3.1750630262066384
+        },
+        "细节": {
+          "peak_bin": 3,
+          "peak_time": 90,
+          "peak_density": 0.3333333333333333,
+          "mean_density": 0.034273182957393476,
+          "peak_ratio": 9.725776965265084
+        }
+      },
+      "duration": 684
+    },
+    {
+      "bvid": "BV1GEZEYdEwn",
+      "title": "《王 牌 空 姐》",
+      "status": "ok",
+      "raw_count": 3600,
+      "filtered_count": 1690,
+      "evaluative_count": 35,
+      "eval_rate": 0.2916666666666667,
+      "dimensions": {
+        "剧情": 19,
+        "整体": 2,
+        "细节": 6,
+        "画面": 5,
+        "演技": 3
+      },
+      "polarity": {
+        "-": 9,
+        "0": 20,
+        "+": 6
+      },
+      "dim_entropy": {
+        "剧情": 0.590972471518792,
+        "整体": 0.2739947339986646,
+        "演技": 0.18665241123894338
+      },
+      "peaks": {
+        "剧情": {
+          "peak_bin": 0,
+          "peak_time": 0,
+          "peak_density": 1.0,
+          "mean_density": 0.19791666666666666,
+          "peak_ratio": 5.052631578947369
+        },
+        "整体": {
+          "peak_bin": 0,
+          "peak_time": 0,
+          "peak_density": 1.0,
+          "mean_density": 0.05319148936170213,
+          "peak_ratio": 18.8
+        },
+        "演技": {
+          "peak_bin": 0,
+          "peak_time": 0,
+          "peak_density": 0.5,
+          "mean_density": 0.024390243902439025,
+          "peak_ratio": 20.5
+        }
+      },
+      "duration": 1447
     },
     {
       "bvid": "BV1GJ411x7h7",
@@ -174,7 +910,7 @@
       "raw_count": 1200,
       "filtered_count": 611,
       "evaluative_count": 4,
-      "eval_rate": 0.02666666666666667
+      "eval_rate": 0.03333333333333333
     },
     {
       "bvid": "BV1GyZYYNErW",
@@ -182,48 +918,39 @@
       "status": "ok",
       "raw_count": 9600,
       "filtered_count": 6459,
-      "evaluative_count": 54,
-      "eval_rate": 0.36,
+      "evaluative_count": 46,
+      "eval_rate": 0.38333333333333336,
       "dimensions": {
         "情感共鸣": 2,
-        "剧情": 36,
+        "剧情": 31,
         "节奏": 2,
         "画面": 9,
-        "细节": 3,
-        "整体": 1,
+        "细节": 1,
         "音乐": 1
       },
       "polarity": {
         "+": 11,
-        "-": 9,
-        "0": 34
+        "-": 5,
+        "0": 30
       },
       "dim_entropy": {
-        "剧情": 0.8957967009580193,
-        "画面": 0.13580208897261442,
-        "情感共鸣": -0.0
+        "剧情": 0.8350400710477922,
+        "画面": 0.13986508659473787
       },
       "peaks": {
         "剧情": {
           "peak_bin": 1,
           "peak_time": 30,
           "peak_density": 1.0,
-          "mean_density": 0.59037558685446,
-          "peak_ratio": 1.693836978131213
+          "mean_density": 0.43661971830985913,
+          "peak_ratio": 2.2903225806451615
         },
         "画面": {
-          "peak_bin": 94,
-          "peak_time": 2820,
-          "peak_density": 0.5,
-          "mean_density": 0.005868544600938967,
-          "peak_ratio": 50.0
-        },
-        "情感共鸣": {
           "peak_bin": 0,
           "peak_time": 0,
-          "peak_density": 0.3333333333333333,
-          "mean_density": 0.003472222222222222,
-          "peak_ratio": 33.33333333333333
+          "peak_density": 0.5,
+          "mean_density": 0.007042253521126761,
+          "peak_ratio": 50.0
         }
       },
       "duration": 4236
@@ -234,58 +961,50 @@
       "status": "ok",
       "raw_count": 1800,
       "filtered_count": 659,
-      "evaluative_count": 61,
-      "eval_rate": 0.4066666666666667,
+      "evaluative_count": 42,
+      "eval_rate": 0.35,
       "dimensions": {
-        "演技": 4,
-        "叙事手法": 3,
-        "画面": 8,
+        "演技": 7,
+        "节奏": 3,
         "整体": 11,
-        "剧情": 24,
+        "叙事手法": 1,
+        "剧情": 9,
         "音乐": 1,
-        "细节": 3,
-        "节奏": 1,
-        "情感共鸣": 6
+        "细节": 4,
+        "画面": 4,
+        "情感共鸣": 2
       },
       "polarity": {
-        "-": 12,
-        "0": 39,
-        "+": 10
+        "-": 13,
+        "0": 18,
+        "+": 11
       },
       "dim_entropy": {
-        "整体": 0.8690226227917138,
-        "剧情": 0.8946297705060956,
-        "演技": 0.28919491236175987,
-        "情感共鸣": -0.0
+        "整体": 0.8566649504897133,
+        "剧情": 0.5987986911234094,
+        "演技": 0.6645110360284601
       },
       "peaks": {
         "整体": {
           "peak_bin": 4,
           "peak_time": 120,
           "peak_density": 1.0,
-          "mean_density": 0.45168951418951414,
-          "peak_ratio": 2.2139101497504163
+          "mean_density": 0.47767857142857145,
+          "peak_ratio": 2.0934579439252334
         },
         "剧情": {
           "peak_bin": 3,
           "peak_time": 90,
           "peak_density": 1.0,
-          "mean_density": 0.4739057239057239,
-          "peak_ratio": 2.1101243339253997
+          "mean_density": 0.1552579365079365,
+          "peak_ratio": 6.440894568690096
         },
         "演技": {
-          "peak_bin": 0,
-          "peak_time": 0,
-          "peak_density": 0.5,
-          "mean_density": 0.04464285714285714,
-          "peak_ratio": 11.200000000000001
-        },
-        "情感共鸣": {
-          "peak_bin": 0,
-          "peak_time": 0,
-          "peak_density": 0.07142857142857142,
-          "mean_density": 0.03571428571428571,
-          "peak_ratio": 2.0
+          "peak_bin": 8,
+          "peak_time": 240,
+          "peak_density": 1.0,
+          "mean_density": 0.20039682539682543,
+          "peak_ratio": 4.990099009900989
         }
       },
       "duration": 707
@@ -296,57 +1015,57 @@
       "status": "ok",
       "raw_count": 1200,
       "filtered_count": 113,
-      "evaluative_count": 45,
-      "eval_rate": 0.39823008849557523,
+      "evaluative_count": 48,
+      "eval_rate": 0.4247787610619469,
       "dimensions": {
-        "整体": 12,
+        "画面": 20,
+        "整体": 13,
         "情感共鸣": 5,
         "音乐": 4,
-        "画面": 17,
-        "节奏": 3,
-        "创意": 1,
+        "其他": 1,
+        "节奏": 2,
         "剧情": 2,
         "细节": 1
       },
       "polarity": {
+        "0": 21,
         "+": 18,
-        "0": 18,
         "-": 9
       },
       "dim_entropy": {
-        "整体": 0.802267456524715,
-        "画面": 0.9019451984411644,
-        "情感共鸣": 0.6007710674722591,
-        "音乐": 0.31546487678572877
+        "整体": 0.8165774753938623,
+        "情感共鸣": 0.564726063027403,
+        "音乐": -0.0,
+        "画面": 0.9049272944650685
       },
       "peaks": {
         "整体": {
           "peak_bin": 8,
           "peak_time": 240,
           "peak_density": 1.0,
-          "mean_density": 0.3290123456790124,
-          "peak_ratio": 3.039399624765478
-        },
-        "画面": {
-          "peak_bin": 5,
-          "peak_time": 150,
-          "peak_density": 1.0,
-          "mean_density": 0.45185185185185184,
-          "peak_ratio": 2.2131147540983607
+          "mean_density": 0.35185185185185186,
+          "peak_ratio": 2.8421052631578947
         },
         "情感共鸣": {
           "peak_bin": 2,
           "peak_time": 60,
           "peak_density": 0.5,
-          "mean_density": 0.16358024691358025,
-          "peak_ratio": 3.0566037735849054
+          "mean_density": 0.15000000000000002,
+          "peak_ratio": 3.333333333333333
         },
         "音乐": {
           "peak_bin": 0,
           "peak_time": 0,
           "peak_density": 0.25,
-          "mean_density": 0.05555555555555555,
-          "peak_ratio": 4.5
+          "mean_density": 0.027777777777777776,
+          "peak_ratio": 9.0
+        },
+        "画面": {
+          "peak_bin": 4,
+          "peak_time": 120,
+          "peak_density": 1.0,
+          "mean_density": 0.5291666666666667,
+          "peak_ratio": 1.889763779527559
         }
       },
       "duration": 250
@@ -359,6 +1078,72 @@
       "filtered_count": 42
     },
     {
+      "bvid": "BV1JhZcY9EFN",
+      "title": "需要喝自己胆汁的小女孩珍珍，希望以后的生活苦味追不上你",
+      "status": "ok",
+      "raw_count": 1200,
+      "filtered_count": 215,
+      "evaluative_count": 56,
+      "eval_rate": 0.4666666666666667,
+      "dimensions": {
+        "情感共鸣": 18,
+        "演技": 6,
+        "剧情": 19,
+        "细节": 2,
+        "整体": 10,
+        "叙事手法": 1
+      },
+      "polarity": {
+        "-": 12,
+        "+": 29,
+        "0": 15
+      },
+      "dim_entropy": {
+        "情感共鸣": 0.8415157678697383,
+        "演技": 0.7850261882677007,
+        "剧情": 0.8349587333390495,
+        "整体": 0.7056182849537459
+      },
+      "peaks": {
+        "情感共鸣": {
+          "peak_bin": 9,
+          "peak_time": 270,
+          "peak_density": 1.0,
+          "mean_density": 0.3488636363636364,
+          "peak_ratio": 2.8664495114006514
+        },
+        "演技": {
+          "peak_bin": 5,
+          "peak_time": 150,
+          "peak_density": 0.5,
+          "mean_density": 0.1708333333333333,
+          "peak_ratio": 2.9268292682926833
+        },
+        "剧情": {
+          "peak_bin": 7,
+          "peak_time": 210,
+          "peak_density": 0.6666666666666666,
+          "mean_density": 0.30467171717171715,
+          "peak_ratio": 2.188147534189805
+        },
+        "整体": {
+          "peak_bin": 5,
+          "peak_time": 150,
+          "peak_density": 0.25,
+          "mean_density": 0.09229797979797981,
+          "peak_ratio": 2.7086183310533514
+        }
+      },
+      "duration": 334
+    },
+    {
+      "bvid": "BV1KRZhYSE98",
+      "title": "【AI蚊子】恋爱循环",
+      "status": "too_few_filtered",
+      "raw_count": 600,
+      "filtered_count": 31
+    },
+    {
       "bvid": "BV1L8Z6YZEDS",
       "title": "“鲁智深：林冲？好吧那我输的不冤”",
       "status": "ok",
@@ -367,22 +1152,22 @@
       "evaluative_count": 44,
       "eval_rate": 0.4731182795698925,
       "dimensions": {
-        "细节": 10,
-        "剧情": 12,
-        "画面": 14,
+        "细节": 11,
+        "剧情": 11,
+        "画面": 12,
         "整体": 3,
-        "演技": 4,
+        "演技": 6,
         "节奏": 1
       },
       "polarity": {
-        "+": 24,
-        "0": 18,
-        "-": 2
+        "+": 26,
+        "0": 15,
+        "-": 3
       },
       "dim_entropy": {
-        "细节": 0.4063093279759303,
-        "剧情": 0.9796691959233206,
-        "画面": 0.9365761156887085,
+        "细节": 0.4822425454018493,
+        "剧情": 0.9693159731841595,
+        "画面": 0.8013213925481232,
         "演技": 0.7076344750135478
       },
       "peaks": {
@@ -390,22 +1175,22 @@
           "peak_bin": 0,
           "peak_time": 0,
           "peak_density": 0.5,
-          "mean_density": 0.12666666666666668,
-          "peak_ratio": 3.9473684210526314
+          "mean_density": 0.14333333333333334,
+          "peak_ratio": 3.488372093023256
         },
         "剧情": {
           "peak_bin": 1,
           "peak_time": 30,
-          "peak_density": 0.6666666666666666,
-          "mean_density": 0.53,
-          "peak_ratio": 1.2578616352201257
+          "peak_density": 0.8333333333333334,
+          "mean_density": 0.5633333333333334,
+          "peak_ratio": 1.4792899408284024
         },
         "画面": {
-          "peak_bin": 3,
-          "peak_time": 90,
+          "peak_bin": 4,
+          "peak_time": 120,
           "peak_density": 0.3333333333333333,
-          "mean_density": 0.22333333333333333,
-          "peak_ratio": 1.4925373134328357
+          "mean_density": 0.17333333333333334,
+          "peak_ratio": 1.923076923076923
         },
         "演技": {
           "peak_bin": 3,
@@ -423,32 +1208,28 @@
       "status": "ok",
       "raw_count": 4973,
       "filtered_count": 2912,
-      "evaluative_count": 57,
-      "eval_rate": 0.38,
+      "evaluative_count": 34,
+      "eval_rate": 0.2833333333333333,
       "dimensions": {
-        "整体": 11,
-        "细节": 13,
-        "剧情": 17,
-        "情感共鸣": 4,
-        "音乐": 2,
-        "演技": 4,
-        "叙事手法": 3,
-        "节奏": 1,
-        "画面": 2
+        "整体": 7,
+        "细节": 7,
+        "演技": 5,
+        "情感共鸣": 5,
+        "剧情": 7,
+        "叙事手法": 2,
+        "节奏": 1
       },
       "polarity": {
         "+": 13,
-        "0": 30,
-        "-": 14
+        "0": 13,
+        "-": 8
       },
       "dim_entropy": {
-        "整体": 0.8649413758186211,
-        "情感共鸣": 0.6472897691842656,
-        "剧情": 0.6805262562986689,
-        "细节": 0.4693788753205715,
-        "画面": -0.0,
-        "音乐": -0.0,
-        "叙事手法": -0.0,
+        "整体": 0.79431556137893,
+        "情感共鸣": 0.6627063589823258,
+        "剧情": 0.5615614825432623,
+        "细节": 0.3893516754949188,
+        "叙事手法": 0.15422666405078994,
         "演技": -0.0
       },
       "peaks": {
@@ -456,50 +1237,36 @@
           "peak_bin": 12,
           "peak_time": 360,
           "peak_density": 1.0,
-          "mean_density": 0.44618204408376577,
-          "peak_ratio": 2.241237659066937
+          "mean_density": 0.3159104646915126,
+          "peak_ratio": 3.1654538604047273
         },
         "情感共鸣": {
-          "peak_bin": 26,
-          "peak_time": 780,
+          "peak_bin": 7,
+          "peak_time": 210,
           "peak_density": 1.0,
-          "mean_density": 0.1089295866734891,
-          "peak_ratio": 9.180242306412573
+          "mean_density": 0.15928682736219363,
+          "peak_ratio": 6.277983035760732
         },
         "剧情": {
-          "peak_bin": 27,
-          "peak_time": 810,
+          "peak_bin": 15,
+          "peak_time": 450,
           "peak_density": 1.0,
-          "mean_density": 0.12330410652850739,
-          "peak_ratio": 8.11002997510715
+          "mean_density": 0.09511255408022544,
+          "peak_ratio": 10.513859181581024
         },
         "细节": {
           "peak_bin": 1,
           "peak_time": 30,
-          "peak_density": 0.9166666666666666,
-          "mean_density": 0.05370810501529455,
-          "peak_ratio": 17.067566737006004
-        },
-        "画面": {
-          "peak_bin": 0,
-          "peak_time": 0,
-          "peak_density": 0.14285714285714285,
-          "mean_density": 0.0018796992481203006,
-          "peak_ratio": 14.285714285714285
-        },
-        "音乐": {
-          "peak_bin": 0,
-          "peak_time": 0,
-          "peak_density": 1.0,
-          "mean_density": 0.013888888888888888,
-          "peak_ratio": 72.0
+          "peak_density": 0.8873239436619719,
+          "mean_density": 0.04199085535412677,
+          "peak_ratio": 21.13136148760941
         },
         "叙事手法": {
-          "peak_bin": 0,
-          "peak_time": 0,
-          "peak_density": 0.6666666666666666,
-          "mean_density": 0.01075268817204301,
-          "peak_ratio": 62.0
+          "peak_bin": 41,
+          "peak_time": 1230,
+          "peak_density": 1.0,
+          "mean_density": 0.024193548387096774,
+          "peak_ratio": 41.333333333333336
         },
         "演技": {
           "peak_bin": 0,
@@ -512,74 +1279,243 @@
       "duration": 2457
     },
     {
-      "bvid": "BV1XHmwYpE8s",
-      "title": "反转悬疑神剧！凶手死后继续作案，福尔摩斯来都得懵圈！",
-      "status": "ok",
-      "raw_count": 3533,
-      "filtered_count": 2423,
-      "evaluative_count": 66,
-      "eval_rate": 0.44,
+      "bvid": "BV1NLZHYxEdH",
+      "title": "《ARK no NIGHTS》即将上映",
+      "status": "too_few_evaluative",
+      "raw_count": 600,
+      "filtered_count": 50,
+      "evaluative_count": 7,
+      "eval_rate": 0.14
+    },
+    {
+      "bvid": "BV1RdZEY8E8T",
+      "title": "\" 阳 光 唢 呐 小 白 马 \"",
+      "status": "step1b_only",
+      "raw_count": 600,
+      "filtered_count": 247,
+      "evaluative_count": 24,
+      "eval_rate": 0.2,
       "dimensions": {
-        "剧情": 36,
-        "整体": 9,
-        "画面": 7,
+        "剧情": 3,
         "节奏": 3,
-        "细节": 2,
-        "演技": 3,
-        "叙事手法": 3,
-        "情感共鸣": 2,
-        "其他": 1
+        "画面": 3,
+        "叙事手法": 1,
+        "整体": 1,
+        "情感共鸣": 1,
+        "音乐": 7,
+        "细节": 5
       },
       "polarity": {
-        "-": 39,
-        "0": 18,
-        "+": 9
+        "0": 9,
+        "+": 11,
+        "-": 4
+      }
+    },
+    {
+      "bvid": "BV1UbZ8YmEP8",
+      "title": "【大鸣王潮1566】死告者",
+      "status": "ok",
+      "raw_count": 1200,
+      "filtered_count": 184,
+      "evaluative_count": 25,
+      "eval_rate": 0.20833333333333334,
+      "dimensions": {
+        "细节": 2,
+        "整体": 7,
+        "画面": 3,
+        "节奏": 2,
+        "剧情": 4,
+        "音乐": 3,
+        "叙事手法": 1,
+        "情感共鸣": 2,
+        "演技": 1
+      },
+      "polarity": {
+        "0": 10,
+        "+": 14,
+        "-": 1
       },
       "dim_entropy": {
-        "画面": 0.2645496391291544,
-        "剧情": 0.9355406716633162,
-        "整体": 0.6222298545533571,
-        "叙事手法": 0.3401142572312824,
-        "节奏": -0.0
+        "画面": -0.0,
+        "整体": 0.6961169691574826,
+        "节奏": 0.3756149631508355,
+        "剧情": 0.3954884891037233,
+        "叙事手法": -0.0,
+        "情感共鸣": -0.0
       },
       "peaks": {
         "画面": {
           "peak_bin": 0,
           "peak_time": 0,
-          "peak_density": 0.5,
-          "mean_density": 0.011446886446886448,
-          "peak_ratio": 43.68
+          "peak_density": 0.3333333333333333,
+          "mean_density": 0.047619047619047616,
+          "peak_ratio": 7.0
         },
-        "剧情": {
+        "整体": {
           "peak_bin": 3,
           "peak_time": 90,
           "peak_density": 1.0,
-          "mean_density": 0.6842935822347587,
-          "peak_ratio": 1.4613610677659883
+          "mean_density": 0.4047619047619047,
+          "peak_ratio": 2.4705882352941178
+        },
+        "节奏": {
+          "peak_bin": 0,
+          "peak_time": 0,
+          "peak_density": 0.5,
+          "mean_density": 0.13888888888888887,
+          "peak_ratio": 3.6000000000000005
+        },
+        "剧情": {
+          "peak_bin": 0,
+          "peak_time": 0,
+          "peak_density": 0.6666666666666666,
+          "mean_density": 0.2,
+          "peak_ratio": 3.333333333333333
+        },
+        "叙事手法": {
+          "peak_bin": 0,
+          "peak_time": 0,
+          "peak_density": 1.0,
+          "mean_density": 0.3333333333333333,
+          "peak_ratio": 3.0
+        },
+        "情感共鸣": {
+          "peak_bin": 0,
+          "peak_time": 0,
+          "peak_density": 1.0,
+          "mean_density": 0.5,
+          "peak_ratio": 2.0
+        }
+      },
+      "duration": 194
+    },
+    {
+      "bvid": "BV1WVfcYFEiX",
+      "title": "【罗翔】张三侮辱骨灰到底犯不犯法？法律人为何这么“抠字眼”？",
+      "status": "too_few_filtered",
+      "raw_count": 1200,
+      "filtered_count": 14
+    },
+    {
+      "bvid": "BV1XHmwYpE8s",
+      "title": "反转悬疑神剧！凶手死后继续作案，福尔摩斯来都得懵圈！",
+      "status": "ok",
+      "raw_count": 3533,
+      "filtered_count": 2423,
+      "evaluative_count": 52,
+      "eval_rate": 0.43333333333333335,
+      "dimensions": {
+        "剧情": 27,
+        "整体": 9,
+        "节奏": 2,
+        "演技": 3,
+        "画面": 4,
+        "叙事手法": 4,
+        "情感共鸣": 2,
+        "其他": 1
+      },
+      "polarity": {
+        "-": 30,
+        "0": 15,
+        "+": 7
+      },
+      "dim_entropy": {
+        "剧情": 0.8857625213923284,
+        "整体": 0.677601081582757,
+        "叙事手法": 0.3509723032537618,
+        "情感共鸣": -0.0,
+        "演技": -0.0
+      },
+      "peaks": {
+        "剧情": {
+          "peak_bin": 1,
+          "peak_time": 30,
+          "peak_density": 1.0,
+          "mean_density": 0.5176525873507297,
+          "peak_ratio": 1.9317975500090783
         },
         "整体": {
           "peak_bin": 20,
           "peak_time": 600,
           "peak_density": 1.0,
-          "mean_density": 0.0848227520673341,
-          "peak_ratio": 11.789289732148502
+          "mean_density": 0.11095016954150082,
+          "peak_ratio": 9.01305517722486
         },
         "叙事手法": {
           "peak_bin": 65,
           "peak_time": 1950,
           "peak_density": 1.0,
-          "mean_density": 0.02958152958152958,
-          "peak_ratio": 33.80487804878049
+          "mean_density": 0.04004329004329004,
+          "peak_ratio": 24.972972972972975
         },
-        "节奏": {
+        "情感共鸣": {
+          "peak_bin": 0,
+          "peak_time": 0,
+          "peak_density": 0.25,
+          "mean_density": 0.00625,
+          "peak_ratio": 25.0
+        },
+        "演技": {
           "peak_bin": 0,
           "peak_time": 0,
           "peak_density": 0.3333333333333333,
-          "mean_density": 0.007575757575757575,
-          "peak_ratio": 33.33333333333333
+          "mean_density": 0.023809523809523808,
+          "peak_ratio": 14.0
         }
       },
       "duration": 2325
+    },
+    {
+      "bvid": "BV1dEfKYcENK",
+      "title": "以前光顾着看陀螺了！一个角色为啥比动画还火？",
+      "status": "ok",
+      "raw_count": 1800,
+      "filtered_count": 1598,
+      "evaluative_count": 51,
+      "eval_rate": 0.425,
+      "dimensions": {
+        "画面": 10,
+        "剧情": 23,
+        "情感共鸣": 1,
+        "整体": 8,
+        "节奏": 3,
+        "叙事手法": 2,
+        "细节": 4
+      },
+      "polarity": {
+        "0": 33,
+        "-": 7,
+        "+": 11
+      },
+      "dim_entropy": {
+        "剧情": 0.9221614202296424,
+        "画面": 0.21274605355336318,
+        "整体": 0.791413184254755
+      },
+      "peaks": {
+        "剧情": {
+          "peak_bin": 0,
+          "peak_time": 0,
+          "peak_density": 1.0,
+          "mean_density": 0.7029761904761905,
+          "peak_ratio": 1.422523285351397
+        },
+        "画面": {
+          "peak_bin": 0,
+          "peak_time": 0,
+          "peak_density": 0.16666666666666666,
+          "mean_density": 0.01282051282051282,
+          "peak_ratio": 13.0
+        },
+        "整体": {
+          "peak_bin": 7,
+          "peak_time": 210,
+          "peak_density": 0.5,
+          "mean_density": 0.22037037037037038,
+          "peak_ratio": 2.26890756302521
+        }
+      },
+      "duration": 836
     },
     {
       "bvid": "BV1eBZhYhEa9",
@@ -587,68 +1523,409 @@
       "status": "ok",
       "raw_count": 600,
       "filtered_count": 65,
-      "evaluative_count": 41,
-      "eval_rate": 0.6307692307692307,
+      "evaluative_count": 45,
+      "eval_rate": 0.6923076923076923,
       "dimensions": {
         "演技": 5,
         "画面": 11,
-        "音乐": 6,
-        "整体": 13,
-        "其他": 1,
-        "剧情": 3,
+        "音乐": 7,
+        "整体": 12,
+        "其他": 3,
+        "剧情": 5,
         "节奏": 1,
         "情感共鸣": 1
       },
       "polarity": {
         "-": 4,
-        "0": 11,
+        "0": 15,
         "+": 26
       },
       "dim_entropy": {
-        "整体": 0.681212764290908,
-        "剧情": -0.0,
+        "剧情": 0.5269494410238006,
+        "整体": 0.6483066605015999,
+        "其他": -0.0,
         "演技": -0.0,
-        "画面": 0.5030570185633159,
-        "音乐": -0.0
+        "音乐": 0.4992545494588161,
+        "画面": 0.49450819633151166
       },
       "peaks": {
-        "整体": {
-          "peak_bin": 1,
-          "peak_time": 30,
-          "peak_density": 0.6666666666666666,
-          "mean_density": 0.3658008658008658,
-          "peak_ratio": 1.8224852071005917
-        },
         "剧情": {
           "peak_bin": 0,
           "peak_time": 0,
-          "peak_density": 0.42857142857142855,
-          "mean_density": 0.08571428571428572,
+          "peak_density": 0.4444444444444444,
+          "mean_density": 0.15472739820565906,
+          "peak_ratio": 2.872435325602141
+        },
+        "整体": {
+          "peak_bin": 3,
+          "peak_time": 90,
+          "peak_density": 0.5217391304347826,
+          "mean_density": 0.23450655624568667,
+          "peak_ratio": 2.2248381400824013
+        },
+        "其他": {
+          "peak_bin": 0,
+          "peak_time": 0,
+          "peak_density": 0.3333333333333333,
+          "mean_density": 0.06666666666666667,
           "peak_ratio": 5.0
         },
         "演技": {
           "peak_bin": 0,
           "peak_time": 0,
-          "peak_density": 0.3333333333333333,
-          "mean_density": 0.08333333333333333,
+          "peak_density": 0.14285714285714285,
+          "mean_density": 0.03571428571428571,
           "peak_ratio": 4.0
+        },
+        "音乐": {
+          "peak_bin": 0,
+          "peak_time": 0,
+          "peak_density": 0.14285714285714285,
+          "mean_density": 0.06832298136645962,
+          "peak_ratio": 2.0909090909090913
         },
         "画面": {
           "peak_bin": 0,
           "peak_time": 0,
           "peak_density": 1.0,
-          "mean_density": 0.4393939393939394,
-          "peak_ratio": 2.2758620689655173
+          "mean_density": 0.43478260869565216,
+          "peak_ratio": 2.3000000000000003
+        }
+      },
+      "duration": 123
+    },
+    {
+      "bvid": "BV1gEodYtEBL",
+      "title": "小米良心 or 偷偷减配？报废级拆解小米中央空调",
+      "status": "ok",
+      "raw_count": 1817,
+      "filtered_count": 1392,
+      "evaluative_count": 28,
+      "eval_rate": 0.23333333333333334,
+      "dimensions": {
+        "画面": 7,
+        "音乐": 1,
+        "细节": 11,
+        "整体": 8,
+        "其他": 1
+      },
+      "polarity": {
+        "0": 4,
+        "-": 12,
+        "+": 12
+      },
+      "dim_entropy": {
+        "整体": 0.9173451555523303,
+        "画面": 0.3401272693801792,
+        "细节": 0.6244240115125625
+      },
+      "peaks": {
+        "整体": {
+          "peak_bin": 0,
+          "peak_time": 0,
+          "peak_density": 1.0,
+          "mean_density": 0.6541618104118104,
+          "peak_ratio": 1.5286737686054712
+        },
+        "画面": {
+          "peak_bin": 0,
+          "peak_time": 0,
+          "peak_density": 0.5,
+          "mean_density": 0.03796653796653796,
+          "peak_ratio": 13.16949152542373
+        },
+        "细节": {
+          "peak_bin": 0,
+          "peak_time": 0,
+          "peak_density": 1.0,
+          "mean_density": 0.17857682441015774,
+          "peak_ratio": 5.599830791610372
+        }
+      },
+      "duration": 1180
+    },
+    {
+      "bvid": "BV1hWZCYbEiY",
+      "title": "弱女子被人插队",
+      "status": "ok",
+      "raw_count": 600,
+      "filtered_count": 279,
+      "evaluative_count": 37,
+      "eval_rate": 0.30833333333333335,
+      "dimensions": {
+        "剧情": 10,
+        "整体": 4,
+        "演技": 8,
+        "画面": 1,
+        "细节": 5,
+        "音乐": 7,
+        "节奏": 1,
+        "情感共鸣": 1
+      },
+      "polarity": {
+        "0": 11,
+        "+": 22,
+        "-": 4
+      },
+      "dim_entropy": {
+        "整体": 0.40340068408664514,
+        "音乐": 0.6371324673677847,
+        "演技": 0.3603215550831918,
+        "剧情": 0.9314160884935255,
+        "细节": 0.6126016192893442
+      },
+      "peaks": {
+        "整体": {
+          "peak_bin": 1,
+          "peak_time": 30,
+          "peak_density": 0.5,
+          "mean_density": 0.15454545454545454,
+          "peak_ratio": 3.235294117647059
         },
         "音乐": {
           "peak_bin": 0,
           "peak_time": 0,
-          "peak_density": 0.09090909090909091,
-          "mean_density": 0.045454545454545456,
+          "peak_density": 0.45454545454545453,
+          "mean_density": 0.19090909090909092,
+          "peak_ratio": 2.380952380952381
+        },
+        "演技": {
+          "peak_bin": 3,
+          "peak_time": 90,
+          "peak_density": 0.5,
+          "mean_density": 0.13636363636363638,
+          "peak_ratio": 3.666666666666666
+        },
+        "剧情": {
+          "peak_bin": 1,
+          "peak_time": 30,
+          "peak_density": 0.5,
+          "mean_density": 0.35151515151515145,
+          "peak_ratio": 1.4224137931034486
+        },
+        "细节": {
+          "peak_bin": 0,
+          "peak_time": 0,
+          "peak_density": 0.5,
+          "mean_density": 0.27777777777777773,
+          "peak_ratio": 1.8000000000000003
+        }
+      },
+      "duration": 130
+    },
+    {
+      "bvid": "BV1mSZkYQEGf",
+      "title": "《穷鬼的上下两千年》第一集：老夫，秦国白起",
+      "status": "ok",
+      "raw_count": 1200,
+      "filtered_count": 684,
+      "evaluative_count": 48,
+      "eval_rate": 0.4,
+      "dimensions": {
+        "剧情": 18,
+        "画面": 7,
+        "情感共鸣": 3,
+        "整体": 11,
+        "演技": 1,
+        "细节": 6,
+        "节奏": 2
+      },
+      "polarity": {
+        "0": 19,
+        "-": 9,
+        "+": 20
+      },
+      "dim_entropy": {
+        "整体": 0.9118089171785233,
+        "剧情": 0.9195333605001274,
+        "画面": -0.0,
+        "情感共鸣": -0.0,
+        "细节": 0.43394819877471297
+      },
+      "peaks": {
+        "整体": {
+          "peak_bin": 6,
+          "peak_time": 180,
+          "peak_density": 1.0,
+          "mean_density": 0.4208499833499833,
+          "peak_ratio": 2.376143613075516
+        },
+        "剧情": {
+          "peak_bin": 9,
+          "peak_time": 270,
+          "peak_density": 1.0,
+          "mean_density": 0.48670496170496175,
+          "peak_ratio": 2.054632844705198
+        },
+        "画面": {
+          "peak_bin": 0,
+          "peak_time": 0,
+          "peak_density": 0.05714285714285714,
+          "mean_density": 0.0047619047619047615,
+          "peak_ratio": 5.714285714285714
+        },
+        "情感共鸣": {
+          "peak_bin": 0,
+          "peak_time": 0,
+          "peak_density": 0.07692307692307693,
+          "mean_density": 0.008547008547008548,
+          "peak_ratio": 7.6923076923076925
+        },
+        "细节": {
+          "peak_bin": 7,
+          "peak_time": 210,
+          "peak_density": 0.5714285714285714,
+          "mean_density": 0.10836385836385837,
+          "peak_ratio": 5.2732394366197175
+        }
+      },
+      "duration": 350
+    },
+    {
+      "bvid": "BV1nYZcYpEco",
+      "title": "首次揭秘，影视飓风百人团建幕后！",
+      "status": "ok",
+      "raw_count": 1800,
+      "filtered_count": 1034,
+      "evaluative_count": 43,
+      "eval_rate": 0.35833333333333334,
+      "dimensions": {
+        "画面": 8,
+        "其他": 1,
+        "整体": 7,
+        "叙事手法": 2,
+        "节奏": 12,
+        "细节": 3,
+        "剧情": 6,
+        "情感共鸣": 3,
+        "演技": 1
+      },
+      "polarity": {
+        "+": 11,
+        "0": 24,
+        "-": 8
+      },
+      "dim_entropy": {
+        "画面": 0.5607683957434116,
+        "整体": 0.5076881118428078,
+        "节奏": 0.6796524049669397,
+        "剧情": 0.3901607780573991,
+        "细节": -0.0,
+        "情感共鸣": -0.0
+      },
+      "peaks": {
+        "画面": {
+          "peak_bin": 8,
+          "peak_time": 240,
+          "peak_density": 1.0,
+          "mean_density": 0.2,
+          "peak_ratio": 5.0
+        },
+        "整体": {
+          "peak_bin": 6,
+          "peak_time": 180,
+          "peak_density": 1.0,
+          "mean_density": 0.12438271604938271,
+          "peak_ratio": 8.03970223325062
+        },
+        "节奏": {
+          "peak_bin": 18,
+          "peak_time": 540,
+          "peak_density": 1.0,
+          "mean_density": 0.27149470899470896,
+          "peak_ratio": 3.683313032886724
+        },
+        "剧情": {
+          "peak_bin": 23,
+          "peak_time": 690,
+          "peak_density": 1.0,
+          "mean_density": 0.08333333333333333,
+          "peak_ratio": 12.0
+        },
+        "细节": {
+          "peak_bin": 0,
+          "peak_time": 0,
+          "peak_density": 0.5,
+          "mean_density": 0.038461538461538464,
+          "peak_ratio": 13.0
+        },
+        "情感共鸣": {
+          "peak_bin": 0,
+          "peak_time": 0,
+          "peak_density": 1.0,
+          "mean_density": 0.14285714285714285,
+          "peak_ratio": 7.0
+        }
+      },
+      "duration": 899
+    },
+    {
+      "bvid": "BV1q2ZtYtExy",
+      "title": "“把怪兽叫来，我让你把怪兽叫来！”",
+      "status": "ok",
+      "raw_count": 1200,
+      "filtered_count": 675,
+      "evaluative_count": 33,
+      "eval_rate": 0.275,
+      "dimensions": {
+        "整体": 9,
+        "画面": 5,
+        "剧情": 10,
+        "演技": 4,
+        "细节": 2,
+        "节奏": 1,
+        "音乐": 2
+      },
+      "polarity": {
+        "+": 10,
+        "-": 8,
+        "0": 15
+      },
+      "dim_entropy": {
+        "剧情": 0.879761982267032,
+        "整体": 0.6031947913711891,
+        "音乐": 0.3717257956726267,
+        "画面": -0.0,
+        "演技": -0.0
+      },
+      "peaks": {
+        "剧情": {
+          "peak_bin": 4,
+          "peak_time": 120,
+          "peak_density": 0.8333333333333334,
+          "mean_density": 0.525,
+          "peak_ratio": 1.5873015873015872
+        },
+        "整体": {
+          "peak_bin": 1,
+          "peak_time": 30,
+          "peak_density": 0.4,
+          "mean_density": 0.1638888888888889,
+          "peak_ratio": 2.440677966101695
+        },
+        "音乐": {
+          "peak_bin": 2,
+          "peak_time": 60,
+          "peak_density": 0.5,
+          "mean_density": 0.13999999999999999,
+          "peak_ratio": 3.5714285714285716
+        },
+        "画面": {
+          "peak_bin": 0,
+          "peak_time": 0,
+          "peak_density": 0.08333333333333333,
+          "mean_density": 0.041666666666666664,
+          "peak_ratio": 2.0
+        },
+        "演技": {
+          "peak_bin": 0,
+          "peak_time": 0,
+          "peak_density": 0.08333333333333333,
+          "mean_density": 0.041666666666666664,
           "peak_ratio": 2.0
         }
       },
-      "duration": 123
+      "duration": 151
     },
     {
       "bvid": "BV1rHZJYkEnK",
@@ -656,130 +1933,230 @@
       "status": "ok",
       "raw_count": 1275,
       "filtered_count": 738,
-      "evaluative_count": 64,
-      "eval_rate": 0.4266666666666667,
+      "evaluative_count": 61,
+      "eval_rate": 0.5083333333333333,
       "dimensions": {
-        "演技": 10,
-        "画面": 11,
-        "音乐": 3,
-        "剧情": 20,
+        "演技": 6,
+        "画面": 10,
+        "音乐": 1,
+        "其他": 1,
         "整体": 9,
-        "情感共鸣": 2,
-        "叙事手法": 3,
-        "角色": 1,
-        "台词": 3,
+        "剧情": 27,
+        "情感共鸣": 3,
         "细节": 1,
-        "节奏": 1
+        "叙事手法": 1,
+        "编剧": 1,
+        "角色": 1
       },
       "polarity": {
-        "+": 36,
-        "0": 21,
-        "-": 7
+        "+": 31,
+        "0": 22,
+        "-": 8
       },
       "dim_entropy": {
-        "演技": 0.15235990169683608,
-        "画面": 0.371955773988555,
-        "剧情": 0.7362395374638697,
-        "整体": 0.6476855587132838,
-        "台词": -0.0
+        "演技": -0.0,
+        "整体": 0.5910997219117592,
+        "画面": 0.27664239973893207,
+        "剧情": 0.7995967580494929,
+        "情感共鸣": -0.0
       },
       "peaks": {
         "演技": {
           "peak_bin": 0,
           "peak_time": 0,
-          "peak_density": 0.5405405405405406,
-          "mean_density": 0.01609870740305523,
-          "peak_ratio": 33.57664233576643
-        },
-        "画面": {
-          "peak_bin": 34,
-          "peak_time": 1020,
-          "peak_density": 1.0,
-          "mean_density": 0.046585908158798185,
-          "peak_ratio": 21.465718701700155
-        },
-        "剧情": {
-          "peak_bin": 3,
-          "peak_time": 90,
-          "peak_density": 1.0,
-          "mean_density": 0.3025419921199972,
-          "peak_ratio": 3.3053262887334003
+          "peak_density": 0.5666666666666667,
+          "mean_density": 0.012318840579710144,
+          "peak_ratio": 46.0
         },
         "整体": {
-          "peak_bin": 7,
-          "peak_time": 210,
+          "peak_bin": 9,
+          "peak_time": 270,
           "peak_density": 1.0,
-          "mean_density": 0.1999907836224972,
-          "peak_ratio": 5.000230420055761
+          "mean_density": 0.14552211073950205,
+          "peak_ratio": 6.871807967313585
         },
-        "台词": {
+        "画面": {
+          "peak_bin": 4,
+          "peak_time": 120,
+          "peak_density": 0.3333333333333333,
+          "mean_density": 0.01588628762541806,
+          "peak_ratio": 20.982456140350877
+        },
+        "剧情": {
+          "peak_bin": 5,
+          "peak_time": 150,
+          "peak_density": 1.0,
+          "mean_density": 0.40960609438870316,
+          "peak_ratio": 2.4413699251530954
+        },
+        "情感共鸣": {
           "peak_bin": 0,
           "peak_time": 0,
-          "peak_density": 1.0,
-          "mean_density": 0.09090909090909091,
-          "peak_ratio": 11.0
+          "peak_density": 0.16666666666666666,
+          "mean_density": 0.018518518518518517,
+          "peak_ratio": 9.0
         }
       },
       "duration": 1380
     },
     {
-      "bvid": "BV1uT4y1P7CX",
-      "title": "【4K60帧】经典老歌：瑞克·埃斯利《Never Gonna Give You Up》1987 AI修复补帧版",
+      "bvid": "BV1sGZbY6EoW",
+      "title": "蒙德：高清重置",
       "status": "ok",
-      "raw_count": 1200,
-      "filtered_count": 278,
-      "evaluative_count": 21,
-      "eval_rate": 0.14,
+      "raw_count": 600,
+      "filtered_count": 295,
+      "evaluative_count": 68,
+      "eval_rate": 0.5666666666666667,
       "dimensions": {
-        "整体": 4,
+        "画面": 39,
+        "整体": 13,
         "音乐": 4,
-        "细节": 6,
-        "字幕": 2,
-        "演技": 4,
+        "细节": 3,
+        "情感共鸣": 8,
         "剧情": 1
       },
       "polarity": {
-        "-": 4,
-        "+": 13,
-        "0": 4
+        "0": 24,
+        "+": 38,
+        "-": 6
       },
       "dim_entropy": {
-        "整体": -0.0,
-        "细节": 0.5755477990317764,
-        "音乐": 0.2076531463079713,
-        "演技": 0.5358649353560113
+        "画面": 0.9995358032062356,
+        "整体": 0.9432761297604536,
+        "音乐": 0.6064727741416687,
+        "情感共鸣": 0.9220930022299897
+      },
+      "peaks": {
+        "画面": {
+          "peak_bin": 1,
+          "peak_time": 30,
+          "peak_density": 0.8055555555555556,
+          "mean_density": 0.7851851851851852,
+          "peak_ratio": 1.025943396226415
+        },
+        "整体": {
+          "peak_bin": 1,
+          "peak_time": 30,
+          "peak_density": 0.16666666666666666,
+          "mean_density": 0.11944444444444442,
+          "peak_ratio": 1.3953488372093026
+        },
+        "音乐": {
+          "peak_bin": 2,
+          "peak_time": 60,
+          "peak_density": 0.06666666666666667,
+          "mean_density": 0.036111111111111115,
+          "peak_ratio": 1.846153846153846
+        },
+        "情感共鸣": {
+          "peak_bin": 0,
+          "peak_time": 0,
+          "peak_density": 0.08333333333333333,
+          "mean_density": 0.059259259259259255,
+          "peak_ratio": 1.40625
+        }
+      },
+      "duration": 75
+    },
+    {
+      "bvid": "BV1tnZqYTEx6",
+      "title": "手机续航大横评！到底谁的电池最耐用？",
+      "status": "ok",
+      "raw_count": 3600,
+      "filtered_count": 2686,
+      "evaluative_count": 25,
+      "eval_rate": 0.20833333333333334,
+      "dimensions": {
+        "剧情": 1,
+        "整体": 15,
+        "画面": 1,
+        "演技": 1,
+        "细节": 5,
+        "节奏": 2
+      },
+      "polarity": {
+        "0": 3,
+        "+": 12,
+        "-": 10
+      },
+      "dim_entropy": {
+        "整体": 0.9478508595793453
       },
       "peaks": {
         "整体": {
           "peak_bin": 0,
           "peak_time": 0,
-          "peak_density": 0.3333333333333333,
-          "mean_density": 0.02222222222222222,
-          "peak_ratio": 15.000000000000002
-        },
-        "细节": {
-          "peak_bin": 1,
-          "peak_time": 30,
           "peak_density": 1.0,
-          "mean_density": 0.24000000000000002,
-          "peak_ratio": 4.166666666666666
-        },
-        "音乐": {
-          "peak_bin": 4,
-          "peak_time": 120,
-          "peak_density": 0.5,
-          "mean_density": 0.04444444444444444,
-          "peak_ratio": 11.250000000000002
-        },
-        "演技": {
-          "peak_bin": 2,
-          "peak_time": 60,
-          "peak_density": 1.0,
-          "mean_density": 0.2833333333333333,
-          "peak_ratio": 3.5294117647058822
+          "mean_density": 0.825,
+          "peak_ratio": 1.2121212121212122
         }
       },
-      "duration": 424
+      "duration": 1190
+    },
+    {
+      "bvid": "BV1twZ4YzEmv",
+      "title": "深度|| 香火之战，车迟国的教皇实验",
+      "status": "ok",
+      "raw_count": 7200,
+      "filtered_count": 5366,
+      "evaluative_count": 49,
+      "eval_rate": 0.4083333333333333,
+      "dimensions": {
+        "剧情": 36,
+        "整体": 1,
+        "演技": 5,
+        "画面": 3,
+        "情感共鸣": 2,
+        "叙事手法": 2
+      },
+      "polarity": {
+        "0": 30,
+        "+": 9,
+        "-": 10
+      },
+      "dim_entropy": {
+        "剧情": 0.8909278465862196,
+        "画面": -0.0
+      },
+      "peaks": {
+        "剧情": {
+          "peak_bin": 0,
+          "peak_time": 0,
+          "peak_density": 1.0,
+          "mean_density": 0.6136363636363636,
+          "peak_ratio": 1.6296296296296295
+        },
+        "画面": {
+          "peak_bin": 0,
+          "peak_time": 0,
+          "peak_density": 1.0,
+          "mean_density": 0.014925373134328358,
+          "peak_ratio": 67.0
+        }
+      },
+      "duration": 2619
+    },
+    {
+      "bvid": "BV1uT4y1P7CX",
+      "title": "【4K60帧】经典老歌：瑞克·埃斯利《Never Gonna Give You Up》1987 AI修复补帧版",
+      "status": "step1b_only",
+      "raw_count": 1200,
+      "filtered_count": 278,
+      "evaluative_count": 15,
+      "eval_rate": 0.125,
+      "dimensions": {
+        "整体": 4,
+        "音乐": 4,
+        "细节": 4,
+        "剧情": 1,
+        "其他": 1,
+        "画面": 1
+      },
+      "polarity": {
+        "-": 5,
+        "+": 8,
+        "0": 2
+      }
     },
     {
       "bvid": "BV1uioXYEE9F",
@@ -787,56 +2164,58 @@
       "status": "ok",
       "raw_count": 1200,
       "filtered_count": 600,
-      "evaluative_count": 83,
-      "eval_rate": 0.5533333333333333,
+      "evaluative_count": 67,
+      "eval_rate": 0.5583333333333333,
       "dimensions": {
-        "音乐": 56,
-        "整体": 16,
-        "情感共鸣": 6,
-        "叙事手法": 1,
-        "剧情": 1,
         "其他": 2,
+        "整体": 7,
+        "音乐": 47,
+        "情感共鸣": 5,
+        "叙事手法": 1,
+        "细节": 1,
+        "剧情": 2,
+        "节奏": 1,
         "画面": 1
       },
       "polarity": {
-        "-": 39,
-        "0": 35,
+        "0": 20,
+        "-": 38,
         "+": 9
       },
       "dim_entropy": {
-        "音乐": 0.8968598771287271,
-        "整体": 0.8127273426171896,
-        "情感共鸣": 0.5736168549765664,
-        "其他": -0.0
+        "音乐": 0.9471805424412404,
+        "整体": 0.7934359680828629,
+        "情感共鸣": 0.4756923387378647,
+        "其他": 0.12906205299490098
       },
       "peaks": {
         "音乐": {
-          "peak_bin": 3,
-          "peak_time": 90,
-          "peak_density": 0.9767441860465116,
-          "mean_density": 0.5428473338264956,
-          "peak_ratio": 1.7992981178732246
+          "peak_bin": 4,
+          "peak_time": 120,
+          "peak_density": 0.9791666666666666,
+          "mean_density": 0.6234591797091797,
+          "peak_ratio": 1.5705385348939942
         },
         "整体": {
-          "peak_bin": 12,
-          "peak_time": 360,
-          "peak_density": 1.0,
-          "mean_density": 0.3146057515983259,
-          "peak_ratio": 3.1785814306305307
+          "peak_bin": 1,
+          "peak_time": 30,
+          "peak_density": 0.5,
+          "mean_density": 0.21297625985125984,
+          "peak_ratio": 2.347679503570934
         },
         "情感共鸣": {
-          "peak_bin": 10,
-          "peak_time": 300,
-          "peak_density": 0.4,
-          "mean_density": 0.06218977171803559,
-          "peak_ratio": 6.431925844873241
+          "peak_bin": 9,
+          "peak_time": 270,
+          "peak_density": 0.5,
+          "mean_density": 0.07244734432234433,
+          "peak_ratio": 6.901564228156106
         },
         "其他": {
-          "peak_bin": 0,
-          "peak_time": 0,
-          "peak_density": 0.125,
-          "mean_density": 0.025,
-          "peak_ratio": 5.0
+          "peak_bin": 6,
+          "peak_time": 180,
+          "peak_density": 0.25,
+          "mean_density": 0.02505827505827506,
+          "peak_ratio": 9.976744186046512
         }
       },
       "duration": 406
@@ -847,58 +2226,110 @@
       "status": "ok",
       "raw_count": 1800,
       "filtered_count": 721,
-      "evaluative_count": 47,
-      "eval_rate": 0.31333333333333335,
+      "evaluative_count": 34,
+      "eval_rate": 0.2833333333333333,
       "dimensions": {
-        "其他": 18,
-        "情感共鸣": 2,
-        "整体": 9,
-        "细节": 12,
-        "节奏": 5,
-        "画面": 1
+        "其他": 14,
+        "情感共鸣": 1,
+        "整体": 10,
+        "细节": 5,
+        "节奏": 4
       },
       "polarity": {
-        "0": 18,
-        "+": 15,
-        "-": 14
+        "0": 10,
+        "+": 13,
+        "-": 11
       },
       "dim_entropy": {
-        "其他": 0.8560293410802523,
-        "细节": 0.6244881909205784,
-        "整体": 0.6588688033191883,
-        "节奏": 0.2704260414863776
+        "其他": 0.8478903719958524,
+        "整体": 0.7532325356939706,
+        "细节": -0.0,
+        "节奏": 0.3284093786780838
       },
       "peaks": {
         "其他": {
           "peak_bin": 0,
           "peak_time": 0,
           "peak_density": 1.0,
-          "mean_density": 0.5227219282774839,
-          "peak_ratio": 1.9130630377326658
-        },
-        "细节": {
-          "peak_bin": 18,
-          "peak_time": 540,
-          "peak_density": 1.0,
-          "mean_density": 0.2046666666666667,
-          "peak_ratio": 4.885993485342019
+          "mean_density": 0.47332451499118167,
+          "peak_ratio": 2.112715416860736
         },
         "整体": {
           "peak_bin": 15,
           "peak_time": 450,
           "peak_density": 1.0,
-          "mean_density": 0.2441269841269841,
-          "peak_ratio": 4.0962288686605985
+          "mean_density": 0.28947619047619044,
+          "peak_ratio": 3.4545155453199543
+        },
+        "细节": {
+          "peak_bin": 0,
+          "peak_time": 0,
+          "peak_density": 0.4,
+          "mean_density": 0.023529411764705882,
+          "peak_ratio": 17.0
         },
         "节奏": {
           "peak_bin": 0,
           "peak_time": 0,
-          "peak_density": 0.5,
-          "mean_density": 0.08333333333333333,
-          "peak_ratio": 6.0
+          "peak_density": 0.3333333333333333,
+          "mean_density": 0.07291666666666666,
+          "peak_ratio": 4.571428571428572
         }
       },
       "duration": 793
+    },
+    {
+      "bvid": "BV1wFZ8YBEt4",
+      "title": "为什么人类需要不断吃盐，而动物们却不用？",
+      "status": "ok",
+      "raw_count": 1200,
+      "filtered_count": 575,
+      "evaluative_count": 26,
+      "eval_rate": 0.21666666666666667,
+      "dimensions": {
+        "演技": 1,
+        "整体": 5,
+        "节奏": 12,
+        "其他": 1,
+        "剧情": 4,
+        "画面": 1,
+        "情感共鸣": 1,
+        "叙事手法": 1
+      },
+      "polarity": {
+        "+": 6,
+        "0": 12,
+        "-": 8
+      },
+      "dim_entropy": {
+        "节奏": 0.8957270551449746,
+        "整体": 0.4145327358664367,
+        "剧情": -0.0
+      },
+      "peaks": {
+        "节奏": {
+          "peak_bin": 3,
+          "peak_time": 90,
+          "peak_density": 1.0,
+          "mean_density": 0.744047619047619,
+          "peak_ratio": 1.344
+        },
+        "整体": {
+          "peak_bin": 1,
+          "peak_time": 30,
+          "peak_density": 1.0,
+          "mean_density": 0.20833333333333331,
+          "peak_ratio": 4.800000000000001
+        },
+        "剧情": {
+          "peak_bin": 0,
+          "peak_time": 0,
+          "peak_density": 0.3333333333333333,
+          "mean_density": 0.06666666666666667,
+          "peak_ratio": 5.0
+        }
+      },
+      "duration": 198
     },
     {
       "bvid": "BV1x441187u5",
@@ -915,65 +2346,65 @@
       "status": "ok",
       "raw_count": 1800,
       "filtered_count": 383,
-      "evaluative_count": 74,
-      "eval_rate": 0.49333333333333335,
+      "evaluative_count": 61,
+      "eval_rate": 0.5083333333333333,
       "dimensions": {
-        "整体": 13,
-        "剧情": 21,
-        "演技": 3,
-        "细节": 20,
-        "画面": 10,
-        "情感共鸣": 2,
+        "整体": 11,
+        "剧情": 19,
+        "细节": 16,
+        "画面": 7,
+        "情感共鸣": 3,
+        "演技": 1,
         "节奏": 2,
-        "音乐": 3
+        "音乐": 2
       },
       "polarity": {
-        "+": 34,
-        "0": 37,
+        "+": 30,
+        "0": 28,
         "-": 3
       },
       "dim_entropy": {
-        "整体": 0.4788506270610377,
-        "剧情": 0.847100508646353,
-        "细节": 0.7986881997223813,
-        "画面": 0.2795745237229117,
-        "情感共鸣": 0.24273764861366715
+        "细节": 0.7403431724558234,
+        "剧情": 0.7947487316791764,
+        "整体": 0.35739619421590496,
+        "画面": 0.2834640645299528,
+        "情感共鸣": -0.0
       },
       "peaks": {
-        "整体": {
-          "peak_bin": 0,
-          "peak_time": 0,
-          "peak_density": 0.6666666666666666,
-          "mean_density": 0.09332106433555708,
-          "peak_ratio": 7.14379622021364
+        "细节": {
+          "peak_bin": 3,
+          "peak_time": 90,
+          "peak_density": 1.0,
+          "mean_density": 0.3072425427497891,
+          "peak_ratio": 3.254757596555812
         },
         "剧情": {
           "peak_bin": 1,
           "peak_time": 30,
           "peak_density": 1.0,
-          "mean_density": 0.4373322597960279,
-          "peak_ratio": 2.2865909788278613
+          "mean_density": 0.3920289855072464,
+          "peak_ratio": 2.5508317929759703
         },
-        "细节": {
-          "peak_bin": 0,
-          "peak_time": 0,
-          "peak_density": 1.0,
-          "mean_density": 0.3415070738440304,
-          "peak_ratio": 2.9281970318913797
+        "整体": {
+          "peak_bin": 7,
+          "peak_time": 210,
+          "peak_density": 0.5,
+          "mean_density": 0.04723197407507427,
+          "peak_ratio": 10.58604917095483
         },
         "画面": {
-          "peak_bin": 2,
-          "peak_time": 60,
+          "peak_bin": 1,
+          "peak_time": 30,
           "peak_density": 1.0,
-          "mean_density": 0.07142857142857142,
-          "peak_ratio": 14.0
+          "mean_density": 0.06969696969696969,
+          "peak_ratio": 14.347826086956523
         },
         "情感共鸣": {
           "peak_bin": 0,
           "peak_time": 0,
           "peak_density": 0.5,
-          "mean_density": 0.05208333333333333,
-          "peak_ratio": 9.600000000000001
+          "mean_density": 0.02631578947368421,
+          "peak_ratio": 19.0
         }
       },
       "duration": 782
@@ -984,68 +2415,122 @@
       "status": "ok",
       "raw_count": 1200,
       "filtered_count": 147,
-      "evaluative_count": 62,
-      "eval_rate": 0.4217687074829932,
+      "evaluative_count": 40,
+      "eval_rate": 0.3333333333333333,
       "dimensions": {
-        "剧情": 25,
-        "情感共鸣": 5,
-        "整体": 4,
+        "情感共鸣": 2,
+        "整体": 3,
+        "剧情": 21,
         "节奏": 2,
+        "画面": 4,
+        "演技": 3,
         "音乐": 2,
-        "细节": 14,
-        "画面": 7,
-        "演技": 3
+        "叙事手法": 1,
+        "细节": 2
       },
       "polarity": {
-        "0": 34,
-        "+": 23,
-        "-": 5
+        "+": 21,
+        "-": 4,
+        "0": 15
       },
       "dim_entropy": {
-        "细节": 0.7975974155503329,
-        "情感共鸣": 0.7788946244272833,
-        "整体": 0.3271035759815648,
-        "剧情": 0.8389139000282366,
-        "画面": 0.4449129221498761
+        "情感共鸣": -0.0,
+        "整体": 0.5112896055631261,
+        "剧情": 0.8866432451957719,
+        "画面": -0.0
       },
       "peaks": {
-        "细节": {
-          "peak_bin": 5,
-          "peak_time": 150,
-          "peak_density": 0.7619047619047619,
-          "mean_density": 0.286734693877551,
-          "peak_ratio": 2.65717674970344
-        },
         "情感共鸣": {
           "peak_bin": 0,
           "peak_time": 0,
-          "peak_density": 0.42857142857142855,
-          "mean_density": 0.16632653061224487,
-          "peak_ratio": 2.5766871165644174
+          "peak_density": 0.3333333333333333,
+          "mean_density": 0.047619047619047616,
+          "peak_ratio": 7.0
         },
         "整体": {
-          "peak_bin": 0,
-          "peak_time": 0,
-          "peak_density": 0.2857142857142857,
-          "mean_density": 0.061224489795918366,
-          "peak_ratio": 4.666666666666666
+          "peak_bin": 3,
+          "peak_time": 90,
+          "peak_density": 1.0,
+          "mean_density": 0.2619047619047619,
+          "peak_ratio": 3.818181818181818
         },
         "剧情": {
-          "peak_bin": 1,
-          "peak_time": 30,
-          "peak_density": 0.7333333333333333,
-          "mean_density": 0.37891156462585035,
-          "peak_ratio": 1.9353680430879712
-        },
-        "画面": {
           "peak_bin": 2,
           "peak_time": 60,
-          "peak_density": 0.5,
-          "mean_density": 0.1246031746031746,
-          "peak_ratio": 4.012738853503184
+          "peak_density": 1.0,
+          "mean_density": 0.6575091575091575,
+          "peak_ratio": 1.5208913649025069
+        },
+        "画面": {
+          "peak_bin": 0,
+          "peak_time": 0,
+          "peak_density": 0.23076923076923078,
+          "mean_density": 0.038461538461538464,
+          "peak_ratio": 6.0
         }
       },
       "duration": 202
+    },
+    {
+      "bvid": "BV1xoZJYUEFD",
+      "title": "热烈欢迎武艺！分享他的男生清爽好物！真的好干净！好实用！好好笑！",
+      "status": "ok",
+      "raw_count": 3600,
+      "filtered_count": 2170,
+      "evaluative_count": 37,
+      "eval_rate": 0.30833333333333335,
+      "dimensions": {
+        "其他": 5,
+        "演技": 15,
+        "剧情": 4,
+        "画面": 2,
+        "细节": 2,
+        "情感共鸣": 2,
+        "整体": 6,
+        "节奏": 1
+      },
+      "polarity": {
+        "-": 4,
+        "+": 26,
+        "0": 7
+      },
+      "dim_entropy": {
+        "演技": 0.9713308430765017,
+        "其他": 0.31185071831268735,
+        "剧情": 0.4354907938874551,
+        "整体": 0.49869553725000315
+      },
+      "peaks": {
+        "演技": {
+          "peak_bin": 0,
+          "peak_time": 0,
+          "peak_density": 1.0,
+          "mean_density": 0.8393156843156844,
+          "peak_ratio": 1.1914468163612666
+        },
+        "其他": {
+          "peak_bin": 15,
+          "peak_time": 450,
+          "peak_density": 0.6666666666666666,
+          "mean_density": 0.026190476190476188,
+          "peak_ratio": 25.454545454545457
+        },
+        "剧情": {
+          "peak_bin": 14,
+          "peak_time": 420,
+          "peak_density": 0.3333333333333333,
+          "mean_density": 0.02315354713313897,
+          "peak_ratio": 14.396642182581322
+        },
+        "整体": {
+          "peak_bin": 24,
+          "peak_time": 720,
+          "peak_density": 0.5,
+          "mean_density": 0.03943833943833944,
+          "peak_ratio": 12.678018575851393
+        }
+      },
+      "duration": 1627
     }
   ]
 }

@@ -2,41 +2,41 @@
   "video": "为什么中国人对一道菜的最高评价是\"下饭\"?",
   "bvid": "BV1w6ZEYrEsb",
   "duration": 793,
-  "total_classified": 142,
+  "total_classified": 122,
   "peaks": {
     "其他": {
       "peak_bin": 0,
       "peak_time": 0,
       "peak_density": 1.0,
-      "mean_density": 0.5227219282774839,
-      "peak_ratio": 1.9130630377326658
-    },
-    "细节": {
-      "peak_bin": 18,
-      "peak_time": 540,
-      "peak_density": 1.0,
-      "mean_density": 0.2046666666666667,
-      "peak_ratio": 4.885993485342019
+      "mean_density": 0.47332451499118167,
+      "peak_ratio": 2.112715416860736
     },
     "整体": {
       "peak_bin": 15,
       "peak_time": 450,
       "peak_density": 1.0,
-      "mean_density": 0.2441269841269841,
-      "peak_ratio": 4.0962288686605985
+      "mean_density": 0.28947619047619044,
+      "peak_ratio": 3.4545155453199543
+    },
+    "细节": {
+      "peak_bin": 0,
+      "peak_time": 0,
+      "peak_density": 0.4,
+      "mean_density": 0.023529411764705882,
+      "peak_ratio": 17.0
     },
     "节奏": {
       "peak_bin": 0,
       "peak_time": 0,
-      "peak_density": 0.5,
-      "mean_density": 0.08333333333333333,
-      "peak_ratio": 6.0
+      "peak_density": 0.3333333333333333,
+      "mean_density": 0.07291666666666666,
+      "peak_ratio": 4.571428571428572
     }
   },
   "dim_entropy": {
-    "其他": 0.8560293410802523,
-    "细节": 0.6244881909205784,
-    "整体": 0.6588688033191883,
-    "节奏": 0.2704260414863776
+    "其他": 0.8478903719958524,
+    "整体": 0.7532325356939706,
+    "细节": -0.0,
+    "节奏": 0.3284093786780838
   }
 }

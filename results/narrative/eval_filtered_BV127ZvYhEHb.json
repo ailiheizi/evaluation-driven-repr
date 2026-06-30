@@ -1,0 +1,328 @@
+{
+  "video": "《 她 她 她 》",
+  "bvid": "BV127ZvYhEHb",
+  "total_raw": 836,
+  "after_rule_filter": 491,
+  "sample_classified": 120,
+  "evaluative_count": 72,
+  "evaluative_rate": 0.6,
+  "dimension_distribution": {
+    "整体": 8,
+    "演技": 7,
+    "剧情": 15,
+    "音乐": 7,
+    "情感共鸣": 12,
+    "节奏": 3,
+    "细节": 3,
+    "画面": 2,
+    "叙事手法": 2,
+    "剪辑": 13
+  },
+  "polarity_distribution": {
+    "+": 50,
+    "0": 20,
+    "-": 2
+  },
+  "evaluative_samples": [
+    {
+      "t": 2.604,
+      "text": "值得一个热门",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 4.351,
+      "text": "老师太厉害了",
+      "dimension": "演技",
+      "polarity": "+"
+    },
+    {
+      "t": 4.525,
+      "text": "母女线，真的好感动",
+      "dimension": "剧情",
+      "polarity": "+"
+    },
+    {
+      "t": 7.324,
+      "text": "开头韦斯安德森bgm太棒了",
+      "dimension": "音乐",
+      "polarity": "+"
+    },
+    {
+      "t": 8.33,
+      "text": "哎哟想哭了",
+      "dimension": "情感共鸣",
+      "polarity": "+"
+    },
+    {
+      "t": 11.714,
+      "text": "公主身份变了。",
+      "dimension": "剧情",
+      "polarity": "0"
+    },
+    {
+      "t": 12.873,
+      "text": "k老师果然不会让人失望！剪的也太好了吧！",
+      "dimension": "节奏",
+      "polarity": "+"
+    },
+    {
+      "t": 15.728,
+      "text": "看到 就暴哭",
+      "dimension": "情感共鸣",
+      "polarity": "+"
+    },
+    {
+      "t": 17.944,
+      "text": "有种潮骚的感觉",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 18.358,
+      "text": "她她她！好听到爆！",
+      "dimension": "音乐",
+      "polarity": "+"
+    },
+    {
+      "t": 20.49,
+      "text": "不是布达佩斯大饭店 是法兰西特派",
+      "dimension": "细节",
+      "polarity": "0"
+    },
+    {
+      "t": 22.846,
+      "text": "IU在里面演技大爆发",
+      "dimension": "演技",
+      "polarity": "+"
+    },
+    {
+      "t": 28.5,
+      "text": "剪的真的棒",
+      "dimension": "节奏",
+      "polarity": "+"
+    },
+    {
+      "t": 28.849,
+      "text": "后面被“妈妈”捡到了",
+      "dimension": "剧情",
+      "polarity": "0"
+    },
+    {
+      "t": 30.179,
+      "text": "梁宽直天下第一好男人",
+      "dimension": "剧情",
+      "polarity": "+"
+    },
+    {
+      "t": 35.831,
+      "text": "我靠！好强！",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 38.52,
+      "text": "看完没哭的路过",
+      "dimension": "情感共鸣",
+      "polarity": "0"
+    },
+    {
+      "t": 52.931,
+      "text": "看这个剪辑又哭了。哪有男主那样好的男人啊",
+      "dimension": "剧情",
+      "polarity": "+"
+    },
+    {
+      "t": 52.951,
+      "text": "后面回忆太多剧情太平不如前面年轻戏码",
+      "dimension": "节奏",
+      "polarity": "-"
+    },
+    {
+      "t": 56.243,
+      "text": "剪得好，拍得好",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 57.834,
+      "text": "好喜欢这种拍摄风格，內娱有这种剧吗？",
+      "dimension": "画面",
+      "polarity": "+"
+    },
+    {
+      "t": 61.605,
+      "text": "父母爱情挺好看的啊",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 73.133,
+      "text": "这里剪得特别像爱纯的梦境",
+      "dimension": "叙事手法",
+      "polarity": "0"
+    },
+    {
+      "t": 73.815,
+      "text": "父母爱情算一个 真的",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 77.25,
+      "text": "这卡点一跪，鸡皮疙瘩起来了，太震撼了",
+      "dimension": "演技",
+      "polarity": "+"
+    },
+    {
+      "t": 78.407,
+      "text": "春夏秋冬的基调",
+      "dimension": "画面",
+      "polarity": "0"
+    },
+    {
+      "t": 81.094,
+      "text": "太会剪了...太震撼了...",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 82.303,
+      "text": "这里配bgm也太神了",
+      "dimension": "音乐",
+      "polarity": "+"
+    },
+    {
+      "t": 89.19,
+      "text": "虽然但是这里哭得好想笑",
+      "dimension": "演技",
+      "polarity": "-"
+    },
+    {
+      "t": 113.857,
+      "text": "没看过剧看到这就哭了",
+      "dimension": "情感共鸣",
+      "polarity": "0"
+    },
+    {
+      "t": 118.78,
+      "text": "这个真的演的好好",
+      "dimension": "演技",
+      "polarity": "+"
+    },
+    {
+      "t": 119.486,
+      "text": "爱纯代表着的是所有母亲都在可能承受的痛苦",
+      "dimension": "剧情",
+      "polarity": "0"
+    },
+    {
+      "t": 121.051,
+      "text": "太会剪了我天",
+      "dimension": "叙事手法",
+      "polarity": "+"
+    },
+    {
+      "t": 128.011,
+      "text": "看见iu朴宝剑的脸就想流泪",
+      "dimension": "情感共鸣",
+      "polarity": "0"
+    },
+    {
+      "t": 128.7,
+      "text": "这个bgm感觉好光明好幸福",
+      "dimension": "音乐",
+      "polarity": "+"
+    },
+    {
+      "t": 135.05,
+      "text": "光礼去世的时候二十九岁，爱纯十岁，这十年，爱纯用一辈子来回忆了。",
+      "dimension": "剧情",
+      "polarity": "0"
+    },
+    {
+      "t": 137.942,
+      "text": "这部句最出彩的就是爱纯和光礼的母女线了",
+      "dimension": "剧情",
+      "polarity": "+"
+    },
+    {
+      "t": 140.441,
+      "text": "妈妈出来的时候真的泪目了",
+      "dimension": "情感共鸣",
+      "polarity": "0"
+    },
+    {
+      "t": 142.516,
+      "text": "妈妈出来的时候真的哭了",
+      "dimension": "情感共鸣",
+      "polarity": "0"
+    },
+    {
+      "t": 143.742,
+      "text": "永远为母爱而动容",
+      "dimension": "情感共鸣",
+      "polarity": "+"
+    },
+    {
+      "t": 147.175,
+      "text": "我的天啊，这个bgm配的，这儿眼睛真的尿尿了 ꒦ິ^꒦ິ",
+      "dimension": "音乐",
+      "polarity": "+"
+    },
+    {
+      "t": 148.447,
+      "text": "我家女孩为什么要吃苦？",
+      "dimension": "剧情",
+      "polarity": "0"
+    },
+    {
+      "t": 160.36,
+      "text": "真的，鸡皮疙瘩",
+      "dimension": "情感共鸣",
+      "polarity": "0"
+    },
+    {
+      "t": 161.131,
+      "text": "父母爱情永远的神",
+      "dimension": "剧情",
+      "polarity": "+"
+    },
+    {
+      "t": 162.791,
+      "text": "一看到妈妈出来就想哭",
+      "dimension": "情感共鸣",
+      "polarity": "0"
+    },
+    {
+      "t": 163.28,
+      "text": "这部剧的母女线真的封神了www",
+      "dimension": "剧情",
+      "polarity": "+"
+    },
+    {
+      "t": 165.861,
+      "text": "这里戴耳机能听到左右两个人的名字金明和爱纯，up好用心",
+      "dimension": "细节",
+      "polarity": "+"
+    },
+    {
+      "t": 170.258,
+      "text": "iu好棒好棒",
+      "dimension": "演技",
+      "polarity": "+"
+    },
+    {
+      "t": 177.799,
+      "text": "我考不上，还有谁能考上啊！她的女儿去了首尔大！",
+      "dimension": "剧情",
+      "polarity": "0"
+    },
+    {
+      "t": 184.757,
+      "text": "bgm是日版good doctor吧",
+      "dimension": "音乐",
+      "polarity": "0"
+    }
+  ]
+}

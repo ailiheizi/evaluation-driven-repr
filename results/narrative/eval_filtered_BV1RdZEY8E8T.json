@@ -1,0 +1,170 @@
+{
+  "video": "\" 阳 光 唢 呐 小 白 马 \"",
+  "bvid": "BV1RdZEY8E8T",
+  "total_raw": 600,
+  "after_rule_filter": 247,
+  "sample_classified": 120,
+  "evaluative_count": 24,
+  "evaluative_rate": 0.2,
+  "dimension_distribution": {
+    "剧情": 3,
+    "节奏": 3,
+    "画面": 3,
+    "叙事手法": 1,
+    "整体": 1,
+    "情感共鸣": 1,
+    "音乐": 7,
+    "细节": 5
+  },
+  "polarity_distribution": {
+    "0": 9,
+    "+": 11,
+    "-": 4
+  },
+  "evaluative_samples": [
+    {
+      "t": 2.276,
+      "text": "结局：床高腿短，用蹦的",
+      "dimension": "剧情",
+      "polarity": "0"
+    },
+    {
+      "t": 2.804,
+      "text": "世界变成真实世界一样，然后所有的一切开始自杀！",
+      "dimension": "剧情",
+      "polarity": "0"
+    },
+    {
+      "t": 7.06,
+      "text": "最近好高产啊",
+      "dimension": "节奏",
+      "polarity": "+"
+    },
+    {
+      "t": 13.517,
+      "text": "眼镜好辣",
+      "dimension": "画面",
+      "polarity": "+"
+    },
+    {
+      "t": 13.992,
+      "text": "格局打开",
+      "dimension": "叙事手法",
+      "polarity": "+"
+    },
+    {
+      "t": 15.463,
+      "text": "啊啊啊好久没看了居然有这么费功夫的置景了",
+      "dimension": "画面",
+      "polarity": "+"
+    },
+    {
+      "t": 15.51,
+      "text": "怎么能哭呢一切好哒",
+      "dimension": "剧情",
+      "polarity": "0"
+    },
+    {
+      "t": 16.707,
+      "text": "开幕雷击",
+      "dimension": "节奏",
+      "polarity": "0"
+    },
+    {
+      "t": 18.218,
+      "text": "能忍住不笑的究竟是什么天才啊",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 21.271,
+      "text": "氛围应该是喜庆，但怎么又带点悲伤",
+      "dimension": "情感共鸣",
+      "polarity": "0"
+    },
+    {
+      "t": 21.399,
+      "text": "唢呐一开，像过大年一样",
+      "dimension": "音乐",
+      "polarity": "+"
+    },
+    {
+      "t": 24.555,
+      "text": "还挺好听的",
+      "dimension": "音乐",
+      "polarity": "+"
+    },
+    {
+      "t": 26.012,
+      "text": "唉，磨损啊！",
+      "dimension": "细节",
+      "polarity": "-"
+    },
+    {
+      "t": 30.5,
+      "text": "字幕识别出来的难蚌啊",
+      "dimension": "细节",
+      "polarity": "-"
+    },
+    {
+      "t": 57.351,
+      "text": "如听仙乐耳暂明",
+      "dimension": "音乐",
+      "polarity": "+"
+    },
+    {
+      "t": 69.069,
+      "text": "仔细听可以听见背景音里实际上是有原唱的",
+      "dimension": "音乐",
+      "polarity": "0"
+    },
+    {
+      "t": 71.191,
+      "text": "甲亢破防歌",
+      "dimension": "音乐",
+      "polarity": "-"
+    },
+    {
+      "t": 75.631,
+      "text": "《甩狙》",
+      "dimension": "细节",
+      "polarity": "0"
+    },
+    {
+      "t": 91.59,
+      "text": "因为背景里有原唱的声音，所以会识别字幕",
+      "dimension": "细节",
+      "polarity": "0"
+    },
+    {
+      "t": 92.538,
+      "text": "这段还挺喜庆",
+      "dimension": "音乐",
+      "polarity": "+"
+    },
+    {
+      "t": 93.797,
+      "text": "《口球》",
+      "dimension": "细节",
+      "polarity": "0"
+    },
+    {
+      "t": 98.468,
+      "text": "1.25倍豪爽",
+      "dimension": "节奏",
+      "polarity": "+"
+    },
+    {
+      "t": 101.874,
+      "text": "口红色号不错",
+      "dimension": "画面",
+      "polarity": "+"
+    },
+    {
+      "t": 106.36,
+      "text": "《这才是阴乐》",
+      "dimension": "音乐",
+      "polarity": "-"
+    }
+  ]
+}

@@ -3,24 +3,23 @@
   "bvid": "BV1XHmwYpE8s",
   "total_raw": 3533,
   "after_rule_filter": 2423,
-  "sample_classified": 150,
-  "evaluative_count": 66,
-  "evaluative_rate": 0.44,
+  "sample_classified": 120,
+  "evaluative_count": 52,
+  "evaluative_rate": 0.43333333333333335,
   "dimension_distribution": {
-    "剧情": 36,
+    "剧情": 27,
     "整体": 9,
-    "画面": 7,
-    "节奏": 3,
-    "细节": 2,
+    "节奏": 2,
     "演技": 3,
-    "叙事手法": 3,
+    "画面": 4,
+    "叙事手法": 4,
     "情感共鸣": 2,
     "其他": 1
   },
   "polarity_distribution": {
-    "-": 39,
-    "0": 18,
-    "+": 9
+    "-": 30,
+    "0": 15,
+    "+": 7
   },
   "evaluative_samples": [
     {
@@ -30,8 +29,8 @@
       "polarity": "-"
     },
     {
-      "t": 196.925,
-      "text": "讲的啥玩意啊",
+      "t": 223.999,
+      "text": "玩的挺花啊",
       "dimension": "剧情",
       "polarity": "-"
     },
@@ -39,12 +38,6 @@
       "t": 226.798,
       "text": "真不愧是日剧",
       "dimension": "整体",
-      "polarity": "0"
-    },
-    {
-      "t": 289.512,
-      "text": "老天这个眼睛也太大了",
-      "dimension": "画面",
       "polarity": "0"
     },
     {
@@ -72,52 +65,16 @@
       "polarity": "0"
     },
     {
-      "t": 371.061,
-      "text": "人格变了脸都变帅了",
-      "dimension": "画面",
-      "polarity": "+"
-    },
-    {
-      "t": 380.038,
-      "text": "英三不应该认识奈美啊，只有英二认识奈美啊",
-      "dimension": "剧情",
-      "polarity": "0"
-    },
-    {
       "t": 504.262,
       "text": "莲花怎么确定睡一觉就会被替换人格，这合理吗",
       "dimension": "剧情",
       "polarity": "-"
     },
     {
-      "t": 525.12,
-      "text": "0帧起手没法躲",
-      "dimension": "节奏",
-      "polarity": "0"
-    },
-    {
       "t": 630.75,
       "text": "年龄对不上吧，那不是小孩子的时候吗",
       "dimension": "剧情",
-      "polarity": "0"
-    },
-    {
-      "t": 632.052,
-      "text": "当年这么小，怎么可能是八野先生？",
-      "dimension": "剧情",
-      "polarity": "0"
-    },
-    {
-      "t": 633.567,
-      "text": "我猜对了，果然三是为了查案",
-      "dimension": "剧情",
-      "polarity": "0"
-    },
-    {
-      "t": 703.358,
-      "text": "火人开大弹到房子着火了",
-      "dimension": "画面",
-      "polarity": "0"
+      "polarity": "-"
     },
     {
       "t": 960.02,
@@ -130,12 +87,6 @@
       "text": "剧情开始崩坏",
       "dimension": "剧情",
       "polarity": "-"
-    },
-    {
-      "t": 981.984,
-      "text": "女警果然有问题",
-      "dimension": "剧情",
-      "polarity": "0"
     },
     {
       "t": 988.056,
@@ -168,15 +119,9 @@
       "polarity": "-"
     },
     {
-      "t": 1178.773,
-      "text": "枕头不应该透气吗？",
-      "dimension": "细节",
-      "polarity": "0"
-    },
-    {
-      "t": 1200.322,
-      "text": "等一等，桃井怎么会比假装从外地赶回来的老袁更晚到达",
-      "dimension": "剧情",
+      "t": 1185.459,
+      "text": "啊啊啊啊什么鬼",
+      "dimension": "整体",
       "polarity": "-"
     },
     {
@@ -210,28 +155,22 @@
       "polarity": "+"
     },
     {
-      "t": 1286.74,
-      "text": "这跟抗日神剧有什么区别",
-      "dimension": "剧情",
-      "polarity": "-"
-    },
-    {
-      "t": 1290.844,
-      "text": "BUG真的多",
-      "dimension": "细节",
-      "polarity": "-"
-    },
-    {
-      "t": 1317.22,
-      "text": "莫名其妙的强行反转，神经",
-      "dimension": "剧情",
-      "polarity": "-"
-    },
-    {
       "t": 1355.466,
       "text": "发癫啊，真无厘头",
       "dimension": "剧情",
       "polarity": "-"
+    },
+    {
+      "t": 1366.313,
+      "text": "真的会笑",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 1367.553,
+      "text": "肯定还有反转",
+      "dimension": "剧情",
+      "polarity": "0"
     },
     {
       "t": 1368.694,
@@ -243,12 +182,6 @@
       "t": 1368.718,
       "text": "太扯了吧。。。",
       "dimension": "剧情",
-      "polarity": "-"
-    },
-    {
-      "t": 1369.429,
-      "text": "烂片预订",
-      "dimension": "整体",
       "polarity": "-"
     },
     {
@@ -264,10 +197,16 @@
       "polarity": "-"
     },
     {
+      "t": 1386.152,
+      "text": "哈哈哈，我对真相已经没有兴趣了",
+      "dimension": "剧情",
+      "polarity": "0"
+    },
+    {
       "t": 1389.181,
       "text": "水花还挺小的，可以去奥运会~",
       "dimension": "画面",
-      "polarity": "-"
+      "polarity": "+"
     },
     {
       "t": 1404.626,
@@ -284,7 +223,7 @@
     {
       "t": 1649.426,
       "text": "强行支线",
-      "dimension": "剧情",
+      "dimension": "叙事手法",
       "polarity": "-"
     },
     {
@@ -312,15 +251,75 @@
       "polarity": "+"
     },
     {
-      "t": 2038.955,
-      "text": "人格分裂这么好治吗，回春妙手",
+      "t": 2085.595,
+      "text": "这个答案也让我很难过啊",
+      "dimension": "情感共鸣",
+      "polarity": "0"
+    },
+    {
+      "t": 2109.551,
+      "text": "是我套路看多了吗，居然让我猜中",
+      "dimension": "剧情",
+      "polarity": "0"
+    },
+    {
+      "t": 2125.459,
+      "text": "你们可以去看天堂漫画的原著漫画解读，我看这个剧还有这个人，他有点解读错了",
+      "dimension": "叙事手法",
+      "polarity": "-"
+    },
+    {
+      "t": 2165.845,
+      "text": "莲花好丑",
+      "dimension": "画面",
+      "polarity": "-"
+    },
+    {
+      "t": 2195.88,
+      "text": "好癫啊，受不了了",
+      "dimension": "整体",
+      "polarity": "-"
+    },
+    {
+      "t": 2200.162,
+      "text": "高手真多",
+      "dimension": "其他",
+      "polarity": "+"
+    },
+    {
+      "t": 2205.699,
+      "text": "演员好辛苦",
+      "dimension": "演技",
+      "polarity": "0"
+    },
+    {
+      "t": 2214.651,
+      "text": "讲解不代表原作好吧，看了讲解，就给原作打分的人是怎么想的",
+      "dimension": "叙事手法",
+      "polarity": "-"
+    },
+    {
+      "t": 2243.869,
+      "text": "好日漫。",
+      "dimension": "整体",
+      "polarity": "0"
+    },
+    {
+      "t": 2246.711,
+      "text": "太中二了",
       "dimension": "剧情",
       "polarity": "-"
     },
     {
-      "t": 2085.595,
-      "text": "这个答案也让我很难过啊",
+      "t": 2258.622,
+      "text": "应该是无语了",
       "dimension": "情感共鸣",
+      "polarity": "0"
+    },
+    {
+      "t": 2267.846,
+      "text": "就是强加的内容，谁在法庭上说这个，这样说心理医生算不算杀人犯",
+      "dimension": "剧情",
       "polarity": "-"
     }
   ]

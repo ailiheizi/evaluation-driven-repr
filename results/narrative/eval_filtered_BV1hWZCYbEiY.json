@@ -1,0 +1,248 @@
+{
+  "video": "弱女子被人插队",
+  "bvid": "BV1hWZCYbEiY",
+  "total_raw": 600,
+  "after_rule_filter": 279,
+  "sample_classified": 120,
+  "evaluative_count": 37,
+  "evaluative_rate": 0.30833333333333335,
+  "dimension_distribution": {
+    "剧情": 10,
+    "整体": 4,
+    "演技": 8,
+    "画面": 1,
+    "细节": 5,
+    "音乐": 7,
+    "节奏": 1,
+    "情感共鸣": 1
+  },
+  "polarity_distribution": {
+    "0": 11,
+    "+": 22,
+    "-": 4
+  },
+  "evaluative_samples": [
+    {
+      "t": 0.958,
+      "text": "我觉得可以安排个后面跑路，一个人撞墙倒地，另一人把他拖走的画面",
+      "dimension": "剧情",
+      "polarity": "0"
+    },
+    {
+      "t": 1.898,
+      "text": "哇哇哇合作了太棒了",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 8.04,
+      "text": "宝姐完全没有创造瓶颈",
+      "dimension": "演技",
+      "polarity": "+"
+    },
+    {
+      "t": 8.776,
+      "text": "笑死我了",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 14.798,
+      "text": "这小赖没上美颜还真认不出来…",
+      "dimension": "画面",
+      "polarity": "-"
+    },
+    {
+      "t": 19.658,
+      "text": "细节“至少”",
+      "dimension": "细节",
+      "polarity": "0"
+    },
+    {
+      "t": 19.836,
+      "text": "用最平靜的語氣，做最強力的輸出",
+      "dimension": "演技",
+      "polarity": "+"
+    },
+    {
+      "t": 20.801,
+      "text": "哈哈哈，用最轻柔的语气说着最狠的话",
+      "dimension": "演技",
+      "polarity": "+"
+    },
+    {
+      "t": 23.094,
+      "text": "小赖这个演技好！笑死我了",
+      "dimension": "演技",
+      "polarity": "+"
+    },
+    {
+      "t": 23.462,
+      "text": "如听仙乐耳暂鸣",
+      "dimension": "音乐",
+      "polarity": "+"
+    },
+    {
+      "t": 24.891,
+      "text": "好优美的播音腔~",
+      "dimension": "音乐",
+      "polarity": "+"
+    },
+    {
+      "t": 25.442,
+      "text": "0帧起手",
+      "dimension": "节奏",
+      "polarity": "-"
+    },
+    {
+      "t": 27.183,
+      "text": "如听音乐耳暂明",
+      "dimension": "音乐",
+      "polarity": "+"
+    },
+    {
+      "t": 29.664,
+      "text": "我擦，这是一个字也播不出来啊",
+      "dimension": "音乐",
+      "polarity": "-"
+    },
+    {
+      "t": 38.801,
+      "text": "厉害厉害",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 43.259,
+      "text": "黑长直是躺赢狗 双马尾是MVP!",
+      "dimension": "剧情",
+      "polarity": "+"
+    },
+    {
+      "t": 54.292,
+      "text": "少年的脸红胜过一切心事",
+      "dimension": "情感共鸣",
+      "polarity": "+"
+    },
+    {
+      "t": 56.632,
+      "text": "有进步啊！一次打两个？！",
+      "dimension": "剧情",
+      "polarity": "+"
+    },
+    {
+      "t": 60.531,
+      "text": "笑死，现场教学连打带骂，学不会不要钱",
+      "dimension": "剧情",
+      "polarity": "+"
+    },
+    {
+      "t": 61.079,
+      "text": "这一巴掌给他打爽了",
+      "dimension": "剧情",
+      "polarity": "+"
+    },
+    {
+      "t": 67.792,
+      "text": "弱女子？明明是女武神！",
+      "dimension": "剧情",
+      "polarity": "+"
+    },
+    {
+      "t": 68.666,
+      "text": "康斯坦丁的指虎耶",
+      "dimension": "细节",
+      "polarity": "0"
+    },
+    {
+      "t": 68.904,
+      "text": "这指套好熟悉，康斯坦丁同款？",
+      "dimension": "细节",
+      "polarity": "0"
+    },
+    {
+      "t": 69.611,
+      "text": "康斯坦丁，同款指虎！",
+      "dimension": "细节",
+      "polarity": "0"
+    },
+    {
+      "t": 70.152,
+      "text": "这手法确实吓...吓人",
+      "dimension": "演技",
+      "polarity": "+"
+    },
+    {
+      "t": 89.298,
+      "text": "现实世界商店能买到的最强近战武器",
+      "dimension": "细节",
+      "polarity": "0"
+    },
+    {
+      "t": 98.332,
+      "text": "卧槽？锁定大招。",
+      "dimension": "剧情",
+      "polarity": "0"
+    },
+    {
+      "t": 100.673,
+      "text": "直接上法伤？",
+      "dimension": "剧情",
+      "polarity": "0"
+    },
+    {
+      "t": 101.14,
+      "text": "太狠了！",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 104.493,
+      "text": "手撕裤腿，是个狠人。",
+      "dimension": "演技",
+      "polarity": "+"
+    },
+    {
+      "t": 106.937,
+      "text": "眼神坚定的像是要入党（bushi）",
+      "dimension": "演技",
+      "polarity": "+"
+    },
+    {
+      "t": 109.98,
+      "text": "这个是真的现实，告非礼",
+      "dimension": "剧情",
+      "polarity": "0"
+    },
+    {
+      "t": 111.853,
+      "text": "手撕裤腿，狠人阿",
+      "dimension": "演技",
+      "polarity": "+"
+    },
+    {
+      "t": 113.124,
+      "text": "哈哈，周深的bgm想起实在没绷住",
+      "dimension": "音乐",
+      "polarity": "0"
+    },
+    {
+      "t": 120.712,
+      "text": "你立场坚定一点啊!!",
+      "dimension": "剧情",
+      "polarity": "-"
+    },
+    {
+      "t": 121.34,
+      "text": "《听我说》还能这么用啊，真是猝不及防",
+      "dimension": "音乐",
+      "polarity": "0"
+    },
+    {
+      "t": 122.92,
+      "text": "莫名和谐，你们搭配",
+      "dimension": "音乐",
+      "polarity": "+"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "video": "需要喝自己胆汁的小女孩珍珍，希望以后的生活苦味追不上你",
+  "bvid": "BV1JhZcY9EFN",
+  "duration": 334,
+  "total_classified": 67,
+  "peaks": {
+    "情感共鸣": {
+      "peak_bin": 9,
+      "peak_time": 270,
+      "peak_density": 1.0,
+      "mean_density": 0.3488636363636364,
+      "peak_ratio": 2.8664495114006514
+    },
+    "演技": {
+      "peak_bin": 5,
+      "peak_time": 150,
+      "peak_density": 0.5,
+      "mean_density": 0.1708333333333333,
+      "peak_ratio": 2.9268292682926833
+    },
+    "剧情": {
+      "peak_bin": 7,
+      "peak_time": 210,
+      "peak_density": 0.6666666666666666,
+      "mean_density": 0.30467171717171715,
+      "peak_ratio": 2.188147534189805
+    },
+    "整体": {
+      "peak_bin": 5,
+      "peak_time": 150,
+      "peak_density": 0.25,
+      "mean_density": 0.09229797979797981,
+      "peak_ratio": 2.7086183310533514
+    }
+  },
+  "dim_entropy": {
+    "情感共鸣": 0.8415157678697383,
+    "演技": 0.7850261882677007,
+    "剧情": 0.8349587333390495,
+    "整体": 0.7056182849537459
+  }
+}

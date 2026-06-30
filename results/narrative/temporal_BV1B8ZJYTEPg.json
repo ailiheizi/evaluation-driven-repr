@@ -1,0 +1,26 @@
+{
+  "video": "现代修仙，没钱纯靠自律【自律狠人】【第一季超长电影版】",
+  "bvid": "BV1B8ZJYTEPg",
+  "duration": 2960,
+  "total_classified": 90,
+  "peaks": {
+    "剧情": {
+      "peak_bin": 0,
+      "peak_time": 0,
+      "peak_density": 1.0,
+      "mean_density": 0.4494949494949495,
+      "peak_ratio": 2.2247191011235956
+    },
+    "节奏": {
+      "peak_bin": 0,
+      "peak_time": 0,
+      "peak_density": 0.5,
+      "mean_density": 0.16666666666666666,
+      "peak_ratio": 3.0
+    }
+  },
+  "dim_entropy": {
+    "剧情": 0.827677510876868,
+    "节奏": -0.0
+  }
+}

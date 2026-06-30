@@ -1,0 +1,34 @@
+{
+  "video": "小米良心 or 偷偷减配？报废级拆解小米中央空调",
+  "bvid": "BV1gEodYtEBL",
+  "duration": 1180,
+  "total_classified": 143,
+  "peaks": {
+    "整体": {
+      "peak_bin": 0,
+      "peak_time": 0,
+      "peak_density": 1.0,
+      "mean_density": 0.6541618104118104,
+      "peak_ratio": 1.5286737686054712
+    },
+    "画面": {
+      "peak_bin": 0,
+      "peak_time": 0,
+      "peak_density": 0.5,
+      "mean_density": 0.03796653796653796,
+      "peak_ratio": 13.16949152542373
+    },
+    "细节": {
+      "peak_bin": 0,
+      "peak_time": 0,
+      "peak_density": 1.0,
+      "mean_density": 0.17857682441015774,
+      "peak_ratio": 5.599830791610372
+    }
+  },
+  "dim_entropy": {
+    "整体": 0.9173451555523303,
+    "画面": 0.3401272693801792,
+    "细节": 0.6244240115125625
+  }
+}

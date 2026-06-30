@@ -2,49 +2,57 @@
   "video": "模仿不同国家的气象主播，差别真的很大！！当然最经典的还是在最后～",
   "bvid": "BV1eBZhYhEa9",
   "duration": 123,
-  "total_classified": 36,
+  "total_classified": 40,
   "peaks": {
-    "整体": {
-      "peak_bin": 1,
-      "peak_time": 30,
-      "peak_density": 0.6666666666666666,
-      "mean_density": 0.3658008658008658,
-      "peak_ratio": 1.8224852071005917
-    },
     "剧情": {
       "peak_bin": 0,
       "peak_time": 0,
-      "peak_density": 0.42857142857142855,
-      "mean_density": 0.08571428571428572,
+      "peak_density": 0.4444444444444444,
+      "mean_density": 0.15472739820565906,
+      "peak_ratio": 2.872435325602141
+    },
+    "整体": {
+      "peak_bin": 3,
+      "peak_time": 90,
+      "peak_density": 0.5217391304347826,
+      "mean_density": 0.23450655624568667,
+      "peak_ratio": 2.2248381400824013
+    },
+    "其他": {
+      "peak_bin": 0,
+      "peak_time": 0,
+      "peak_density": 0.3333333333333333,
+      "mean_density": 0.06666666666666667,
       "peak_ratio": 5.0
     },
     "演技": {
       "peak_bin": 0,
       "peak_time": 0,
-      "peak_density": 0.3333333333333333,
-      "mean_density": 0.08333333333333333,
+      "peak_density": 0.14285714285714285,
+      "mean_density": 0.03571428571428571,
       "peak_ratio": 4.0
+    },
+    "音乐": {
+      "peak_bin": 0,
+      "peak_time": 0,
+      "peak_density": 0.14285714285714285,
+      "mean_density": 0.06832298136645962,
+      "peak_ratio": 2.0909090909090913
     },
     "画面": {
       "peak_bin": 0,
       "peak_time": 0,
       "peak_density": 1.0,
-      "mean_density": 0.4393939393939394,
-      "peak_ratio": 2.2758620689655173
-    },
-    "音乐": {
-      "peak_bin": 0,
-      "peak_time": 0,
-      "peak_density": 0.09090909090909091,
-      "mean_density": 0.045454545454545456,
-      "peak_ratio": 2.0
+      "mean_density": 0.43478260869565216,
+      "peak_ratio": 2.3000000000000003
     }
   },
   "dim_entropy": {
-    "整体": 0.681212764290908,
-    "剧情": -0.0,
+    "剧情": 0.5269494410238006,
+    "整体": 0.6483066605015999,
+    "其他": -0.0,
     "演技": -0.0,
-    "画面": 0.5030570185633159,
-    "音乐": -0.0
+    "音乐": 0.4992545494588161,
+    "画面": 0.49450819633151166
   }
 }

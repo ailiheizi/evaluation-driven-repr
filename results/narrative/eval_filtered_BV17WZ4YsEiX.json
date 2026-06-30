@@ -1,0 +1,166 @@
+{
+  "video": "2025全球最全电脑故障解决指南",
+  "bvid": "BV17WZ4YsEiX",
+  "total_raw": 3129,
+  "after_rule_filter": 1973,
+  "sample_classified": 120,
+  "evaluative_count": 24,
+  "evaluative_rate": 0.2,
+  "dimension_distribution": {
+    "画面": 2,
+    "整体": 10,
+    "细节": 9,
+    "其他": 3
+  },
+  "polarity_distribution": {
+    "-": 11,
+    "0": 2,
+    "+": 11
+  },
+  "evaluative_samples": [
+    {
+      "t": 2.493,
+      "text": "锯齿闪烁怎么治",
+      "dimension": "画面",
+      "polarity": "-"
+    },
+    {
+      "t": 16.389,
+      "text": "《齐民要术-计算机版》",
+      "dimension": "整体",
+      "polarity": "0"
+    },
+    {
+      "t": 18.164,
+      "text": "神医啊！",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 23.271,
+      "text": "伟大，无需多言！",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 26.578,
+      "text": "这才是青年大学习",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 47.859,
+      "text": "十分的全面！",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 50.712,
+      "text": "味道无需多言",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 56.043,
+      "text": "开幕难蚌",
+      "dimension": "整体",
+      "polarity": "-"
+    },
+    {
+      "t": 58.36,
+      "text": "牛，解决了",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 112.178,
+      "text": "内存坏了 跟通电没关系好吧，他不是很严谨 应该说按开关风扇不转也没亮灯",
+      "dimension": "细节",
+      "polarity": "-"
+    },
+    {
+      "t": 170.605,
+      "text": "没排查电源线",
+      "dimension": "细节",
+      "polarity": "-"
+    },
+    {
+      "t": 178.295,
+      "text": "最讨厌这种都放一起的",
+      "dimension": "整体",
+      "polarity": "-"
+    },
+    {
+      "t": 243.229,
+      "text": "明明是没插显示器线",
+      "dimension": "细节",
+      "polarity": "-"
+    },
+    {
+      "t": 285.103,
+      "text": "至今没遇到通过擦内存条就解决问题的案例内存条",
+      "dimension": "细节",
+      "polarity": "-"
+    },
+    {
+      "t": 546.867,
+      "text": "小白最容易犯的错误里这个绝对是top3",
+      "dimension": "细节",
+      "polarity": "-"
+    },
+    {
+      "t": 598.24,
+      "text": "最基本的传输速率都达不到当然死机",
+      "dimension": "细节",
+      "polarity": "-"
+    },
+    {
+      "t": 641.854,
+      "text": "铭瑄都有，真细",
+      "dimension": "细节",
+      "polarity": "+"
+    },
+    {
+      "t": 772.861,
+      "text": "6啊  好使了",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 794.572,
+      "text": "寄嘉不配",
+      "dimension": "细节",
+      "polarity": "-"
+    },
+    {
+      "t": 1001.472,
+      "text": "不超频够用，超频要乘2",
+      "dimension": "细节",
+      "polarity": "0"
+    },
+    {
+      "t": 1339.85,
+      "text": "N卡这个软件贼好用啊 录制的视频和截图都是显卡直出 画面画质都好 只要你会用 比别的什么软件都好用",
+      "dimension": "画面",
+      "polarity": "+"
+    },
+    {
+      "t": 2288.392,
+      "text": "没有技嘉好评！",
+      "dimension": "其他",
+      "polarity": "+"
+    },
+    {
+      "t": 2592.872,
+      "text": "这是教程，到底在杠什么？还有他们升不升和你们有什么关系？",
+      "dimension": "其他",
+      "polarity": "-"
+    },
+    {
+      "t": 2962.331,
+      "text": "学到了，还能这样",
+      "dimension": "其他",
+      "polarity": "+"
+    }
+  ]
+}

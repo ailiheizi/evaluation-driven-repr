@@ -3,22 +3,21 @@
   "bvid": "BV1GyZYYNErW",
   "total_raw": 9600,
   "after_rule_filter": 6459,
-  "sample_classified": 150,
-  "evaluative_count": 54,
-  "evaluative_rate": 0.36,
+  "sample_classified": 120,
+  "evaluative_count": 46,
+  "evaluative_rate": 0.38333333333333336,
   "dimension_distribution": {
     "情感共鸣": 2,
-    "剧情": 36,
+    "剧情": 31,
     "节奏": 2,
     "画面": 9,
-    "细节": 3,
-    "整体": 1,
+    "细节": 1,
     "音乐": 1
   },
   "polarity_distribution": {
     "+": 11,
-    "-": 9,
-    "0": 34
+    "-": 5,
+    "0": 30
   },
   "evaluative_samples": [
     {
@@ -37,7 +36,7 @@
       "t": 176.12,
       "text": "鬼故事：进度条",
       "dimension": "节奏",
-      "polarity": "-"
+      "polarity": "0"
     },
     {
       "t": 219.967,
@@ -52,26 +51,14 @@
       "polarity": "0"
     },
     {
-      "t": 430.448,
-      "text": "二死一伤换了一个神",
+      "t": 296.798,
+      "text": "下届里面还有第二个探险者1号基地，所以呢，他这里面到处都是平行宇宙",
       "dimension": "剧情",
       "polarity": "0"
-    },
-    {
-      "t": 477.847,
-      "text": "这个以后要考,很重要的",
-      "dimension": "剧情",
-      "polarity": "+"
     },
     {
       "t": 517.344,
       "text": "最后死亡了，他到家了他的好兄弟",
-      "dimension": "剧情",
-      "polarity": "0"
-    },
-    {
-      "t": 559.665,
-      "text": "安迪女仆有安迪赐予能量啊",
       "dimension": "剧情",
       "polarity": "0"
     },
@@ -84,18 +71,12 @@
     {
       "t": 808.689,
       "text": "红字难崩，这都能见证",
-      "dimension": "细节",
+      "dimension": "画面",
       "polarity": "-"
     },
     {
       "t": 815.04,
       "text": "这哥们只有皇帝死的时候才出面",
-      "dimension": "剧情",
-      "polarity": "0"
-    },
-    {
-      "t": 850.399,
-      "text": "在看了视频之后的泽洛斯皇帝正在思考",
       "dimension": "剧情",
       "polarity": "0"
     },
@@ -110,12 +91,6 @@
       "text": "666后面的还边鞭尸。",
       "dimension": "细节",
       "polarity": "-"
-    },
-    {
-      "t": 968.075,
-      "text": "古战场遗迹对应了另一种结局鲁德死去的地方",
-      "dimension": "剧情",
-      "polarity": "0"
     },
     {
       "t": 979.908,
@@ -136,8 +111,20 @@
       "polarity": "0"
     },
     {
+      "t": 1065.524,
+      "text": "《脑容量有限》",
+      "dimension": "剧情",
+      "polarity": "0"
+    },
+    {
       "t": 1124.037,
       "text": "疑似某jo jo第3季的开头。",
+      "dimension": "剧情",
+      "polarity": "0"
+    },
+    {
+      "t": 1207.536,
+      "text": "解锁新角色：荒墟救国臣民，战斗力：C，防御力：B",
       "dimension": "剧情",
       "polarity": "0"
     },
@@ -150,7 +137,7 @@
     {
       "t": 1481.854,
       "text": "是个英雄",
-      "dimension": "整体",
+      "dimension": "剧情",
       "polarity": "+"
     },
     {
@@ -169,12 +156,6 @@
       "t": 1544.337,
       "text": "不是？这帮铁块真没脑子啊",
       "dimension": "剧情",
-      "polarity": "-"
-    },
-    {
-      "t": 1605.957,
-      "text": "866烟都不带烟的，妈开挂了",
-      "dimension": "细节",
       "polarity": "-"
     },
     {
@@ -202,12 +183,6 @@
       "polarity": "0"
     },
     {
-      "t": 2233.599,
-      "text": "阿曼达变异后的同款眼睛",
-      "dimension": "画面",
-      "polarity": "0"
-    },
-    {
       "t": 2526.48,
       "text": "只要造出一个后面就跟复制粘贴一样",
       "dimension": "剧情",
@@ -217,13 +192,13 @@
       "t": 2539.9,
       "text": "这……这长的",
       "dimension": "画面",
-      "polarity": "-"
+      "polarity": "0"
     },
     {
       "t": 2618.067,
       "text": "应该是穿模了",
       "dimension": "画面",
-      "polarity": "-"
+      "polarity": "0"
     },
     {
       "t": 2658.054,
@@ -238,16 +213,22 @@
       "polarity": "0"
     },
     {
-      "t": 2839.82,
-      "text": "皇帝的含金量还在增加",
+      "t": 2816.431,
+      "text": "还真是墓碑吞噬者",
       "dimension": "剧情",
-      "polarity": "+"
+      "polarity": "0"
     },
     {
       "t": 2855.486,
       "text": "终于点对科技了呀。",
       "dimension": "剧情",
       "polarity": "+"
+    },
+    {
+      "t": 2861.946,
+      "text": "太空死灵估计快来了。",
+      "dimension": "剧情",
+      "polarity": "0"
     },
     {
       "t": 2966.72,
@@ -268,18 +249,6 @@
       "polarity": "-"
     },
     {
-      "t": 3231.671,
-      "text": "远古守卫者是守卫者的老大，请不要质疑作者，谢谢",
-      "dimension": "剧情",
-      "polarity": "0"
-    },
-    {
-      "t": 3315.398,
-      "text": "最后一章，泽洛斯帝国的毁灭与鲁德的强大 毁灭",
-      "dimension": "剧情",
-      "polarity": "0"
-    },
-    {
       "t": 3381.19,
       "text": "二代皇帝纯神人",
       "dimension": "剧情",
@@ -289,7 +258,7 @@
       "t": 3464.828,
       "text": "正片终于开始了。",
       "dimension": "节奏",
-      "polarity": "0"
+      "polarity": "+"
     },
     {
       "t": 3602.413,
@@ -304,22 +273,28 @@
       "polarity": "+"
     },
     {
-      "t": 3736.055,
-      "text": "虽然暴政，但是起码救回来了",
-      "dimension": "剧情",
-      "polarity": "0"
-    },
-    {
       "t": 3815.636,
       "text": "永恒之火＞鲁迪＞一代皇帝",
       "dimension": "剧情",
       "polarity": "0"
     },
     {
-      "t": 3909.883,
-      "text": "原来光柱的作用是这个",
+      "t": 3892.758,
+      "text": "第二帝国来了，我们有救了",
+      "dimension": "剧情",
+      "polarity": "+"
+    },
+    {
+      "t": 3894.679,
+      "text": "第二帝国回来了？",
       "dimension": "剧情",
       "polarity": "0"
+    },
+    {
+      "t": 4088.835,
+      "text": "这才是真正的结局",
+      "dimension": "剧情",
+      "polarity": "+"
     }
   ]
 }

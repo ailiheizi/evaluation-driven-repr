@@ -1,0 +1,26 @@
+{
+  "video": "2025全球最全电脑故障解决指南",
+  "bvid": "BV17WZ4YsEiX",
+  "duration": 3474,
+  "total_classified": 133,
+  "peaks": {
+    "细节": {
+      "peak_bin": 2,
+      "peak_time": 60,
+      "peak_density": 1.0,
+      "mean_density": 0.3201628352490421,
+      "peak_ratio": 3.12341062079282
+    },
+    "整体": {
+      "peak_bin": 14,
+      "peak_time": 420,
+      "peak_density": 1.0,
+      "mean_density": 0.04190613026819923,
+      "peak_ratio": 23.862857142857145
+    }
+  },
+  "dim_entropy": {
+    "细节": 0.7702560996279226,
+    "整体": 0.39970680336532977
+  }
+}

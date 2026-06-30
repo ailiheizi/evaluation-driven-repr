@@ -1,0 +1,248 @@
+{
+  "video": "热烈欢迎武艺！分享他的男生清爽好物！真的好干净！好实用！好好笑！",
+  "bvid": "BV1xoZJYUEFD",
+  "total_raw": 3600,
+  "after_rule_filter": 2170,
+  "sample_classified": 120,
+  "evaluative_count": 37,
+  "evaluative_rate": 0.30833333333333335,
+  "dimension_distribution": {
+    "其他": 5,
+    "演技": 15,
+    "剧情": 4,
+    "画面": 2,
+    "细节": 2,
+    "情感共鸣": 2,
+    "整体": 6,
+    "节奏": 1
+  },
+  "polarity_distribution": {
+    "-": 4,
+    "+": 26,
+    "0": 7
+  },
+  "evaluative_samples": [
+    {
+      "t": 76.98,
+      "text": "那个拍手大笑的男的是谁，怎么那么招人烦啊",
+      "dimension": "其他",
+      "polarity": "-"
+    },
+    {
+      "t": 184.987,
+      "text": "这个洗脸巾 非常好用！",
+      "dimension": "其他",
+      "polarity": "+"
+    },
+    {
+      "t": 189.639,
+      "text": "不环保啊",
+      "dimension": "其他",
+      "polarity": "-"
+    },
+    {
+      "t": 193.969,
+      "text": "这个湿厕纸又大又厚实 好用",
+      "dimension": "其他",
+      "polarity": "+"
+    },
+    {
+      "t": 212.746,
+      "text": "被武艺笑死",
+      "dimension": "演技",
+      "polarity": "+"
+    },
+    {
+      "t": 273.219,
+      "text": "这不是开玩笑节目效果吗。。。有些人急什么",
+      "dimension": "剧情",
+      "polarity": "0"
+    },
+    {
+      "t": 308.761,
+      "text": "方头明模仿杨洋",
+      "dimension": "演技",
+      "polarity": "0"
+    },
+    {
+      "t": 328.432,
+      "text": "帅我一跳",
+      "dimension": "画面",
+      "polarity": "+"
+    },
+    {
+      "t": 428.012,
+      "text": "奥费恩！！仙品",
+      "dimension": "其他",
+      "polarity": "+"
+    },
+    {
+      "t": 466.953,
+      "text": "我讨厌香味儿，洗衣液已经有味道了还需要喷香水就有点太过了",
+      "dimension": "细节",
+      "polarity": "-"
+    },
+    {
+      "t": 497.618,
+      "text": "武艺好可爱哦",
+      "dimension": "演技",
+      "polarity": "+"
+    },
+    {
+      "t": 521.32,
+      "text": "球姐笑死我了，，",
+      "dimension": "演技",
+      "polarity": "+"
+    },
+    {
+      "t": 539.6,
+      "text": "这明显不是去贴膜的，这是去解压的",
+      "dimension": "剧情",
+      "polarity": "0"
+    },
+    {
+      "t": 552.698,
+      "text": "武艺真的很适合合租",
+      "dimension": "演技",
+      "polarity": "+"
+    },
+    {
+      "t": 558.387,
+      "text": "不愧是一手四包的小武艺，雀食抽象",
+      "dimension": "演技",
+      "polarity": "+"
+    },
+    {
+      "t": 573.487,
+      "text": "完全理解，离开一个地方再没剪过头发",
+      "dimension": "情感共鸣",
+      "polarity": "0"
+    },
+    {
+      "t": 575.388,
+      "text": "谁说的那是你离开了北京的生活，笑死我了",
+      "dimension": "剧情",
+      "polarity": "+"
+    },
+    {
+      "t": 605.019,
+      "text": "太离谱了",
+      "dimension": "整体",
+      "polarity": "-"
+    },
+    {
+      "t": 609.093,
+      "text": "他好真诚又接地气哦 喜欢",
+      "dimension": "演技",
+      "polarity": "+"
+    },
+    {
+      "t": 663.286,
+      "text": "他教养好好 句句有回应",
+      "dimension": "演技",
+      "polarity": "+"
+    },
+    {
+      "t": 667.814,
+      "text": "武艺真的好萌",
+      "dimension": "演技",
+      "polarity": "+"
+    },
+    {
+      "t": 696.143,
+      "text": "武艺好可爱呀",
+      "dimension": "演技",
+      "polarity": "+"
+    },
+    {
+      "t": 702.705,
+      "text": "看来papi真的把他当成小弟弟了",
+      "dimension": "剧情",
+      "polarity": "0"
+    },
+    {
+      "t": 703.441,
+      "text": "好可爱武艺！！",
+      "dimension": "演技",
+      "polarity": "+"
+    },
+    {
+      "t": 745.345,
+      "text": "蹦起来，萌萌地用手指了一下“艾斯！”真的好可爱啊啊啊啊",
+      "dimension": "演技",
+      "polarity": "+"
+    },
+    {
+      "t": 752.501,
+      "text": "真的好心态决定长相",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 807.057,
+      "text": "天呐根本看不出35啊跟二十出头一样，果然心态年轻整个人都不一样",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 825.424,
+      "text": "确实刷完可以上台了",
+      "dimension": "节奏",
+      "polarity": "+"
+    },
+    {
+      "t": 922.284,
+      "text": "武艺真的是我的择偶理想型，性格又好又容易快乐还爱干净",
+      "dimension": "演技",
+      "polarity": "+"
+    },
+    {
+      "t": 1079.753,
+      "text": "他好天真好真诚啊 我都要流泪了",
+      "dimension": "情感共鸣",
+      "polarity": "+"
+    },
+    {
+      "t": 1098.339,
+      "text": "武艺太多笑点了",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 1128.75,
+      "text": "天然呆的感觉",
+      "dimension": "演技",
+      "polarity": "0"
+    },
+    {
+      "t": 1216.036,
+      "text": "他好像一只卡皮吧啦",
+      "dimension": "演技",
+      "polarity": "0"
+    },
+    {
+      "t": 1249.953,
+      "text": "群群好细心",
+      "dimension": "细节",
+      "polarity": "+"
+    },
+    {
+      "t": 1278.438,
+      "text": "exo也是银色来着 灯亮起来很好看的（不是ky",
+      "dimension": "画面",
+      "polarity": "+"
+    },
+    {
+      "t": 1439.831,
+      "text": "大家问题都问的好好哈哈哈都是我想问的",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 1510.966,
+      "text": "真清爽啊，一点都不油腻",
+      "dimension": "整体",
+      "polarity": "+"
+    }
+  ]
+}

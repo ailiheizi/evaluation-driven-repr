@@ -1,0 +1,26 @@
+{
+  "video": "深度|| 香火之战，车迟国的教皇实验",
+  "bvid": "BV1twZ4YzEmv",
+  "duration": 2619,
+  "total_classified": 239,
+  "peaks": {
+    "剧情": {
+      "peak_bin": 0,
+      "peak_time": 0,
+      "peak_density": 1.0,
+      "mean_density": 0.6136363636363636,
+      "peak_ratio": 1.6296296296296295
+    },
+    "画面": {
+      "peak_bin": 0,
+      "peak_time": 0,
+      "peak_density": 1.0,
+      "mean_density": 0.014925373134328358,
+      "peak_ratio": 67.0
+    }
+  },
+  "dim_entropy": {
+    "剧情": 0.8909278465862196,
+    "画面": -0.0
+  }
+}

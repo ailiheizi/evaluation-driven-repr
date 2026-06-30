@@ -1,0 +1,326 @@
+{
+  "video": "盘点男组合那些神级翻唱，你最喜欢哪个组合呢？",
+  "bvid": "BV1DDZHYhE59",
+  "total_raw": 871,
+  "after_rule_filter": 348,
+  "sample_classified": 120,
+  "evaluative_count": 52,
+  "evaluative_rate": 0.43333333333333335,
+  "dimension_distribution": {
+    "音乐": 26,
+    "画面": 7,
+    "演技": 5,
+    "整体": 7,
+    "其他": 2,
+    "细节": 2,
+    "情感共鸣": 2,
+    "叙事手法": 1
+  },
+  "polarity_distribution": {
+    "-": 21,
+    "+": 23,
+    "0": 8
+  },
+  "evaluative_samples": [
+    {
+      "t": 7.218,
+      "text": "史中史啊，建议听原唱洗一下耳朵",
+      "dimension": "音乐",
+      "polarity": "-"
+    },
+    {
+      "t": 8.534,
+      "text": "说原唱，我建议多多查一下音乐，有点牛逼了，原唱是张杰",
+      "dimension": "音乐",
+      "polarity": "+"
+    },
+    {
+      "t": 12.968,
+      "text": "还有低音炮",
+      "dimension": "音乐",
+      "polarity": "+"
+    },
+    {
+      "t": 15.946,
+      "text": "还是张杰的好听",
+      "dimension": "音乐",
+      "polarity": "+"
+    },
+    {
+      "t": 16.875,
+      "text": "帅哥，太帅了。",
+      "dimension": "画面",
+      "polarity": "+"
+    },
+    {
+      "t": 21.367,
+      "text": "每个组合都值得单曲循环！",
+      "dimension": "音乐",
+      "polarity": "+"
+    },
+    {
+      "t": 21.854,
+      "text": "对口型 闹麻了",
+      "dimension": "演技",
+      "polarity": "-"
+    },
+    {
+      "t": 23.414,
+      "text": "左边男生好帅呀！！！！",
+      "dimension": "画面",
+      "polarity": "+"
+    },
+    {
+      "t": 27.003,
+      "text": "气笑了，白衣服嘴型对不上",
+      "dimension": "演技",
+      "polarity": "-"
+    },
+    {
+      "t": 27.787,
+      "text": "什么构思啊",
+      "dimension": "整体",
+      "polarity": "-"
+    },
+    {
+      "t": 34.251,
+      "text": "这个戏腔不错，另一个……",
+      "dimension": "音乐",
+      "polarity": "+"
+    },
+    {
+      "t": 37.674,
+      "text": "笑死我了，白衣服嘴型对不上",
+      "dimension": "画面",
+      "polarity": "-"
+    },
+    {
+      "t": 37.882,
+      "text": "真不知道为什么有人说假唱，原版的一些音都不是一样的。",
+      "dimension": "音乐",
+      "polarity": "+"
+    },
+    {
+      "t": 37.948,
+      "text": "白衣服的好帅啊",
+      "dimension": "画面",
+      "polarity": "+"
+    },
+    {
+      "t": 38.311,
+      "text": "不是哥们，什么叫假声唱气啊，人家这叫实力",
+      "dimension": "音乐",
+      "polarity": "+"
+    },
+    {
+      "t": 42.791,
+      "text": "他是不是觉得自己很帅啊",
+      "dimension": "演技",
+      "polarity": "-"
+    },
+    {
+      "t": 43.342,
+      "text": "这个假声好难评",
+      "dimension": "音乐",
+      "polarity": "-"
+    },
+    {
+      "t": 46.125,
+      "text": "怎么都娘嘻嘻的",
+      "dimension": "整体",
+      "polarity": "-"
+    },
+    {
+      "t": 46.21,
+      "text": "不是，谁在这说这像二代周深的，周深也不完全是这样的好吗",
+      "dimension": "音乐",
+      "polarity": "-"
+    },
+    {
+      "t": 48.416,
+      "text": "这是现场？你信吗",
+      "dimension": "其他",
+      "polarity": "0"
+    },
+    {
+      "t": 52.407,
+      "text": "不够阴森，这首歌要阴森点才好",
+      "dimension": "音乐",
+      "polarity": "-"
+    },
+    {
+      "t": 52.436,
+      "text": "没学过戏曲吗？",
+      "dimension": "音乐",
+      "polarity": "-"
+    },
+    {
+      "t": 54.316,
+      "text": "这哪里是戏腔啊？这不就夹子吗？",
+      "dimension": "音乐",
+      "polarity": "-"
+    },
+    {
+      "t": 55.644,
+      "text": "我可以证明这是夹子，我是一个表演京剧的",
+      "dimension": "音乐",
+      "polarity": "-"
+    },
+    {
+      "t": 56.91,
+      "text": "连吃2坨",
+      "dimension": "整体",
+      "polarity": "-"
+    },
+    {
+      "t": 59.9,
+      "text": "我喜欢这个，喜",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 62.041,
+      "text": "唱囍不加唢呐，扣一分",
+      "dimension": "音乐",
+      "polarity": "-"
+    },
+    {
+      "t": 62.51,
+      "text": "这里应该是锁呐的吗？",
+      "dimension": "音乐",
+      "polarity": "0"
+    },
+    {
+      "t": 67.568,
+      "text": "什么玩意",
+      "dimension": "整体",
+      "polarity": "-"
+    },
+    {
+      "t": 67.794,
+      "text": "为什么都是那么娘的",
+      "dimension": "整体",
+      "polarity": "-"
+    },
+    {
+      "t": 72.046,
+      "text": "跑调了吧，这个长音",
+      "dimension": "音乐",
+      "polarity": "-"
+    },
+    {
+      "t": 90.507,
+      "text": "神仙翻唱合集爱了爱了",
+      "dimension": "音乐",
+      "polarity": "+"
+    },
+    {
+      "t": 94.993,
+      "text": "买的播放量？",
+      "dimension": "其他",
+      "polarity": "-"
+    },
+    {
+      "t": 115.499,
+      "text": "这两个好真实",
+      "dimension": "细节",
+      "polarity": "+"
+    },
+    {
+      "t": 130.9,
+      "text": "等等，左边这个人眼神要拉丝了！！",
+      "dimension": "演技",
+      "polarity": "+"
+    },
+    {
+      "t": 139.131,
+      "text": "这个可以终于听到人能听的声音了",
+      "dimension": "音乐",
+      "polarity": "+"
+    },
+    {
+      "t": 145.46,
+      "text": "唱的好漂亮",
+      "dimension": "音乐",
+      "polarity": "+"
+    },
+    {
+      "t": 166.238,
+      "text": "这个是真唱",
+      "dimension": "音乐",
+      "polarity": "+"
+    },
+    {
+      "t": 190.891,
+      "text": "我记得他俩最厉害的是翻唱射雕主题曲",
+      "dimension": "音乐",
+      "polarity": "0"
+    },
+    {
+      "t": 196.799,
+      "text": "这是同一个人",
+      "dimension": "画面",
+      "polarity": "0"
+    },
+    {
+      "t": 202.343,
+      "text": "你们一定要长按加速看一看，很搞笑",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 211.644,
+      "text": "全是感情",
+      "dimension": "情感共鸣",
+      "polarity": "+"
+    },
+    {
+      "t": 216.119,
+      "text": "就不能让别人唱一个新鲜的枝丫吗？",
+      "dimension": "音乐",
+      "polarity": "-"
+    },
+    {
+      "t": 222.111,
+      "text": "你必须时真唱",
+      "dimension": "音乐",
+      "polarity": "+"
+    },
+    {
+      "t": 238.538,
+      "text": "这个还行，可能是因为音色比较像",
+      "dimension": "音乐",
+      "polarity": "+"
+    },
+    {
+      "t": 257.067,
+      "text": "口型对不上",
+      "dimension": "演技",
+      "polarity": "-"
+    },
+    {
+      "t": 272.134,
+      "text": "后边的人眼睛一下就睁大了",
+      "dimension": "细节",
+      "polarity": "0"
+    },
+    {
+      "t": 273.538,
+      "text": "后面大哥笑死我了",
+      "dimension": "画面",
+      "polarity": "+"
+    },
+    {
+      "t": 302.649,
+      "text": "對方錯愕、對方不知所措、對方開始思考、對方開始做出行動",
+      "dimension": "叙事手法",
+      "polarity": "0"
+    },
+    {
+      "t": 308.055,
+      "text": "歌名是爱如潮水吧，哈哈哈",
+      "dimension": "音乐",
+      "polarity": "0"
+    }
+  ]
+}

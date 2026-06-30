@@ -4,29 +4,35 @@
   "total_raw": 1200,
   "after_rule_filter": 113,
   "sample_classified": 113,
-  "evaluative_count": 45,
-  "evaluative_rate": 0.39823008849557523,
+  "evaluative_count": 48,
+  "evaluative_rate": 0.4247787610619469,
   "dimension_distribution": {
-    "整体": 12,
+    "画面": 20,
+    "整体": 13,
     "情感共鸣": 5,
     "音乐": 4,
-    "画面": 17,
-    "节奏": 3,
-    "创意": 1,
+    "其他": 1,
+    "节奏": 2,
     "剧情": 2,
     "细节": 1
   },
   "polarity_distribution": {
+    "0": 21,
     "+": 18,
-    "0": 18,
     "-": 9
   },
   "evaluative_samples": [
     {
+      "t": 0.0,
+      "text": "搭配360p食用更佳",
+      "dimension": "画面",
+      "polarity": "0"
+    },
+    {
       "t": 17.368,
       "text": "好浓的昭和特摄的味道",
       "dimension": "整体",
-      "polarity": "+"
+      "polarity": "0"
     },
     {
       "t": 18.53,
@@ -49,7 +55,7 @@
     {
       "t": 30.78,
       "text": "学到了学到了",
-      "dimension": "整体",
+      "dimension": "其他",
       "polarity": "+"
     },
     {
@@ -109,6 +115,12 @@
     {
       "t": 51.189,
       "text": "好像E总！",
+      "dimension": "画面",
+      "polarity": "0"
+    },
+    {
+      "t": 57.153,
+      "text": "E总（不是）",
       "dimension": "画面",
       "polarity": "0"
     },
@@ -175,7 +187,7 @@
     {
       "t": 110.211,
       "text": "太有创意了吧",
-      "dimension": "创意",
+      "dimension": "整体",
       "polarity": "+"
     },
     {
@@ -211,7 +223,7 @@
     {
       "t": 129.22,
       "text": "以前的动画片就是同样画面重复播……很正常",
-      "dimension": "节奏",
+      "dimension": "画面",
       "polarity": "0"
     },
     {
@@ -291,6 +303,12 @@
       "text": "难怪一股子穷酸味",
       "dimension": "画面",
       "polarity": "-"
+    },
+    {
+      "t": 249.13,
+      "text": "已经循环无数遍了",
+      "dimension": "整体",
+      "polarity": "+"
     }
   ]
 }

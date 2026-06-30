@@ -1,0 +1,42 @@
+{
+  "video": "蒙德：高清重置",
+  "bvid": "BV1sGZbY6EoW",
+  "duration": 75,
+  "total_classified": 99,
+  "peaks": {
+    "画面": {
+      "peak_bin": 1,
+      "peak_time": 30,
+      "peak_density": 0.8055555555555556,
+      "mean_density": 0.7851851851851852,
+      "peak_ratio": 1.025943396226415
+    },
+    "整体": {
+      "peak_bin": 1,
+      "peak_time": 30,
+      "peak_density": 0.16666666666666666,
+      "mean_density": 0.11944444444444442,
+      "peak_ratio": 1.3953488372093026
+    },
+    "音乐": {
+      "peak_bin": 2,
+      "peak_time": 60,
+      "peak_density": 0.06666666666666667,
+      "mean_density": 0.036111111111111115,
+      "peak_ratio": 1.846153846153846
+    },
+    "情感共鸣": {
+      "peak_bin": 0,
+      "peak_time": 0,
+      "peak_density": 0.08333333333333333,
+      "mean_density": 0.059259259259259255,
+      "peak_ratio": 1.40625
+    }
+  },
+  "dim_entropy": {
+    "画面": 0.9995358032062356,
+    "整体": 0.9432761297604536,
+    "音乐": 0.6064727741416687,
+    "情感共鸣": 0.9220930022299897
+  }
+}

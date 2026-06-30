@@ -1,0 +1,326 @@
+{
+  "video": "现代修仙，没钱纯靠自律【自律狠人】【第一季超长电影版】",
+  "bvid": "BV1B8ZJYTEPg",
+  "total_raw": 4146,
+  "after_rule_filter": 2305,
+  "sample_classified": 120,
+  "evaluative_count": 57,
+  "evaluative_rate": 0.475,
+  "dimension_distribution": {
+    "剧情": 43,
+    "画面": 5,
+    "节奏": 3,
+    "叙事手法": 1,
+    "情感共鸣": 1,
+    "演技": 2,
+    "音乐": 1,
+    "细节": 1
+  },
+  "polarity_distribution": {
+    "0": 43,
+    "+": 2,
+    "-": 12
+  },
+  "evaluative_samples": [
+    {
+      "t": 23.183,
+      "text": "韩国四当五落是吧",
+      "dimension": "剧情",
+      "polarity": "0"
+    },
+    {
+      "t": 49.744,
+      "text": "萧露露临时返场（但她又是当萧凡的母亲）",
+      "dimension": "剧情",
+      "polarity": "0"
+    },
+    {
+      "t": 54.244,
+      "text": "666含沙射影",
+      "dimension": "剧情",
+      "polarity": "0"
+    },
+    {
+      "t": 76.72,
+      "text": "这个确实很懒了，没上高一呢已经学完高三了，这是事实",
+      "dimension": "剧情",
+      "polarity": "0"
+    },
+    {
+      "t": 98.157,
+      "text": "前面目标是修仙工作、好道侣、好仙娃，你这绝育直接废掉两个？",
+      "dimension": "剧情",
+      "polarity": "0"
+    },
+    {
+      "t": 101.111,
+      "text": "这是修仙还是进宫啊",
+      "dimension": "剧情",
+      "polarity": "0"
+    },
+    {
+      "t": 109.083,
+      "text": "不对啊，一般家庭最后的愿望不是生个仙娃吗",
+      "dimension": "剧情",
+      "polarity": "0"
+    },
+    {
+      "t": 129.327,
+      "text": "都修仙了 断手断脚都能张会来 坤坤也一样",
+      "dimension": "剧情",
+      "polarity": "0"
+    },
+    {
+      "t": 156.527,
+      "text": "你这人皇幡怎么冒黑烟啊",
+      "dimension": "画面",
+      "polarity": "0"
+    },
+    {
+      "t": 162.165,
+      "text": "修仙界里不努力人皇幡里做兄弟",
+      "dimension": "剧情",
+      "polarity": "0"
+    },
+    {
+      "t": 164.235,
+      "text": "这么卷，寒跑跑都受不了",
+      "dimension": "剧情",
+      "polarity": "0"
+    },
+    {
+      "t": 176.964,
+      "text": "兽药是吧",
+      "dimension": "剧情",
+      "polarity": "0"
+    },
+    {
+      "t": 191.48,
+      "text": "头顶怎么尖尖的",
+      "dimension": "画面",
+      "polarity": "0"
+    },
+    {
+      "t": 222.125,
+      "text": "她妈是怎么扛过那个时代生下他的，太强大了",
+      "dimension": "剧情",
+      "polarity": "+"
+    },
+    {
+      "t": 235.328,
+      "text": "疯狂贷夫",
+      "dimension": "剧情",
+      "polarity": "0"
+    },
+    {
+      "t": 256.324,
+      "text": "真的是修仙世界吗",
+      "dimension": "剧情",
+      "polarity": "0"
+    },
+    {
+      "t": 312.89,
+      "text": "嵩明高中，一层最强高中生",
+      "dimension": "剧情",
+      "polarity": "0"
+    },
+    {
+      "t": 366.54,
+      "text": "右边，有修仙贷款",
+      "dimension": "画面",
+      "polarity": "0"
+    },
+    {
+      "t": 369.901,
+      "text": "这才6分钟，后面43分钟怎么办",
+      "dimension": "节奏",
+      "polarity": "-"
+    },
+    {
+      "t": 386.82,
+      "text": "好好好，之前还编个理由，现在盐都不盐了",
+      "dimension": "剧情",
+      "polarity": "-"
+    },
+    {
+      "t": 387.771,
+      "text": "？什么玩意，赛博大运给我创穿越了",
+      "dimension": "剧情",
+      "polarity": "0"
+    },
+    {
+      "t": 390.808,
+      "text": "为什么每次穿越都要撞大运？",
+      "dimension": "剧情",
+      "polarity": "0"
+    },
+    {
+      "t": 390.841,
+      "text": "升维打击",
+      "dimension": "叙事手法",
+      "polarity": "0"
+    },
+    {
+      "t": 393.807,
+      "text": "每次穿越都是被打",
+      "dimension": "剧情",
+      "polarity": "0"
+    },
+    {
+      "t": 579.751,
+      "text": "吃不了药剂的苦就要吃修行的苦",
+      "dimension": "剧情",
+      "polarity": "0"
+    },
+    {
+      "t": 668.531,
+      "text": "什么都管那不是牛马嘛",
+      "dimension": "剧情",
+      "polarity": "0"
+    },
+    {
+      "t": 696.067,
+      "text": "你的愿望实现了，你的愿望就是让你帮他实现100个愿望。",
+      "dimension": "剧情",
+      "polarity": "0"
+    },
+    {
+      "t": 737.777,
+      "text": "忽悠瘸了",
+      "dimension": "剧情",
+      "polarity": "-"
+    },
+    {
+      "t": 746.065,
+      "text": "开始画饼",
+      "dimension": "剧情",
+      "polarity": "-"
+    },
+    {
+      "t": 757.994,
+      "text": "其实现实就是坑你第一个古董的钱就完了",
+      "dimension": "剧情",
+      "polarity": "0"
+    },
+    {
+      "t": 967.445,
+      "text": "坏了，这真全靠自己的努力和天赋了",
+      "dimension": "剧情",
+      "polarity": "0"
+    },
+    {
+      "t": 972.722,
+      "text": "太能自律了",
+      "dimension": "剧情",
+      "polarity": "+"
+    },
+    {
+      "t": 985.377,
+      "text": "最强牛马。",
+      "dimension": "剧情",
+      "polarity": "0"
+    },
+    {
+      "t": 1023.891,
+      "text": "这才是世界上最绝望的活法",
+      "dimension": "剧情",
+      "polarity": "-"
+    },
+    {
+      "t": 1305.247,
+      "text": "额其实现实也没好到哪去",
+      "dimension": "剧情",
+      "polarity": "0"
+    },
+    {
+      "t": 1359.586,
+      "text": "翻译：功法研究=科学实验",
+      "dimension": "剧情",
+      "polarity": "0"
+    },
+    {
+      "t": 1484.658,
+      "text": "我嘞个压力呀",
+      "dimension": "情感共鸣",
+      "polarity": "-"
+    },
+    {
+      "t": 1484.734,
+      "text": "桌桌的空屏最近好多啊",
+      "dimension": "画面",
+      "polarity": "0"
+    },
+    {
+      "t": 1601.511,
+      "text": "这灵气和没有复苏一个样子",
+      "dimension": "剧情",
+      "polarity": "-"
+    },
+    {
+      "t": 1687.032,
+      "text": "《请努力完成愿望，要不然就会爆体而亡。》",
+      "dimension": "剧情",
+      "polarity": "0"
+    },
+    {
+      "t": 1711.635,
+      "text": "雅娴的表情好奇怪",
+      "dimension": "演技",
+      "polarity": "-"
+    },
+    {
+      "t": 1849.381,
+      "text": "有个笑点被省略了",
+      "dimension": "剧情",
+      "polarity": "-"
+    },
+    {
+      "t": 1869.654,
+      "text": "不出意外的话要出意外了加上这个 bgm",
+      "dimension": "音乐",
+      "polarity": "0"
+    },
+    {
+      "t": 1917.855,
+      "text": "想复杂了说是",
+      "dimension": "剧情",
+      "polarity": "0"
+    },
+    {
+      "t": 1955.665,
+      "text": "感觉像玄微",
+      "dimension": "细节",
+      "polarity": "0"
+    },
+    {
+      "t": 2051.732,
+      "text": "徐风来解锁新造型",
+      "dimension": "画面",
+      "polarity": "0"
+    },
+    {
+      "t": 2145.28,
+      "text": "自信满满的人会翻车",
+      "dimension": "剧情",
+      "polarity": "0"
+    },
+    {
+      "t": 2161.981,
+      "text": "好像二百五。",
+      "dimension": "演技",
+      "polarity": "-"
+    },
+    {
+      "t": 2230.489,
+      "text": "对啊，万年反派请假了？",
+      "dimension": "剧情",
+      "polarity": "0"
+    },
+    {
+      "t": 2325.152,
+      "text": "那萧凡眼中就是催债短信？",
+      "dimension": "剧情",
+      "polarity": "0"
+    }
+  ]
+}

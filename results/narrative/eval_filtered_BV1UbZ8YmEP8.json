@@ -1,0 +1,177 @@
+{
+  "video": "【大鸣王潮1566】死告者",
+  "bvid": "BV1UbZ8YmEP8",
+  "total_raw": 1200,
+  "after_rule_filter": 184,
+  "sample_classified": 120,
+  "evaluative_count": 25,
+  "evaluative_rate": 0.20833333333333334,
+  "dimension_distribution": {
+    "细节": 2,
+    "整体": 7,
+    "画面": 3,
+    "节奏": 2,
+    "剧情": 4,
+    "音乐": 3,
+    "叙事手法": 1,
+    "情感共鸣": 2,
+    "演技": 1
+  },
+  "polarity_distribution": {
+    "0": 10,
+    "+": 14,
+    "-": 1
+  },
+  "evaluative_samples": [
+    {
+      "t": 0.0,
+      "text": "细节黑眼圈",
+      "dimension": "细节",
+      "polarity": "0"
+    },
+    {
+      "t": 10.886,
+      "text": "小卡可爱",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 20.419,
+      "text": "太强了吧",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 27.423,
+      "text": "厉害厉害",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 41.406,
+      "text": "这构图我还以为学战都市呢",
+      "dimension": "画面",
+      "polarity": "0"
+    },
+    {
+      "t": 44.948,
+      "text": "大鸣王潮！燃起来了！",
+      "dimension": "节奏",
+      "polarity": "+"
+    },
+    {
+      "t": 48.727,
+      "text": "它剧情里面的那个声骸，我还真留着了",
+      "dimension": "剧情",
+      "polarity": "0"
+    },
+    {
+      "t": 55.435,
+      "text": "声音很柔和，就像未融合之前的小卡",
+      "dimension": "音乐",
+      "polarity": "+"
+    },
+    {
+      "t": 66.199,
+      "text": "问题是新风套只有更新才有，卡提材料也得去七丘刷，之前刷的全白费了",
+      "dimension": "剧情",
+      "polarity": "-"
+    },
+    {
+      "t": 68.288,
+      "text": "大鸣王潮1566，死告者来了！",
+      "dimension": "节奏",
+      "polarity": "+"
+    },
+    {
+      "t": 86.828,
+      "text": "雪豹可爱捏",
+      "dimension": "画面",
+      "polarity": "+"
+    },
+    {
+      "t": 87.333,
+      "text": "大世界给你玩成全息了。",
+      "dimension": "整体",
+      "polarity": "0"
+    },
+    {
+      "t": 108.338,
+      "text": "棋差一招啊，承太罗",
+      "dimension": "剧情",
+      "polarity": "0"
+    },
+    {
+      "t": 117.283,
+      "text": "幽冥魔口音",
+      "dimension": "细节",
+      "polarity": "0"
+    },
+    {
+      "t": 119.18,
+      "text": "40级单通打85，还打到半血了，你无愧最强之名",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 128.694,
+      "text": "这下看懂了",
+      "dimension": "叙事手法",
+      "polarity": "0"
+    },
+    {
+      "t": 141.955,
+      "text": "DNA乱接啊",
+      "dimension": "剧情",
+      "polarity": "0"
+    },
+    {
+      "t": 145.016,
+      "text": "BGM: Be the one",
+      "dimension": "音乐",
+      "polarity": "0"
+    },
+    {
+      "t": 146.171,
+      "text": "女人唱歌，男人宣誓",
+      "dimension": "音乐",
+      "polarity": "0"
+    },
+    {
+      "t": 173.798,
+      "text": "最佳搭配！",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 177.186,
+      "text": "太燃了！",
+      "dimension": "情感共鸣",
+      "polarity": "+"
+    },
+    {
+      "t": 186.822,
+      "text": "这集牢卡真滴吊",
+      "dimension": "演技",
+      "polarity": "+"
+    },
+    {
+      "t": 186.909,
+      "text": "牢卡太帅了",
+      "dimension": "画面",
+      "polarity": "+"
+    },
+    {
+      "t": 186.941,
+      "text": "成本巨大",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 188.716,
+      "text": "励志啊!!!",
+      "dimension": "情感共鸣",
+      "polarity": "+"
+    }
+  ]
+}

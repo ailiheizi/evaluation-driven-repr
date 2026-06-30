@@ -3,31 +3,24 @@
   "bvid": "BV1BtZJYBE4G",
   "total_raw": 7200,
   "after_rule_filter": 3498,
-  "sample_classified": 150,
-  "evaluative_count": 41,
-  "evaluative_rate": 0.2733333333333333,
+  "sample_classified": 120,
+  "evaluative_count": 34,
+  "evaluative_rate": 0.2833333333333333,
   "dimension_distribution": {
-    "剧情": 18,
+    "剧情": 13,
+    "细节": 2,
     "音乐": 1,
-    "画面": 1,
-    "整体": 10,
-    "情感共鸣": 6,
-    "细节": 1,
+    "整体": 7,
+    "情感共鸣": 9,
     "叙事手法": 1,
-    "演技": 3
+    "演技": 1
   },
   "polarity_distribution": {
-    "+": 26,
-    "-": 7,
-    "0": 8
+    "-": 5,
+    "0": 5,
+    "+": 24
   },
   "evaluative_samples": [
-    {
-      "t": 173.632,
-      "text": "能提出问题又能解决问题的人纵观历史也是极其稀有的",
-      "dimension": "剧情",
-      "polarity": "+"
-    },
     {
       "t": 211.99,
       "text": "不喜歡，那你倒是把仗打贏啊",
@@ -38,19 +31,13 @@
       "t": 304.068,
       "text": "战争后期的形式证明法国在战前根本没大规模动员，不然不会败这么惨",
       "dimension": "剧情",
-      "polarity": "0"
-    },
-    {
-      "t": 460.958,
-      "text": "自古以来，面对坚城没有绝对优势的兵力时最好的办法就是围而不攻",
-      "dimension": "剧情",
-      "polarity": "0"
-    },
-    {
-      "t": 472.642,
-      "text": "打不过别人，还守不过吗？对吧法国",
-      "dimension": "剧情",
       "polarity": "-"
+    },
+    {
+      "t": 551.262,
+      "text": "围城一个月后还每人每天有肉吃，法国挺富裕的",
+      "dimension": "细节",
+      "polarity": "0"
     },
     {
       "t": 553.461,
@@ -61,7 +48,7 @@
     {
       "t": 776.742,
       "text": "这也太好看了吧",
-      "dimension": "画面",
+      "dimension": "整体",
       "polarity": "+"
     },
     {
@@ -71,15 +58,9 @@
       "polarity": "+"
     },
     {
-      "t": 989.813,
-      "text": "太可恶了",
-      "dimension": "情感共鸣",
-      "polarity": "-"
-    },
-    {
       "t": 1003.135,
       "text": "这估计就是法国至今仍然强盛的原因吧",
-      "dimension": "整体",
+      "dimension": "剧情",
       "polarity": "+"
     },
     {
@@ -91,19 +72,25 @@
     {
       "t": 1100.506,
       "text": "拿破仑的精神在巴黎人民的身上复苏了",
-      "dimension": "整体",
+      "dimension": "剧情",
       "polarity": "+"
+    },
+    {
+      "t": 1380.611,
+      "text": "没有理论指导 是斗不过的",
+      "dimension": "剧情",
+      "polarity": "0"
     },
     {
       "t": 1401.039,
       "text": "这条真的很关键",
-      "dimension": "剧情",
+      "dimension": "细节",
       "polarity": "+"
     },
     {
       "t": 1411.708,
       "text": "认知非常准确",
-      "dimension": "细节",
+      "dimension": "整体",
       "polarity": "+"
     },
     {
@@ -125,12 +112,6 @@
       "polarity": "+"
     },
     {
-      "t": 1607.111,
-      "text": "这才是浪漫的法兰西！",
-      "dimension": "整体",
-      "polarity": "+"
-    },
-    {
       "t": 1731.553,
       "text": "太理想了。",
       "dimension": "剧情",
@@ -140,18 +121,12 @@
       "t": 1732.04,
       "text": "这么公平的么 有点惊讶",
       "dimension": "剧情",
-      "polarity": "+"
+      "polarity": "0"
     },
     {
       "t": 1846.677,
       "text": "先进的意识！",
       "dimension": "整体",
-      "polarity": "+"
-    },
-    {
-      "t": 1860.617,
-      "text": "简直太震撼了",
-      "dimension": "情感共鸣",
       "polarity": "+"
     },
     {
@@ -163,32 +138,20 @@
     {
       "t": 2026.013,
       "text": "这里真笑了",
+      "dimension": "情感共鸣",
+      "polarity": "0"
+    },
+    {
+      "t": 2036.108,
+      "text": "不行，德国已经开始了军国主义教育",
       "dimension": "剧情",
+      "polarity": "-"
+    },
+    {
+      "t": 2336.85,
+      "text": "这样想想川军真的伟大",
+      "dimension": "情感共鸣",
       "polarity": "+"
-    },
-    {
-      "t": 2028.736,
-      "text": "这就太魔幻了",
-      "dimension": "剧情",
-      "polarity": "0"
-    },
-    {
-      "t": 2081.683,
-      "text": "俾斯麦故意这样激法国宣战的",
-      "dimension": "剧情",
-      "polarity": "0"
-    },
-    {
-      "t": 2085.171,
-      "text": "欧洲张仪",
-      "dimension": "演技",
-      "polarity": "+"
-    },
-    {
-      "t": 2368.643,
-      "text": "比起对奥地利的宽容，这已经十分苛刻了，这也是法德长期敌对的原因",
-      "dimension": "剧情",
-      "polarity": "0"
     },
     {
       "t": 2369.054,
@@ -197,21 +160,9 @@
       "polarity": "+"
     },
     {
-      "t": 2387.285,
-      "text": "可俾斯麦根本就没想那么快打一战",
-      "dimension": "剧情",
-      "polarity": "0"
-    },
-    {
-      "t": 2389.084,
-      "text": "失去阿尔萨斯-洛林，法兰西虽大但却无险可守",
-      "dimension": "剧情",
-      "polarity": "0"
-    },
-    {
       "t": 2434.34,
       "text": "俾斯麦精就精在搞霸权主义的度上",
-      "dimension": "演技",
+      "dimension": "剧情",
       "polarity": "+"
     },
     {
@@ -221,9 +172,9 @@
       "polarity": "+"
     },
     {
-      "t": 2517.493,
-      "text": "有点狭隘了",
-      "dimension": "整体",
+      "t": 2493.83,
+      "text": "这不就前后矛盾了",
+      "dimension": "剧情",
       "polarity": "-"
     },
     {
@@ -237,18 +188,6 @@
       "text": "德国或者说普鲁士那个时候 能拥有一个俾斯曼真的是太幸运了……",
       "dimension": "剧情",
       "polarity": "+"
-    },
-    {
-      "t": 2613.16,
-      "text": "戴高乐时期法国生活水平并没有很高",
-      "dimension": "剧情",
-      "polarity": "-"
-    },
-    {
-      "t": 2619.225,
-      "text": "浪漫主义",
-      "dimension": "整体",
-      "polarity": "0"
     },
     {
       "t": 2680.797,
@@ -266,7 +205,25 @@
       "t": 2752.759,
       "text": "这是怎样的恐惧！！！",
       "dimension": "情感共鸣",
-      "polarity": "-"
+      "polarity": "0"
+    },
+    {
+      "t": 2841.665,
+      "text": "正义是杀不完的！因为真理永远存在！",
+      "dimension": "情感共鸣",
+      "polarity": "+"
+    },
+    {
+      "t": 2962.284,
+      "text": "英特纳雄耐尔一定要实现！！！",
+      "dimension": "情感共鸣",
+      "polarity": "+"
+    },
+    {
+      "t": 2995.454,
+      "text": "致敬，人民万岁！",
+      "dimension": "情感共鸣",
+      "polarity": "+"
     }
   ]
 }

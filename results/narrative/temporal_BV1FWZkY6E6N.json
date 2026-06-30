@@ -1,0 +1,50 @@
+{
+  "video": "她 真 是 病 了 ！有 病 治 病！停止这场闹剧吧！未删减《小小的勇气 》",
+  "bvid": "BV1FWZkY6E6N",
+  "duration": 684,
+  "total_classified": 183,
+  "peaks": {
+    "演技": {
+      "peak_bin": 9,
+      "peak_time": 270,
+      "peak_density": 1.0,
+      "mean_density": 0.6226048106482889,
+      "peak_ratio": 1.6061552736136866
+    },
+    "整体": {
+      "peak_bin": 22,
+      "peak_time": 660,
+      "peak_density": 0.5,
+      "mean_density": 0.08355497159844985,
+      "peak_ratio": 5.984084375049638
+    },
+    "情感共鸣": {
+      "peak_bin": 16,
+      "peak_time": 480,
+      "peak_density": 0.5,
+      "mean_density": 0.05696248196248196,
+      "peak_ratio": 8.77770740975301
+    },
+    "剧情": {
+      "peak_bin": 2,
+      "peak_time": 60,
+      "peak_density": 0.6923076923076923,
+      "mean_density": 0.21804533849988392,
+      "peak_ratio": 3.1750630262066384
+    },
+    "细节": {
+      "peak_bin": 3,
+      "peak_time": 90,
+      "peak_density": 0.3333333333333333,
+      "mean_density": 0.034273182957393476,
+      "peak_ratio": 9.725776965265084
+    }
+  },
+  "dim_entropy": {
+    "演技": 0.978643151042204,
+    "整体": 0.6742535644625486,
+    "情感共鸣": 0.5864932091665,
+    "剧情": 0.8555845305547488,
+    "细节": 0.4039750125692609
+  }
+}

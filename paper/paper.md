@@ -4,7 +4,7 @@
 
 ## Abstract
 
-We show that natural audience evaluations (e.g., real-time video comments/danmaku) contain sufficient semantic structure to automatically discover meaningful content dimensions—without any human-defined labels or feature engineering. By clustering the semantic embeddings of evaluative comments and aligning them with temporal content, we demonstrate that: (1) 9 interpretable evaluation dimensions emerge automatically (plot, acting, visuals, music, pacing, etc.); (2) the top 6 dimensions recur stably across 16 videos and 3 genres, with bootstrap 95% confidence intervals significantly above a random-assignment null model; (3) two architecturally distinct models (DeepSeek and Gemini) independently agree on dimension labels (63%, 5.7× chance) and polarity (84%), confirming the dimensions are model-independent; (4) dimensions temporally concentrate at content-specific moments and enable downstream applications such as explainable highlight detection. Our findings establish a new paradigm—**Evaluation-Driven Representation Learning (EDRL)**—where natural human evaluations, rather than engineered labels, drive the discovery of content structure.
+We show that natural audience evaluations (e.g., real-time video comments/danmaku) contain sufficient semantic structure to automatically discover meaningful content dimensions—without any human-defined labels or feature engineering. By clustering the semantic embeddings of evaluative comments and aligning them with temporal content, we demonstrate that: (1) 9 interpretable evaluation dimensions emerge automatically (plot, acting, visuals, music, pacing, etc.); (2) the top 7 dimensions recur stably across 40 videos and 7 genres, with bootstrap 95% confidence intervals significantly above a random-assignment null model; (3) two architecturally distinct models (DeepSeek and Gemini) independently agree on dimension labels (63%, 5.7× chance) and polarity (84%), confirming the dimensions are model-independent; (4) dimensions temporally concentrate at content-specific moments and enable downstream applications such as explainable highlight detection. Our findings establish a new paradigm—**Evaluation-Driven Representation Learning (EDRL)**—where natural human evaluations, rather than engineered labels, drive the discovery of content structure.
 
 ---
 
@@ -20,7 +20,7 @@ We propose a different path: **using naturally-occurring audience evaluations as
 ### Contribution
 
 1. We demonstrate that semantic clustering of natural evaluations (video danmaku) automatically discovers 9 interpretable content dimensions, without any predefined taxonomy.
-2. We statistically validate cross-video stability: the top 6 dimensions have bootstrap 95% CIs above a random-assignment null model across 16 videos and 3 genres.
+2. We statistically validate cross-video stability: the top 7 dimensions have bootstrap 95% CIs above a random-assignment null model across 40 videos and 7 genres.
 3. We confirm model-independence via cross-architecture agreement: DeepSeek and Gemini independently agree on dimensions (63%, 5.7× chance) and polarity (84%).
 4. We show dimensions temporally concentrate at content-specific moments and enable a downstream task—explainable highlight detection (where + why).
 5. We propose the EDRL (Evaluation-Driven Representation Learning) paradigm as a general framework for leveraging natural evaluations.
@@ -68,8 +68,8 @@ These are complementary: model-extracted factors capture what *is* in the conten
 
 ### 3.1 Data Collection
 - Platform: Bilibili (Chinese video platform with time-synced danmaku)
-- Videos: 19 videos spanning 3 genres (film analysis, gaming, science/education)
-- Successfully processed: 16 videos (3 had insufficient evaluative content)
+- Videos: 49 videos spanning 7 genres (film, gaming, science, music, animation, tech, life)
+- Successfully processed: 40 videos (9 had insufficient evaluative content)
 - Raw data: timestamped comments, 600–9600 per video, ~30,000 total
 
 ### 3.2 Filtering Pipeline
@@ -135,41 +135,41 @@ These are complementary: model-extracted factors capture what *is* in the conten
 
 ### 4.3 Cross-Video Stability (Study 3)
 
-**Setting:** 16 videos across 3 genres (film analysis, gaming, science/education), 19 attempted, 16 successful (3 had insufficient evaluative content).
+**Setting:** 40 videos across 7 genres (film, gaming, science, music, animation, tech, life); 49 attempted, 40 successful (9 had insufficient evaluative content).
 
 #### Dimension Recurrence
 
-| Dimension | Appears in N/16 videos | Recurrence Rate |
+| Dimension | Appears in N/40 videos | Recurrence Rate |
 |-----------|----------------------|-----------------|
-| Overall | 16/16 | 100% |
-| Plot | 15/16 | 94% |
-| Details | 14/16 | 88% |
-| Emotional resonance | 14/16 | 88% |
-| Visuals | 14/16 | 88% |
-| Pacing | 13/16 | 81% |
-| Music | 12/16 | 75% |
-| Acting | 11/16 | 69% |
-| Narrative technique | 7/16 | 44% |
+| Overall | 38/40 | 95% |
+| Details | 36/40 | 90% |
+| Plot | 35/40 | 88% |
+| Visuals | 34/40 | 85% |
+| Emotional resonance | 33/40 | 82% |
+| Acting | 28/40 | 70% |
+| Pacing | 27/40 | 68% |
+| Music | 20/40 | 50% |
+| Narrative technique | 18/40 | 45% |
 
-**Finding 4:** 8 core dimensions recur in 69–100% of all videos, forming a stable automatically-discovered evaluation taxonomy. Genre-specific dimensions (narrative technique) appear less frequently, as expected.
+**Finding 4:** 7 core dimensions recur in 68–95% of all videos, forming a stable automatically-discovered evaluation taxonomy. Genre-dependent dimensions (music 50%, narrative technique 45%) appear less frequently, as expected—many videos have no notable soundtrack.
 
-![Left: Dimension recurrence across 16 videos. Right: Mean temporal concentration (entropy) by dimension](figures/fig3_stability.png)
+![Left: Dimension recurrence across videos. Right: Mean temporal concentration (entropy) by dimension](figures/fig3_stability.png)
 
 #### Cross-Video Temporal Concentration
 
 | Dimension | Mean Entropy (across videos) | N videos | Concentrated? |
 |-----------|------------------------------|----------|---------------|
-| Narrative technique | 0.17 | 2 | ★★★ |
-| Pacing | 0.18 | 3 | ★★★ |
-| Acting | 0.28 | 6 | ★★ |
-| Music | 0.28 | 5 | ★★ |
-| Emotional resonance | 0.45 | 9 | ★ |
-| Visuals | 0.45 | 10 | ★ |
-| Details | 0.56 | 7 | ★ |
-| Overall | 0.61 | 13 | (dispersed) |
-| Plot | 0.78 | 12 | (dispersed) |
+| Narrative technique | 0.19 | 4 | ★★★ |
+| Pacing | 0.33 | 7 | ★★ |
+| Emotional resonance | 0.35 | 22 | ★★ |
+| Visuals | 0.35 | 19 | ★★ |
+| Acting | 0.42 | 14 | ★ |
+| Details | 0.44 | 15 | ★ |
+| Music | 0.56 | 9 | ★ |
+| Overall | 0.66 | 35 | (dispersed) |
+| Plot | 0.72 | 28 | (dispersed) |
 
-**Finding 5:** Temporal concentration is consistent across videos: content-specific dimensions (pacing H=0.18, acting H=0.28, music H=0.28) cluster at specific content events, while content-general dimensions (overall H=0.61, plot H=0.78) remain dispersed. This gradient from concentrated to dispersed is itself a structural finding.
+**Finding 5:** Temporal concentration is consistent across 40 videos: content-specific dimensions (narrative technique H=0.19, pacing H=0.33, emotional resonance H=0.35) cluster at specific content events, while content-general dimensions (overall H=0.66, plot H=0.72) remain dispersed. This concentrated-to-dispersed gradient is itself a structural finding, replicated on the larger dataset.
 
 **Finding 6 (genre fingerprint):** The same dimension shows opposite temporal patterns by genre:
 - Film analysis: plot concentrated (H=0.46) — discussion triggered at explanation points
@@ -202,7 +202,7 @@ We compare EDRL against three baselines on the same data:
 
 **Finding 8 (temporal non-uniformity):** When clusters are formed from all filtered comments (n=2912) and timestamps are shuffled, cluster entropy increases significantly (0.788 real vs 0.918 shuffled, p<0.0001). This confirms that comment clusters are temporally non-uniform—they concentrate at specific moments. However, a stricter dimension-label-shuffle test (keeping timestamps fixed, shuffling which dimension each classified comment belongs to) yields p=0.21 on single-video data, indicating that within a single video, the evidence for *dimension-specific* concentration is weaker.
 
-**Finding 9 (cross-video stability as primary evidence):** The strongest evidence for meaningful temporal structure is *cross-video stability*: 8 dimensions recur in 69–100% of 16 videos across 3 genres. Random noise would not produce stable, interpretable dimensions across independent datasets. We therefore treat cross-video recurrence—not single-video permutation—as the primary validation.
+**Finding 9 (cross-video stability as primary evidence):** The strongest evidence for meaningful temporal structure is *cross-video stability*: 7 dimensions recur in 68–95% of 40 videos across 7 genres. Random noise would not produce stable, interpretable dimensions across independent datasets. We therefore treat cross-video recurrence—not single-video permutation—as the primary validation.
 
 ### 4.5 Summary of Evidence
 
@@ -218,7 +218,7 @@ We compare EDRL against three baselines on the same data:
 
 ### 4.6 Cross-Model Annotation Agreement (Study 5)
 
-To validate classification without relying on a single model's biases, we use a **second, architecturally distinct annotator** (Gemini-2.5-flash) to independently re-annotate 100 comments sampled across 16 videos. Cross-architecture agreement is stronger evidence than single-model self-consistency, as the two models share no training data or architecture.
+To validate classification without relying on a single model's biases, we use a **second, architecturally distinct annotator** (Gemini-2.5-flash) to independently re-annotate 100 comments sampled across 40 videos. Cross-architecture agreement is stronger evidence than single-model self-consistency, as the two models share no training data or architecture.
 
 **Setup:** 100 comments (60 classified as evaluative by the DeepSeek pipeline, 40 not). Gemini independently labels evaluativeness, dimension, and polarity.
 
@@ -247,20 +247,20 @@ We demonstrate practical value via highlight detection. Using comment density to
 
 ### 4.8 Statistical Validation of Cross-Video Stability (Study 7)
 
-We test whether dimension recurrence exceeds chance using bootstrap resampling (10,000 iterations) against a null model where each video draws its dimensions randomly from the pool of 14 observed dimensions (mean 7.8 dims/video → 55% null recurrence rate).
+We test whether dimension recurrence exceeds chance using bootstrap resampling (10,000 iterations) against a null model where each video draws its dimensions randomly from the pool of 15 observed dimensions (mean 7.3 dims/video → 49% null recurrence rate).
 
-| Dimension | Recurrence | 95% CI | Above null (55%)? |
+| Dimension | Recurrence | 95% CI | Above null (49%)? |
 |-----------|-----------|--------|-------------------|
-| Overall | 100% | [100%, 100%] | Yes *** |
-| Plot | 94% | [81%, 100%] | Yes *** |
-| Details | 88% | [69%, 100%] | Yes *** |
-| Emotional | 88% | [69%, 100%] | Yes *** |
-| Visuals | 88% | [69%, 100%] | Yes *** |
-| Pacing | 81% | [62%, 100%] | Yes *** |
-| Music | 75% | [50%, 94%] | Marginal |
-| Acting | 69% | [44%, 88%] | Marginal |
+| Overall | 95% | [88%, 100%] | Yes *** |
+| Details | 90% | [80%, 98%] | Yes *** |
+| Plot | 88% | [78%, 98%] | Yes *** |
+| Visuals | 85% | [72%, 95%] | Yes *** |
+| Emotional | 82% | [70%, 92%] | Yes *** |
+| Acting | 70% | [55%, 85%] | Yes *** |
+| Pacing | 68% | [52%, 82%] | Yes *** |
+| Music | 50% | [35%, 65%] | Marginal |
 
-**Finding 14:** The top 6 dimensions have bootstrap 95% CI lower bounds strictly above the 55% null recurrence rate, confirming their cross-video stability is statistically significant—not an artifact of having many dimensions to match against. This is the **primary quantitative evidence** for meaningful dimension discovery.
+**Finding 14:** The top 7 dimensions have bootstrap 95% CI lower bounds strictly above the 49% null recurrence rate, confirming their cross-video stability is statistically significant—not an artifact of having many dimensions to match against. On the larger 40-video dataset, one more dimension (Acting) reaches significance compared to the 16-video subset, and confidence intervals tighten. This is the **primary quantitative evidence** for meaningful dimension discovery.
 
 **Cluster validity:** Silhouette analysis (k=3..14) on the evaluative comment embeddings peaks at k=11 (score 0.122), supporting the use of k≈8–11 clusters rather than an arbitrary choice.
 
@@ -290,7 +290,7 @@ Our earlier work (Paper 1) found that semantic similarity between evaluative and
 
 ### 5.3 Limitations and Future Work
 
-1. **Scale**: 16 videos across 3 genres validates the core claims, but 50+ videos and more genres would strengthen generalizability.
+1. **Scale**: 40 videos across 7 genres validates the core claims; more genres and non-Chinese platforms would further strengthen generalizability.
 2. **Annotation via LLMs**: Both annotators are LLMs (DeepSeek, Gemini). While cross-architecture agreement mitigates single-model bias, LLM annotation may carry shared biases absent in human annotation. Human validation remains valuable future work.
 3. **Single-video temporal alignment**: The dimension-label-shuffle permutation test is not significant on single videos (p=0.21); cross-video recurrence is our primary evidence. Larger per-video samples may strengthen single-video claims.
 4. **Generalizability**: Currently Bilibili-specific (Chinese). Extending to YouTube comments, app reviews, and product reviews would test the paradigm's breadth.

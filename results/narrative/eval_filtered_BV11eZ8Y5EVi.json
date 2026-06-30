@@ -1,0 +1,217 @@
+{
+  "video": "循环歌单|【八方来财】|“【来财の小曲】谁懂憋佬仔出来时的救赎感”",
+  "bvid": "BV11eZ8Y5EVi",
+  "total_raw": 3069,
+  "after_rule_filter": 213,
+  "sample_classified": 120,
+  "evaluative_count": 32,
+  "evaluative_rate": 0.26666666666666666,
+  "dimension_distribution": {
+    "其他": 2,
+    "情感共鸣": 5,
+    "整体": 9,
+    "音乐": 7,
+    "剧情": 2,
+    "节奏": 6,
+    "细节": 1
+  },
+  "polarity_distribution": {
+    "0": 10,
+    "+": 16,
+    "-": 6
+  },
+  "evaluative_samples": [
+    {
+      "t": 0.402,
+      "text": "我竟一时不知道该放猎奇还是音乐收藏夹",
+      "dimension": "其他",
+      "polarity": "0"
+    },
+    {
+      "t": 3.37,
+      "text": "谁懂憋佬仔出来时的救赎感啊！",
+      "dimension": "情感共鸣",
+      "polarity": "+"
+    },
+    {
+      "t": 3.599,
+      "text": "你知道我上个视频多伤心吗",
+      "dimension": "情感共鸣",
+      "polarity": "-"
+    },
+    {
+      "t": 5.836,
+      "text": "大脑飞速旋转",
+      "dimension": "其他",
+      "polarity": "0"
+    },
+    {
+      "t": 6.876,
+      "text": "万恶之源",
+      "dimension": "整体",
+      "polarity": "0"
+    },
+    {
+      "t": 7.811,
+      "text": "逆天收藏量",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 7.974,
+      "text": "总感觉这首歌在骂我别",
+      "dimension": "音乐",
+      "polarity": "0"
+    },
+    {
+      "t": 9.878,
+      "text": "跟着唱的，家里得请高人了",
+      "dimension": "音乐",
+      "polarity": "-"
+    },
+    {
+      "t": 12.247,
+      "text": "牛逼1000+",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 12.811,
+      "text": "懂了，来了就会被摆在柜台上",
+      "dimension": "剧情",
+      "polarity": "0"
+    },
+    {
+      "t": 14.24,
+      "text": "爱博士，1000+？！？！！",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 18.063,
+      "text": "666 1000加了",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 33.522,
+      "text": "爽了爽了！！！",
+      "dimension": "情感共鸣",
+      "polarity": "+"
+    },
+    {
+      "t": 40.565,
+      "text": "好词不挑曲",
+      "dimension": "音乐",
+      "polarity": "+"
+    },
+    {
+      "t": 40.849,
+      "text": "怎么还夹杂私货呢？",
+      "dimension": "剧情",
+      "polarity": "-"
+    },
+    {
+      "t": 42.54,
+      "text": "背景音乐是。。。精卫！？",
+      "dimension": "音乐",
+      "polarity": "0"
+    },
+    {
+      "t": 42.851,
+      "text": "beat switch",
+      "dimension": "节奏",
+      "polarity": "0"
+    },
+    {
+      "t": 44.563,
+      "text": "《八方精卫》",
+      "dimension": "音乐",
+      "polarity": "0"
+    },
+    {
+      "t": 46.152,
+      "text": "好听好听",
+      "dimension": "音乐",
+      "polarity": "+"
+    },
+    {
+      "t": 47.616,
+      "text": "憋佬仔的救赎感我懂！",
+      "dimension": "情感共鸣",
+      "polarity": "+"
+    },
+    {
+      "t": 49.417,
+      "text": "很吵...",
+      "dimension": "整体",
+      "polarity": "-"
+    },
+    {
+      "t": 60.151,
+      "text": "能不能别人机报人数，这样很高大上吗？不理解",
+      "dimension": "细节",
+      "polarity": "-"
+    },
+    {
+      "t": 61.865,
+      "text": "这个ong菜听着有一种回家的感觉",
+      "dimension": "情感共鸣",
+      "polarity": "+"
+    },
+    {
+      "t": 69.48,
+      "text": "惊人的时长",
+      "dimension": "节奏",
+      "polarity": "0"
+    },
+    {
+      "t": 96.099,
+      "text": "节奏带劲",
+      "dimension": "节奏",
+      "polarity": "+"
+    },
+    {
+      "t": 113.758,
+      "text": "绝世双糖",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 129.944,
+      "text": "开1.25倍食用更加",
+      "dimension": "节奏",
+      "polarity": "+"
+    },
+    {
+      "t": 147.125,
+      "text": "这个真好听我一键三连就关注了",
+      "dimension": "音乐",
+      "polarity": "+"
+    },
+    {
+      "t": 177.307,
+      "text": "进度条被焊死了。！",
+      "dimension": "节奏",
+      "polarity": "+"
+    },
+    {
+      "t": 704.699,
+      "text": "好臭的时间",
+      "dimension": "整体",
+      "polarity": "-"
+    },
+    {
+      "t": 2178.788,
+      "text": "1h？我擦",
+      "dimension": "节奏",
+      "polarity": "0"
+    },
+    {
+      "t": 3008.909,
+      "text": "能看到这里的都是神人了",
+      "dimension": "整体",
+      "polarity": "+"
+    }
+  ]
+}

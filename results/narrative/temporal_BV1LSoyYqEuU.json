@@ -2,56 +2,42 @@
   "video": "全程细节伏笔隐喻？一刷看不懂，二刷就上头的高智商犯罪片！《惊天魔盗团》",
   "bvid": "BV1LSoyYqEuU",
   "duration": 2457,
-  "total_classified": 347,
+  "total_classified": 228,
   "peaks": {
     "整体": {
       "peak_bin": 12,
       "peak_time": 360,
       "peak_density": 1.0,
-      "mean_density": 0.44618204408376577,
-      "peak_ratio": 2.241237659066937
+      "mean_density": 0.3159104646915126,
+      "peak_ratio": 3.1654538604047273
     },
     "情感共鸣": {
-      "peak_bin": 26,
-      "peak_time": 780,
+      "peak_bin": 7,
+      "peak_time": 210,
       "peak_density": 1.0,
-      "mean_density": 0.1089295866734891,
-      "peak_ratio": 9.180242306412573
+      "mean_density": 0.15928682736219363,
+      "peak_ratio": 6.277983035760732
     },
     "剧情": {
-      "peak_bin": 27,
-      "peak_time": 810,
+      "peak_bin": 15,
+      "peak_time": 450,
       "peak_density": 1.0,
-      "mean_density": 0.12330410652850739,
-      "peak_ratio": 8.11002997510715
+      "mean_density": 0.09511255408022544,
+      "peak_ratio": 10.513859181581024
     },
     "细节": {
       "peak_bin": 1,
       "peak_time": 30,
-      "peak_density": 0.9166666666666666,
-      "mean_density": 0.05370810501529455,
-      "peak_ratio": 17.067566737006004
-    },
-    "画面": {
-      "peak_bin": 0,
-      "peak_time": 0,
-      "peak_density": 0.14285714285714285,
-      "mean_density": 0.0018796992481203006,
-      "peak_ratio": 14.285714285714285
-    },
-    "音乐": {
-      "peak_bin": 0,
-      "peak_time": 0,
-      "peak_density": 1.0,
-      "mean_density": 0.013888888888888888,
-      "peak_ratio": 72.0
+      "peak_density": 0.8873239436619719,
+      "mean_density": 0.04199085535412677,
+      "peak_ratio": 21.13136148760941
     },
     "叙事手法": {
-      "peak_bin": 0,
-      "peak_time": 0,
-      "peak_density": 0.6666666666666666,
-      "mean_density": 0.01075268817204301,
-      "peak_ratio": 62.0
+      "peak_bin": 41,
+      "peak_time": 1230,
+      "peak_density": 1.0,
+      "mean_density": 0.024193548387096774,
+      "peak_ratio": 41.333333333333336
     },
     "演技": {
       "peak_bin": 0,
@@ -62,13 +48,11 @@
     }
   },
   "dim_entropy": {
-    "整体": 0.8649413758186211,
-    "情感共鸣": 0.6472897691842656,
-    "剧情": 0.6805262562986689,
-    "细节": 0.4693788753205715,
-    "画面": -0.0,
-    "音乐": -0.0,
-    "叙事手法": -0.0,
+    "整体": 0.79431556137893,
+    "情感共鸣": 0.6627063589823258,
+    "剧情": 0.5615614825432623,
+    "细节": 0.3893516754949188,
+    "叙事手法": 0.15422666405078994,
     "演技": -0.0
   }
 }

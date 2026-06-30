@@ -1,0 +1,50 @@
+{
+  "video": "《穷鬼的上下两千年》第一集：老夫，秦国白起",
+  "bvid": "BV1mSZkYQEGf",
+  "duration": 350,
+  "total_classified": 148,
+  "peaks": {
+    "整体": {
+      "peak_bin": 6,
+      "peak_time": 180,
+      "peak_density": 1.0,
+      "mean_density": 0.4208499833499833,
+      "peak_ratio": 2.376143613075516
+    },
+    "剧情": {
+      "peak_bin": 9,
+      "peak_time": 270,
+      "peak_density": 1.0,
+      "mean_density": 0.48670496170496175,
+      "peak_ratio": 2.054632844705198
+    },
+    "画面": {
+      "peak_bin": 0,
+      "peak_time": 0,
+      "peak_density": 0.05714285714285714,
+      "mean_density": 0.0047619047619047615,
+      "peak_ratio": 5.714285714285714
+    },
+    "情感共鸣": {
+      "peak_bin": 0,
+      "peak_time": 0,
+      "peak_density": 0.07692307692307693,
+      "mean_density": 0.008547008547008548,
+      "peak_ratio": 7.6923076923076925
+    },
+    "细节": {
+      "peak_bin": 7,
+      "peak_time": 210,
+      "peak_density": 0.5714285714285714,
+      "mean_density": 0.10836385836385837,
+      "peak_ratio": 5.2732394366197175
+    }
+  },
+  "dim_entropy": {
+    "整体": 0.9118089171785233,
+    "剧情": 0.9195333605001274,
+    "画面": -0.0,
+    "情感共鸣": -0.0,
+    "细节": 0.43394819877471297
+  }
+}

@@ -2,33 +2,33 @@
   "video": "震撼世界的72天：巴黎公社为何爆发？又为何失败？【历史调研室71】",
   "bvid": "BV1BtZJYBE4G",
   "duration": 3081,
-  "total_classified": 491,
+  "total_classified": 331,
   "peaks": {
     "剧情": {
-      "peak_bin": 1,
-      "peak_time": 30,
+      "peak_bin": 0,
+      "peak_time": 0,
       "peak_density": 1.0,
-      "mean_density": 0.7253849171324901,
-      "peak_ratio": 1.3785784297157533
+      "mean_density": 0.6166682159771822,
+      "peak_ratio": 1.621617547477105
     },
     "情感共鸣": {
-      "peak_bin": 45,
-      "peak_time": 1350,
-      "peak_density": 1.0,
-      "mean_density": 0.06241751775732358,
-      "peak_ratio": 16.021143357349676
-    },
-    "整体": {
       "peak_bin": 34,
       "peak_time": 1020,
       "peak_density": 1.0,
-      "mean_density": 0.12613137453562986,
-      "peak_ratio": 7.928241515496351
+      "mean_density": 0.055349574173103586,
+      "peak_ratio": 18.066986330780793
+    },
+    "整体": {
+      "peak_bin": 3,
+      "peak_time": 90,
+      "peak_density": 1.0,
+      "mean_density": 0.12296896485867075,
+      "peak_ratio": 8.132133186201155
     }
   },
   "dim_entropy": {
-    "剧情": 0.9587613422289801,
-    "情感共鸣": 0.6211375730025596,
-    "整体": 0.6883696806096429
+    "剧情": 0.9152633441177915,
+    "情感共鸣": 0.49797349325198254,
+    "整体": 0.6548664095370585
   }
 }

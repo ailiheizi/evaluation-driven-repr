@@ -1,0 +1,191 @@
+{
+  "video": "小米良心 or 偷偷减配？报废级拆解小米中央空调",
+  "bvid": "BV1gEodYtEBL",
+  "total_raw": 1817,
+  "after_rule_filter": 1392,
+  "sample_classified": 120,
+  "evaluative_count": 28,
+  "evaluative_rate": 0.23333333333333334,
+  "dimension_distribution": {
+    "画面": 7,
+    "音乐": 1,
+    "细节": 11,
+    "整体": 8,
+    "其他": 1
+  },
+  "polarity_distribution": {
+    "0": 4,
+    "-": 12,
+    "+": 12
+  },
+  "evaluative_samples": [
+    {
+      "t": 80.122,
+      "text": "镜头效应",
+      "dimension": "画面",
+      "polarity": "0"
+    },
+    {
+      "t": 96.443,
+      "text": "做的圆形了一点就叫漂亮么？",
+      "dimension": "画面",
+      "polarity": "-"
+    },
+    {
+      "t": 106.267,
+      "text": "原声大碟",
+      "dimension": "音乐",
+      "polarity": "0"
+    },
+    {
+      "t": 183.999,
+      "text": "那这下真是室外建筑光污染了",
+      "dimension": "画面",
+      "polarity": "-"
+    },
+    {
+      "t": 195.542,
+      "text": "高情商：更高，更薄",
+      "dimension": "细节",
+      "polarity": "+"
+    },
+    {
+      "t": 218.035,
+      "text": "小米的设计就是好看",
+      "dimension": "画面",
+      "polarity": "+"
+    },
+    {
+      "t": 247.097,
+      "text": "初见良心",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 249.071,
+      "text": "别被骗了，大金这个型号只是极特殊的机型 正常，5万多绝对买的了双风扇的机型了",
+      "dimension": "细节",
+      "polarity": "-"
+    },
+    {
+      "t": 262.721,
+      "text": "因为大金这个是特殊机型，大家别被骗了",
+      "dimension": "细节",
+      "polarity": "-"
+    },
+    {
+      "t": 263.786,
+      "text": "大聪明，主板没有防水设计的话，五年内必定受潮报废",
+      "dimension": "细节",
+      "polarity": "-"
+    },
+    {
+      "t": 364.033,
+      "text": "格力是市场第一",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 371.574,
+      "text": "格力国内第三，国外更差",
+      "dimension": "整体",
+      "polarity": "-"
+    },
+    {
+      "t": 396.247,
+      "text": "还得是华为字研的天山雪龙空调更牛",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 535.359,
+      "text": "工程师有点像成龙",
+      "dimension": "画面",
+      "polarity": "0"
+    },
+    {
+      "t": 629.776,
+      "text": "先别管技术，在近似控温效果的对比下，你看看小米那亲民的价格再和我来讨论技术问题",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 636.646,
+      "text": "这直接加铜管，堆料之王",
+      "dimension": "细节",
+      "polarity": "+"
+    },
+    {
+      "t": 747.372,
+      "text": "好吧，这个确实高科技很多的，等于说是一个触屏的屏幕",
+      "dimension": "细节",
+      "polarity": "+"
+    },
+    {
+      "t": 756.373,
+      "text": "真的好看",
+      "dimension": "画面",
+      "polarity": "+"
+    },
+    {
+      "t": 776.827,
+      "text": "房主像张飞",
+      "dimension": "画面",
+      "polarity": "0"
+    },
+    {
+      "t": 828.136,
+      "text": "小米的一些产品，确实算得上物美价廉",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 916.398,
+      "text": "小米这个走在其他品牌前面了",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 999.276,
+      "text": "专业化流程化，比那些黑工好多了",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 1107.838,
+      "text": "中央空调明显比挂机吵多了",
+      "dimension": "其他",
+      "polarity": "-"
+    },
+    {
+      "t": 1123.013,
+      "text": "吹格力16分贝那个，格力是忘给你装机器了吧，16分贝哈哈哈",
+      "dimension": "细节",
+      "polarity": "-"
+    },
+    {
+      "t": 1127.678,
+      "text": "前面的知道16分贝什么概念吗 正常房间不开空调都不一定有16分贝",
+      "dimension": "细节",
+      "polarity": "-"
+    },
+    {
+      "t": 1128.192,
+      "text": "16分贝那个，请问你是几档，风扇转了吗？",
+      "dimension": "细节",
+      "polarity": "-"
+    },
+    {
+      "t": 1133.69,
+      "text": "bro对分贝这个指数单位没什么概念，不知道16db有多小",
+      "dimension": "细节",
+      "polarity": "-"
+    },
+    {
+      "t": 1143.876,
+      "text": "环境音是30db，说是16都是坐在消音器里面了",
+      "dimension": "细节",
+      "polarity": "-"
+    }
+  ]
+}

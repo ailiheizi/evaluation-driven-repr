@@ -1,0 +1,50 @@
+{
+  "video": "再见，Switch……",
+  "bvid": "BV11eZ8YLEZ6",
+  "duration": 1082,
+  "total_classified": 429,
+  "peaks": {
+    "整体": {
+      "peak_bin": 1,
+      "peak_time": 30,
+      "peak_density": 1.0,
+      "mean_density": 0.8425924874454286,
+      "peak_ratio": 1.1868133349156713
+    },
+    "其他": {
+      "peak_bin": 28,
+      "peak_time": 840,
+      "peak_density": 0.3333333333333333,
+      "mean_density": 0.041135778635778636,
+      "peak_ratio": 8.103245991396166
+    },
+    "细节": {
+      "peak_bin": 6,
+      "peak_time": 180,
+      "peak_density": 0.4444444444444444,
+      "mean_density": 0.053574346405228755,
+      "peak_ratio": 8.295844452916509
+    },
+    "情感共鸣": {
+      "peak_bin": 0,
+      "peak_time": 0,
+      "peak_density": 0.25,
+      "mean_density": 0.009523809523809523,
+      "peak_ratio": 25.0
+    },
+    "画面": {
+      "peak_bin": 1,
+      "peak_time": 30,
+      "peak_density": 0.23529411764705882,
+      "mean_density": 0.010784313725490196,
+      "peak_ratio": 21.818181818181817
+    }
+  },
+  "dim_entropy": {
+    "整体": 0.9797763473974518,
+    "其他": 0.5841013681895906,
+    "细节": 0.5061268226611021,
+    "情感共鸣": 0.11077574129858653,
+    "画面": 0.15842137709934276
+  }
+}

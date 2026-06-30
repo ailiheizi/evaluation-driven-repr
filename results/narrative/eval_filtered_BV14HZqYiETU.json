@@ -3,33 +3,28 @@
   "bvid": "BV14HZqYiETU",
   "total_raw": 1200,
   "after_rule_filter": 781,
-  "sample_classified": 150,
-  "evaluative_count": 41,
-  "evaluative_rate": 0.2733333333333333,
+  "sample_classified": 120,
+  "evaluative_count": 27,
+  "evaluative_rate": 0.225,
   "dimension_distribution": {
-    "剧情": 29,
-    "细节": 4,
-    "节奏": 4,
-    "整体": 1,
-    "情感共鸣": 2,
-    "演技": 1
+    "画面": 1,
+    "节奏": 2,
+    "细节": 3,
+    "整体": 6,
+    "演技": 2,
+    "剧情": 11,
+    "情感共鸣": 2
   },
   "polarity_distribution": {
-    "+": 13,
-    "0": 20,
-    "-": 8
+    "0": 7,
+    "-": 6,
+    "+": 14
   },
   "evaluative_samples": [
     {
-      "t": 19.521,
-      "text": "二次螈最会说话的一集",
-      "dimension": "剧情",
-      "polarity": "+"
-    },
-    {
       "t": 85.937,
       "text": "666看到落榜美术生了",
-      "dimension": "细节",
+      "dimension": "画面",
       "polarity": "0"
     },
     {
@@ -41,7 +36,7 @@
     {
       "t": 89.26,
       "text": "注意左上角，这将会是逆转大局的关键",
-      "dimension": "剧情",
+      "dimension": "细节",
       "polarity": "0"
     },
     {
@@ -63,16 +58,22 @@
       "polarity": "-"
     },
     {
-      "t": 105.78,
-      "text": "666无敌时间。而且还告诉你们个消息，小红帽其实是主角。",
+      "t": 125.893,
+      "text": "大队长是真男人",
+      "dimension": "演技",
+      "polarity": "+"
+    },
+    {
+      "t": 147.587,
+      "text": "面壁者?不是只有班长知道面壁者这个词吗？难不成那个是班长？",
       "dimension": "剧情",
       "polarity": "0"
     },
     {
-      "t": 109.493,
-      "text": "看到CC之后突然不无聊了",
-      "dimension": "情感共鸣",
-      "polarity": "+"
+      "t": 152.493,
+      "text": "这肯定是大队长，因为其他人不可能会知道班级里有三个面壁者",
+      "dimension": "剧情",
+      "polarity": "0"
     },
     {
       "t": 159.598,
@@ -93,40 +94,10 @@
       "polarity": "-"
     },
     {
-      "t": 246.542,
-      "text": "这个声音有很大的漏洞，明显就是修改过的",
-      "dimension": "细节",
-      "polarity": "-"
-    },
-    {
-      "t": 276.761,
-      "text": "差不多到时间了，这也是一个伏笔，结合大队长在黑板上左上角写的那个校领导，来检查一起串起来了",
-      "dimension": "剧情",
-      "polarity": "0"
-    },
-    {
       "t": 283.609,
       "text": "小黄帽最大的地方就他没有把自己的计划暴露出来。",
       "dimension": "剧情",
-      "polarity": "0"
-    },
-    {
-      "t": 284.263,
-      "text": "你要知道原作中还有一个与其他人不同的人",
-      "dimension": "剧情",
-      "polarity": "0"
-    },
-    {
-      "t": 287.836,
-      "text": "罗辑也是通过章北海印证黑暗森林",
-      "dimension": "剧情",
-      "polarity": "0"
-    },
-    {
-      "t": 325.875,
-      "text": "威慑纪元:原作中是主要逻辑死了就会向全宇宙公开双方坐标",
-      "dimension": "剧情",
-      "polarity": "0"
+      "polarity": "+"
     },
     {
       "t": 333.285,
@@ -135,34 +106,10 @@
       "polarity": "+"
     },
     {
-      "t": 338.635,
-      "text": "进度条有问题！",
-      "dimension": "节奏",
-      "polarity": "-"
-    },
-    {
       "t": 340.892,
       "text": "小黄帽最牛逼的一集",
-      "dimension": "剧情",
+      "dimension": "整体",
       "polarity": "+"
-    },
-    {
-      "t": 343.797,
-      "text": "接下来就是人类不敢谢罗辑了",
-      "dimension": "剧情",
-      "polarity": "0"
-    },
-    {
-      "t": 344.336,
-      "text": "人类不感谢小黄帽",
-      "dimension": "剧情",
-      "polarity": "0"
-    },
-    {
-      "t": 345.973,
-      "text": "队长的提醒，因为他说的时间差不多了。",
-      "dimension": "剧情",
-      "polarity": "0"
     },
     {
       "t": 347.118,
@@ -177,33 +124,15 @@
       "polarity": "+"
     },
     {
-      "t": 349.703,
-      "text": "不对，进度条不对，盲猜大队长",
-      "dimension": "节奏",
-      "polarity": "-"
-    },
-    {
-      "t": 353.035,
-      "text": "这才是真正的谋士已身入局，举棋胜天半子",
-      "dimension": "剧情",
+      "t": 357.622,
+      "text": "班长得了MVP",
+      "dimension": "整体",
       "polarity": "+"
-    },
-    {
-      "t": 362.55,
-      "text": "螳螂捕蝉黄雀在后吗？",
-      "dimension": "剧情",
-      "polarity": "0"
-    },
-    {
-      "t": 370.813,
-      "text": "啊？还有反转？",
-      "dimension": "剧情",
-      "polarity": "0"
     },
     {
       "t": 373.434,
       "text": "别搞别搞，哪来的刀子呀？刚看完MVP动画，怎么又来了个刀子？",
-      "dimension": "剧情",
+      "dimension": "情感共鸣",
       "polarity": "-"
     },
     {
@@ -213,16 +142,10 @@
       "polarity": "+"
     },
     {
-      "t": 374.861,
-      "text": "谋士以身入局，以天下人为棋",
-      "dimension": "剧情",
-      "polarity": "+"
-    },
-    {
       "t": 376.368,
       "text": "班长得了MVP 小黄帽就是躺赢狗",
-      "dimension": "剧情",
-      "polarity": "0"
+      "dimension": "整体",
+      "polarity": "-"
     },
     {
       "t": 377.586,
@@ -231,15 +154,15 @@
       "polarity": "+"
     },
     {
-      "t": 377.653,
-      "text": "卧底吗？",
-      "dimension": "剧情",
-      "polarity": "0"
-    },
-    {
       "t": 378.431,
       "text": "队长，真男人",
       "dimension": "演技",
+      "polarity": "+"
+    },
+    {
+      "t": 379.458,
+      "text": "哎呀，大队长得了MVP",
+      "dimension": "整体",
       "polarity": "+"
     },
     {
@@ -251,20 +174,14 @@
     {
       "t": 380.589,
       "text": "人民的队长",
-      "dimension": "剧情",
+      "dimension": "整体",
       "polarity": "+"
     },
     {
       "t": 381.22,
       "text": "以身入局，换主，永亡！",
       "dimension": "剧情",
-      "polarity": "0"
-    },
-    {
-      "t": 381.372,
-      "text": "成大事者不拘小节",
-      "dimension": "剧情",
-      "polarity": "0"
+      "polarity": "+"
     }
   ]
 }

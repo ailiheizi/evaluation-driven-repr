@@ -1,0 +1,320 @@
+{
+  "video": "射手，我们该算算旧账了！",
+  "bvid": "BV17tZhYMEDq",
+  "total_raw": 1200,
+  "after_rule_filter": 246,
+  "sample_classified": 120,
+  "evaluative_count": 49,
+  "evaluative_rate": 0.4083333333333333,
+  "dimension_distribution": {
+    "剧情": 14,
+    "细节": 20,
+    "画面": 2,
+    "整体": 5,
+    "情感共鸣": 5,
+    "演技": 1,
+    "音乐": 1,
+    "节奏": 1
+  },
+  "polarity_distribution": {
+    "0": 33,
+    "-": 12,
+    "+": 4
+  },
+  "evaluative_samples": [
+    {
+      "t": 0.26,
+      "text": "闪现白起，当刺客玩，独自切c",
+      "dimension": "剧情",
+      "polarity": "0"
+    },
+    {
+      "t": 1.211,
+      "text": "刀塔里的刃甲。。",
+      "dimension": "细节",
+      "polarity": "0"
+    },
+    {
+      "t": 1.831,
+      "text": "有些法师喜欢二一三连招秒人，我必须奖励一个反甲了现在",
+      "dimension": "剧情",
+      "polarity": "0"
+    },
+    {
+      "t": 3.764,
+      "text": "影啥时候加强",
+      "dimension": "剧情",
+      "polarity": "-"
+    },
+    {
+      "t": 4.68,
+      "text": "拿火影辛苦的血汗钱去给船镶金边",
+      "dimension": "剧情",
+      "polarity": "-"
+    },
+    {
+      "t": 4.811,
+      "text": "以前一样可以的。。。。。。",
+      "dimension": "细节",
+      "polarity": "0"
+    },
+    {
+      "t": 5.153,
+      "text": "这反甲还以为是p上去的呢",
+      "dimension": "画面",
+      "polarity": "0"
+    },
+    {
+      "t": 5.871,
+      "text": "以前有反甲也行啊",
+      "dimension": "细节",
+      "polarity": "0"
+    },
+    {
+      "t": 8.96,
+      "text": "马克又出不了制裁，对回血的程咬金来说一直谈不上克制，就像吕布也从不克制咬金一样",
+      "dimension": "剧情",
+      "polarity": "0"
+    },
+    {
+      "t": 15.628,
+      "text": "英魂之刃的东西全学去了",
+      "dimension": "细节",
+      "polarity": "0"
+    },
+    {
+      "t": 16.92,
+      "text": "这不成刃甲了",
+      "dimension": "细节",
+      "polarity": "0"
+    },
+    {
+      "t": 17.026,
+      "text": "DOTA刃甲：？",
+      "dimension": "细节",
+      "polarity": "0"
+    },
+    {
+      "t": 17.421,
+      "text": "《你是一个发育了20分钟的射手》",
+      "dimension": "剧情",
+      "polarity": "0"
+    },
+    {
+      "t": 18.572,
+      "text": "啥新意？这不是刃甲么",
+      "dimension": "细节",
+      "polarity": "0"
+    },
+    {
+      "t": 19.691,
+      "text": "最初版本反甲被动，变现在主动了",
+      "dimension": "细节",
+      "polarity": "0"
+    },
+    {
+      "t": 19.811,
+      "text": "这不是dota吗好家伙现在大家都互相抄是吧",
+      "dimension": "剧情",
+      "polarity": "0"
+    },
+    {
+      "t": 20.591,
+      "text": "最拟人的一集",
+      "dimension": "整体",
+      "polarity": "-"
+    },
+    {
+      "t": 20.96,
+      "text": "有個毛心意，這不就是刀塔裡的反甲嗎",
+      "dimension": "剧情",
+      "polarity": "-"
+    },
+    {
+      "t": 22.111,
+      "text": "能把对面恶心死",
+      "dimension": "整体",
+      "polarity": "0"
+    },
+    {
+      "t": 22.21,
+      "text": "最扫码了一次",
+      "dimension": "整体",
+      "polarity": "-"
+    },
+    {
+      "t": 27.914,
+      "text": "什么叫互相抄 你也是会给你王者爹贴金",
+      "dimension": "剧情",
+      "polarity": "-"
+    },
+    {
+      "t": 32.886,
+      "text": "小明给后羿增伤，后羿打的更疼，所以反的更疼",
+      "dimension": "细节",
+      "polarity": "0"
+    },
+    {
+      "t": 34.894,
+      "text": "看完直接心情舒畅",
+      "dimension": "情感共鸣",
+      "polarity": "+"
+    },
+    {
+      "t": 35.467,
+      "text": "招笑西施",
+      "dimension": "演技",
+      "polarity": "-"
+    },
+    {
+      "t": 38.411,
+      "text": "有没有可能以前也是追着打",
+      "dimension": "剧情",
+      "polarity": "0"
+    },
+    {
+      "t": 38.751,
+      "text": "已经开始抄DOTA了嘛",
+      "dimension": "剧情",
+      "polarity": "-"
+    },
+    {
+      "t": 41.478,
+      "text": "自损八百伤敌一千",
+      "dimension": "整体",
+      "polarity": "0"
+    },
+    {
+      "t": 49.621,
+      "text": "时机已到，今日起兵！（突然激昂）",
+      "dimension": "音乐",
+      "polarity": "0"
+    },
+    {
+      "t": 49.755,
+      "text": "太真实了 狠狠共鸣了",
+      "dimension": "情感共鸣",
+      "polarity": "+"
+    },
+    {
+      "t": 52.795,
+      "text": "谈笑间铠一刀给自己劈死了",
+      "dimension": "剧情",
+      "polarity": "0"
+    },
+    {
+      "t": 53.396,
+      "text": "在无人在意的角落，西施空了一技能",
+      "dimension": "细节",
+      "polarity": "-"
+    },
+    {
+      "t": 63.294,
+      "text": "恶心到了你赞没了",
+      "dimension": "情感共鸣",
+      "polarity": "-"
+    },
+    {
+      "t": 73.409,
+      "text": "直接戳中我的心巴",
+      "dimension": "情感共鸣",
+      "polarity": "+"
+    },
+    {
+      "t": 76.663,
+      "text": "荒野乱斗里的强攻与异曲同工之妙",
+      "dimension": "细节",
+      "polarity": "0"
+    },
+    {
+      "t": 88.72,
+      "text": "看完心情都变好了",
+      "dimension": "情感共鸣",
+      "polarity": "+"
+    },
+    {
+      "t": 91.993,
+      "text": "细节开启反甲后躲伤害",
+      "dimension": "细节",
+      "polarity": "0"
+    },
+    {
+      "t": 93.506,
+      "text": "说实话，这个主动关大招，策划当时是怎么想到把程咬金也加进去的？",
+      "dimension": "剧情",
+      "polarity": "0"
+    },
+    {
+      "t": 95.099,
+      "text": "反甲反的是真伤，所以安琪拉也会被自己打死",
+      "dimension": "细节",
+      "polarity": "0"
+    },
+    {
+      "t": 106.607,
+      "text": "幽默菠萝仔冰甲眩晕慢半拍",
+      "dimension": "节奏",
+      "polarity": "-"
+    },
+    {
+      "t": 112.393,
+      "text": "现在所有英雄都可以体会到当年李信的感受了",
+      "dimension": "剧情",
+      "polarity": "0"
+    },
+    {
+      "t": 116.2,
+      "text": "我觉得反甲更克制马可这种无脑转的",
+      "dimension": "细节",
+      "polarity": "0"
+    },
+    {
+      "t": 121.654,
+      "text": "这个太超标了",
+      "dimension": "整体",
+      "polarity": "-"
+    },
+    {
+      "t": 125.421,
+      "text": "想到到马可大招转5个反甲就想笑",
+      "dimension": "细节",
+      "polarity": "0"
+    },
+    {
+      "t": 132.986,
+      "text": "这个反甲梦回s4赛季 那个时候拿个安琪拉打反甲典韦，直接给自己反死",
+      "dimension": "细节",
+      "polarity": "0"
+    },
+    {
+      "t": 155.434,
+      "text": "血量越低，血量越高",
+      "dimension": "细节",
+      "polarity": "0"
+    },
+    {
+      "t": 166.255,
+      "text": "这个最逆天的是按原伤返回， 自己抗性高的话，自己受到伤，说不定还没对面高",
+      "dimension": "细节",
+      "polarity": "0"
+    },
+    {
+      "t": 171.383,
+      "text": "孙策一技能二段把自己击飞了（幻视）",
+      "dimension": "画面",
+      "polarity": "0"
+    },
+    {
+      "t": 176.568,
+      "text": "以前反甲多弱啊，现在反甲百分40真伤害也就2秒而已",
+      "dimension": "细节",
+      "polarity": "0"
+    },
+    {
+      "t": 179.332,
+      "text": "反甲现在纯纯信息差，辅助玩家可以拿张飞廉颇去上分了",
+      "dimension": "细节",
+      "polarity": "0"
+    }
+  ]
+}

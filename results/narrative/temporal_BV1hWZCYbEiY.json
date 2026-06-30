@@ -1,0 +1,50 @@
+{
+  "video": "弱女子被人插队",
+  "bvid": "BV1hWZCYbEiY",
+  "duration": 130,
+  "total_classified": 28,
+  "peaks": {
+    "整体": {
+      "peak_bin": 1,
+      "peak_time": 30,
+      "peak_density": 0.5,
+      "mean_density": 0.15454545454545454,
+      "peak_ratio": 3.235294117647059
+    },
+    "音乐": {
+      "peak_bin": 0,
+      "peak_time": 0,
+      "peak_density": 0.45454545454545453,
+      "mean_density": 0.19090909090909092,
+      "peak_ratio": 2.380952380952381
+    },
+    "演技": {
+      "peak_bin": 3,
+      "peak_time": 90,
+      "peak_density": 0.5,
+      "mean_density": 0.13636363636363638,
+      "peak_ratio": 3.666666666666666
+    },
+    "剧情": {
+      "peak_bin": 1,
+      "peak_time": 30,
+      "peak_density": 0.5,
+      "mean_density": 0.35151515151515145,
+      "peak_ratio": 1.4224137931034486
+    },
+    "细节": {
+      "peak_bin": 0,
+      "peak_time": 0,
+      "peak_density": 0.5,
+      "mean_density": 0.27777777777777773,
+      "peak_ratio": 1.8000000000000003
+    }
+  },
+  "dim_entropy": {
+    "整体": 0.40340068408664514,
+    "音乐": 0.6371324673677847,
+    "演技": 0.3603215550831918,
+    "剧情": 0.9314160884935255,
+    "细节": 0.6126016192893442
+  }
+}

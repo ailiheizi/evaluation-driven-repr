@@ -1,0 +1,223 @@
+{
+  "video": "“把怪兽叫来，我让你把怪兽叫来！”",
+  "bvid": "BV1q2ZtYtExy",
+  "total_raw": 1200,
+  "after_rule_filter": 675,
+  "sample_classified": 120,
+  "evaluative_count": 33,
+  "evaluative_rate": 0.275,
+  "dimension_distribution": {
+    "整体": 9,
+    "画面": 5,
+    "剧情": 10,
+    "演技": 4,
+    "细节": 2,
+    "节奏": 1,
+    "音乐": 2
+  },
+  "polarity_distribution": {
+    "+": 10,
+    "-": 8,
+    "0": 15
+  },
+  "evaluative_samples": [
+    {
+      "t": 2.625,
+      "text": "七爷吗  有点意思",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 4.411,
+      "text": "谁叫你把它剪这么帅的？",
+      "dimension": "画面",
+      "polarity": "+"
+    },
+    {
+      "t": 12.6,
+      "text": "某个叫ACE的却不是王牌",
+      "dimension": "剧情",
+      "polarity": "-"
+    },
+    {
+      "t": 12.646,
+      "text": "啊这，我一直以为奥特兄弟的王牌是艾斯，底牌才是泰罗",
+      "dimension": "剧情",
+      "polarity": "0"
+    },
+    {
+      "t": 14.482,
+      "text": "一看就很狮子之牙",
+      "dimension": "画面",
+      "polarity": "0"
+    },
+    {
+      "t": 19.08,
+      "text": "这两兄弟更是阴的没边",
+      "dimension": "剧情",
+      "polarity": "-"
+    },
+    {
+      "t": 22.538,
+      "text": "你知道为什么不邀请迪迦来吗？对，没错，断角狂魔",
+      "dimension": "剧情",
+      "polarity": "0"
+    },
+    {
+      "t": 26.151,
+      "text": "这俩货跟憋了屁一样",
+      "dimension": "演技",
+      "polarity": "-"
+    },
+    {
+      "t": 30.062,
+      "text": "这三个感觉看起来有点...",
+      "dimension": "整体",
+      "polarity": "0"
+    },
+    {
+      "t": 31.215,
+      "text": "填档期的",
+      "dimension": "整体",
+      "polarity": "-"
+    },
+    {
+      "t": 40.859,
+      "text": "盖亚这个形态目前只有舞台剧",
+      "dimension": "细节",
+      "polarity": "0"
+    },
+    {
+      "t": 45.3,
+      "text": "带阿古茹玩的都是好人",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 45.696,
+      "text": "注意哦，这里是高斯日蚀",
+      "dimension": "细节",
+      "polarity": "0"
+    },
+    {
+      "t": 50.16,
+      "text": "这位更是重量级",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 54.611,
+      "text": "最快最强的笑话——麦克斯奥特曼",
+      "dimension": "整体",
+      "polarity": "-"
+    },
+    {
+      "t": 55.076,
+      "text": "开始上强度了",
+      "dimension": "节奏",
+      "polarity": "0"
+    },
+    {
+      "t": 57.555,
+      "text": "起手开大招的战士",
+      "dimension": "画面",
+      "polarity": "0"
+    },
+    {
+      "t": 67.871,
+      "text": "好了到这里都没有那位，已经猜到结局了",
+      "dimension": "剧情",
+      "polarity": "0"
+    },
+    {
+      "t": 71.439,
+      "text": "我听到了机制的回响",
+      "dimension": "音乐",
+      "polarity": "0"
+    },
+    {
+      "t": 72.537,
+      "text": "艾克斯yyds",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 81.159,
+      "text": "这俩海尔兄弟是真废",
+      "dimension": "演技",
+      "polarity": "-"
+    },
+    {
+      "t": 92.513,
+      "text": "感觉这新生代没有老一辈的有压迫感呀（个人观点，不喜勿喷）",
+      "dimension": "整体",
+      "polarity": "-"
+    },
+    {
+      "t": 98.157,
+      "text": "泽塔这个真不像好人",
+      "dimension": "演技",
+      "polarity": "-"
+    },
+    {
+      "t": 109.062,
+      "text": "充满想象力的战士——亚克奥特曼",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 113.155,
+      "text": "一股强劲的音乐响起",
+      "dimension": "音乐",
+      "polarity": "0"
+    },
+    {
+      "t": 130.646,
+      "text": "闪迪闪亮登场，强度开始直线上升",
+      "dimension": "剧情",
+      "polarity": "+"
+    },
+    {
+      "t": 134.914,
+      "text": "奥王的设定是独立于光之国的 光之国统领是奥父",
+      "dimension": "剧情",
+      "polarity": "0"
+    },
+    {
+      "t": 144.085,
+      "text": "赛迦这一声低吼，真的霸气！！",
+      "dimension": "演技",
+      "polarity": "+"
+    },
+    {
+      "t": 144.7,
+      "text": "神4之下我无敌，神4之上我垃圾。",
+      "dimension": "剧情",
+      "polarity": "0"
+    },
+    {
+      "t": 145.522,
+      "text": "逼王是最帅的",
+      "dimension": "画面",
+      "polarity": "+"
+    },
+    {
+      "t": 146.903,
+      "text": "我赛迦大王帅爆了啊啊啊啊啊",
+      "dimension": "画面",
+      "polarity": "+"
+    },
+    {
+      "t": 147.199,
+      "text": "最后的底牌，数值怪令迦奥特曼",
+      "dimension": "剧情",
+      "polarity": "0"
+    },
+    {
+      "t": 148.839,
+      "text": "新生代之巅——令迦奥特曼",
+      "dimension": "剧情",
+      "polarity": "0"
+    }
+  ]
+}

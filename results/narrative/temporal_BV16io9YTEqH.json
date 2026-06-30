@@ -2,49 +2,57 @@
   "video": "《崩坏：星穹铁道》动画短片：「那安息的长夜」",
   "bvid": "BV16io9YTEqH",
   "duration": 1798,
-  "total_classified": 101,
+  "total_classified": 70,
   "peaks": {
+    "整体": {
+      "peak_bin": 0,
+      "peak_time": 0,
+      "peak_density": 1.0,
+      "mean_density": 0.09541847041847042,
+      "peak_ratio": 10.48015122873346
+    },
+    "画面": {
+      "peak_bin": 13,
+      "peak_time": 390,
+      "peak_density": 1.0,
+      "mean_density": 0.06415853449751754,
+      "peak_ratio": 15.586390927284858
+    },
     "情感共鸣": {
       "peak_bin": 5,
       "peak_time": 150,
       "peak_density": 0.5,
-      "mean_density": 0.05082972582972582,
-      "peak_ratio": 9.836763662171755
-    },
-    "画面": {
-      "peak_bin": 8,
-      "peak_time": 240,
-      "peak_density": 0.75,
-      "mean_density": 0.081516354016354,
-      "peak_ratio": 9.200607768221985
-    },
-    "整体": {
-      "peak_bin": 3,
-      "peak_time": 90,
-      "peak_density": 0.4444444444444444,
-      "mean_density": 0.0326058201058201,
-      "peak_ratio": 13.630831643002029
+      "mean_density": 0.04920268055861276,
+      "peak_ratio": 10.162047968186902
     },
     "剧情": {
-      "peak_bin": 14,
-      "peak_time": 420,
-      "peak_density": 0.8,
-      "mean_density": 0.07504810004810004,
-      "peak_ratio": 10.659830155423812
+      "peak_bin": 12,
+      "peak_time": 360,
+      "peak_density": 0.42857142857142855,
+      "mean_density": 0.035170102966713135,
+      "peak_ratio": 12.185674547983309
+    },
+    "叙事手法": {
+      "peak_bin": 1,
+      "peak_time": 30,
+      "peak_density": 0.16666666666666666,
+      "mean_density": 0.006248929977743537,
+      "peak_ratio": 16.666666666666664
     },
     "细节": {
       "peak_bin": 0,
       "peak_time": 0,
-      "peak_density": 0.25,
-      "mean_density": 0.011111111111111112,
-      "peak_ratio": 22.5
+      "peak_density": 0.14285714285714285,
+      "mean_density": 0.00303951367781155,
+      "peak_ratio": 14.285714285714285
     }
   },
   "dim_entropy": {
-    "情感共鸣": 0.549786964182693,
-    "画面": 0.6305242337451844,
-    "整体": 0.48912273005285534,
-    "剧情": 0.5346224858420893,
-    "细节": 0.25775582136471664
+    "整体": 0.5260150675635453,
+    "画面": 0.478413200048713,
+    "情感共鸣": 0.5256730583715591,
+    "剧情": 0.46033430745437937,
+    "叙事手法": 0.26133542653496894,
+    "细节": -0.0
   }
 }

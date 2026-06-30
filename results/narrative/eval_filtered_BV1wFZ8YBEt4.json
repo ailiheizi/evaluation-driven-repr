@@ -1,0 +1,182 @@
+{
+  "video": "为什么人类需要不断吃盐，而动物们却不用？",
+  "bvid": "BV1wFZ8YBEt4",
+  "total_raw": 1200,
+  "after_rule_filter": 575,
+  "sample_classified": 120,
+  "evaluative_count": 26,
+  "evaluative_rate": 0.21666666666666667,
+  "dimension_distribution": {
+    "演技": 1,
+    "整体": 5,
+    "节奏": 12,
+    "其他": 1,
+    "剧情": 4,
+    "画面": 1,
+    "情感共鸣": 1,
+    "叙事手法": 1
+  },
+  "polarity_distribution": {
+    "+": 6,
+    "0": 12,
+    "-": 8
+  },
+  "evaluative_samples": [
+    {
+      "t": 1.536,
+      "text": "他是怎么做到让人觉得他老是有广告的？",
+      "dimension": "演技",
+      "polarity": "+"
+    },
+    {
+      "t": 15.118,
+      "text": "已经循环无数遍了",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 25.361,
+      "text": "不是哥们，这是平a还是大招？",
+      "dimension": "节奏",
+      "polarity": "0"
+    },
+    {
+      "t": 33.0,
+      "text": "真的被惊艳到了",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 38.227,
+      "text": "这种人也能40万粉可想这类人是有多蠢了",
+      "dimension": "其他",
+      "polarity": "-"
+    },
+    {
+      "t": 50.601,
+      "text": "司马炎出了名怕老婆，后宫怎么可能一万多人",
+      "dimension": "剧情",
+      "polarity": "-"
+    },
+    {
+      "t": 60.686,
+      "text": "丞相北伐失败的福报",
+      "dimension": "剧情",
+      "polarity": "0"
+    },
+    {
+      "t": 65.163,
+      "text": "司马家的皇帝也就司马炎爽了",
+      "dimension": "剧情",
+      "polarity": "0"
+    },
+    {
+      "t": 70.036,
+      "text": "当南朝皇帝更爽",
+      "dimension": "剧情",
+      "polarity": "0"
+    },
+    {
+      "t": 79.803,
+      "text": "逆天图片",
+      "dimension": "画面",
+      "polarity": "-"
+    },
+    {
+      "t": 83.6,
+      "text": "真的百看不厌",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 89.236,
+      "text": "爱了爱了 必须点赞",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 109.592,
+      "text": "真的好治愈好温柔",
+      "dimension": "情感共鸣",
+      "polarity": "+"
+    },
+    {
+      "t": 110.402,
+      "text": "啊？这也。。。太毁童年了",
+      "dimension": "整体",
+      "polarity": "-"
+    },
+    {
+      "t": 138.387,
+      "text": "差点以为要进广告",
+      "dimension": "节奏",
+      "polarity": "0"
+    },
+    {
+      "t": 139.654,
+      "text": "广告呢？前摇这么长？",
+      "dimension": "节奏",
+      "polarity": "-"
+    },
+    {
+      "t": 141.02,
+      "text": "不要感觉要广告",
+      "dimension": "节奏",
+      "polarity": "0"
+    },
+    {
+      "t": 142.011,
+      "text": "广告呢？没广告一下子还不习惯了",
+      "dimension": "节奏",
+      "polarity": "0"
+    },
+    {
+      "t": 142.533,
+      "text": "此处的广告呢",
+      "dimension": "节奏",
+      "polarity": "0"
+    },
+    {
+      "t": 146.48,
+      "text": "总觉得他在下一秒就要带货矿泉水，结果居然一直没有",
+      "dimension": "节奏",
+      "polarity": "0"
+    },
+    {
+      "t": 154.898,
+      "text": "差点以为又要触发连招了",
+      "dimension": "节奏",
+      "polarity": "0"
+    },
+    {
+      "t": 157.491,
+      "text": "广告呢？还憋着呢？",
+      "dimension": "节奏",
+      "polarity": "-"
+    },
+    {
+      "t": 158.638,
+      "text": "广子呢？",
+      "dimension": "节奏",
+      "polarity": "0"
+    },
+    {
+      "t": 173.509,
+      "text": "这套假动作叫“展示广告位”",
+      "dimension": "叙事手法",
+      "polarity": "0"
+    },
+    {
+      "t": 174.731,
+      "text": "不是哥们，到底有没有广呀？快点吧",
+      "dimension": "节奏",
+      "polarity": "-"
+    },
+    {
+      "t": 190.379,
+      "text": "快出招啊，没时间了",
+      "dimension": "节奏",
+      "polarity": "-"
+    }
+  ]
+}

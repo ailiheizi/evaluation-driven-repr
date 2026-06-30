@@ -1,0 +1,42 @@
+{
+  "video": "循环歌单|【八方来财】|“【来财の小曲】谁懂憋佬仔出来时的救赎感”",
+  "bvid": "BV11eZ8Y5EVi",
+  "duration": 3619,
+  "total_classified": 19,
+  "peaks": {
+    "音乐": {
+      "peak_bin": 4,
+      "peak_time": 120,
+      "peak_density": 1.0,
+      "mean_density": 0.016627312081857536,
+      "peak_ratio": 60.142011834319526
+    },
+    "情感共鸣": {
+      "peak_bin": 27,
+      "peak_time": 810,
+      "peak_density": 1.0,
+      "mean_density": 0.01357733175914994,
+      "peak_ratio": 73.65217391304348
+    },
+    "整体": {
+      "peak_bin": 2,
+      "peak_time": 60,
+      "peak_density": 1.0,
+      "mean_density": 0.017316017316017313,
+      "peak_ratio": 57.750000000000014
+    },
+    "节奏": {
+      "peak_bin": 0,
+      "peak_time": 0,
+      "peak_density": 0.25,
+      "mean_density": 0.0020833333333333333,
+      "peak_ratio": 25.0
+    }
+  },
+  "dim_entropy": {
+    "音乐": 0.2572780072293762,
+    "情感共鸣": 0.18278619420925116,
+    "整体": 0.21727173811770756,
+    "节奏": -0.0
+  }
+}

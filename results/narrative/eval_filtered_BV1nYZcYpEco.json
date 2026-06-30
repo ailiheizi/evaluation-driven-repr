@@ -1,0 +1,285 @@
+{
+  "video": "首次揭秘，影视飓风百人团建幕后！",
+  "bvid": "BV1nYZcYpEco",
+  "total_raw": 1800,
+  "after_rule_filter": 1034,
+  "sample_classified": 120,
+  "evaluative_count": 43,
+  "evaluative_rate": 0.35833333333333334,
+  "dimension_distribution": {
+    "画面": 8,
+    "其他": 1,
+    "整体": 7,
+    "叙事手法": 2,
+    "节奏": 12,
+    "细节": 3,
+    "剧情": 6,
+    "情感共鸣": 3,
+    "演技": 1
+  },
+  "polarity_distribution": {
+    "+": 11,
+    "0": 24,
+    "-": 8
+  },
+  "evaluative_samples": [
+    {
+      "t": 12.258,
+      "text": "这个摄影好帅啊！！！",
+      "dimension": "画面",
+      "polarity": "+"
+    },
+    {
+      "t": 27.483,
+      "text": "美的好上了，一直蹭影视飓风（doge）",
+      "dimension": "画面",
+      "polarity": "+"
+    },
+    {
+      "t": 35.528,
+      "text": "好帅小哥",
+      "dimension": "其他",
+      "polarity": "+"
+    },
+    {
+      "t": 39.525,
+      "text": "蛙趣，有实力哇，不投飓多多投大号",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 68.563,
+      "text": "致敬乔布斯的产品战略理论",
+      "dimension": "叙事手法",
+      "polarity": "0"
+    },
+    {
+      "t": 86.131,
+      "text": "短？短吗？",
+      "dimension": "节奏",
+      "polarity": "0"
+    },
+    {
+      "t": 87.039,
+      "text": "这是短视频？",
+      "dimension": "节奏",
+      "polarity": "0"
+    },
+    {
+      "t": 87.435,
+      "text": "tim:重新定义短视频",
+      "dimension": "节奏",
+      "polarity": "0"
+    },
+    {
+      "t": 87.528,
+      "text": "“短视频”",
+      "dimension": "节奏",
+      "polarity": "0"
+    },
+    {
+      "t": 89.751,
+      "text": "啊？短吗，也不短吧，反而亿点点太短了",
+      "dimension": "节奏",
+      "polarity": "-"
+    },
+    {
+      "t": 90.899,
+      "text": "15min短视频是吧",
+      "dimension": "节奏",
+      "polarity": "-"
+    },
+    {
+      "t": 109.771,
+      "text": "综艺里的短视频吧",
+      "dimension": "节奏",
+      "polarity": "0"
+    },
+    {
+      "t": 114.786,
+      "text": "《跑男》：我看未必",
+      "dimension": "节奏",
+      "polarity": "0"
+    },
+    {
+      "t": 130.311,
+      "text": "所以第一期得轮椅竞速就是因为不熟练拍摄的不好放弃了是吧？",
+      "dimension": "节奏",
+      "polarity": "-"
+    },
+    {
+      "t": 177.28,
+      "text": "影视飓风主号最私人的一集",
+      "dimension": "整体",
+      "polarity": "0"
+    },
+    {
+      "t": 178.116,
+      "text": "这个得摄的比较快。",
+      "dimension": "节奏",
+      "polarity": "0"
+    },
+    {
+      "t": 256.518,
+      "text": "好帅 好帅 好帅```",
+      "dimension": "画面",
+      "polarity": "+"
+    },
+    {
+      "t": 275.24,
+      "text": "在影视飓风完全没法滑水，全是监听监视",
+      "dimension": "节奏",
+      "polarity": "0"
+    },
+    {
+      "t": 292.365,
+      "text": "变形金刚吗有点意思",
+      "dimension": "画面",
+      "polarity": "+"
+    },
+    {
+      "t": 308.432,
+      "text": "有弹幕在教tim怎么拍视频（笑",
+      "dimension": "叙事手法",
+      "polarity": "0"
+    },
+    {
+      "t": 308.59,
+      "text": "说直接拍板的人绝了",
+      "dimension": "细节",
+      "polarity": "0"
+    },
+    {
+      "t": 384.27,
+      "text": "《再拍即合》",
+      "dimension": "剧情",
+      "polarity": "+"
+    },
+    {
+      "t": 387.177,
+      "text": "现在灶都这么高级了吗",
+      "dimension": "画面",
+      "polarity": "0"
+    },
+    {
+      "t": 520.538,
+      "text": "可是4G对讲机会有延迟耶",
+      "dimension": "细节",
+      "polarity": "-"
+    },
+    {
+      "t": 540.961,
+      "text": "怎一个专业了得",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 546.249,
+      "text": "这个青青有亿点点大！",
+      "dimension": "画面",
+      "polarity": "0"
+    },
+    {
+      "t": 563.954,
+      "text": "不太科学，发量惊人啊",
+      "dimension": "画面",
+      "polarity": "0"
+    },
+    {
+      "t": 628.514,
+      "text": "OO越来越可爱了",
+      "dimension": "情感共鸣",
+      "polarity": "+"
+    },
+    {
+      "t": 639.178,
+      "text": "最强大脑，所以经常会有一个镜头重复慢放八百遍",
+      "dimension": "节奏",
+      "polarity": "-"
+    },
+    {
+      "t": 641.97,
+      "text": "现在基本综艺流程都是这样",
+      "dimension": "剧情",
+      "polarity": "0"
+    },
+    {
+      "t": 653.729,
+      "text": "《爸爸去哪儿》之类的吧？又是户外，又是游戏互动，又要现场？",
+      "dimension": "剧情",
+      "polarity": "0"
+    },
+    {
+      "t": 654.517,
+      "text": "怎么确保风格一样啊",
+      "dimension": "整体",
+      "polarity": "0"
+    },
+    {
+      "t": 682.515,
+      "text": "ai不够人性化",
+      "dimension": "细节",
+      "polarity": "-"
+    },
+    {
+      "t": 705.871,
+      "text": "情绪的传递是难点",
+      "dimension": "情感共鸣",
+      "polarity": "0"
+    },
+    {
+      "t": 712.855,
+      "text": "参与感，和调动情绪",
+      "dimension": "情感共鸣",
+      "polarity": "0"
+    },
+    {
+      "t": 754.861,
+      "text": "经典回顾",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 771.436,
+      "text": "游戏的规则非常简单？（警觉）",
+      "dimension": "剧情",
+      "polarity": "0"
+    },
+    {
+      "t": 795.588,
+      "text": "这不公公吗",
+      "dimension": "演技",
+      "polarity": "0"
+    },
+    {
+      "t": 795.775,
+      "text": "不好不是你的错，是我看少了。",
+      "dimension": "整体",
+      "polarity": "-"
+    },
+    {
+      "t": 796.468,
+      "text": "確實 還是喜歡躲貓貓 三國殺太亂了看不懂",
+      "dimension": "剧情",
+      "polarity": "-"
+    },
+    {
+      "t": 811.928,
+      "text": "我倒是觉得可以打造几个艺人形象的主角来增加收看率",
+      "dimension": "剧情",
+      "polarity": "+"
+    },
+    {
+      "t": 833.651,
+      "text": "Beast的内容感觉都像在梦里的内容",
+      "dimension": "整体",
+      "polarity": "0"
+    },
+    {
+      "t": 849.188,
+      "text": "啊？刚刚雪山这几帧是ai做的吧？",
+      "dimension": "画面",
+      "polarity": "0"
+    }
+  ]
+}

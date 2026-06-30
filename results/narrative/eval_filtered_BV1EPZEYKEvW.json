@@ -1,0 +1,284 @@
+{
+  "video": "垃圾场上的妙妙屋【日本世博会】",
+  "bvid": "BV1EPZEYKEvW",
+  "total_raw": 1200,
+  "after_rule_filter": 622,
+  "sample_classified": 120,
+  "evaluative_count": 43,
+  "evaluative_rate": 0.35833333333333334,
+  "dimension_distribution": {
+    "画面": 11,
+    "剧情": 8,
+    "细节": 11,
+    "其他": 4,
+    "整体": 5,
+    "情感共鸣": 2,
+    "演技": 1,
+    "技术": 1
+  },
+  "polarity_distribution": {
+    "-": 27,
+    "0": 8,
+    "+": 8
+  },
+  "evaluative_samples": [
+    {
+      "t": 7.068,
+      "text": "这吉祥物，是海宝喝了日本核污水，变异了吧",
+      "dimension": "画面",
+      "polarity": "-"
+    },
+    {
+      "t": 8.278,
+      "text": "吉祥物是需要紧急联系奥特曼来打的程度。",
+      "dimension": "画面",
+      "polarity": "-"
+    },
+    {
+      "t": 16.21,
+      "text": "安全员大声尖叫！以及，四亿？一个亿都能办了",
+      "dimension": "剧情",
+      "polarity": "-"
+    },
+    {
+      "t": 18.646,
+      "text": "石头版帐篷……",
+      "dimension": "画面",
+      "polarity": "0"
+    },
+    {
+      "t": 20.78,
+      "text": "真石头？？不是泡沫？",
+      "dimension": "画面",
+      "polarity": "0"
+    },
+    {
+      "t": 20.79,
+      "text": "日本人也挺难杀的…",
+      "dimension": "剧情",
+      "polarity": "-"
+    },
+    {
+      "t": 22.238,
+      "text": "这设计师没被石头砸过，想不出来这种",
+      "dimension": "剧情",
+      "polarity": "-"
+    },
+    {
+      "t": 22.59,
+      "text": "这是生怕弄不死人啊",
+      "dimension": "剧情",
+      "polarity": "-"
+    },
+    {
+      "t": 23.318,
+      "text": "这是来安息的吧？",
+      "dimension": "剧情",
+      "polarity": "-"
+    },
+    {
+      "t": 24.18,
+      "text": "这和告示牌上放铁砧有什么区别？",
+      "dimension": "剧情",
+      "polarity": "-"
+    },
+    {
+      "t": 25.36,
+      "text": "虽然经常抱怨公国假山石头太假了，但也不必怎么较真吧",
+      "dimension": "画面",
+      "polarity": "-"
+    },
+    {
+      "t": 27.631,
+      "text": "防止有人生还",
+      "dimension": "剧情",
+      "polarity": "-"
+    },
+    {
+      "t": 30.971,
+      "text": "难崩，我以为是拿塑料泡沫上色儿整的。",
+      "dimension": "画面",
+      "polarity": "-"
+    },
+    {
+      "t": 34.059,
+      "text": "真石头啊？！我以为泡沫还是什么呢",
+      "dimension": "画面",
+      "polarity": "0"
+    },
+    {
+      "t": 34.891,
+      "text": "并非二次元，我看是二维化",
+      "dimension": "画面",
+      "polarity": "0"
+    },
+    {
+      "t": 63.822,
+      "text": "遮阳也不好用",
+      "dimension": "细节",
+      "polarity": "-"
+    },
+    {
+      "t": 64.855,
+      "text": "连遮阳也遮不住吧？这石头中间缝太大了，遮一半晒一半的",
+      "dimension": "细节",
+      "polarity": "-"
+    },
+    {
+      "t": 65.147,
+      "text": "这石头间距也不太像能遮阳的样子啊",
+      "dimension": "细节",
+      "polarity": "-"
+    },
+    {
+      "t": 66.707,
+      "text": "优势：便宜",
+      "dimension": "其他",
+      "polarity": "0"
+    },
+    {
+      "t": 68.448,
+      "text": "这个石头吸了阳光热量会很热的吧",
+      "dimension": "细节",
+      "polarity": "-"
+    },
+    {
+      "t": 79.593,
+      "text": "九十万美金一块的石头",
+      "dimension": "其他",
+      "polarity": "0"
+    },
+    {
+      "t": 83.19,
+      "text": "我记得日本是地震多发地带吧？？",
+      "dimension": "细节",
+      "polarity": "-"
+    },
+    {
+      "t": 83.748,
+      "text": "回到石器时代",
+      "dimension": "画面",
+      "polarity": "-"
+    },
+    {
+      "t": 89.505,
+      "text": "我也是服了，传承自上古时代的石头",
+      "dimension": "画面",
+      "polarity": "-"
+    },
+    {
+      "t": 93.725,
+      "text": "说人话就是剩的",
+      "dimension": "其他",
+      "polarity": "0"
+    },
+    {
+      "t": 96.537,
+      "text": "是不是因为不要钱啊",
+      "dimension": "其他",
+      "polarity": "0"
+    },
+    {
+      "t": 97.254,
+      "text": "你看哎，你是真正的石头哇，真jojo啊，真成jojo了",
+      "dimension": "画面",
+      "polarity": "+"
+    },
+    {
+      "t": 104.122,
+      "text": "这个还行",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 105.86,
+      "text": "就是400多年前的边角料是吧？",
+      "dimension": "细节",
+      "polarity": "-"
+    },
+    {
+      "t": 148.348,
+      "text": "看完心情都变好了",
+      "dimension": "情感共鸣",
+      "polarity": "+"
+    },
+    {
+      "t": 150.865,
+      "text": "环保厕所不是重点，重点是这破玩应花了2亿！",
+      "dimension": "细节",
+      "polarity": "-"
+    },
+    {
+      "t": 163.968,
+      "text": "世博会建在孤岛上，只有地上地下两条通道，炸了跑都跑不了，只能等亖。",
+      "dimension": "细节",
+      "polarity": "-"
+    },
+    {
+      "t": 166.312,
+      "text": "这个真的太恶心了",
+      "dimension": "整体",
+      "polarity": "-"
+    },
+    {
+      "t": 184.131,
+      "text": "前两年大阪还买了不少中国产的纯电巴士，不得不说，确实挺舒服",
+      "dimension": "细节",
+      "polarity": "+"
+    },
+    {
+      "t": 226.458,
+      "text": "接地府，他们是认真的",
+      "dimension": "整体",
+      "polarity": "-"
+    },
+    {
+      "t": 243.651,
+      "text": "尴尬地笑",
+      "dimension": "演技",
+      "polarity": "-"
+    },
+    {
+      "t": 253.933,
+      "text": "好池沼啊【悲】",
+      "dimension": "整体",
+      "polarity": "-"
+    },
+    {
+      "t": 257.582,
+      "text": "这技术特么早就有了好吧，都2025年了也就日本还在吹这种玩意儿2333",
+      "dimension": "技术",
+      "polarity": "-"
+    },
+    {
+      "t": 280.551,
+      "text": "中国榫卯：宝宝真厉害！",
+      "dimension": "细节",
+      "polarity": "+"
+    },
+    {
+      "t": 281.485,
+      "text": "榫卯:宝宝真厉害呀！",
+      "dimension": "细节",
+      "polarity": "+"
+    },
+    {
+      "t": 306.331,
+      "text": "我觉得咱们的场馆建完了放在那很浪费啊",
+      "dimension": "剧情",
+      "polarity": "-"
+    },
+    {
+      "t": 323.773,
+      "text": "谁懂啊 真的很治愈",
+      "dimension": "情感共鸣",
+      "polarity": "+"
+    },
+    {
+      "t": 345.064,
+      "text": "妙妙屋！妙啊！",
+      "dimension": "整体",
+      "polarity": "+"
+    }
+  ]
+}

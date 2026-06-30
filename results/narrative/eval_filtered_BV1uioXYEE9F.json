@@ -3,29 +3,31 @@
   "bvid": "BV1uioXYEE9F",
   "total_raw": 1200,
   "after_rule_filter": 600,
-  "sample_classified": 150,
-  "evaluative_count": 83,
-  "evaluative_rate": 0.5533333333333333,
+  "sample_classified": 120,
+  "evaluative_count": 67,
+  "evaluative_rate": 0.5583333333333333,
   "dimension_distribution": {
-    "音乐": 56,
-    "整体": 16,
-    "情感共鸣": 6,
-    "叙事手法": 1,
-    "剧情": 1,
     "其他": 2,
+    "整体": 7,
+    "音乐": 47,
+    "情感共鸣": 5,
+    "叙事手法": 1,
+    "细节": 1,
+    "剧情": 2,
+    "节奏": 1,
     "画面": 1
   },
   "polarity_distribution": {
-    "-": 39,
-    "0": 35,
+    "0": 20,
+    "-": 38,
     "+": 9
   },
   "evaluative_samples": [
     {
       "t": 0.78,
       "text": "这是造谣，大家可以去看别的up的分析！孙的音乐发布时间比任的晚！大家不要再盲目轻信了！",
-      "dimension": "音乐",
-      "polarity": "-"
+      "dimension": "其他",
+      "polarity": "0"
     },
     {
       "t": 0.892,
@@ -55,18 +57,18 @@
       "t": 29.867,
       "text": "警告：本视频煽动手法极为高明，观影时请保持绝对冷静，不要被煽动情绪而丧失理性",
       "dimension": "叙事手法",
-      "polarity": "-"
+      "polarity": "0"
     },
     {
       "t": 51.4,
       "text": "主播真的好普通啊，只有80万粉丝",
-      "dimension": "整体",
+      "dimension": "其他",
       "polarity": "-"
     },
     {
       "t": 56.408,
       "text": "既然你说对方和你的作曲相同，那为何不把整首曲子拿来对比？而是在这里选几个地方来对比？",
-      "dimension": "音乐",
+      "dimension": "细节",
       "polarity": "-"
     },
     {
@@ -74,12 +76,6 @@
       "text": "支持原创",
       "dimension": "整体",
       "polarity": "+"
-    },
-    {
-      "t": 67.101,
-      "text": "保护，这个电视剧居然还有脸起诉up",
-      "dimension": "整体",
-      "polarity": "-"
     },
     {
       "t": 69.148,
@@ -100,34 +96,16 @@
       "polarity": "0"
     },
     {
-      "t": 74.211,
-      "text": "前面那个人是在演吗？这是作者做的曲，词是陆游写的。。。",
-      "dimension": "音乐",
-      "polarity": "0"
-    },
-    {
       "t": 78.829,
       "text": "瞬间被治愈了",
       "dimension": "情感共鸣",
       "polarity": "+"
     },
     {
-      "t": 80.106,
-      "text": "我看了这个电视剧，我个音痴都觉得确实你被抄袭了",
-      "dimension": "音乐",
-      "polarity": "0"
-    },
-    {
       "t": 83.561,
       "text": "这不一模一样吗",
       "dimension": "音乐",
       "polarity": "0"
-    },
-    {
-      "t": 88.56,
-      "text": "音和画都好绝",
-      "dimension": "整体",
-      "polarity": "+"
     },
     {
       "t": 97.889,
@@ -148,12 +126,6 @@
       "polarity": "-"
     },
     {
-      "t": 114.067,
-      "text": "这个词。。。是古诗词啊肯定一样啊",
-      "dimension": "音乐",
-      "polarity": "0"
-    },
-    {
       "t": 115.13,
       "text": "666词一样还好这调演都不演了",
       "dimension": "音乐",
@@ -163,7 +135,7 @@
       "t": 118.71,
       "text": "亿模一样",
       "dimension": "音乐",
-      "polarity": "0"
+      "polarity": "-"
     },
     {
       "t": 119.412,
@@ -178,16 +150,10 @@
       "polarity": "-"
     },
     {
-      "t": 120.838,
-      "text": "我嘞个豆 一模一样啊",
-      "dimension": "音乐",
-      "polarity": "0"
-    },
-    {
       "t": 120.92,
       "text": "宫墙柳这三个字的调可以说是完全。。。",
       "dimension": "音乐",
-      "polarity": "0"
+      "polarity": "-"
     },
     {
       "t": 121.063,
@@ -199,25 +165,13 @@
       "t": 121.259,
       "text": "一模一样！",
       "dimension": "音乐",
-      "polarity": "0"
-    },
-    {
-      "t": 121.666,
-      "text": "盐都不盐了",
-      "dimension": "音乐",
       "polarity": "-"
     },
     {
       "t": 121.854,
       "text": "这特么不一模一样么",
       "dimension": "音乐",
-      "polarity": "0"
-    },
-    {
-      "t": 121.891,
-      "text": "词儿一样，是因为这本身就是一首诗，朋友们。让你们研究的是曲子。",
-      "dimension": "音乐",
-      "polarity": "0"
+      "polarity": "-"
     },
     {
       "t": 122.654,
@@ -228,25 +182,19 @@
     {
       "t": 125.615,
       "text": "？？？演都不演了",
-      "dimension": "整体",
+      "dimension": "音乐",
       "polarity": "-"
     },
     {
       "t": 126.047,
       "text": "词应该没问题，这是诗里的，主要是调调一样的",
       "dimension": "音乐",
-      "polarity": "0"
-    },
-    {
-      "t": 126.678,
-      "text": "词都一样啊！",
-      "dimension": "音乐",
       "polarity": "-"
     },
     {
       "t": 127.697,
       "text": "直接抄过来",
-      "dimension": "整体",
+      "dimension": "音乐",
       "polarity": "-"
     },
     {
@@ -256,9 +204,15 @@
       "polarity": "-"
     },
     {
+      "t": 131.04,
+      "text": "这就是传说中的80万粉丝，普通人吧",
+      "dimension": "整体",
+      "polarity": "-"
+    },
+    {
       "t": 131.721,
       "text": "扒开底裤抄的",
-      "dimension": "整体",
+      "dimension": "音乐",
       "polarity": "-"
     },
     {
@@ -272,18 +226,6 @@
       "text": "词是宋词啊，曲一样",
       "dimension": "音乐",
       "polarity": "0"
-    },
-    {
-      "t": 131.926,
-      "text": "不知道的以为找黄龄给up的歌翻唱了呢…",
-      "dimension": "音乐",
-      "polarity": "0"
-    },
-    {
-      "t": 133.755,
-      "text": "卧槽，演都不演了",
-      "dimension": "整体",
-      "polarity": "-"
     },
     {
       "t": 133.795,
@@ -300,7 +242,7 @@
     {
       "t": 136.066,
       "text": "这不是抄，而是直接搬啊。",
-      "dimension": "整体",
+      "dimension": "音乐",
       "polarity": "-"
     },
     {
@@ -320,6 +262,66 @@
       "text": "曲调就升了个调啊",
       "dimension": "音乐",
       "polarity": "-"
+    },
+    {
+      "t": 144.527,
+      "text": "一毛一样",
+      "dimension": "音乐",
+      "polarity": "-"
+    },
+    {
+      "t": 144.877,
+      "text": "听感上来说，除了黄龄唱功更好一点，我真的听说这个调有什么不同的",
+      "dimension": "音乐",
+      "polarity": "0"
+    },
+    {
+      "t": 146.452,
+      "text": "这也太像了",
+      "dimension": "音乐",
+      "polarity": "-"
+    },
+    {
+      "t": 154.453,
+      "text": "其实你这一句本身就像黑悟空里一首歌的调调，想不起来叫啥名字了",
+      "dimension": "音乐",
+      "polarity": "0"
+    },
+    {
+      "t": 157.496,
+      "text": "你别说，确实跟卷珠帘蛮像的，但是还是有一些区别的",
+      "dimension": "音乐",
+      "polarity": "0"
+    },
+    {
+      "t": 159.861,
+      "text": "词一样倒没问题，毕竟是陆游的诗，但旋律抄就侵犯作者的权利了",
+      "dimension": "音乐",
+      "polarity": "-"
+    },
+    {
+      "t": 162.937,
+      "text": "有什么区别吗？",
+      "dimension": "音乐",
+      "polarity": "-"
+    },
+    {
+      "t": 165.594,
+      "text": "稍微改几个音都能当原创歌了",
+      "dimension": "音乐",
+      "polarity": "-"
+    },
+    {
+      "t": 165.655,
+      "text": "除了声调之外，几乎可以说是一模一样了",
+      "dimension": "音乐",
+      "polarity": "-"
+    },
+    {
+      "t": 166.085,
+      "text": "配器差不多",
+      "dimension": "音乐",
+      "polarity": "0"
     }
   ]
 }

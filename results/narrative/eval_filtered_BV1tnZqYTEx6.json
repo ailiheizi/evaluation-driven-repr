@@ -1,0 +1,174 @@
+{
+  "video": "手机续航大横评！到底谁的电池最耐用？",
+  "bvid": "BV1tnZqYTEx6",
+  "total_raw": 3600,
+  "after_rule_filter": 2686,
+  "sample_classified": 120,
+  "evaluative_count": 25,
+  "evaluative_rate": 0.20833333333333334,
+  "dimension_distribution": {
+    "剧情": 1,
+    "整体": 15,
+    "画面": 1,
+    "演技": 1,
+    "细节": 5,
+    "节奏": 2
+  },
+  "polarity_distribution": {
+    "0": 3,
+    "+": 12,
+    "-": 10
+  },
+  "evaluative_samples": [
+    {
+      "t": 31.428,
+      "text": "这个台词我在隔壁摔手机也听过",
+      "dimension": "剧情",
+      "polarity": "0"
+    },
+    {
+      "t": 33.653,
+      "text": "看看，这就叫专业，严谨！",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 165.045,
+      "text": "Only Geekerwan Can Do!",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 180.21,
+      "text": "就是机械表运镜而已",
+      "dimension": "画面",
+      "polarity": "0"
+    },
+    {
+      "t": 182.292,
+      "text": "何同学想象中的自己哈哈哈",
+      "dimension": "演技",
+      "polarity": "0"
+    },
+    {
+      "t": 218.686,
+      "text": "测试用三大金刚，苹果有三大金刚吗？你平常用也用三大金刚吗",
+      "dimension": "细节",
+      "polarity": "-"
+    },
+    {
+      "t": 356.823,
+      "text": "这么长时间了还不进入正题嘛",
+      "dimension": "节奏",
+      "polarity": "-"
+    },
+    {
+      "t": 456.065,
+      "text": "这个续航非常真实了",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 457.86,
+      "text": "温馨提示：X8的真实续航其实非常差",
+      "dimension": "整体",
+      "polarity": "-"
+    },
+    {
+      "t": 459.113,
+      "text": "我去，可以预见这个榜单含金量有多高了！",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 612.612,
+      "text": "先介绍method，篇幅过半不是很正常吗",
+      "dimension": "节奏",
+      "polarity": "+"
+    },
+    {
+      "t": 625.756,
+      "text": "这个就叫专业",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 635.223,
+      "text": "十分细节",
+      "dimension": "细节",
+      "polarity": "+"
+    },
+    {
+      "t": 643.833,
+      "text": "太棒了，刚换的小米15p感觉电量还是和之前4000多毫安一样不够用。",
+      "dimension": "整体",
+      "polarity": "-"
+    },
+    {
+      "t": 709.502,
+      "text": "降两度降分辨率降频",
+      "dimension": "细节",
+      "polarity": "-"
+    },
+    {
+      "t": 713.397,
+      "text": "荣耀7可以的",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 716.913,
+      "text": "荣耀好强",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 746.347,
+      "text": "小米续航到下个大版本更新后就暴毙",
+      "dimension": "整体",
+      "polarity": "-"
+    },
+    {
+      "t": 772.483,
+      "text": "iQOO13  2k屏续航这么好",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 818.35,
+      "text": "常年霸榜",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 845.744,
+      "text": "虽然续航时间最短，但是充电时间最长啊",
+      "dimension": "细节",
+      "polarity": "-"
+    },
+    {
+      "t": 854.49,
+      "text": "安卓旗舰：指赶上了三星（",
+      "dimension": "整体",
+      "polarity": "-"
+    },
+    {
+      "t": 903.254,
+      "text": "重新定义惊艳",
+      "dimension": "整体",
+      "polarity": "-"
+    },
+    {
+      "t": 1018.27,
+      "text": "快别2k屏了，真当极客湾做这种严谨对照实验不控制变量是吧",
+      "dimension": "细节",
+      "polarity": "-"
+    },
+    {
+      "t": 1156.482,
+      "text": "专业干货好评",
+      "dimension": "整体",
+      "polarity": "+"
+    }
+  ]
+}

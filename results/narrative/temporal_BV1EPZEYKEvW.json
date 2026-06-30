@@ -1,0 +1,58 @@
+{
+  "video": "垃圾场上的妙妙屋【日本世博会】",
+  "bvid": "BV1EPZEYKEvW",
+  "duration": 354,
+  "total_classified": 54,
+  "peaks": {
+    "画面": {
+      "peak_bin": 1,
+      "peak_time": 30,
+      "peak_density": 0.7142857142857143,
+      "mean_density": 0.1773879142300195,
+      "peak_ratio": 4.026687598116169
+    },
+    "剧情": {
+      "peak_bin": 6,
+      "peak_time": 180,
+      "peak_density": 1.0,
+      "mean_density": 0.21529518240044557,
+      "peak_ratio": 4.644785772029103
+    },
+    "细节": {
+      "peak_bin": 9,
+      "peak_time": 270,
+      "peak_density": 0.6666666666666666,
+      "mean_density": 0.20213728766360342,
+      "peak_ratio": 3.29808851386258
+    },
+    "其他": {
+      "peak_bin": 0,
+      "peak_time": 0,
+      "peak_density": 0.05263157894736842,
+      "mean_density": 0.0043859649122807015,
+      "peak_ratio": 5.263157894736842
+    },
+    "整体": {
+      "peak_bin": 8,
+      "peak_time": 240,
+      "peak_density": 1.0,
+      "mean_density": 0.25661375661375657,
+      "peak_ratio": 3.896907216494846
+    },
+    "情感共鸣": {
+      "peak_bin": 0,
+      "peak_time": 0,
+      "peak_density": 0.5,
+      "mean_density": 0.0625,
+      "peak_ratio": 8.0
+    }
+  },
+  "dim_entropy": {
+    "画面": 0.5343618993198271,
+    "剧情": 0.6386852087907545,
+    "细节": 0.7107006721479819,
+    "其他": -0.0,
+    "整体": 0.6483610913245326,
+    "情感共鸣": -0.0
+  }
+}

@@ -2,49 +2,49 @@
   "video": "开播一集！就火爆全球的神作？深扒你所不知道的神探故事！《神探夏洛克》",
   "bvid": "BV1rHZJYkEnK",
   "duration": 1380,
-  "total_classified": 120,
+  "total_classified": 103,
   "peaks": {
     "演技": {
       "peak_bin": 0,
       "peak_time": 0,
-      "peak_density": 0.5405405405405406,
-      "mean_density": 0.01609870740305523,
-      "peak_ratio": 33.57664233576643
-    },
-    "画面": {
-      "peak_bin": 34,
-      "peak_time": 1020,
-      "peak_density": 1.0,
-      "mean_density": 0.046585908158798185,
-      "peak_ratio": 21.465718701700155
-    },
-    "剧情": {
-      "peak_bin": 3,
-      "peak_time": 90,
-      "peak_density": 1.0,
-      "mean_density": 0.3025419921199972,
-      "peak_ratio": 3.3053262887334003
+      "peak_density": 0.5666666666666667,
+      "mean_density": 0.012318840579710144,
+      "peak_ratio": 46.0
     },
     "整体": {
-      "peak_bin": 7,
-      "peak_time": 210,
+      "peak_bin": 9,
+      "peak_time": 270,
       "peak_density": 1.0,
-      "mean_density": 0.1999907836224972,
-      "peak_ratio": 5.000230420055761
+      "mean_density": 0.14552211073950205,
+      "peak_ratio": 6.871807967313585
     },
-    "台词": {
+    "画面": {
+      "peak_bin": 4,
+      "peak_time": 120,
+      "peak_density": 0.3333333333333333,
+      "mean_density": 0.01588628762541806,
+      "peak_ratio": 20.982456140350877
+    },
+    "剧情": {
+      "peak_bin": 5,
+      "peak_time": 150,
+      "peak_density": 1.0,
+      "mean_density": 0.40960609438870316,
+      "peak_ratio": 2.4413699251530954
+    },
+    "情感共鸣": {
       "peak_bin": 0,
       "peak_time": 0,
-      "peak_density": 1.0,
-      "mean_density": 0.09090909090909091,
-      "peak_ratio": 11.0
+      "peak_density": 0.16666666666666666,
+      "mean_density": 0.018518518518518517,
+      "peak_ratio": 9.0
     }
   },
   "dim_entropy": {
-    "演技": 0.15235990169683608,
-    "画面": 0.371955773988555,
-    "剧情": 0.7362395374638697,
-    "整体": 0.6476855587132838,
-    "台词": -0.0
+    "演技": -0.0,
+    "整体": 0.5910997219117592,
+    "画面": 0.27664239973893207,
+    "剧情": 0.7995967580494929,
+    "情感共鸣": -0.0
   }
 }

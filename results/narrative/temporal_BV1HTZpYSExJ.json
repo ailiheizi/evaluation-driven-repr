@@ -2,41 +2,41 @@
   "video": "《绝区零》星徽骑士EP丨拂晓之空 闪耀之誓",
   "bvid": "BV1HTZpYSExJ",
   "duration": 250,
-  "total_classified": 39,
+  "total_classified": 42,
   "peaks": {
     "整体": {
       "peak_bin": 8,
       "peak_time": 240,
       "peak_density": 1.0,
-      "mean_density": 0.3290123456790124,
-      "peak_ratio": 3.039399624765478
-    },
-    "画面": {
-      "peak_bin": 5,
-      "peak_time": 150,
-      "peak_density": 1.0,
-      "mean_density": 0.45185185185185184,
-      "peak_ratio": 2.2131147540983607
+      "mean_density": 0.35185185185185186,
+      "peak_ratio": 2.8421052631578947
     },
     "情感共鸣": {
       "peak_bin": 2,
       "peak_time": 60,
       "peak_density": 0.5,
-      "mean_density": 0.16358024691358025,
-      "peak_ratio": 3.0566037735849054
+      "mean_density": 0.15000000000000002,
+      "peak_ratio": 3.333333333333333
     },
     "音乐": {
       "peak_bin": 0,
       "peak_time": 0,
       "peak_density": 0.25,
-      "mean_density": 0.05555555555555555,
-      "peak_ratio": 4.5
+      "mean_density": 0.027777777777777776,
+      "peak_ratio": 9.0
+    },
+    "画面": {
+      "peak_bin": 4,
+      "peak_time": 120,
+      "peak_density": 1.0,
+      "mean_density": 0.5291666666666667,
+      "peak_ratio": 1.889763779527559
     }
   },
   "dim_entropy": {
-    "整体": 0.802267456524715,
-    "画面": 0.9019451984411644,
-    "情感共鸣": 0.6007710674722591,
-    "音乐": 0.31546487678572877
+    "整体": 0.8165774753938623,
+    "情感共鸣": 0.564726063027403,
+    "音乐": -0.0,
+    "画面": 0.9049272944650685
   }
 }

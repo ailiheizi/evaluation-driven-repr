@@ -1,0 +1,58 @@
+{
+  "video": "【大鸣王潮1566】死告者",
+  "bvid": "BV1UbZ8YmEP8",
+  "duration": 194,
+  "total_classified": 15,
+  "peaks": {
+    "画面": {
+      "peak_bin": 0,
+      "peak_time": 0,
+      "peak_density": 0.3333333333333333,
+      "mean_density": 0.047619047619047616,
+      "peak_ratio": 7.0
+    },
+    "整体": {
+      "peak_bin": 3,
+      "peak_time": 90,
+      "peak_density": 1.0,
+      "mean_density": 0.4047619047619047,
+      "peak_ratio": 2.4705882352941178
+    },
+    "节奏": {
+      "peak_bin": 0,
+      "peak_time": 0,
+      "peak_density": 0.5,
+      "mean_density": 0.13888888888888887,
+      "peak_ratio": 3.6000000000000005
+    },
+    "剧情": {
+      "peak_bin": 0,
+      "peak_time": 0,
+      "peak_density": 0.6666666666666666,
+      "mean_density": 0.2,
+      "peak_ratio": 3.333333333333333
+    },
+    "叙事手法": {
+      "peak_bin": 0,
+      "peak_time": 0,
+      "peak_density": 1.0,
+      "mean_density": 0.3333333333333333,
+      "peak_ratio": 3.0
+    },
+    "情感共鸣": {
+      "peak_bin": 0,
+      "peak_time": 0,
+      "peak_density": 1.0,
+      "mean_density": 0.5,
+      "peak_ratio": 2.0
+    }
+  },
+  "dim_entropy": {
+    "画面": -0.0,
+    "整体": 0.6961169691574826,
+    "节奏": 0.3756149631508355,
+    "剧情": 0.3954884891037233,
+    "叙事手法": -0.0,
+    "情感共鸣": -0.0
+  }
+}

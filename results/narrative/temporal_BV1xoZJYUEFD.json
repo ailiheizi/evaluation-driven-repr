@@ -1,0 +1,42 @@
+{
+  "video": "热烈欢迎武艺！分享他的男生清爽好物！真的好干净！好实用！好好笑！",
+  "bvid": "BV1xoZJYUEFD",
+  "duration": 1627,
+  "total_classified": 274,
+  "peaks": {
+    "演技": {
+      "peak_bin": 0,
+      "peak_time": 0,
+      "peak_density": 1.0,
+      "mean_density": 0.8393156843156844,
+      "peak_ratio": 1.1914468163612666
+    },
+    "其他": {
+      "peak_bin": 15,
+      "peak_time": 450,
+      "peak_density": 0.6666666666666666,
+      "mean_density": 0.026190476190476188,
+      "peak_ratio": 25.454545454545457
+    },
+    "剧情": {
+      "peak_bin": 14,
+      "peak_time": 420,
+      "peak_density": 0.3333333333333333,
+      "mean_density": 0.02315354713313897,
+      "peak_ratio": 14.396642182581322
+    },
+    "整体": {
+      "peak_bin": 24,
+      "peak_time": 720,
+      "peak_density": 0.5,
+      "mean_density": 0.03943833943833944,
+      "peak_ratio": 12.678018575851393
+    }
+  },
+  "dim_entropy": {
+    "演技": 0.9713308430765017,
+    "其他": 0.31185071831268735,
+    "剧情": 0.4354907938874551,
+    "整体": 0.49869553725000315
+  }
+}

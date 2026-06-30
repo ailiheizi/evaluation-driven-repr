@@ -1,0 +1,324 @@
+{
+  "video": "需要喝自己胆汁的小女孩珍珍，希望以后的生活苦味追不上你",
+  "bvid": "BV1JhZcY9EFN",
+  "total_raw": 1200,
+  "after_rule_filter": 215,
+  "sample_classified": 120,
+  "evaluative_count": 56,
+  "evaluative_rate": 0.4666666666666667,
+  "dimension_distribution": {
+    "情感共鸣": 18,
+    "演技": 6,
+    "剧情": 19,
+    "细节": 2,
+    "整体": 10,
+    "叙事手法": 1
+  },
+  "polarity_distribution": {
+    "-": 12,
+    "+": 29,
+    "0": 15
+  },
+  "evaluative_samples": [
+    {
+      "t": 5.288,
+      "text": "希望以后看不到你这些视频，愿世间没有这些苦难",
+      "dimension": "情感共鸣",
+      "polarity": "-"
+    },
+    {
+      "t": 14.434,
+      "text": "妹妹懂事的",
+      "dimension": "演技",
+      "polarity": "+"
+    },
+    {
+      "t": 23.578,
+      "text": "先生大义 你是太阳啊 你是光",
+      "dimension": "情感共鸣",
+      "polarity": "+"
+    },
+    {
+      "t": 28.698,
+      "text": "这一段是摆拍，一定的",
+      "dimension": "剧情",
+      "polarity": "-"
+    },
+    {
+      "t": 29.04,
+      "text": "说是剧本的不是人。",
+      "dimension": "剧情",
+      "polarity": "-"
+    },
+    {
+      "t": 30.658,
+      "text": "真实的想法是:你摄像头怼我脸拍的我怎么好意思说不呢",
+      "dimension": "细节",
+      "polarity": "0"
+    },
+    {
+      "t": 33.091,
+      "text": "这个社会就应该多点博主这样的人",
+      "dimension": "情感共鸣",
+      "polarity": "+"
+    },
+    {
+      "t": 33.788,
+      "text": "我宁愿这都是剧本 里面的主角都没有这么命苦 可惜天不遂人愿",
+      "dimension": "剧情",
+      "polarity": "0"
+    },
+    {
+      "t": 43.497,
+      "text": "就冲着这洁柔纸巾摆摊，三连必须得走一个了",
+      "dimension": "细节",
+      "polarity": "+"
+    },
+    {
+      "t": 56.568,
+      "text": "好可爱的一家人",
+      "dimension": "情感共鸣",
+      "polarity": "+"
+    },
+    {
+      "t": 60.193,
+      "text": "哥哥：你倒是夸夸我啊，要不显得我很呆",
+      "dimension": "演技",
+      "polarity": "0"
+    },
+    {
+      "t": 71.6,
+      "text": "布豪！有刀！",
+      "dimension": "剧情",
+      "polarity": "-"
+    },
+    {
+      "t": 80.609,
+      "text": "有刀啊？",
+      "dimension": "剧情",
+      "polarity": "-"
+    },
+    {
+      "t": 88.131,
+      "text": "完全看不出来唉妹妹看起来好阳光好乐观",
+      "dimension": "演技",
+      "polarity": "+"
+    },
+    {
+      "t": 90.071,
+      "text": "年龄上来了看不了这种",
+      "dimension": "情感共鸣",
+      "polarity": "-"
+    },
+    {
+      "t": 91.35,
+      "text": "卧槽，太痛苦了！",
+      "dimension": "情感共鸣",
+      "polarity": "-"
+    },
+    {
+      "t": 92.788,
+      "text": "我去呀 ，从没见过这样的病 。",
+      "dimension": "剧情",
+      "polarity": "0"
+    },
+    {
+      "t": 96.337,
+      "text": "听的我说不出话了",
+      "dimension": "情感共鸣",
+      "polarity": "0"
+    },
+    {
+      "t": 99.349,
+      "text": "为什么一定要问孩子，揭开她的伤疤呢？",
+      "dimension": "剧情",
+      "polarity": "-"
+    },
+    {
+      "t": 99.514,
+      "text": "我的天……有时候我胃酸上来都受不了",
+      "dimension": "情感共鸣",
+      "polarity": "0"
+    },
+    {
+      "t": 99.784,
+      "text": "好坚强的孩子",
+      "dimension": "演技",
+      "polarity": "+"
+    },
+    {
+      "t": 101.785,
+      "text": "年龄大了，看不了这些，眼睛随时进沙子",
+      "dimension": "情感共鸣",
+      "polarity": "-"
+    },
+    {
+      "t": 101.816,
+      "text": "最看不得流泪了",
+      "dimension": "情感共鸣",
+      "polarity": "-"
+    },
+    {
+      "t": 103.796,
+      "text": "太懂事的孩子了",
+      "dimension": "演技",
+      "polarity": "+"
+    },
+    {
+      "t": 104.271,
+      "text": "我希望只是剧本！",
+      "dimension": "剧情",
+      "polarity": "0"
+    },
+    {
+      "t": 117.3,
+      "text": "基因突变",
+      "dimension": "剧情",
+      "polarity": "0"
+    },
+    {
+      "t": 118.421,
+      "text": "看到这一幕我真的好难受啊",
+      "dimension": "情感共鸣",
+      "polarity": "-"
+    },
+    {
+      "t": 121.463,
+      "text": "平民老百姓碰到实在太难了啊",
+      "dimension": "剧情",
+      "polarity": "-"
+    },
+    {
+      "t": 122.015,
+      "text": "健康起来比蛋糕都甜",
+      "dimension": "剧情",
+      "polarity": "+"
+    },
+    {
+      "t": 124.87,
+      "text": "这么小的女孩太懂事了",
+      "dimension": "演技",
+      "polarity": "+"
+    },
+    {
+      "t": 170.698,
+      "text": "两个孩子都好懂事",
+      "dimension": "剧情",
+      "polarity": "+"
+    },
+    {
+      "t": 189.011,
+      "text": "最具善意的博主",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 205.918,
+      "text": "大义！！！！！！",
+      "dimension": "剧情",
+      "polarity": "+"
+    },
+    {
+      "t": 207.327,
+      "text": "回收五根烤肠的伏笔（先生大义！",
+      "dimension": "叙事手法",
+      "polarity": "+"
+    },
+    {
+      "t": 213.051,
+      "text": "人生不易，感同身爱。",
+      "dimension": "情感共鸣",
+      "polarity": "+"
+    },
+    {
+      "t": 216.314,
+      "text": "自媒体本来该有的样子！",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 227.214,
+      "text": "本以为这期不会泪目 小孩母亲这一跪眼睛进沙子了",
+      "dimension": "剧情",
+      "polarity": "+"
+    },
+    {
+      "t": 228.22,
+      "text": "太牛逼了哥",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 231.496,
+      "text": "先生高义",
+      "dimension": "剧情",
+      "polarity": "+"
+    },
+    {
+      "t": 232.701,
+      "text": "或许这才是互联网自媒体的最终奥义。",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 241.22,
+      "text": "成年人的崩溃就在一瞬间",
+      "dimension": "情感共鸣",
+      "polarity": "+"
+    },
+    {
+      "t": 244.376,
+      "text": "先生大义 先生大义 先生大义 先生大义 先生大义 先生大义 先生大义 先生大义 先生大义 先生大义 先生大义 先生大义 先生大义",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 251.16,
+      "text": "被生活压垮的成年人，崩溃就在一瞬间的",
+      "dimension": "情感共鸣",
+      "polarity": "0"
+    },
+    {
+      "t": 253.912,
+      "text": "这五万，他们要卖五万根烤肠啊……真的能理解她的感激",
+      "dimension": "剧情",
+      "polarity": "+"
+    },
+    {
+      "t": 256.063,
+      "text": "边看边流泪边笑",
+      "dimension": "情感共鸣",
+      "polarity": "0"
+    },
+    {
+      "t": 258.182,
+      "text": "不对，我眼睛怎么酸酸的？是不是进沙子了",
+      "dimension": "情感共鸣",
+      "polarity": "0"
+    },
+    {
+      "t": 272.68,
+      "text": "子衿哪怕一年赚1000万 我也一点不眼红",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 273.874,
+      "text": "这孩子给我弄哭了",
+      "dimension": "情感共鸣",
+      "polarity": "0"
+    },
+    {
+      "t": 279.005,
+      "text": "再次观看，再次落泪",
+      "dimension": "情感共鸣",
+      "polarity": "0"
+    },
+    {
+      "t": 300.391,
+      "text": "感觉哥哥真的很不容易",
+      "dimension": "整体",
+      "polarity": "+"
+    }
+  ]
+}

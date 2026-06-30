@@ -3,21 +3,21 @@
   "bvid": "BV1uT4y1P7CX",
   "total_raw": 1200,
   "after_rule_filter": 278,
-  "sample_classified": 150,
-  "evaluative_count": 21,
-  "evaluative_rate": 0.14,
+  "sample_classified": 120,
+  "evaluative_count": 15,
+  "evaluative_rate": 0.125,
   "dimension_distribution": {
     "整体": 4,
     "音乐": 4,
-    "细节": 6,
-    "字幕": 2,
-    "演技": 4,
-    "剧情": 1
+    "细节": 4,
+    "剧情": 1,
+    "其他": 1,
+    "画面": 1
   },
   "polarity_distribution": {
-    "-": 4,
-    "+": 13,
-    "0": 4
+    "-": 5,
+    "+": 8,
+    "0": 2
   },
   "evaluative_samples": [
     {
@@ -60,18 +60,6 @@
       "t": 8.448,
       "text": "字幕有惊喜",
       "dimension": "细节",
-      "polarity": "0"
-    },
-    {
-      "t": 24.945,
-      "text": "开英文字幕你会发现官方整活",
-      "dimension": "细节",
-      "polarity": "0"
-    },
-    {
-      "t": 41.798,
-      "text": "我的世界牛逼",
-      "dimension": "整体",
       "polarity": "+"
     },
     {
@@ -83,32 +71,20 @@
     {
       "t": 53.2,
       "text": "BV1uT4y1P7CX维德的枪法练好了",
-      "dimension": "细节",
-      "polarity": "+"
+      "dimension": "剧情",
+      "polarity": "0"
+    },
+    {
+      "t": 54.323,
+      "text": "好臭啊(恼)",
+      "dimension": "其他",
+      "polarity": "-"
     },
     {
       "t": 59.479,
       "text": "逆天字幕",
-      "dimension": "字幕",
+      "dimension": "细节",
       "polarity": "-"
-    },
-    {
-      "t": 67.453,
-      "text": "《你有心脏病罗志祥！》字幕",
-      "dimension": "字幕",
-      "polarity": "0"
-    },
-    {
-      "t": 105.004,
-      "text": "这个男人笑起来好好看！！",
-      "dimension": "演技",
-      "polarity": "+"
-    },
-    {
-      "t": 111.819,
-      "text": "说实话这个男人一笑确实感觉挺帅的",
-      "dimension": "演技",
-      "polarity": "+"
     },
     {
       "t": 114.299,
@@ -123,27 +99,15 @@
       "polarity": "+"
     },
     {
-      "t": 142.108,
-      "text": "这字幕真有趣",
-      "dimension": "细节",
-      "polarity": "+"
-    },
-    {
-      "t": 170.424,
-      "text": "这个笑！好帅",
-      "dimension": "演技",
-      "polarity": "+"
-    },
-    {
       "t": 177.52,
       "text": "这完美的黄金回旋",
-      "dimension": "剧情",
+      "dimension": "画面",
       "polarity": "+"
     },
     {
       "t": 186.414,
       "text": "我一男的 觉得他好帅啊",
-      "dimension": "演技",
+      "dimension": "整体",
       "polarity": "+"
     }
   ]

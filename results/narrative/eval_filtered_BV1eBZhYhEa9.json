@@ -4,21 +4,21 @@
   "total_raw": 600,
   "after_rule_filter": 65,
   "sample_classified": 65,
-  "evaluative_count": 41,
-  "evaluative_rate": 0.6307692307692307,
+  "evaluative_count": 45,
+  "evaluative_rate": 0.6923076923076923,
   "dimension_distribution": {
     "演技": 5,
     "画面": 11,
-    "音乐": 6,
-    "整体": 13,
-    "其他": 1,
-    "剧情": 3,
+    "音乐": 7,
+    "整体": 12,
+    "其他": 3,
+    "剧情": 5,
     "节奏": 1,
     "情感共鸣": 1
   },
   "polarity_distribution": {
     "-": 4,
-    "0": 11,
+    "0": 15,
     "+": 26
   },
   "evaluative_samples": [
@@ -83,6 +83,18 @@
       "polarity": "0"
     },
     {
+      "t": 24.631,
+      "text": "20年的梗了吧",
+      "dimension": "其他",
+      "polarity": "0"
+    },
+    {
+      "t": 28.011,
+      "text": "这是真实发生的事情",
+      "dimension": "剧情",
+      "polarity": "0"
+    },
+    {
       "t": 31.656,
       "text": "气象主播模仿秀太真实了！",
       "dimension": "演技",
@@ -91,7 +103,7 @@
     {
       "t": 37.239,
       "text": "天气小姐 梦回昭和",
-      "dimension": "整体",
+      "dimension": "其他",
       "polarity": "0"
     },
     {
@@ -99,6 +111,12 @@
       "text": "日本的天气预报小姐可是行业中top的top！",
       "dimension": "演技",
       "polarity": "+"
+    },
+    {
+      "t": 41.416,
+      "text": "气象主播模仿大赛开始！",
+      "dimension": "剧情",
+      "polarity": "0"
     },
     {
       "t": 42.06,
@@ -267,6 +285,12 @@
       "text": "还是中文比较端庄大气上档次",
       "dimension": "整体",
       "polarity": "+"
+    },
+    {
+      "t": 112.484,
+      "text": "天气小曲儿",
+      "dimension": "音乐",
+      "polarity": "0"
     }
   ]
 }
