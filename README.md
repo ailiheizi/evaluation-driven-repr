@@ -30,10 +30,10 @@ Natural evaluations are **not just reward signals** — they contain multi-dimen
 
 | Dimension | Proportion | Temporal Concentration |
 |-----------|-----------|----------------------|
-| Plot (剧情) | 37% | ★ Concentrated (H=0.46) |
-| Acting (演技) | 12% | ★★ Highly concentrated (H=0.24) |
-| Music (音乐) | 2% | ★★★ Extreme (H=0.01) |
-| Overall (整体) | 17% | Dispersed (H=0.79) — built-in control |
+| Plot | 37% | ★ Concentrated (H=0.46) |
+| Acting | 12% | ★★ Highly concentrated (H=0.24) |
+| Music | 2% | ★★★ Extreme (H=0.01) |
+| Overall | 17% | Dispersed (H=0.79) — built-in control |
 
 ### Genre Fingerprinting
 
@@ -52,7 +52,7 @@ Natural evaluations are **not just reward signals** — they contain multi-dimen
 │   ├── step1b_filter_and_recluster.py   # Noise filtering + evaluativeness classification
 │   └── step2_temporal_alignment.py      # Temporal alignment analysis
 ├── data/narrative/
-│   ├── BV1LSoyYqEuU.json   # Film analysis (惊天魔盗团)
+│   ├── BV1LSoyYqEuU.json   # Film analysis (Now You See Me)
 │   ├── BV1XHmwYpE8s.json   # Suspense drama
 │   └── BV1x441187u5.json   # Entertainment montage
 └── results/narrative/
@@ -94,12 +94,12 @@ EDRL is not limited to video danmaku. **Any domain where humans naturally produc
 - **Video content** → Danmaku/comments reveal plot, acting, music, pacing dimensions
 
 ### Immediate extensions
-- **Food/Recipes** → Taste reviews ("太咸了"/"鲜味不够") → discover flavor dimensions (saltiness, umami, bitterness) → optimize recipes by navigating flavor space
+- **Food/Recipes** → Taste reviews ("too salty"/"not enough umami") → discover flavor dimensions (saltiness, umami, bitterness) → optimize recipes by navigating flavor space
 - **Product design** → Customer reviews → discover quality dimensions (durability, aesthetics, ergonomics) → guide iterative design
 - **Game balance** → Player feedback → discover experience dimensions (difficulty, fairness, pacing) → tune gameplay
 
 ### Theoretical extensions
-- **Image aesthetics** → "好看"/"构图差" → discover visual dimensions → not predefined (rule of thirds, color harmony) but *emergent from human perception*
+- **Image aesthetics** → "beautiful"/"bad composition" → discover visual dimensions → not predefined (rule of thirds, color harmony) but *emergent from human perception*
 - **Code quality** → Code review comments → discover quality dimensions (readability, performance, correctness) → train code models with human-aligned objectives
 - **Life decisions** → Personal reflections/ratings → build personalized world models where every experience updates a learned embedding space
 
