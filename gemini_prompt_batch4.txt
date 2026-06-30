@@ -1,0 +1,38 @@
+You are annotating video comments (danmaku/barrage) for a research study.
+
+For each comment, determine:
+1. Is it EVALUATIVE? (Does it judge/assess the video content quality - plot, acting, visuals, music, etc?)
+   - YES: "the acting is amazing", "plot makes no sense", "great soundtrack"
+   - NO: jokes, memes, social chat, pure reactions ("haha"), quotes, factual discussion without judgment
+
+2. If evaluative, what DIMENSION is being evaluated?
+   Options: plot, overall, details, acting, visuals, emotional, narrative, music, pacing, other
+
+3. If evaluative, what is the POLARITY?
+   +  (praise/positive), - (criticism/negative), 0 (neutral analysis)
+
+Comments to annotate:
+81. [海龟汤（2）] "不恐怖？？"
+82. [错位的时空，命运的交织。] "看来这个世界的主任和原世界相同，只是没有了脱缰凯"
+83. [【4K60帧】经典老歌：瑞克·埃斯利《Never ] "豪   俊   金   曲"
+84. [错位的时空，命运的交织。] "啊？我还以为是一张非常简陋的画"
+85. [BV1LSoyYqEuU.js] "突然想起剧情了"
+86. [《崩坏：星穹铁道》动画短片：「那安息的长夜」] "她真好看"
+87. [BV1BtZJYBE4G.js] "献上硬币"
+88. [BV1BtZJYBE4G.js] "活该挑剔的欧洲人"
+89. [BV1GyZYYNErW.js] "有可能有更高级的材料可以用"
+90. [BV1GyZYYNErW.js] "俄羅斯比例"
+91. [BV1GyZYYNErW.js] "很燃，但是又不知道燃什么"
+92. [海龟汤（2）] "小杨帕金森"
+93. [错位的时空，命运的交织。] "我感受到了[生生不息]的激荡"
+94. [“鲁智深：林冲？好吧那我输的不冤”] "这段看了十几遍林冲太帅了，一代宗师"
+95. [为什么中国人对一道菜的最高评价是"下饭"?] "我还是喜欢土豆回锅肉，加上豆瓣的香，味道超级棒"
+96. [震撼世界的72天：巴黎公社为何爆发？又为何失败？【] "太可恶了"
+97. [海龟汤（2）] "这也没有《阴森》"
+98. [游戏科学新作《黑神话：悟空》13分钟实机演示] "暂停翅膀也没有残影太强了"
+99. [震撼世界的72天：巴黎公社为何爆发？又为何失败？【] "认知非常准确"
+100. [BV1BtZJYBE4G.js] "国际歌来了！！！"
+
+Output ONLY JSON lines, one per comment:
+{"id": N, "eval": true/false, "dim": "...", "pol": "+/-/0"}
+If eval=false, set dim="none" and pol="0".

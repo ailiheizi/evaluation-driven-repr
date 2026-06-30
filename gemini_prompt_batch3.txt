@@ -1,0 +1,38 @@
+You are annotating video comments (danmaku/barrage) for a research study.
+
+For each comment, determine:
+1. Is it EVALUATIVE? (Does it judge/assess the video content quality - plot, acting, visuals, music, etc?)
+   - YES: "the acting is amazing", "plot makes no sense", "great soundtrack"
+   - NO: jokes, memes, social chat, pure reactions ("haha"), quotes, factual discussion without judgment
+
+2. If evaluative, what DIMENSION is being evaluated?
+   Options: plot, overall, details, acting, visuals, emotional, narrative, music, pacing, other
+
+3. If evaluative, what is the POLARITY?
+   +  (praise/positive), - (criticism/negative), 0 (neutral analysis)
+
+Comments to annotate:
+61. [BV1GyZYYNErW.js] "赞美泽洛斯皇帝，我们终于能打造基岩制品了"
+62. [游戏科学新作《黑神话：悟空》13分钟实机演示] "这里土地公说“像”，也暗示了剧情"
+63. [BV1LSoyYqEuU.js] "没必要纠结魔不魔法，剧情好看就行了"
+64. [如何成为<班级面壁人>] "这才是真正的谋士已身入局，举棋胜天半子"
+65. [游戏科学新作《黑神话：悟空》13分钟实机演示] "注意这里右下角只有一个“猿”字，拿了武器之后多了一个“狼”"
+66. [如何成为<班级面壁人>] "别搞别搞，哪来的刀子呀？刚看完MVP动画，怎么又来了个刀子？"
+67. [模仿不同国家的气象主播，差别真的很大！！当然最经典] "气象主播模仿秀太真实了！"
+68. [游戏科学新作《黑神话：悟空》13分钟实机演示] "暂停可以发现这翅膀没有残影，很用心了"
+69. [BV1GyZYYNErW.js] "鲁德有点超标啊"
+70. [BV1LSoyYqEuU.js] "玩椅子笑得象是"
+71. [BV1BtZJYBE4G.js] "更是听得懂"
+72. [开播一集！就火爆全球的神作？深扒你所不知道的神探故] "这里他故意没有说茉莉"
+73. [我被电视剧片头曲“模仿”了却无能为力] "支持原创"
+74. [BV1BtZJYBE4G.js] "谁告诉你工作时长=工作效率的？"
+75. [游戏科学新作《黑神话：悟空》13分钟实机演示] "这不是游戏，这简直是艺术品！"
+76. [BV1GyZYYNErW.js] "完了,队长被歼灭"
+77. [BV1BtZJYBE4G.js] "西伯利亚吗？那真的很恐怖了"
+78. [BV1GyZYYNErW.js] "应该是有些带回去但是发现特别特别难加工所以直接毁了"
+79. [BV1BtZJYBE4G.js] "人民力量"
+80. [如何成为<班级面壁人>] "很旧撇了"
+
+Output ONLY JSON lines, one per comment:
+{"id": N, "eval": true/false, "dim": "...", "pol": "+/-/0"}
+If eval=false, set dim="none" and pol="0".

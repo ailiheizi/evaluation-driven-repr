@@ -1,0 +1,81 @@
+{
+  "n_videos": 16,
+  "n_bootstrap": 10000,
+  "null_model": {
+    "total_unique_dims": 14,
+    "mean_dims_per_video": 7.75,
+    "null_recurrence_rate": 0.5535714285714286
+  },
+  "dimensions": {
+    "剧情": {
+      "recurrence": 0.9375,
+      "ci_low": 0.8125,
+      "ci_high": 1.0
+    },
+    "细节": {
+      "recurrence": 0.875,
+      "ci_low": 0.6875,
+      "ci_high": 1.0
+    },
+    "节奏": {
+      "recurrence": 0.8125,
+      "ci_low": 0.625,
+      "ci_high": 1.0
+    },
+    "整体": {
+      "recurrence": 1.0,
+      "ci_low": 1.0,
+      "ci_high": 1.0
+    },
+    "情感共鸣": {
+      "recurrence": 0.875,
+      "ci_low": 0.6875,
+      "ci_high": 1.0
+    },
+    "演技": {
+      "recurrence": 0.6875,
+      "ci_low": 0.5,
+      "ci_high": 0.875
+    },
+    "画面": {
+      "recurrence": 0.875,
+      "ci_low": 0.6875,
+      "ci_high": 1.0
+    },
+    "叙事手法": {
+      "recurrence": 0.4375,
+      "ci_low": 0.1875,
+      "ci_high": 0.6875
+    },
+    "音乐": {
+      "recurrence": 0.75,
+      "ci_low": 0.5,
+      "ci_high": 0.9375
+    },
+    "创意": {
+      "recurrence": 0.0625,
+      "ci_low": 0.0,
+      "ci_high": 0.1875
+    },
+    "其他": {
+      "recurrence": 0.25,
+      "ci_low": 0.0625,
+      "ci_high": 0.5
+    },
+    "角色": {
+      "recurrence": 0.0625,
+      "ci_low": 0.0,
+      "ci_high": 0.1875
+    },
+    "台词": {
+      "recurrence": 0.0625,
+      "ci_low": 0.0,
+      "ci_high": 0.1875
+    },
+    "字幕": {
+      "recurrence": 0.0625,
+      "ci_low": 0.0,
+      "ci_high": 0.1875
+    }
+  }
+}

@@ -1,0 +1,602 @@
+[
+  {
+    "id": 1,
+    "eval": false,
+    "dim": "none",
+    "pol": 0
+  },
+  {
+    "id": 2,
+    "eval": false,
+    "dim": "none",
+    "pol": 0
+  },
+  {
+    "id": 3,
+    "eval": true,
+    "dim": "narrative",
+    "pol": "+"
+  },
+  {
+    "id": 4,
+    "eval": false,
+    "dim": "none",
+    "pol": 0
+  },
+  {
+    "id": 5,
+    "eval": false,
+    "dim": "none",
+    "pol": 0
+  },
+  {
+    "id": 6,
+    "eval": true,
+    "dim": "plot",
+    "pol": "+"
+  },
+  {
+    "id": 7,
+    "eval": false,
+    "dim": "none",
+    "pol": 0
+  },
+  {
+    "id": 8,
+    "eval": true,
+    "dim": "plot",
+    "pol": "+"
+  },
+  {
+    "id": 9,
+    "eval": false,
+    "dim": "none",
+    "pol": 0
+  },
+  {
+    "id": 10,
+    "eval": false,
+    "dim": "none",
+    "pol": 0
+  },
+  {
+    "id": 11,
+    "eval": true,
+    "dim": "visuals",
+    "pol": 0
+  },
+  {
+    "id": 12,
+    "eval": false,
+    "dim": "none",
+    "pol": 0
+  },
+  {
+    "id": 13,
+    "eval": false,
+    "dim": "none",
+    "pol": 0
+  },
+  {
+    "id": 14,
+    "eval": false,
+    "dim": "none",
+    "pol": 0
+  },
+  {
+    "id": 15,
+    "eval": true,
+    "dim": "overall",
+    "pol": "+"
+  },
+  {
+    "id": 16,
+    "eval": false,
+    "dim": "none",
+    "pol": 0
+  },
+  {
+    "id": 17,
+    "eval": false,
+    "dim": "none",
+    "pol": 0
+  },
+  {
+    "id": 18,
+    "eval": true,
+    "dim": "plot",
+    "pol": 0
+  },
+  {
+    "id": 19,
+    "eval": true,
+    "dim": "overall",
+    "pol": "+"
+  },
+  {
+    "id": 20,
+    "eval": false,
+    "dim": "none",
+    "pol": 0
+  },
+  {
+    "id": 21,
+    "eval": true,
+    "dim": "emotional",
+    "pol": "0"
+  },
+  {
+    "id": 22,
+    "eval": true,
+    "dim": "visuals",
+    "pol": "0"
+  },
+  {
+    "id": 23,
+    "eval": false,
+    "dim": "none",
+    "pol": "0"
+  },
+  {
+    "id": 24,
+    "eval": false,
+    "dim": "none",
+    "pol": "0"
+  },
+  {
+    "id": 25,
+    "eval": false,
+    "dim": "none",
+    "pol": "0"
+  },
+  {
+    "id": 26,
+    "eval": true,
+    "dim": "visuals",
+    "pol": "+"
+  },
+  {
+    "id": 27,
+    "eval": true,
+    "dim": "details",
+    "pol": "-"
+  },
+  {
+    "id": 28,
+    "eval": true,
+    "dim": "overall",
+    "pol": "+"
+  },
+  {
+    "id": 29,
+    "eval": false,
+    "dim": "none",
+    "pol": "0"
+  },
+  {
+    "id": 30,
+    "eval": true,
+    "dim": "emotional",
+    "pol": "+"
+  },
+  {
+    "id": 31,
+    "eval": true,
+    "dim": "overall",
+    "pol": "+"
+  },
+  {
+    "id": 32,
+    "eval": false,
+    "dim": "none",
+    "pol": "0"
+  },
+  {
+    "id": 33,
+    "eval": true,
+    "dim": "visuals",
+    "pol": "+"
+  },
+  {
+    "id": 34,
+    "eval": false,
+    "dim": "none",
+    "pol": "0"
+  },
+  {
+    "id": 35,
+    "eval": true,
+    "dim": "music",
+    "pol": "+"
+  },
+  {
+    "id": 36,
+    "eval": true,
+    "dim": "details",
+    "pol": "-"
+  },
+  {
+    "id": 37,
+    "eval": false,
+    "dim": "none",
+    "pol": "0"
+  },
+  {
+    "id": 38,
+    "eval": true,
+    "dim": "details",
+    "pol": "0"
+  },
+  {
+    "id": 39,
+    "eval": true,
+    "dim": "narrative",
+    "pol": "0"
+  },
+  {
+    "id": 40,
+    "eval": false,
+    "dim": "none",
+    "pol": "0"
+  },
+  {
+    "id": 41,
+    "eval": true,
+    "dim": "emotional",
+    "pol": "+"
+  },
+  {
+    "id": 42,
+    "eval": true,
+    "dim": "overall",
+    "pol": "+"
+  },
+  {
+    "id": 43,
+    "eval": false,
+    "dim": "none",
+    "pol": "0"
+  },
+  {
+    "id": 44,
+    "eval": false,
+    "dim": "none",
+    "pol": "0"
+  },
+  {
+    "id": 45,
+    "eval": false,
+    "dim": "none",
+    "pol": "0"
+  },
+  {
+    "id": 46,
+    "eval": true,
+    "dim": "details",
+    "pol": "+"
+  },
+  {
+    "id": 47,
+    "eval": false,
+    "dim": "none",
+    "pol": "0"
+  },
+  {
+    "id": 48,
+    "eval": true,
+    "dim": "visuals",
+    "pol": "0"
+  },
+  {
+    "id": 49,
+    "eval": false,
+    "dim": "none",
+    "pol": "0"
+  },
+  {
+    "id": 50,
+    "eval": false,
+    "dim": "none",
+    "pol": "0"
+  },
+  {
+    "id": 51,
+    "eval": false,
+    "dim": "none",
+    "pol": "0"
+  },
+  {
+    "id": 52,
+    "eval": true,
+    "dim": "details",
+    "pol": "+"
+  },
+  {
+    "id": 53,
+    "eval": true,
+    "dim": "other",
+    "pol": "-"
+  },
+  {
+    "id": 54,
+    "eval": true,
+    "dim": "other",
+    "pol": "+"
+  },
+  {
+    "id": 55,
+    "eval": false,
+    "dim": "none",
+    "pol": "0"
+  },
+  {
+    "id": 56,
+    "eval": true,
+    "dim": "visuals",
+    "pol": "+"
+  },
+  {
+    "id": 57,
+    "eval": false,
+    "dim": "none",
+    "pol": "0"
+  },
+  {
+    "id": 58,
+    "eval": true,
+    "dim": "plot",
+    "pol": "-"
+  },
+  {
+    "id": 59,
+    "eval": true,
+    "dim": "details",
+    "pol": "+"
+  },
+  {
+    "id": 60,
+    "eval": false,
+    "dim": "none",
+    "pol": "0"
+  },
+  {
+    "id": 61,
+    "eval": false,
+    "dim": "none",
+    "pol": "0"
+  },
+  {
+    "id": 62,
+    "eval": true,
+    "dim": "narrative",
+    "pol": "0"
+  },
+  {
+    "id": 63,
+    "eval": true,
+    "dim": "plot",
+    "pol": "+"
+  },
+  {
+    "id": 64,
+    "eval": true,
+    "dim": "plot",
+    "pol": "+"
+  },
+  {
+    "id": 65,
+    "eval": false,
+    "dim": "none",
+    "pol": "0"
+  },
+  {
+    "id": 66,
+    "eval": true,
+    "dim": "emotional",
+    "pol": "-"
+  },
+  {
+    "id": 67,
+    "eval": true,
+    "dim": "acting",
+    "pol": "+"
+  },
+  {
+    "id": 68,
+    "eval": true,
+    "dim": "visuals",
+    "pol": "+"
+  },
+  {
+    "id": 69,
+    "eval": true,
+    "dim": "details",
+    "pol": "-"
+  },
+  {
+    "id": 70,
+    "eval": false,
+    "dim": "none",
+    "pol": "0"
+  },
+  {
+    "id": 71,
+    "eval": false,
+    "dim": "none",
+    "pol": "0"
+  },
+  {
+    "id": 72,
+    "eval": false,
+    "dim": "none",
+    "pol": "0"
+  },
+  {
+    "id": 73,
+    "eval": false,
+    "dim": "none",
+    "pol": "0"
+  },
+  {
+    "id": 74,
+    "eval": false,
+    "dim": "none",
+    "pol": "0"
+  },
+  {
+    "id": 75,
+    "eval": true,
+    "dim": "overall",
+    "pol": "+"
+  },
+  {
+    "id": 76,
+    "eval": false,
+    "dim": "none",
+    "pol": "0"
+  },
+  {
+    "id": 77,
+    "eval": false,
+    "dim": "none",
+    "pol": "0"
+  },
+  {
+    "id": 78,
+    "eval": false,
+    "dim": "none",
+    "pol": "0"
+  },
+  {
+    "id": 79,
+    "eval": false,
+    "dim": "none",
+    "pol": "0"
+  },
+  {
+    "id": 80,
+    "eval": true,
+    "dim": "overall",
+    "pol": "-"
+  },
+  {
+    "id": 81,
+    "eval": true,
+    "dim": "emotional",
+    "pol": "-"
+  },
+  {
+    "id": 82,
+    "eval": false,
+    "dim": "none",
+    "pol": "0"
+  },
+  {
+    "id": 83,
+    "eval": true,
+    "dim": "music",
+    "pol": "+"
+  },
+  {
+    "id": 84,
+    "eval": true,
+    "dim": "visuals",
+    "pol": "+"
+  },
+  {
+    "id": 85,
+    "eval": false,
+    "dim": "none",
+    "pol": "0"
+  },
+  {
+    "id": 86,
+    "eval": true,
+    "dim": "visuals",
+    "pol": "+"
+  },
+  {
+    "id": 87,
+    "eval": false,
+    "dim": "none",
+    "pol": "0"
+  },
+  {
+    "id": 88,
+    "eval": false,
+    "dim": "none",
+    "pol": "0"
+  },
+  {
+    "id": 89,
+    "eval": false,
+    "dim": "none",
+    "pol": "0"
+  },
+  {
+    "id": 90,
+    "eval": true,
+    "dim": "visuals",
+    "pol": "0"
+  },
+  {
+    "id": 91,
+    "eval": true,
+    "dim": "emotional",
+    "pol": "+"
+  },
+  {
+    "id": 92,
+    "eval": false,
+    "dim": "none",
+    "pol": "0"
+  },
+  {
+    "id": 93,
+    "eval": true,
+    "dim": "emotional",
+    "pol": "+"
+  },
+  {
+    "id": 94,
+    "eval": true,
+    "dim": "acting",
+    "pol": "+"
+  },
+  {
+    "id": 95,
+    "eval": false,
+    "dim": "none",
+    "pol": "0"
+  },
+  {
+    "id": 96,
+    "eval": true,
+    "dim": "emotional",
+    "pol": "-"
+  },
+  {
+    "id": 97,
+    "eval": true,
+    "dim": "overall",
+    "pol": "-"
+  },
+  {
+    "id": 98,
+    "eval": true,
+    "dim": "details",
+    "pol": "+"
+  },
+  {
+    "id": 99,
+    "eval": true,
+    "dim": "narrative",
+    "pol": "+"
+  },
+  {
+    "id": 100,
+    "eval": false,
+    "dim": "none",
+    "pol": "0"
+  }
+]

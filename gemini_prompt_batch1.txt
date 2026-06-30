@@ -1,0 +1,38 @@
+You are annotating video comments (danmaku/barrage) for a research study.
+
+For each comment, determine:
+1. Is it EVALUATIVE? (Does it judge/assess the video content quality - plot, acting, visuals, music, etc?)
+   - YES: "the acting is amazing", "plot makes no sense", "great soundtrack"
+   - NO: jokes, memes, social chat, pure reactions ("haha"), quotes, factual discussion without judgment
+
+2. If evaluative, what DIMENSION is being evaluated?
+   Options: plot, overall, details, acting, visuals, emotional, narrative, music, pacing, other
+
+3. If evaluative, what is the POLARITY?
+   +  (praise/positive), - (criticism/negative), 0 (neutral analysis)
+
+Comments to annotate:
+21. [海龟汤（2）] "【恐怖】"
+22. [反转悬疑神剧！凶手死后继续作案，福尔摩斯来都得懵圈] "老天这个眼睛也太大了"
+23. [BV1BtZJYBE4G.js] "这对比不对吧，后者是赔世界战争的总额所以高的离谱，这是两个国家而已，50亿法郎的确太过分了，并且就是德国人这里要的太狠才导致一战后被法国人报复，纯属活该"
+24. [BV1BtZJYBE4G.js] "民族主义大于当时的思想意识形态，这点在苏芬战争也有体现"
+25. [BV1GyZYYNErW.js] "吸冰吸大了。"
+26. [BV1LSoyYqEuU.js] "哇，还有耐透"
+27. [“鲁智深：林冲？好吧那我输的不冤”] "62斤的水磨禅杖一巴掌就拍回去了"
+28. [开播一集！就火爆全球的神作？深扒你所不知道的神探故] "前几天又重温了，真好看啊"
+29. [为什么中国人对一道菜的最高评价是"下饭"?] "现在的全麦面粉都是加了其他东西的，并非100%的全麦"
+30. [BV1BtZJYBE4G.js] "最浪漫的时刻"
+31. [全程细节伏笔隐喻？一刷看不懂，二刷就上头的高智商犯] "其实所有魔术都挺扯淡的，不过没必要纠结，好看就行"
+32. [BV1GyZYYNErW.js] "解锁成就：骷髅使者"
+33. [《崩坏：星穹铁道》动画短片：「那安息的长夜」] "动画太神了！"
+34. [BV1LSoyYqEuU.js] "来财 来"
+35. [模仿不同国家的气象主播，差别真的很大！！当然最经典] "渔舟唱晚的dna响了"
+36. [《绝区零》星徽骑士EP丨拂晓之空 闪耀之誓] "特摄特有素材复用（）"
+37. [BV1GyZYYNErW.js] "前面的说有肉山的那个人站着，你是不是玩泰拉瑞亚的因为只有泰拉瑞亚里才有肉山。"
+38. [BV1GyZYYNErW.js] "边祈祷边射击"
+39. [《崩坏：星穹铁道》动画短片：「那安息的长夜」] "这段有点像《致不灭的你》皮欧兰跟不死对话的感觉"
+40. [BV1LSoyYqEuU.js] "隐士：资金加倍(最高20)"
+
+Output ONLY JSON lines, one per comment:
+{"id": N, "eval": true/false, "dim": "...", "pol": "+/-/0"}
+If eval=false, set dim="none" and pol="0".

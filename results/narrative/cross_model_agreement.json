@@ -1,0 +1,12 @@
+{
+  "annotator_a": "DeepSeek-V3",
+  "annotator_b": "Gemini-2.5-flash",
+  "matched": 100,
+  "eval_agreement": 0.66,
+  "eval_kappa": 0.32000000000000006,
+  "both_eval": 38,
+  "dim_agreement": 0.631578947368421,
+  "pol_agreement": 0.8421052631578947,
+  "deepseek_eval_rate": 0.6,
+  "gemini_eval_rate": 0.5
+}

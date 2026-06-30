@@ -1,0 +1,38 @@
+You are annotating video comments (danmaku/barrage) for a research study.
+
+For each comment, determine:
+1. Is it EVALUATIVE? (Does it judge/assess the video content quality - plot, acting, visuals, music, etc?)
+   - YES: "the acting is amazing", "plot makes no sense", "great soundtrack"
+   - NO: jokes, memes, social chat, pure reactions ("haha"), quotes, factual discussion without judgment
+
+2. If evaluative, what DIMENSION is being evaluated?
+   Options: plot, overall, details, acting, visuals, emotional, narrative, music, pacing, other
+
+3. If evaluative, what is the POLARITY?
+   +  (praise/positive), - (criticism/negative), 0 (neutral analysis)
+
+Comments to annotate:
+41. [BV1BtZJYBE4G.js] "这是真正属于人类的浪漫"
+42. [为什么中国人对一道菜的最高评价是"下饭"?] "建议直接封神"
+43. [为什么中国人对一道菜的最高评价是"下饭"?] "蒸烤一体机一定要看多长时间能上蒸汽，快的几分钟，慢的得半个小时"
+44. [全程细节伏笔隐喻？一刷看不懂，二刷就上头的高智商犯] "这里是把方块七的下面一张牌抽出来一点，这样在拨牌的时候方块七停留时间更长，自然记得就是方块七"
+45. [BV1GyZYYNErW.js] "三国鼎立"
+46. [BV1BtZJYBE4G.js] "连被德国暴打都这么潇洒"
+47. [全程细节伏笔隐喻？一刷看不懂，二刷就上头的高智商犯] "其实，他们都玩不过班纳"
+48. [BV1GyZYYNErW.js] "地狱中的房子"
+49. [BV1GyZYYNErW.js] "那克苏鲁呢？"
+50. [BV1BtZJYBE4G.js] "达瓦里希！"
+51. [反转悬疑神剧！凶手死后继续作案，福尔摩斯来都得懵圈] "我猜对了，果然三是为了查案"
+52. [模仿不同国家的气象主播，差别真的很大！！当然最经典] "最后的气象主播太经典了！"
+53. [海龟汤（2）] "《王瀚哲素质真差》"
+54. [BV1GyZYYNErW.js] "这特别好吃的，酒馆大肠做的面条，超级好吃的，好吃的比我家的饭都要好吃，1200 9000 9990 9000倍。"
+55. [BV1BtZJYBE4G.js] "现在欧洲还在坚持"
+56. [《崩坏：星穹铁道》动画短片：「那安息的长夜」] "动画绝了！"
+57. [我的世界克苏鲁全集：一口气看完] "确实，但是不叫泽洛斯卫士，他们科技树点歪了，点到了研发上。"
+58. [反转悬疑神剧！凶手死后继续作案，福尔摩斯来都得懵圈] "等一等，桃井怎么会比假装从外地赶回来的老袁更晚到达"
+59. [BV1GyZYYNErW.js] "草，真的好高"
+60. [震撼世界的72天：巴黎公社为何爆发？又为何失败？【] "自古以来，面对坚城没有绝对优势的兵力时最好的办法就是围而不攻"
+
+Output ONLY JSON lines, one per comment:
+{"id": N, "eval": true/false, "dim": "...", "pol": "+/-/0"}
+If eval=false, set dim="none" and pol="0".

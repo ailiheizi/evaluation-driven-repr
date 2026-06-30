@@ -1,0 +1,96 @@
+{
+  "highlights": [
+    {
+      "time": "0:00",
+      "density": 125,
+      "dimension": "整体",
+      "detail": {
+        "整体": 8,
+        "细节": 1,
+        "演技": 1,
+        "情感共鸣": 1
+      }
+    },
+    {
+      "time": "0:30",
+      "density": 229,
+      "dimension": "细节",
+      "detail": {
+        "整体": 7,
+        "剧情": 1,
+        "细节": 20
+      }
+    },
+    {
+      "time": "1:00",
+      "density": 1233,
+      "dimension": "细节",
+      "detail": {
+        "细节": 87,
+        "整体": 4,
+        "音乐": 1,
+        "演技": 1,
+        "情感共鸣": 2
+      }
+    },
+    {
+      "time": "1:30",
+      "density": 158,
+      "dimension": "细节",
+      "detail": {
+        "整体": 5,
+        "细节": 16,
+        "剧情": 1
+      }
+    },
+    {
+      "time": "3:30",
+      "density": 110,
+      "dimension": "情感共鸣",
+      "detail": {
+        "情感共鸣": 2,
+        "整体": 1
+      }
+    },
+    {
+      "time": "4:00",
+      "density": 87,
+      "dimension": "细节",
+      "detail": {
+        "细节": 1
+      }
+    },
+    {
+      "time": "8:30",
+      "density": 102,
+      "dimension": "细节",
+      "detail": {
+        "细节": 1,
+        "剧情": 1,
+        "整体": 1
+      }
+    },
+    {
+      "time": "21:00",
+      "density": 92,
+      "dimension": "none",
+      "detail": {}
+    },
+    {
+      "time": "29:30",
+      "density": 168,
+      "dimension": "整体",
+      "detail": {
+        "整体": 3
+      }
+    }
+  ],
+  "unique_dims": [
+    "细节",
+    "整体",
+    "情感共鸣",
+    "none"
+  ],
+  "n_highlights": 9,
+  "threshold": 86.60000000000002
+}

@@ -1,0 +1,38 @@
+You are annotating video comments (danmaku/barrage) for a research study.
+
+For each comment, determine:
+1. Is it EVALUATIVE? (Does it judge/assess the video content quality - plot, acting, visuals, music, etc?)
+   - YES: "the acting is amazing", "plot makes no sense", "great soundtrack"
+   - NO: jokes, memes, social chat, pure reactions ("haha"), quotes, factual discussion without judgment
+
+2. If evaluative, what DIMENSION is being evaluated?
+   Options: plot, overall, details, acting, visuals, emotional, narrative, music, pacing, other
+
+3. If evaluative, what is the POLARITY?
+   +  (praise/positive), - (criticism/negative), 0 (neutral analysis)
+
+Comments to annotate:
+1. [震撼世界的72天：巴黎公社为何爆发？又为何失败？【] "戴高乐时期法国生活水平并没有很高"
+2. [“鲁智深：林冲？好吧那我输的不冤”] "林冲数值机制可能都要压鲁大师武松一头，但良好的出身和性格会让他吃大亏，"
+3. [如何成为<班级面壁人>] "这两集把上上集两个没有高光的角色都补了高光呀"
+4. [错位的时空，命运的交织。] "还有反转？"
+5. [BV1GyZYYNErW.js] "这是一口气看完，这个系列更了几年了，剧情肯定会推的"
+6. [开播一集！就火爆全球的神作？深扒你所不知道的神探故] "主要剧本太牛了"
+7. [BV1GyZYYNErW.js] "还有看斗2"
+8. [如何成为<班级面壁人>] "谋士以身入局，以天下人为棋"
+9. [BV1LSoyYqEuU.js] "↑↑↑她不是芙蓉的演员"
+10. [BV1GyZYYNErW.js] "近卫军2.0:伤害s，防疫a"
+11. [《绝区零》星徽骑士EP丨拂晓之空 闪耀之誓] "浓浓的昭和味儿。"
+12. [我的世界克苏鲁全集：一口气看完] "阿曼达变异后的同款眼睛"
+13. [《绝区零》星徽骑士EP丨拂晓之空 闪耀之誓] "感觉这个发型很会打牌的样子"
+14. [震撼世界的72天：巴黎公社为何爆发？又为何失败？【] "这里真笑了"
+15. [游戏科学新作《黑神话：悟空》13分钟实机演示] "针不戳！！"
+16. [震撼世界的72天：巴黎公社为何爆发？又为何失败？【] "打不过别人，还守不过吗？对吧法国"
+17. [全程细节伏笔隐喻？一刷看不懂，二刷就上头的高智商犯] "哈哈，我看了一下就他最明显，可能有诈，故意选了一张别的"
+18. [我的世界克苏鲁全集：一口气看完] "虽然暴政，但是起码救回来了"
+19. [错位的时空，命运的交织。] "太强了吧"
+20. [海龟汤（2）] "学生是花经院，画老师人像的时候手一抖给画上老师抹脖了"
+
+Output ONLY JSON lines, one per comment:
+{"id": N, "eval": true/false, "dim": "...", "pol": "+/-/0"}
+If eval=false, set dim="none" and pol="0".
