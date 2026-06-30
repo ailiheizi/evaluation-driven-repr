@@ -1,0 +1,42 @@
+{
+  "video": "海龟汤（2）",
+  "bvid": "BV1H5Z4YhEsn",
+  "duration": 707,
+  "total_classified": 104,
+  "peaks": {
+    "整体": {
+      "peak_bin": 4,
+      "peak_time": 120,
+      "peak_density": 1.0,
+      "mean_density": 0.45168951418951414,
+      "peak_ratio": 2.2139101497504163
+    },
+    "剧情": {
+      "peak_bin": 3,
+      "peak_time": 90,
+      "peak_density": 1.0,
+      "mean_density": 0.4739057239057239,
+      "peak_ratio": 2.1101243339253997
+    },
+    "演技": {
+      "peak_bin": 0,
+      "peak_time": 0,
+      "peak_density": 0.5,
+      "mean_density": 0.04464285714285714,
+      "peak_ratio": 11.200000000000001
+    },
+    "情感共鸣": {
+      "peak_bin": 0,
+      "peak_time": 0,
+      "peak_density": 0.07142857142857142,
+      "mean_density": 0.03571428571428571,
+      "peak_ratio": 2.0
+    }
+  },
+  "dim_entropy": {
+    "整体": 0.8690226227917138,
+    "剧情": 0.8946297705060956,
+    "演技": 0.28919491236175987,
+    "情感共鸣": -0.0
+  }
+}

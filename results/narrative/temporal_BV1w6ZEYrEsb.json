@@ -1,0 +1,42 @@
+{
+  "video": "为什么中国人对一道菜的最高评价是\"下饭\"?",
+  "bvid": "BV1w6ZEYrEsb",
+  "duration": 793,
+  "total_classified": 142,
+  "peaks": {
+    "其他": {
+      "peak_bin": 0,
+      "peak_time": 0,
+      "peak_density": 1.0,
+      "mean_density": 0.5227219282774839,
+      "peak_ratio": 1.9130630377326658
+    },
+    "细节": {
+      "peak_bin": 18,
+      "peak_time": 540,
+      "peak_density": 1.0,
+      "mean_density": 0.2046666666666667,
+      "peak_ratio": 4.885993485342019
+    },
+    "整体": {
+      "peak_bin": 15,
+      "peak_time": 450,
+      "peak_density": 1.0,
+      "mean_density": 0.2441269841269841,
+      "peak_ratio": 4.0962288686605985
+    },
+    "节奏": {
+      "peak_bin": 0,
+      "peak_time": 0,
+      "peak_density": 0.5,
+      "mean_density": 0.08333333333333333,
+      "peak_ratio": 6.0
+    }
+  },
+  "dim_entropy": {
+    "其他": 0.8560293410802523,
+    "细节": 0.6244881909205784,
+    "整体": 0.6588688033191883,
+    "节奏": 0.2704260414863776
+  }
+}

@@ -1,0 +1,325 @@
+{
+  "video": "我的世界克苏鲁全集：一口气看完",
+  "bvid": "BV1GyZYYNErW",
+  "total_raw": 9600,
+  "after_rule_filter": 6459,
+  "sample_classified": 150,
+  "evaluative_count": 54,
+  "evaluative_rate": 0.36,
+  "dimension_distribution": {
+    "情感共鸣": 2,
+    "剧情": 36,
+    "节奏": 2,
+    "画面": 9,
+    "细节": 3,
+    "整体": 1,
+    "音乐": 1
+  },
+  "polarity_distribution": {
+    "+": 11,
+    "-": 9,
+    "0": 34
+  },
+  "evaluative_samples": [
+    {
+      "t": 30.147,
+      "text": "太真实了 狠狠共鸣了",
+      "dimension": "情感共鸣",
+      "polarity": "+"
+    },
+    {
+      "t": 71.131,
+      "text": "这个坑作者现在都没填上",
+      "dimension": "剧情",
+      "polarity": "-"
+    },
+    {
+      "t": 176.12,
+      "text": "鬼故事：进度条",
+      "dimension": "节奏",
+      "polarity": "-"
+    },
+    {
+      "t": 219.967,
+      "text": "光怪陆离的世界",
+      "dimension": "画面",
+      "polarity": "+"
+    },
+    {
+      "t": 254.98,
+      "text": "我看过后续这个东西其实未知眼球",
+      "dimension": "剧情",
+      "polarity": "0"
+    },
+    {
+      "t": 430.448,
+      "text": "二死一伤换了一个神",
+      "dimension": "剧情",
+      "polarity": "0"
+    },
+    {
+      "t": 477.847,
+      "text": "这个以后要考,很重要的",
+      "dimension": "剧情",
+      "polarity": "+"
+    },
+    {
+      "t": 517.344,
+      "text": "最后死亡了，他到家了他的好兄弟",
+      "dimension": "剧情",
+      "polarity": "0"
+    },
+    {
+      "t": 559.665,
+      "text": "安迪女仆有安迪赐予能量啊",
+      "dimension": "剧情",
+      "polarity": "0"
+    },
+    {
+      "t": 663.04,
+      "text": "这个地之灵后来会倒。",
+      "dimension": "剧情",
+      "polarity": "0"
+    },
+    {
+      "t": 808.689,
+      "text": "红字难崩，这都能见证",
+      "dimension": "细节",
+      "polarity": "-"
+    },
+    {
+      "t": 815.04,
+      "text": "这哥们只有皇帝死的时候才出面",
+      "dimension": "剧情",
+      "polarity": "0"
+    },
+    {
+      "t": 850.399,
+      "text": "在看了视频之后的泽洛斯皇帝正在思考",
+      "dimension": "剧情",
+      "polarity": "0"
+    },
+    {
+      "t": 856.64,
+      "text": "懂了，骷髅使者是白伤",
+      "dimension": "剧情",
+      "polarity": "0"
+    },
+    {
+      "t": 893.948,
+      "text": "666后面的还边鞭尸。",
+      "dimension": "细节",
+      "polarity": "-"
+    },
+    {
+      "t": 968.075,
+      "text": "古战场遗迹对应了另一种结局鲁德死去的地方",
+      "dimension": "剧情",
+      "polarity": "0"
+    },
+    {
+      "t": 979.908,
+      "text": "这蜘蛛越看越萌",
+      "dimension": "画面",
+      "polarity": "+"
+    },
+    {
+      "t": 980.817,
+      "text": "《危险程度不高，但也异常危险。》",
+      "dimension": "剧情",
+      "polarity": "0"
+    },
+    {
+      "t": 988.494,
+      "text": "指的是这个上古生物，在上古生物之中排不危险但是对人类来说异常危险。",
+      "dimension": "剧情",
+      "polarity": "0"
+    },
+    {
+      "t": 1124.037,
+      "text": "疑似某jo jo第3季的开头。",
+      "dimension": "剧情",
+      "polarity": "0"
+    },
+    {
+      "t": 1352.28,
+      "text": "这不是环太平洋二的。",
+      "dimension": "剧情",
+      "polarity": "0"
+    },
+    {
+      "t": 1481.854,
+      "text": "是个英雄",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 1498.84,
+      "text": "有动画了哎",
+      "dimension": "画面",
+      "polarity": "+"
+    },
+    {
+      "t": 1535.032,
+      "text": "确实，但是不叫泽洛斯卫士，他们科技树点歪了，点到了研发上。",
+      "dimension": "剧情",
+      "polarity": "0"
+    },
+    {
+      "t": 1544.337,
+      "text": "不是？这帮铁块真没脑子啊",
+      "dimension": "剧情",
+      "polarity": "-"
+    },
+    {
+      "t": 1605.957,
+      "text": "866烟都不带烟的，妈开挂了",
+      "dimension": "细节",
+      "polarity": "-"
+    },
+    {
+      "t": 1946.19,
+      "text": "是刚刚我好像看到了一个二维吗在那个飞机上面",
+      "dimension": "画面",
+      "polarity": "0"
+    },
+    {
+      "t": 1986.341,
+      "text": "并非保护",
+      "dimension": "剧情",
+      "polarity": "0"
+    },
+    {
+      "t": 2021.802,
+      "text": "多头史蒂夫，他是在观察，他基本上把所有的天赋点都点到了观察，也就是动都动不了，你还说他在哪这些大概是被那个眼睛给污染了",
+      "dimension": "剧情",
+      "polarity": "0"
+    },
+    {
+      "t": 2035.647,
+      "text": "我听到了「离析」的回响",
+      "dimension": "音乐",
+      "polarity": "0"
+    },
+    {
+      "t": 2233.599,
+      "text": "阿曼达变异后的同款眼睛",
+      "dimension": "画面",
+      "polarity": "0"
+    },
+    {
+      "t": 2526.48,
+      "text": "只要造出一个后面就跟复制粘贴一样",
+      "dimension": "剧情",
+      "polarity": "0"
+    },
+    {
+      "t": 2539.9,
+      "text": "这……这长的",
+      "dimension": "画面",
+      "polarity": "-"
+    },
+    {
+      "t": 2618.067,
+      "text": "应该是穿模了",
+      "dimension": "画面",
+      "polarity": "-"
+    },
+    {
+      "t": 2658.054,
+      "text": "四五个末德军团单走就能灭国破城，什么混沌星际战士？",
+      "dimension": "剧情",
+      "polarity": "0"
+    },
+    {
+      "t": 2745.14,
+      "text": "把尖刺去掉，感觉像红烧肉。",
+      "dimension": "画面",
+      "polarity": "0"
+    },
+    {
+      "t": 2839.82,
+      "text": "皇帝的含金量还在增加",
+      "dimension": "剧情",
+      "polarity": "+"
+    },
+    {
+      "t": 2855.486,
+      "text": "终于点对科技了呀。",
+      "dimension": "剧情",
+      "polarity": "+"
+    },
+    {
+      "t": 2966.72,
+      "text": "这位圣御军的旁边是24具倒下的尸体",
+      "dimension": "画面",
+      "polarity": "0"
+    },
+    {
+      "t": 2968.783,
+      "text": "荒虚救国变得这么强了？",
+      "dimension": "剧情",
+      "polarity": "0"
+    },
+    {
+      "t": 3111.462,
+      "text": "帝国正在衰败。",
+      "dimension": "剧情",
+      "polarity": "-"
+    },
+    {
+      "t": 3231.671,
+      "text": "远古守卫者是守卫者的老大，请不要质疑作者，谢谢",
+      "dimension": "剧情",
+      "polarity": "0"
+    },
+    {
+      "t": 3315.398,
+      "text": "最后一章，泽洛斯帝国的毁灭与鲁德的强大 毁灭",
+      "dimension": "剧情",
+      "polarity": "0"
+    },
+    {
+      "t": 3381.19,
+      "text": "二代皇帝纯神人",
+      "dimension": "剧情",
+      "polarity": "0"
+    },
+    {
+      "t": 3464.828,
+      "text": "正片终于开始了。",
+      "dimension": "节奏",
+      "polarity": "0"
+    },
+    {
+      "t": 3602.413,
+      "text": "向英雄致敬！！！",
+      "dimension": "情感共鸣",
+      "polarity": "+"
+    },
+    {
+      "t": 3614.195,
+      "text": "太忠诚了",
+      "dimension": "剧情",
+      "polarity": "+"
+    },
+    {
+      "t": 3736.055,
+      "text": "虽然暴政，但是起码救回来了",
+      "dimension": "剧情",
+      "polarity": "0"
+    },
+    {
+      "t": 3815.636,
+      "text": "永恒之火＞鲁迪＞一代皇帝",
+      "dimension": "剧情",
+      "polarity": "0"
+    },
+    {
+      "t": 3909.883,
+      "text": "原来光柱的作用是这个",
+      "dimension": "剧情",
+      "polarity": "0"
+    }
+  ]
+}

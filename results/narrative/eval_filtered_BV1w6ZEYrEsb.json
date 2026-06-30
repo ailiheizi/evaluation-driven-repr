@@ -1,0 +1,306 @@
+{
+  "video": "为什么中国人对一道菜的最高评价是\"下饭\"?",
+  "bvid": "BV1w6ZEYrEsb",
+  "total_raw": 1800,
+  "after_rule_filter": 721,
+  "sample_classified": 150,
+  "evaluative_count": 47,
+  "evaluative_rate": 0.31333333333333335,
+  "dimension_distribution": {
+    "其他": 18,
+    "情感共鸣": 2,
+    "整体": 9,
+    "细节": 12,
+    "节奏": 5,
+    "画面": 1
+  },
+  "polarity_distribution": {
+    "0": 18,
+    "+": 15,
+    "-": 14
+  },
+  "evaluative_samples": [
+    {
+      "t": 0.628,
+      "text": "也是“菜”的评价，一次多义了属于是。",
+      "dimension": "其他",
+      "polarity": "0"
+    },
+    {
+      "t": 4.073,
+      "text": "景点和餐厅的最高评价是：出片！！",
+      "dimension": "其他",
+      "polarity": "+"
+    },
+    {
+      "t": 16.145,
+      "text": "好吃不一定下饭，但下饭一定好吃",
+      "dimension": "其他",
+      "polarity": "0"
+    },
+    {
+      "t": 19.534,
+      "text": "好吃不一定下饭，下饭一定好吃",
+      "dimension": "其他",
+      "polarity": "0"
+    },
+    {
+      "t": 21.966,
+      "text": "好吃不一定下饭，比如说大鸡排。",
+      "dimension": "其他",
+      "polarity": "0"
+    },
+    {
+      "t": 26.091,
+      "text": "666刚才黄总急了",
+      "dimension": "其他",
+      "polarity": "0"
+    },
+    {
+      "t": 32.424,
+      "text": "脑满肠肥",
+      "dimension": "其他",
+      "polarity": "-"
+    },
+    {
+      "t": 32.473,
+      "text": "下饭=咸香",
+      "dimension": "其他",
+      "polarity": "0"
+    },
+    {
+      "t": 38.826,
+      "text": "鸡有鸡味，鱼有鱼味",
+      "dimension": "其他",
+      "polarity": "+"
+    },
+    {
+      "t": 39.971,
+      "text": "你的操作好下饭",
+      "dimension": "其他",
+      "polarity": "-"
+    },
+    {
+      "t": 42.789,
+      "text": "重口，白嘴吃太过刺激",
+      "dimension": "其他",
+      "polarity": "0"
+    },
+    {
+      "t": 43.369,
+      "text": "下饭只是说和米饭很搭配，",
+      "dimension": "其他",
+      "polarity": "0"
+    },
+    {
+      "t": 45.19,
+      "text": "外焦里嫩",
+      "dimension": "其他",
+      "polarity": "+"
+    },
+    {
+      "t": 49.913,
+      "text": "上面的，高级的菜肴不一定好吃。但下饭的菜一定符合我们的口味↑高级菜用来撑撑场子就够了。",
+      "dimension": "其他",
+      "polarity": "0"
+    },
+    {
+      "t": 57.679,
+      "text": "懂了，下饭才是最高荣誉！",
+      "dimension": "其他",
+      "polarity": "+"
+    },
+    {
+      "t": 60.117,
+      "text": "狠狠爱住了",
+      "dimension": "情感共鸣",
+      "polarity": "+"
+    },
+    {
+      "t": 73.659,
+      "text": "建议直接封神",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 76.294,
+      "text": "谁懂啊 真的很治愈",
+      "dimension": "情感共鸣",
+      "polarity": "+"
+    },
+    {
+      "t": 84.037,
+      "text": "剛剛的背景是用叉子挖飯嗎",
+      "dimension": "细节",
+      "polarity": "0"
+    },
+    {
+      "t": 110.571,
+      "text": "理解不了霓虹人面条配饭吃。",
+      "dimension": "其他",
+      "polarity": "-"
+    },
+    {
+      "t": 118.456,
+      "text": "这很美国",
+      "dimension": "其他",
+      "polarity": "0"
+    },
+    {
+      "t": 158.622,
+      "text": "但是好吃啊菜",
+      "dimension": "其他",
+      "polarity": "+"
+    },
+    {
+      "t": 287.21,
+      "text": "糙米炒饭口感还不错",
+      "dimension": "细节",
+      "polarity": "0"
+    },
+    {
+      "t": 301.144,
+      "text": "太有创意了吧",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 322.903,
+      "text": "你认为的全麦面包，那是烘焙店让你认为的，不是黑不溜秋加上一点粗糙感就叫全麦！",
+      "dimension": "细节",
+      "polarity": "-"
+    },
+    {
+      "t": 323.501,
+      "text": "现在的全麦面粉都是加了其他东西的，并非100%的全麦",
+      "dimension": "细节",
+      "polarity": "0"
+    },
+    {
+      "t": 330.56,
+      "text": "喜欢全麦的别逗了，现代社会我们吃的全麦和古近代的全麦不是一个东西…",
+      "dimension": "细节",
+      "polarity": "-"
+    },
+    {
+      "t": 378.211,
+      "text": "番茄炒蛋大多是清淡啊.....",
+      "dimension": "细节",
+      "polarity": "0"
+    },
+    {
+      "t": 409.579,
+      "text": "人类美食的最伟大发明",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 449.241,
+      "text": "不是这么做的，要三道芡",
+      "dimension": "细节",
+      "polarity": "-"
+    },
+    {
+      "t": 481.409,
+      "text": "现在外卖根本吃不到这么好的菜",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 483.03,
+      "text": "天呐，川菜之王——回锅肉",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 483.869,
+      "text": "我还是喜欢土豆回锅肉，加上豆瓣的香，味道超级棒",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 510.368,
+      "text": "开始跑偏",
+      "dimension": "节奏",
+      "polarity": "-"
+    },
+    {
+      "t": 511.511,
+      "text": "不是从宽敞明亮的老式灶台，搬到了筒子楼里逼仄黑暗的厨房嘛",
+      "dimension": "画面",
+      "polarity": "0"
+    },
+    {
+      "t": 542.075,
+      "text": "想要爆炒还是老式的大锅，放柴火，有烟囱",
+      "dimension": "细节",
+      "polarity": "0"
+    },
+    {
+      "t": 583.365,
+      "text": "你快点啊，怎么这么磨蹭？",
+      "dimension": "节奏",
+      "polarity": "-"
+    },
+    {
+      "t": 584.783,
+      "text": "柴火土灶才是炒菜王者",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 597.116,
+      "text": "前摇好长。。",
+      "dimension": "节奏",
+      "polarity": "-"
+    },
+    {
+      "t": 597.51,
+      "text": "急死我了",
+      "dimension": "节奏",
+      "polarity": "-"
+    },
+    {
+      "t": 694.326,
+      "text": "清洁问题才是首要",
+      "dimension": "细节",
+      "polarity": "0"
+    },
+    {
+      "t": 700.394,
+      "text": "蒸烤一体机一定要看多长时间能上蒸汽，快的几分钟，慢的得半个小时",
+      "dimension": "细节",
+      "polarity": "0"
+    },
+    {
+      "t": 705.73,
+      "text": "真的 就这个平放的触控，就PASS了，炒菜之后的台子一擦一个不吱声",
+      "dimension": "细节",
+      "polarity": "-"
+    },
+    {
+      "t": 706.53,
+      "text": "前摇太长了，摇的我都晕车了",
+      "dimension": "节奏",
+      "polarity": "-"
+    },
+    {
+      "t": 708.419,
+      "text": "老实说这种还是不如土灶烧出来的菜好吃",
+      "dimension": "整体",
+      "polarity": "-"
+    },
+    {
+      "t": 734.656,
+      "text": "油烟机太矮，抛不了锅",
+      "dimension": "细节",
+      "polarity": "-"
+    },
+    {
+      "t": 790.345,
+      "text": "up太牛了",
+      "dimension": "整体",
+      "polarity": "+"
+    }
+  ]
+}

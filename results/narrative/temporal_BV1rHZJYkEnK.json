@@ -1,0 +1,50 @@
+{
+  "video": "开播一集！就火爆全球的神作？深扒你所不知道的神探故事！《神探夏洛克》",
+  "bvid": "BV1rHZJYkEnK",
+  "duration": 1380,
+  "total_classified": 120,
+  "peaks": {
+    "演技": {
+      "peak_bin": 0,
+      "peak_time": 0,
+      "peak_density": 0.5405405405405406,
+      "mean_density": 0.01609870740305523,
+      "peak_ratio": 33.57664233576643
+    },
+    "画面": {
+      "peak_bin": 34,
+      "peak_time": 1020,
+      "peak_density": 1.0,
+      "mean_density": 0.046585908158798185,
+      "peak_ratio": 21.465718701700155
+    },
+    "剧情": {
+      "peak_bin": 3,
+      "peak_time": 90,
+      "peak_density": 1.0,
+      "mean_density": 0.3025419921199972,
+      "peak_ratio": 3.3053262887334003
+    },
+    "整体": {
+      "peak_bin": 7,
+      "peak_time": 210,
+      "peak_density": 1.0,
+      "mean_density": 0.1999907836224972,
+      "peak_ratio": 5.000230420055761
+    },
+    "台词": {
+      "peak_bin": 0,
+      "peak_time": 0,
+      "peak_density": 1.0,
+      "mean_density": 0.09090909090909091,
+      "peak_ratio": 11.0
+    }
+  },
+  "dim_entropy": {
+    "演技": 0.15235990169683608,
+    "画面": 0.371955773988555,
+    "剧情": 0.7362395374638697,
+    "整体": 0.6476855587132838,
+    "台词": -0.0
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "video": "全程细节伏笔隐喻？一刷看不懂，二刷就上头的高智商犯罪片！《惊天魔盗团》",
+  "bvid": "BV1LSoyYqEuU",
+  "duration": 2457,
+  "total_classified": 347,
+  "peaks": {
+    "整体": {
+      "peak_bin": 12,
+      "peak_time": 360,
+      "peak_density": 1.0,
+      "mean_density": 0.44618204408376577,
+      "peak_ratio": 2.241237659066937
+    },
+    "情感共鸣": {
+      "peak_bin": 26,
+      "peak_time": 780,
+      "peak_density": 1.0,
+      "mean_density": 0.1089295866734891,
+      "peak_ratio": 9.180242306412573
+    },
+    "剧情": {
+      "peak_bin": 27,
+      "peak_time": 810,
+      "peak_density": 1.0,
+      "mean_density": 0.12330410652850739,
+      "peak_ratio": 8.11002997510715
+    },
+    "细节": {
+      "peak_bin": 1,
+      "peak_time": 30,
+      "peak_density": 0.9166666666666666,
+      "mean_density": 0.05370810501529455,
+      "peak_ratio": 17.067566737006004
+    },
+    "画面": {
+      "peak_bin": 0,
+      "peak_time": 0,
+      "peak_density": 0.14285714285714285,
+      "mean_density": 0.0018796992481203006,
+      "peak_ratio": 14.285714285714285
+    },
+    "音乐": {
+      "peak_bin": 0,
+      "peak_time": 0,
+      "peak_density": 1.0,
+      "mean_density": 0.013888888888888888,
+      "peak_ratio": 72.0
+    },
+    "叙事手法": {
+      "peak_bin": 0,
+      "peak_time": 0,
+      "peak_density": 0.6666666666666666,
+      "mean_density": 0.01075268817204301,
+      "peak_ratio": 62.0
+    },
+    "演技": {
+      "peak_bin": 0,
+      "peak_time": 0,
+      "peak_density": 0.3333333333333333,
+      "mean_density": 0.02564102564102564,
+      "peak_ratio": 13.0
+    }
+  },
+  "dim_entropy": {
+    "整体": 0.8649413758186211,
+    "情感共鸣": 0.6472897691842656,
+    "剧情": 0.6805262562986689,
+    "细节": 0.4693788753205715,
+    "画面": -0.0,
+    "音乐": -0.0,
+    "叙事手法": -0.0,
+    "演技": -0.0
+  }
+}

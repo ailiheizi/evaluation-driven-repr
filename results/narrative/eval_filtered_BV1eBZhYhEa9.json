@@ -1,0 +1,272 @@
+{
+  "video": "模仿不同国家的气象主播，差别真的很大！！当然最经典的还是在最后～",
+  "bvid": "BV1eBZhYhEa9",
+  "total_raw": 600,
+  "after_rule_filter": 65,
+  "sample_classified": 65,
+  "evaluative_count": 41,
+  "evaluative_rate": 0.6307692307692307,
+  "dimension_distribution": {
+    "演技": 5,
+    "画面": 11,
+    "音乐": 6,
+    "整体": 13,
+    "其他": 1,
+    "剧情": 3,
+    "节奏": 1,
+    "情感共鸣": 1
+  },
+  "polarity_distribution": {
+    "-": 4,
+    "0": 11,
+    "+": 26
+  },
+  "evaluative_samples": [
+    {
+      "t": 10.48,
+      "text": "没这么保守",
+      "dimension": "演技",
+      "polarity": "-"
+    },
+    {
+      "t": 12.351,
+      "text": "泳装呢？？！！",
+      "dimension": "画面",
+      "polarity": "-"
+    },
+    {
+      "t": 13.833,
+      "text": "问问音乐",
+      "dimension": "音乐",
+      "polarity": "0"
+    },
+    {
+      "t": 14.694,
+      "text": "哈哈哈最后那个太经典了！",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 16.571,
+      "text": "我去，这都什么年代的梗了哈哈哈",
+      "dimension": "其他",
+      "polarity": "0"
+    },
+    {
+      "t": 19.808,
+      "text": "哈哈哈最后那个绝了",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 20.771,
+      "text": "韩国气象主播肯定得上才艺，毕竟他们全国有雨，一句话就完事",
+      "dimension": "剧情",
+      "polarity": "0"
+    },
+    {
+      "t": 21.973,
+      "text": "姐姐 zico的歌建议还是不要放了 他人。。。。",
+      "dimension": "音乐",
+      "polarity": "-"
+    },
+    {
+      "t": 22.478,
+      "text": "这是那个主持人跳anysong的梗，不是主持人都这样哈",
+      "dimension": "剧情",
+      "polarity": "0"
+    },
+    {
+      "t": 24.479,
+      "text": "《韩国不是这样的》没有可能这就根据资料是完全照搬",
+      "dimension": "剧情",
+      "polarity": "0"
+    },
+    {
+      "t": 31.656,
+      "text": "气象主播模仿秀太真实了！",
+      "dimension": "演技",
+      "polarity": "+"
+    },
+    {
+      "t": 37.239,
+      "text": "天气小姐 梦回昭和",
+      "dimension": "整体",
+      "polarity": "0"
+    },
+    {
+      "t": 41.38,
+      "text": "日本的天气预报小姐可是行业中top的top！",
+      "dimension": "演技",
+      "polarity": "+"
+    },
+    {
+      "t": 42.06,
+      "text": "这不都同一个人吗？经费不够了？",
+      "dimension": "画面",
+      "polarity": "-"
+    },
+    {
+      "t": 42.488,
+      "text": "哈哈哈最后那个太经典了",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 57.451,
+      "text": "这装画得牛了",
+      "dimension": "画面",
+      "polarity": "+"
+    },
+    {
+      "t": 59.541,
+      "text": "太强了吧",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 77.233,
+      "text": "这化妆技术也是绝了",
+      "dimension": "画面",
+      "polarity": "+"
+    },
+    {
+      "t": 94.796,
+      "text": "大家都看不出来有用特效吗，不可能只靠妆容的",
+      "dimension": "画面",
+      "polarity": "0"
+    },
+    {
+      "t": 96.228,
+      "text": "好帅呀。",
+      "dimension": "画面",
+      "polarity": "+"
+    },
+    {
+      "t": 96.81,
+      "text": "国泰民安脸",
+      "dimension": "画面",
+      "polarity": "+"
+    },
+    {
+      "t": 98.859,
+      "text": "好端庄美丽！！！！",
+      "dimension": "画面",
+      "polarity": "+"
+    },
+    {
+      "t": 99.201,
+      "text": "突然正经起来了",
+      "dimension": "节奏",
+      "polarity": "0"
+    },
+    {
+      "t": 100.005,
+      "text": "本来就是主持人，专业对口了这波",
+      "dimension": "演技",
+      "polarity": "+"
+    },
+    {
+      "t": 100.069,
+      "text": "一脸正气",
+      "dimension": "画面",
+      "polarity": "+"
+    },
+    {
+      "t": 100.133,
+      "text": "天气预报的小曲",
+      "dimension": "音乐",
+      "polarity": "0"
+    },
+    {
+      "t": 100.147,
+      "text": "这开脸有点国泰民安的味道了",
+      "dimension": "画面",
+      "polarity": "+"
+    },
+    {
+      "t": 101.416,
+      "text": "最后的气象主播太经典了！",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 101.663,
+      "text": "还是这个顺眼",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 101.759,
+      "text": "还是中国的最好",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 102.775,
+      "text": "国泰民安",
+      "dimension": "画面",
+      "polarity": "+"
+    },
+    {
+      "t": 102.82,
+      "text": "渔舟唱晚的dna响了",
+      "dimension": "音乐",
+      "polarity": "0"
+    },
+    {
+      "t": 104.031,
+      "text": "中国最正常",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 104.505,
+      "text": "感觉终于来了专业人士",
+      "dimension": "演技",
+      "polarity": "+"
+    },
+    {
+      "t": 106.4,
+      "text": "舒服了，眼顺了",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 106.64,
+      "text": "是内味了",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 107.187,
+      "text": "这才对味嘛，舒服了",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 110.179,
+      "text": "渔舟唱晚",
+      "dimension": "音乐",
+      "polarity": "0"
+    },
+    {
+      "t": 110.32,
+      "text": "妈呀，泱泱大国的霸气感呀，国泰民安呀！",
+      "dimension": "情感共鸣",
+      "polarity": "+"
+    },
+    {
+      "t": 111.318,
+      "text": "对味儿了，bgm好听",
+      "dimension": "音乐",
+      "polarity": "+"
+    },
+    {
+      "t": 111.345,
+      "text": "还是中文比较端庄大气上档次",
+      "dimension": "整体",
+      "polarity": "+"
+    }
+  ]
+}

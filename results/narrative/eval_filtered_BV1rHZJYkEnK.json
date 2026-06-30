@@ -1,0 +1,329 @@
+{
+  "video": "开播一集！就火爆全球的神作？深扒你所不知道的神探故事！《神探夏洛克》",
+  "bvid": "BV1rHZJYkEnK",
+  "total_raw": 1275,
+  "after_rule_filter": 738,
+  "sample_classified": 150,
+  "evaluative_count": 64,
+  "evaluative_rate": 0.4266666666666667,
+  "dimension_distribution": {
+    "演技": 10,
+    "画面": 11,
+    "音乐": 3,
+    "剧情": 20,
+    "整体": 9,
+    "情感共鸣": 2,
+    "叙事手法": 3,
+    "角色": 1,
+    "台词": 3,
+    "细节": 1,
+    "节奏": 1
+  },
+  "polarity_distribution": {
+    "+": 36,
+    "0": 21,
+    "-": 7
+  },
+  "evaluative_samples": [
+    {
+      "t": 0.441,
+      "text": "哎哟我，马头nb",
+      "dimension": "演技",
+      "polarity": "+"
+    },
+    {
+      "t": 1.103,
+      "text": "马头不赖",
+      "dimension": "演技",
+      "polarity": "+"
+    },
+    {
+      "t": 2.967,
+      "text": "哎哟我，马头不赖啊",
+      "dimension": "演技",
+      "polarity": "+"
+    },
+    {
+      "t": 5.301,
+      "text": "马头好帅",
+      "dimension": "画面",
+      "polarity": "+"
+    },
+    {
+      "t": 6.651,
+      "text": "一个bgm神探夏洛克",
+      "dimension": "音乐",
+      "polarity": "0"
+    },
+    {
+      "t": 6.885,
+      "text": "丑吗  感觉很帅啊",
+      "dimension": "画面",
+      "polarity": "+"
+    },
+    {
+      "t": 10.871,
+      "text": "哎吆我，大码头牛逼啊",
+      "dimension": "演技",
+      "polarity": "+"
+    },
+    {
+      "t": 11.371,
+      "text": "会丑？脑袋有问题吧？哪里丑了？",
+      "dimension": "画面",
+      "polarity": "+"
+    },
+    {
+      "t": 12.05,
+      "text": "码头牛逼码头",
+      "dimension": "演技",
+      "polarity": "+"
+    },
+    {
+      "t": 14.538,
+      "text": "这已经是我们马廊里面最帅的一匹马了",
+      "dimension": "画面",
+      "polarity": "+"
+    },
+    {
+      "t": 17.302,
+      "text": "我以为全世界脸最长的男演员",
+      "dimension": "画面",
+      "polarity": "0"
+    },
+    {
+      "t": 19.046,
+      "text": "他的臉確實長的有點奇怪",
+      "dimension": "画面",
+      "polarity": "-"
+    },
+    {
+      "t": 25.591,
+      "text": "可惜去演了个漫威牛马角色",
+      "dimension": "剧情",
+      "polarity": "-"
+    },
+    {
+      "t": 32.271,
+      "text": "卷发演一战英军贵族军官气质太适合了",
+      "dimension": "演技",
+      "polarity": "+"
+    },
+    {
+      "t": 32.308,
+      "text": "战马有抖森和卷福，两人当时都是巅峰颜值实在是太养眼了",
+      "dimension": "画面",
+      "polarity": "+"
+    },
+    {
+      "t": 41.419,
+      "text": "真的是佳作",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 42.08,
+      "text": "可惜烂尾了",
+      "dimension": "剧情",
+      "polarity": "-"
+    },
+    {
+      "t": 42.516,
+      "text": "前几天又重温了，真好看啊",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 48.501,
+      "text": "真是很好看呜呜呜 重刷不下5遍",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 57.931,
+      "text": "他真的好适合卷毛造型啊",
+      "dimension": "画面",
+      "polarity": "+"
+    },
+    {
+      "t": 63.713,
+      "text": "主要剧本太牛了",
+      "dimension": "剧情",
+      "polarity": "+"
+    },
+    {
+      "t": 64.163,
+      "text": "好爱这部剧",
+      "dimension": "情感共鸣",
+      "polarity": "+"
+    },
+    {
+      "t": 64.249,
+      "text": "结案的小曲",
+      "dimension": "音乐",
+      "polarity": "0"
+    },
+    {
+      "t": 66.028,
+      "text": "确实好看，但到这种程度了吗，官方催更？",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 70.081,
+      "text": "星际迷航里的可汗，真的好帅啊！",
+      "dimension": "演技",
+      "polarity": "+"
+    },
+    {
+      "t": 72.731,
+      "text": "感觉第四季的结尾就是很好的",
+      "dimension": "剧情",
+      "polarity": "+"
+    },
+    {
+      "t": 78.253,
+      "text": "魔法特才是真神，dw在他手里也是最高峰",
+      "dimension": "叙事手法",
+      "polarity": "+"
+    },
+    {
+      "t": 78.31,
+      "text": "魔法特DW剧情真的绝",
+      "dimension": "剧情",
+      "polarity": "+"
+    },
+    {
+      "t": 90.09,
+      "text": "神秘博士那可太好看了",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 92.689,
+      "text": "神秘博士已经渐渐走向没落了 剧本越来越差",
+      "dimension": "剧情",
+      "polarity": "-"
+    },
+    {
+      "t": 136.047,
+      "text": "这张海报帅我一脸",
+      "dimension": "画面",
+      "polarity": "+"
+    },
+    {
+      "t": 147.562,
+      "text": "福尔摩斯在22世纪超好看",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 149.569,
+      "text": "卷福剧是真的好看，但是电影就...",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 184.416,
+      "text": "本尼的眼睛就莫名有种智性的感觉",
+      "dimension": "演技",
+      "polarity": "+"
+    },
+    {
+      "t": 265.729,
+      "text": "我觉得这段柯南道尔在吹牛逼。。。",
+      "dimension": "剧情",
+      "polarity": "-"
+    },
+    {
+      "t": 287.375,
+      "text": "我当时就觉得让豪斯来演也不错",
+      "dimension": "演技",
+      "polarity": "+"
+    },
+    {
+      "t": 429.161,
+      "text": "原著也是以华生第一视角展开，我第一次看原著时还以为华生也是主角",
+      "dimension": "叙事手法",
+      "polarity": "0"
+    },
+    {
+      "t": 447.018,
+      "text": "福尔摩斯的外置情商。。。",
+      "dimension": "剧情",
+      "polarity": "0"
+    },
+    {
+      "t": 491.896,
+      "text": "华生没有爆头那个出租车司机，只是打伤了",
+      "dimension": "剧情",
+      "polarity": "0"
+    },
+    {
+      "t": 522.597,
+      "text": "只能说编剧我的神",
+      "dimension": "剧情",
+      "polarity": "+"
+    },
+    {
+      "t": 636.573,
+      "text": "他妻子爱上了他爹好像是",
+      "dimension": "剧情",
+      "polarity": "0"
+    },
+    {
+      "t": 647.942,
+      "text": "哥哥人设太棒了",
+      "dimension": "角色",
+      "polarity": "+"
+    },
+    {
+      "t": 799.299,
+      "text": "因为麦哥有句台词对卷福说：如果你在我眼里都是愚蠢的，那其他人呢？",
+      "dimension": "台词",
+      "polarity": "0"
+    },
+    {
+      "t": 804.847,
+      "text": "妹妹是智力天花板",
+      "dimension": "剧情",
+      "polarity": "0"
+    },
+    {
+      "t": 876.677,
+      "text": "夏洛特：不急，先耗他两个小时",
+      "dimension": "剧情",
+      "polarity": "0"
+    },
+    {
+      "t": 876.928,
+      "text": "巴赫的奏鸣曲诶，之前都没有注意到",
+      "dimension": "音乐",
+      "polarity": "0"
+    },
+    {
+      "t": 925.306,
+      "text": "这时候说错场花名字就很好了",
+      "dimension": "剧情",
+      "polarity": "0"
+    },
+    {
+      "t": 934.846,
+      "text": "这里他故意没有说茉莉",
+      "dimension": "剧情",
+      "polarity": "0"
+    },
+    {
+      "t": 1012.014,
+      "text": "这个胸口肋骨好明显",
+      "dimension": "画面",
+      "polarity": "0"
+    },
+    {
+      "t": 1024.561,
+      "text": "说实话艾琳太瘦了，不能理解",
+      "dimension": "画面",
+      "polarity": "-"
+    }
+  ]
+}

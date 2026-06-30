@@ -1,0 +1,50 @@
+{
+  "video": "游戏科学新作《黑神话：悟空》13分钟实机演示",
+  "bvid": "BV1x54y1e7zf",
+  "duration": 782,
+  "total_classified": 100,
+  "peaks": {
+    "整体": {
+      "peak_bin": 0,
+      "peak_time": 0,
+      "peak_density": 0.6666666666666666,
+      "mean_density": 0.09332106433555708,
+      "peak_ratio": 7.14379622021364
+    },
+    "剧情": {
+      "peak_bin": 1,
+      "peak_time": 30,
+      "peak_density": 1.0,
+      "mean_density": 0.4373322597960279,
+      "peak_ratio": 2.2865909788278613
+    },
+    "细节": {
+      "peak_bin": 0,
+      "peak_time": 0,
+      "peak_density": 1.0,
+      "mean_density": 0.3415070738440304,
+      "peak_ratio": 2.9281970318913797
+    },
+    "画面": {
+      "peak_bin": 2,
+      "peak_time": 60,
+      "peak_density": 1.0,
+      "mean_density": 0.07142857142857142,
+      "peak_ratio": 14.0
+    },
+    "情感共鸣": {
+      "peak_bin": 0,
+      "peak_time": 0,
+      "peak_density": 0.5,
+      "mean_density": 0.05208333333333333,
+      "peak_ratio": 9.600000000000001
+    }
+  },
+  "dim_entropy": {
+    "整体": 0.4788506270610377,
+    "剧情": 0.847100508646353,
+    "细节": 0.7986881997223813,
+    "画面": 0.2795745237229117,
+    "情感共鸣": 0.24273764861366715
+  }
+}

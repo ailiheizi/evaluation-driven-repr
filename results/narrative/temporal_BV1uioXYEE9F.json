@@ -1,0 +1,42 @@
+{
+  "video": "我被电视剧片头曲“模仿”了却无能为力",
+  "bvid": "BV1uioXYEE9F",
+  "duration": 406,
+  "total_classified": 277,
+  "peaks": {
+    "音乐": {
+      "peak_bin": 3,
+      "peak_time": 90,
+      "peak_density": 0.9767441860465116,
+      "mean_density": 0.5428473338264956,
+      "peak_ratio": 1.7992981178732246
+    },
+    "整体": {
+      "peak_bin": 12,
+      "peak_time": 360,
+      "peak_density": 1.0,
+      "mean_density": 0.3146057515983259,
+      "peak_ratio": 3.1785814306305307
+    },
+    "情感共鸣": {
+      "peak_bin": 10,
+      "peak_time": 300,
+      "peak_density": 0.4,
+      "mean_density": 0.06218977171803559,
+      "peak_ratio": 6.431925844873241
+    },
+    "其他": {
+      "peak_bin": 0,
+      "peak_time": 0,
+      "peak_density": 0.125,
+      "mean_density": 0.025,
+      "peak_ratio": 5.0
+    }
+  },
+  "dim_entropy": {
+    "音乐": 0.8968598771287271,
+    "整体": 0.8127273426171896,
+    "情感共鸣": 0.5736168549765664,
+    "其他": -0.0
+  }
+}

@@ -1,0 +1,1051 @@
+{
+  "total_videos": 19,
+  "successful": 16,
+  "results": [
+    {
+      "bvid": "BV14HZqYiETU",
+      "title": "如何成为<班级面壁人>",
+      "status": "ok",
+      "raw_count": 1200,
+      "filtered_count": 781,
+      "evaluative_count": 41,
+      "eval_rate": 0.2733333333333333,
+      "dimensions": {
+        "剧情": 29,
+        "细节": 4,
+        "节奏": 4,
+        "整体": 1,
+        "情感共鸣": 2,
+        "演技": 1
+      },
+      "polarity": {
+        "+": 13,
+        "0": 20,
+        "-": 8
+      },
+      "dim_entropy": {
+        "剧情": 0.9989021260670946,
+        "节奏": 0.268064694594085
+      },
+      "peaks": {
+        "剧情": {
+          "peak_bin": 0,
+          "peak_time": 0,
+          "peak_density": 1.0,
+          "mean_density": 0.9722222222222222,
+          "peak_ratio": 1.0285714285714287
+        },
+        "节奏": {
+          "peak_bin": 0,
+          "peak_time": 0,
+          "peak_density": 0.25,
+          "mean_density": 0.03611111111111111,
+          "peak_ratio": 6.923076923076923
+        }
+      },
+      "duration": 388
+    },
+    {
+      "bvid": "BV16io9YTEqH",
+      "title": "《崩坏：星穹铁道》动画短片：「那安息的长夜」",
+      "status": "ok",
+      "raw_count": 1200,
+      "filtered_count": 319,
+      "evaluative_count": 81,
+      "eval_rate": 0.54,
+      "dimensions": {
+        "剧情": 25,
+        "整体": 13,
+        "节奏": 2,
+        "画面": 23,
+        "情感共鸣": 12,
+        "细节": 4,
+        "叙事手法": 1,
+        "音乐": 1
+      },
+      "polarity": {
+        "0": 41,
+        "+": 35,
+        "-": 5
+      },
+      "dim_entropy": {
+        "情感共鸣": 0.549786964182693,
+        "画面": 0.6305242337451844,
+        "整体": 0.48912273005285534,
+        "剧情": 0.5346224858420893,
+        "细节": 0.25775582136471664
+      },
+      "peaks": {
+        "情感共鸣": {
+          "peak_bin": 5,
+          "peak_time": 150,
+          "peak_density": 0.5,
+          "mean_density": 0.05082972582972582,
+          "peak_ratio": 9.836763662171755
+        },
+        "画面": {
+          "peak_bin": 8,
+          "peak_time": 240,
+          "peak_density": 0.75,
+          "mean_density": 0.081516354016354,
+          "peak_ratio": 9.200607768221985
+        },
+        "整体": {
+          "peak_bin": 3,
+          "peak_time": 90,
+          "peak_density": 0.4444444444444444,
+          "mean_density": 0.0326058201058201,
+          "peak_ratio": 13.630831643002029
+        },
+        "剧情": {
+          "peak_bin": 14,
+          "peak_time": 420,
+          "peak_density": 0.8,
+          "mean_density": 0.07504810004810004,
+          "peak_ratio": 10.659830155423812
+        },
+        "细节": {
+          "peak_bin": 0,
+          "peak_time": 0,
+          "peak_density": 0.25,
+          "mean_density": 0.011111111111111112,
+          "peak_ratio": 22.5
+        }
+      },
+      "duration": 1798
+    },
+    {
+      "bvid": "BV1BtZJYBE4G",
+      "title": "震撼世界的72天：巴黎公社为何爆发？又为何失败？【历史调研室71】",
+      "status": "ok",
+      "raw_count": 7200,
+      "filtered_count": 3498,
+      "evaluative_count": 41,
+      "eval_rate": 0.2733333333333333,
+      "dimensions": {
+        "剧情": 18,
+        "音乐": 1,
+        "画面": 1,
+        "整体": 10,
+        "情感共鸣": 6,
+        "细节": 1,
+        "叙事手法": 1,
+        "演技": 3
+      },
+      "polarity": {
+        "+": 26,
+        "-": 7,
+        "0": 8
+      },
+      "dim_entropy": {
+        "剧情": 0.9587613422289801,
+        "情感共鸣": 0.6211375730025596,
+        "整体": 0.6883696806096429
+      },
+      "peaks": {
+        "剧情": {
+          "peak_bin": 1,
+          "peak_time": 30,
+          "peak_density": 1.0,
+          "mean_density": 0.7253849171324901,
+          "peak_ratio": 1.3785784297157533
+        },
+        "情感共鸣": {
+          "peak_bin": 45,
+          "peak_time": 1350,
+          "peak_density": 1.0,
+          "mean_density": 0.06241751775732358,
+          "peak_ratio": 16.021143357349676
+        },
+        "整体": {
+          "peak_bin": 34,
+          "peak_time": 1020,
+          "peak_density": 1.0,
+          "mean_density": 0.12613137453562986,
+          "peak_ratio": 7.928241515496351
+        }
+      },
+      "duration": 3081
+    },
+    {
+      "bvid": "BV1GJ411x7h7",
+      "title": "【官方 MV】Never Gonna Give You Up - Rick Astley",
+      "status": "too_few_evaluative",
+      "raw_count": 1200,
+      "filtered_count": 611,
+      "evaluative_count": 4,
+      "eval_rate": 0.02666666666666667
+    },
+    {
+      "bvid": "BV1GyZYYNErW",
+      "title": "我的世界克苏鲁全集：一口气看完",
+      "status": "ok",
+      "raw_count": 9600,
+      "filtered_count": 6459,
+      "evaluative_count": 54,
+      "eval_rate": 0.36,
+      "dimensions": {
+        "情感共鸣": 2,
+        "剧情": 36,
+        "节奏": 2,
+        "画面": 9,
+        "细节": 3,
+        "整体": 1,
+        "音乐": 1
+      },
+      "polarity": {
+        "+": 11,
+        "-": 9,
+        "0": 34
+      },
+      "dim_entropy": {
+        "剧情": 0.8957967009580193,
+        "画面": 0.13580208897261442,
+        "情感共鸣": -0.0
+      },
+      "peaks": {
+        "剧情": {
+          "peak_bin": 1,
+          "peak_time": 30,
+          "peak_density": 1.0,
+          "mean_density": 0.59037558685446,
+          "peak_ratio": 1.693836978131213
+        },
+        "画面": {
+          "peak_bin": 94,
+          "peak_time": 2820,
+          "peak_density": 0.5,
+          "mean_density": 0.005868544600938967,
+          "peak_ratio": 50.0
+        },
+        "情感共鸣": {
+          "peak_bin": 0,
+          "peak_time": 0,
+          "peak_density": 0.3333333333333333,
+          "mean_density": 0.003472222222222222,
+          "peak_ratio": 33.33333333333333
+        }
+      },
+      "duration": 4236
+    },
+    {
+      "bvid": "BV1H5Z4YhEsn",
+      "title": "海龟汤（2）",
+      "status": "ok",
+      "raw_count": 1800,
+      "filtered_count": 659,
+      "evaluative_count": 61,
+      "eval_rate": 0.4066666666666667,
+      "dimensions": {
+        "演技": 4,
+        "叙事手法": 3,
+        "画面": 8,
+        "整体": 11,
+        "剧情": 24,
+        "音乐": 1,
+        "细节": 3,
+        "节奏": 1,
+        "情感共鸣": 6
+      },
+      "polarity": {
+        "-": 12,
+        "0": 39,
+        "+": 10
+      },
+      "dim_entropy": {
+        "整体": 0.8690226227917138,
+        "剧情": 0.8946297705060956,
+        "演技": 0.28919491236175987,
+        "情感共鸣": -0.0
+      },
+      "peaks": {
+        "整体": {
+          "peak_bin": 4,
+          "peak_time": 120,
+          "peak_density": 1.0,
+          "mean_density": 0.45168951418951414,
+          "peak_ratio": 2.2139101497504163
+        },
+        "剧情": {
+          "peak_bin": 3,
+          "peak_time": 90,
+          "peak_density": 1.0,
+          "mean_density": 0.4739057239057239,
+          "peak_ratio": 2.1101243339253997
+        },
+        "演技": {
+          "peak_bin": 0,
+          "peak_time": 0,
+          "peak_density": 0.5,
+          "mean_density": 0.04464285714285714,
+          "peak_ratio": 11.200000000000001
+        },
+        "情感共鸣": {
+          "peak_bin": 0,
+          "peak_time": 0,
+          "peak_density": 0.07142857142857142,
+          "mean_density": 0.03571428571428571,
+          "peak_ratio": 2.0
+        }
+      },
+      "duration": 707
+    },
+    {
+      "bvid": "BV1HTZpYSExJ",
+      "title": "《绝区零》星徽骑士EP丨拂晓之空 闪耀之誓",
+      "status": "ok",
+      "raw_count": 1200,
+      "filtered_count": 113,
+      "evaluative_count": 45,
+      "eval_rate": 0.39823008849557523,
+      "dimensions": {
+        "整体": 12,
+        "情感共鸣": 5,
+        "音乐": 4,
+        "画面": 17,
+        "节奏": 3,
+        "创意": 1,
+        "剧情": 2,
+        "细节": 1
+      },
+      "polarity": {
+        "+": 18,
+        "0": 18,
+        "-": 9
+      },
+      "dim_entropy": {
+        "整体": 0.802267456524715,
+        "画面": 0.9019451984411644,
+        "情感共鸣": 0.6007710674722591,
+        "音乐": 0.31546487678572877
+      },
+      "peaks": {
+        "整体": {
+          "peak_bin": 8,
+          "peak_time": 240,
+          "peak_density": 1.0,
+          "mean_density": 0.3290123456790124,
+          "peak_ratio": 3.039399624765478
+        },
+        "画面": {
+          "peak_bin": 5,
+          "peak_time": 150,
+          "peak_density": 1.0,
+          "mean_density": 0.45185185185185184,
+          "peak_ratio": 2.2131147540983607
+        },
+        "情感共鸣": {
+          "peak_bin": 2,
+          "peak_time": 60,
+          "peak_density": 0.5,
+          "mean_density": 0.16358024691358025,
+          "peak_ratio": 3.0566037735849054
+        },
+        "音乐": {
+          "peak_bin": 0,
+          "peak_time": 0,
+          "peak_density": 0.25,
+          "mean_density": 0.05555555555555555,
+          "peak_ratio": 4.5
+        }
+      },
+      "duration": 250
+    },
+    {
+      "bvid": "BV1JcZtYFEDq",
+      "title": "《鸣潮》0.1版本PV | 缩拉里斯",
+      "status": "too_few_filtered",
+      "raw_count": 600,
+      "filtered_count": 42
+    },
+    {
+      "bvid": "BV1L8Z6YZEDS",
+      "title": "“鲁智深：林冲？好吧那我输的不冤”",
+      "status": "ok",
+      "raw_count": 600,
+      "filtered_count": 93,
+      "evaluative_count": 44,
+      "eval_rate": 0.4731182795698925,
+      "dimensions": {
+        "细节": 10,
+        "剧情": 12,
+        "画面": 14,
+        "整体": 3,
+        "演技": 4,
+        "节奏": 1
+      },
+      "polarity": {
+        "+": 24,
+        "0": 18,
+        "-": 2
+      },
+      "dim_entropy": {
+        "细节": 0.4063093279759303,
+        "剧情": 0.9796691959233206,
+        "画面": 0.9365761156887085,
+        "演技": 0.7076344750135478
+      },
+      "peaks": {
+        "细节": {
+          "peak_bin": 0,
+          "peak_time": 0,
+          "peak_density": 0.5,
+          "mean_density": 0.12666666666666668,
+          "peak_ratio": 3.9473684210526314
+        },
+        "剧情": {
+          "peak_bin": 1,
+          "peak_time": 30,
+          "peak_density": 0.6666666666666666,
+          "mean_density": 0.53,
+          "peak_ratio": 1.2578616352201257
+        },
+        "画面": {
+          "peak_bin": 3,
+          "peak_time": 90,
+          "peak_density": 0.3333333333333333,
+          "mean_density": 0.22333333333333333,
+          "peak_ratio": 1.4925373134328357
+        },
+        "演技": {
+          "peak_bin": 3,
+          "peak_time": 90,
+          "peak_density": 0.3333333333333333,
+          "mean_density": 0.15,
+          "peak_ratio": 2.2222222222222223
+        }
+      },
+      "duration": 143
+    },
+    {
+      "bvid": "BV1LSoyYqEuU",
+      "title": "全程细节伏笔隐喻？一刷看不懂，二刷就上头的高智商犯罪片！《惊天魔盗团》",
+      "status": "ok",
+      "raw_count": 4973,
+      "filtered_count": 2912,
+      "evaluative_count": 57,
+      "eval_rate": 0.38,
+      "dimensions": {
+        "整体": 11,
+        "细节": 13,
+        "剧情": 17,
+        "情感共鸣": 4,
+        "音乐": 2,
+        "演技": 4,
+        "叙事手法": 3,
+        "节奏": 1,
+        "画面": 2
+      },
+      "polarity": {
+        "+": 13,
+        "0": 30,
+        "-": 14
+      },
+      "dim_entropy": {
+        "整体": 0.8649413758186211,
+        "情感共鸣": 0.6472897691842656,
+        "剧情": 0.6805262562986689,
+        "细节": 0.4693788753205715,
+        "画面": -0.0,
+        "音乐": -0.0,
+        "叙事手法": -0.0,
+        "演技": -0.0
+      },
+      "peaks": {
+        "整体": {
+          "peak_bin": 12,
+          "peak_time": 360,
+          "peak_density": 1.0,
+          "mean_density": 0.44618204408376577,
+          "peak_ratio": 2.241237659066937
+        },
+        "情感共鸣": {
+          "peak_bin": 26,
+          "peak_time": 780,
+          "peak_density": 1.0,
+          "mean_density": 0.1089295866734891,
+          "peak_ratio": 9.180242306412573
+        },
+        "剧情": {
+          "peak_bin": 27,
+          "peak_time": 810,
+          "peak_density": 1.0,
+          "mean_density": 0.12330410652850739,
+          "peak_ratio": 8.11002997510715
+        },
+        "细节": {
+          "peak_bin": 1,
+          "peak_time": 30,
+          "peak_density": 0.9166666666666666,
+          "mean_density": 0.05370810501529455,
+          "peak_ratio": 17.067566737006004
+        },
+        "画面": {
+          "peak_bin": 0,
+          "peak_time": 0,
+          "peak_density": 0.14285714285714285,
+          "mean_density": 0.0018796992481203006,
+          "peak_ratio": 14.285714285714285
+        },
+        "音乐": {
+          "peak_bin": 0,
+          "peak_time": 0,
+          "peak_density": 1.0,
+          "mean_density": 0.013888888888888888,
+          "peak_ratio": 72.0
+        },
+        "叙事手法": {
+          "peak_bin": 0,
+          "peak_time": 0,
+          "peak_density": 0.6666666666666666,
+          "mean_density": 0.01075268817204301,
+          "peak_ratio": 62.0
+        },
+        "演技": {
+          "peak_bin": 0,
+          "peak_time": 0,
+          "peak_density": 0.3333333333333333,
+          "mean_density": 0.02564102564102564,
+          "peak_ratio": 13.0
+        }
+      },
+      "duration": 2457
+    },
+    {
+      "bvid": "BV1XHmwYpE8s",
+      "title": "反转悬疑神剧！凶手死后继续作案，福尔摩斯来都得懵圈！",
+      "status": "ok",
+      "raw_count": 3533,
+      "filtered_count": 2423,
+      "evaluative_count": 66,
+      "eval_rate": 0.44,
+      "dimensions": {
+        "剧情": 36,
+        "整体": 9,
+        "画面": 7,
+        "节奏": 3,
+        "细节": 2,
+        "演技": 3,
+        "叙事手法": 3,
+        "情感共鸣": 2,
+        "其他": 1
+      },
+      "polarity": {
+        "-": 39,
+        "0": 18,
+        "+": 9
+      },
+      "dim_entropy": {
+        "画面": 0.2645496391291544,
+        "剧情": 0.9355406716633162,
+        "整体": 0.6222298545533571,
+        "叙事手法": 0.3401142572312824,
+        "节奏": -0.0
+      },
+      "peaks": {
+        "画面": {
+          "peak_bin": 0,
+          "peak_time": 0,
+          "peak_density": 0.5,
+          "mean_density": 0.011446886446886448,
+          "peak_ratio": 43.68
+        },
+        "剧情": {
+          "peak_bin": 3,
+          "peak_time": 90,
+          "peak_density": 1.0,
+          "mean_density": 0.6842935822347587,
+          "peak_ratio": 1.4613610677659883
+        },
+        "整体": {
+          "peak_bin": 20,
+          "peak_time": 600,
+          "peak_density": 1.0,
+          "mean_density": 0.0848227520673341,
+          "peak_ratio": 11.789289732148502
+        },
+        "叙事手法": {
+          "peak_bin": 65,
+          "peak_time": 1950,
+          "peak_density": 1.0,
+          "mean_density": 0.02958152958152958,
+          "peak_ratio": 33.80487804878049
+        },
+        "节奏": {
+          "peak_bin": 0,
+          "peak_time": 0,
+          "peak_density": 0.3333333333333333,
+          "mean_density": 0.007575757575757575,
+          "peak_ratio": 33.33333333333333
+        }
+      },
+      "duration": 2325
+    },
+    {
+      "bvid": "BV1eBZhYhEa9",
+      "title": "模仿不同国家的气象主播，差别真的很大！！当然最经典的还是在最后～",
+      "status": "ok",
+      "raw_count": 600,
+      "filtered_count": 65,
+      "evaluative_count": 41,
+      "eval_rate": 0.6307692307692307,
+      "dimensions": {
+        "演技": 5,
+        "画面": 11,
+        "音乐": 6,
+        "整体": 13,
+        "其他": 1,
+        "剧情": 3,
+        "节奏": 1,
+        "情感共鸣": 1
+      },
+      "polarity": {
+        "-": 4,
+        "0": 11,
+        "+": 26
+      },
+      "dim_entropy": {
+        "整体": 0.681212764290908,
+        "剧情": -0.0,
+        "演技": -0.0,
+        "画面": 0.5030570185633159,
+        "音乐": -0.0
+      },
+      "peaks": {
+        "整体": {
+          "peak_bin": 1,
+          "peak_time": 30,
+          "peak_density": 0.6666666666666666,
+          "mean_density": 0.3658008658008658,
+          "peak_ratio": 1.8224852071005917
+        },
+        "剧情": {
+          "peak_bin": 0,
+          "peak_time": 0,
+          "peak_density": 0.42857142857142855,
+          "mean_density": 0.08571428571428572,
+          "peak_ratio": 5.0
+        },
+        "演技": {
+          "peak_bin": 0,
+          "peak_time": 0,
+          "peak_density": 0.3333333333333333,
+          "mean_density": 0.08333333333333333,
+          "peak_ratio": 4.0
+        },
+        "画面": {
+          "peak_bin": 0,
+          "peak_time": 0,
+          "peak_density": 1.0,
+          "mean_density": 0.4393939393939394,
+          "peak_ratio": 2.2758620689655173
+        },
+        "音乐": {
+          "peak_bin": 0,
+          "peak_time": 0,
+          "peak_density": 0.09090909090909091,
+          "mean_density": 0.045454545454545456,
+          "peak_ratio": 2.0
+        }
+      },
+      "duration": 123
+    },
+    {
+      "bvid": "BV1rHZJYkEnK",
+      "title": "开播一集！就火爆全球的神作？深扒你所不知道的神探故事！《神探夏洛克》",
+      "status": "ok",
+      "raw_count": 1275,
+      "filtered_count": 738,
+      "evaluative_count": 64,
+      "eval_rate": 0.4266666666666667,
+      "dimensions": {
+        "演技": 10,
+        "画面": 11,
+        "音乐": 3,
+        "剧情": 20,
+        "整体": 9,
+        "情感共鸣": 2,
+        "叙事手法": 3,
+        "角色": 1,
+        "台词": 3,
+        "细节": 1,
+        "节奏": 1
+      },
+      "polarity": {
+        "+": 36,
+        "0": 21,
+        "-": 7
+      },
+      "dim_entropy": {
+        "演技": 0.15235990169683608,
+        "画面": 0.371955773988555,
+        "剧情": 0.7362395374638697,
+        "整体": 0.6476855587132838,
+        "台词": -0.0
+      },
+      "peaks": {
+        "演技": {
+          "peak_bin": 0,
+          "peak_time": 0,
+          "peak_density": 0.5405405405405406,
+          "mean_density": 0.01609870740305523,
+          "peak_ratio": 33.57664233576643
+        },
+        "画面": {
+          "peak_bin": 34,
+          "peak_time": 1020,
+          "peak_density": 1.0,
+          "mean_density": 0.046585908158798185,
+          "peak_ratio": 21.465718701700155
+        },
+        "剧情": {
+          "peak_bin": 3,
+          "peak_time": 90,
+          "peak_density": 1.0,
+          "mean_density": 0.3025419921199972,
+          "peak_ratio": 3.3053262887334003
+        },
+        "整体": {
+          "peak_bin": 7,
+          "peak_time": 210,
+          "peak_density": 1.0,
+          "mean_density": 0.1999907836224972,
+          "peak_ratio": 5.000230420055761
+        },
+        "台词": {
+          "peak_bin": 0,
+          "peak_time": 0,
+          "peak_density": 1.0,
+          "mean_density": 0.09090909090909091,
+          "peak_ratio": 11.0
+        }
+      },
+      "duration": 1380
+    },
+    {
+      "bvid": "BV1uT4y1P7CX",
+      "title": "【4K60帧】经典老歌：瑞克·埃斯利《Never Gonna Give You Up》1987 AI修复补帧版",
+      "status": "ok",
+      "raw_count": 1200,
+      "filtered_count": 278,
+      "evaluative_count": 21,
+      "eval_rate": 0.14,
+      "dimensions": {
+        "整体": 4,
+        "音乐": 4,
+        "细节": 6,
+        "字幕": 2,
+        "演技": 4,
+        "剧情": 1
+      },
+      "polarity": {
+        "-": 4,
+        "+": 13,
+        "0": 4
+      },
+      "dim_entropy": {
+        "整体": -0.0,
+        "细节": 0.5755477990317764,
+        "音乐": 0.2076531463079713,
+        "演技": 0.5358649353560113
+      },
+      "peaks": {
+        "整体": {
+          "peak_bin": 0,
+          "peak_time": 0,
+          "peak_density": 0.3333333333333333,
+          "mean_density": 0.02222222222222222,
+          "peak_ratio": 15.000000000000002
+        },
+        "细节": {
+          "peak_bin": 1,
+          "peak_time": 30,
+          "peak_density": 1.0,
+          "mean_density": 0.24000000000000002,
+          "peak_ratio": 4.166666666666666
+        },
+        "音乐": {
+          "peak_bin": 4,
+          "peak_time": 120,
+          "peak_density": 0.5,
+          "mean_density": 0.04444444444444444,
+          "peak_ratio": 11.250000000000002
+        },
+        "演技": {
+          "peak_bin": 2,
+          "peak_time": 60,
+          "peak_density": 1.0,
+          "mean_density": 0.2833333333333333,
+          "peak_ratio": 3.5294117647058822
+        }
+      },
+      "duration": 424
+    },
+    {
+      "bvid": "BV1uioXYEE9F",
+      "title": "我被电视剧片头曲“模仿”了却无能为力",
+      "status": "ok",
+      "raw_count": 1200,
+      "filtered_count": 600,
+      "evaluative_count": 83,
+      "eval_rate": 0.5533333333333333,
+      "dimensions": {
+        "音乐": 56,
+        "整体": 16,
+        "情感共鸣": 6,
+        "叙事手法": 1,
+        "剧情": 1,
+        "其他": 2,
+        "画面": 1
+      },
+      "polarity": {
+        "-": 39,
+        "0": 35,
+        "+": 9
+      },
+      "dim_entropy": {
+        "音乐": 0.8968598771287271,
+        "整体": 0.8127273426171896,
+        "情感共鸣": 0.5736168549765664,
+        "其他": -0.0
+      },
+      "peaks": {
+        "音乐": {
+          "peak_bin": 3,
+          "peak_time": 90,
+          "peak_density": 0.9767441860465116,
+          "mean_density": 0.5428473338264956,
+          "peak_ratio": 1.7992981178732246
+        },
+        "整体": {
+          "peak_bin": 12,
+          "peak_time": 360,
+          "peak_density": 1.0,
+          "mean_density": 0.3146057515983259,
+          "peak_ratio": 3.1785814306305307
+        },
+        "情感共鸣": {
+          "peak_bin": 10,
+          "peak_time": 300,
+          "peak_density": 0.4,
+          "mean_density": 0.06218977171803559,
+          "peak_ratio": 6.431925844873241
+        },
+        "其他": {
+          "peak_bin": 0,
+          "peak_time": 0,
+          "peak_density": 0.125,
+          "mean_density": 0.025,
+          "peak_ratio": 5.0
+        }
+      },
+      "duration": 406
+    },
+    {
+      "bvid": "BV1w6ZEYrEsb",
+      "title": "为什么中国人对一道菜的最高评价是\"下饭\"?",
+      "status": "ok",
+      "raw_count": 1800,
+      "filtered_count": 721,
+      "evaluative_count": 47,
+      "eval_rate": 0.31333333333333335,
+      "dimensions": {
+        "其他": 18,
+        "情感共鸣": 2,
+        "整体": 9,
+        "细节": 12,
+        "节奏": 5,
+        "画面": 1
+      },
+      "polarity": {
+        "0": 18,
+        "+": 15,
+        "-": 14
+      },
+      "dim_entropy": {
+        "其他": 0.8560293410802523,
+        "细节": 0.6244881909205784,
+        "整体": 0.6588688033191883,
+        "节奏": 0.2704260414863776
+      },
+      "peaks": {
+        "其他": {
+          "peak_bin": 0,
+          "peak_time": 0,
+          "peak_density": 1.0,
+          "mean_density": 0.5227219282774839,
+          "peak_ratio": 1.9130630377326658
+        },
+        "细节": {
+          "peak_bin": 18,
+          "peak_time": 540,
+          "peak_density": 1.0,
+          "mean_density": 0.2046666666666667,
+          "peak_ratio": 4.885993485342019
+        },
+        "整体": {
+          "peak_bin": 15,
+          "peak_time": 450,
+          "peak_density": 1.0,
+          "mean_density": 0.2441269841269841,
+          "peak_ratio": 4.0962288686605985
+        },
+        "节奏": {
+          "peak_bin": 0,
+          "peak_time": 0,
+          "peak_density": 0.5,
+          "mean_density": 0.08333333333333333,
+          "peak_ratio": 6.0
+        }
+      },
+      "duration": 793
+    },
+    {
+      "bvid": "BV1x441187u5",
+      "title": "前方高能！让世界感受这场视觉盛宴吧！",
+      "status": "too_few_evaluative",
+      "raw_count": 1200,
+      "filtered_count": 102,
+      "evaluative_count": 9,
+      "eval_rate": 0.08823529411764706
+    },
+    {
+      "bvid": "BV1x54y1e7zf",
+      "title": "游戏科学新作《黑神话：悟空》13分钟实机演示",
+      "status": "ok",
+      "raw_count": 1800,
+      "filtered_count": 383,
+      "evaluative_count": 74,
+      "eval_rate": 0.49333333333333335,
+      "dimensions": {
+        "整体": 13,
+        "剧情": 21,
+        "演技": 3,
+        "细节": 20,
+        "画面": 10,
+        "情感共鸣": 2,
+        "节奏": 2,
+        "音乐": 3
+      },
+      "polarity": {
+        "+": 34,
+        "0": 37,
+        "-": 3
+      },
+      "dim_entropy": {
+        "整体": 0.4788506270610377,
+        "剧情": 0.847100508646353,
+        "细节": 0.7986881997223813,
+        "画面": 0.2795745237229117,
+        "情感共鸣": 0.24273764861366715
+      },
+      "peaks": {
+        "整体": {
+          "peak_bin": 0,
+          "peak_time": 0,
+          "peak_density": 0.6666666666666666,
+          "mean_density": 0.09332106433555708,
+          "peak_ratio": 7.14379622021364
+        },
+        "剧情": {
+          "peak_bin": 1,
+          "peak_time": 30,
+          "peak_density": 1.0,
+          "mean_density": 0.4373322597960279,
+          "peak_ratio": 2.2865909788278613
+        },
+        "细节": {
+          "peak_bin": 0,
+          "peak_time": 0,
+          "peak_density": 1.0,
+          "mean_density": 0.3415070738440304,
+          "peak_ratio": 2.9281970318913797
+        },
+        "画面": {
+          "peak_bin": 2,
+          "peak_time": 60,
+          "peak_density": 1.0,
+          "mean_density": 0.07142857142857142,
+          "peak_ratio": 14.0
+        },
+        "情感共鸣": {
+          "peak_bin": 0,
+          "peak_time": 0,
+          "peak_density": 0.5,
+          "mean_density": 0.05208333333333333,
+          "peak_ratio": 9.600000000000001
+        }
+      },
+      "duration": 782
+    },
+    {
+      "bvid": "BV1xMZbYVE5v",
+      "title": "错位的时空，命运的交织。",
+      "status": "ok",
+      "raw_count": 1200,
+      "filtered_count": 147,
+      "evaluative_count": 62,
+      "eval_rate": 0.4217687074829932,
+      "dimensions": {
+        "剧情": 25,
+        "情感共鸣": 5,
+        "整体": 4,
+        "节奏": 2,
+        "音乐": 2,
+        "细节": 14,
+        "画面": 7,
+        "演技": 3
+      },
+      "polarity": {
+        "0": 34,
+        "+": 23,
+        "-": 5
+      },
+      "dim_entropy": {
+        "细节": 0.7975974155503329,
+        "情感共鸣": 0.7788946244272833,
+        "整体": 0.3271035759815648,
+        "剧情": 0.8389139000282366,
+        "画面": 0.4449129221498761
+      },
+      "peaks": {
+        "细节": {
+          "peak_bin": 5,
+          "peak_time": 150,
+          "peak_density": 0.7619047619047619,
+          "mean_density": 0.286734693877551,
+          "peak_ratio": 2.65717674970344
+        },
+        "情感共鸣": {
+          "peak_bin": 0,
+          "peak_time": 0,
+          "peak_density": 0.42857142857142855,
+          "mean_density": 0.16632653061224487,
+          "peak_ratio": 2.5766871165644174
+        },
+        "整体": {
+          "peak_bin": 0,
+          "peak_time": 0,
+          "peak_density": 0.2857142857142857,
+          "mean_density": 0.061224489795918366,
+          "peak_ratio": 4.666666666666666
+        },
+        "剧情": {
+          "peak_bin": 1,
+          "peak_time": 30,
+          "peak_density": 0.7333333333333333,
+          "mean_density": 0.37891156462585035,
+          "peak_ratio": 1.9353680430879712
+        },
+        "画面": {
+          "peak_bin": 2,
+          "peak_time": 60,
+          "peak_density": 0.5,
+          "mean_density": 0.1246031746031746,
+          "peak_ratio": 4.012738853503184
+        }
+      },
+      "duration": 202
+    }
+  ]
+}

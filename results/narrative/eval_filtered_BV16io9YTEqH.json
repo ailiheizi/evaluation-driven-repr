@@ -1,0 +1,326 @@
+{
+  "video": "《崩坏：星穹铁道》动画短片：「那安息的长夜」",
+  "bvid": "BV16io9YTEqH",
+  "total_raw": 1200,
+  "after_rule_filter": 319,
+  "sample_classified": 150,
+  "evaluative_count": 81,
+  "evaluative_rate": 0.54,
+  "dimension_distribution": {
+    "剧情": 25,
+    "整体": 13,
+    "节奏": 2,
+    "画面": 23,
+    "情感共鸣": 12,
+    "细节": 4,
+    "叙事手法": 1,
+    "音乐": 1
+  },
+  "polarity_distribution": {
+    "0": 41,
+    "+": 35,
+    "-": 5
+  },
+  "evaluative_samples": [
+    {
+      "t": 0.54,
+      "text": "本集有刀，请各位准备好纸巾。",
+      "dimension": "剧情",
+      "polarity": "0"
+    },
+    {
+      "t": 2.62,
+      "text": "全程已严肃观看",
+      "dimension": "整体",
+      "polarity": "0"
+    },
+    {
+      "t": 7.523,
+      "text": "开幕雷击",
+      "dimension": "节奏",
+      "polarity": "0"
+    },
+    {
+      "t": 15.53,
+      "text": "动画太神了！",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 17.924,
+      "text": "太美了，每一帧都是壁纸！",
+      "dimension": "画面",
+      "polarity": "+"
+    },
+    {
+      "t": 21.566,
+      "text": "这样死都不疼，你还不知足，sz乐子",
+      "dimension": "剧情",
+      "polarity": "-"
+    },
+    {
+      "t": 34.491,
+      "text": "哇！动画质量太高了！",
+      "dimension": "画面",
+      "polarity": "+"
+    },
+    {
+      "t": 37.808,
+      "text": "哇！动画短片太棒了！",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 37.982,
+      "text": "人类想起了被恐惧支配的那天）",
+      "dimension": "剧情",
+      "polarity": "0"
+    },
+    {
+      "t": 41.139,
+      "text": "泪目了，米哈游太会了",
+      "dimension": "情感共鸣",
+      "polarity": "+"
+    },
+    {
+      "t": 47.073,
+      "text": "这也太有氛围感了",
+      "dimension": "画面",
+      "polarity": "+"
+    },
+    {
+      "t": 51.883,
+      "text": "因为这一幕镜头靠遐蝶的头比较近，身体比较远，所以显得头大，其实画的是对的",
+      "dimension": "画面",
+      "polarity": "0"
+    },
+    {
+      "t": 56.005,
+      "text": "泪目了，米哈游你做得好啊",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 56.291,
+      "text": "这个镜头的构图应该是特意设计的，利用透视关系突出画面的诡异和黑暗基调",
+      "dimension": "画面",
+      "polarity": "0"
+    },
+    {
+      "t": 73.417,
+      "text": "看完直接心情舒畅",
+      "dimension": "情感共鸣",
+      "polarity": "+"
+    },
+    {
+      "t": 73.521,
+      "text": "这也太可爱了吧",
+      "dimension": "画面",
+      "polarity": "+"
+    },
+    {
+      "t": 75.862,
+      "text": "每一秒都不想错过",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 94.113,
+      "text": "泪目了，米哈游你坏事做尽",
+      "dimension": "剧情",
+      "polarity": "-"
+    },
+    {
+      "t": 104.021,
+      "text": "太刀了，米哈游你没有心！",
+      "dimension": "剧情",
+      "polarity": "-"
+    },
+    {
+      "t": 104.147,
+      "text": "这时候她还小哇，得多害怕T^T",
+      "dimension": "情感共鸣",
+      "polarity": "0"
+    },
+    {
+      "t": 106.725,
+      "text": "哇！动画质量太高了吧！",
+      "dimension": "画面",
+      "polarity": "+"
+    },
+    {
+      "t": 115.838,
+      "text": "分析此处镜头的意义（三分）",
+      "dimension": "画面",
+      "polarity": "0"
+    },
+    {
+      "t": 118.957,
+      "text": "泪目了，崩坏系列永远的神！",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 122.718,
+      "text": "哇！这动画也太棒了吧！",
+      "dimension": "画面",
+      "polarity": "+"
+    },
+    {
+      "t": 129.073,
+      "text": "太有创意了吧",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 133.042,
+      "text": "泪目，太震撼了！",
+      "dimension": "情感共鸣",
+      "polarity": "+"
+    },
+    {
+      "t": 152.101,
+      "text": "动画太美了！",
+      "dimension": "画面",
+      "polarity": "+"
+    },
+    {
+      "t": 160.822,
+      "text": "爱了爱了 必须点赞",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 183.558,
+      "text": "太美了，泪目",
+      "dimension": "画面",
+      "polarity": "+"
+    },
+    {
+      "t": 186.794,
+      "text": "经典雪地奔跑平地摔",
+      "dimension": "剧情",
+      "polarity": "0"
+    },
+    {
+      "t": 192.154,
+      "text": "动画绝了！",
+      "dimension": "画面",
+      "polarity": "+"
+    },
+    {
+      "t": 195.776,
+      "text": "动画短片太震撼了！",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 198.691,
+      "text": "这双手明明也会感到寒冷而发红……明明就只是普通人的手啊呜呜呜",
+      "dimension": "情感共鸣",
+      "polarity": "+"
+    },
+    {
+      "t": 213.101,
+      "text": "这帽子真的好像十常侍啊哈哈哈",
+      "dimension": "画面",
+      "polarity": "0"
+    },
+    {
+      "t": 213.85,
+      "text": "这动画做的好好哦",
+      "dimension": "画面",
+      "polarity": "+"
+    },
+    {
+      "t": 231.398,
+      "text": "这段就是留到剧情里放给你看的，本来按崩坏三的节奏是在剧情更新当天中午发",
+      "dimension": "节奏",
+      "polarity": "0"
+    },
+    {
+      "t": 235.757,
+      "text": "走过万场战争，经历过一遍遍对她如死刑般的生活",
+      "dimension": "剧情",
+      "polarity": "0"
+    },
+    {
+      "t": 239.478,
+      "text": "这里很细节壁画上的快死的人都有个手的影子",
+      "dimension": "细节",
+      "polarity": "+"
+    },
+    {
+      "t": 251.328,
+      "text": "她真好看（偏题）",
+      "dimension": "画面",
+      "polarity": "+"
+    },
+    {
+      "t": 258.72,
+      "text": "她真好看",
+      "dimension": "画面",
+      "polarity": "+"
+    },
+    {
+      "t": 260.714,
+      "text": "泪目了，星门！",
+      "dimension": "情感共鸣",
+      "polarity": "+"
+    },
+    {
+      "t": 266.227,
+      "text": "沟槽的寿命论",
+      "dimension": "剧情",
+      "polarity": "-"
+    },
+    {
+      "t": 277.281,
+      "text": "老米最大的刀子，寿命论",
+      "dimension": "剧情",
+      "polarity": "0"
+    },
+    {
+      "t": 280.639,
+      "text": "泪目了，这动画绝了",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 285.414,
+      "text": "泪目了，这动画太绝了",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 291.007,
+      "text": "哇，这动画太震撼了！",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 292.476,
+      "text": "长得像老太",
+      "dimension": "画面",
+      "polarity": "-"
+    },
+    {
+      "t": 294.85,
+      "text": "要亲手送走自己儿时的玩伴啊…好心疼",
+      "dimension": "情感共鸣",
+      "polarity": "0"
+    },
+    {
+      "t": 303.08,
+      "text": "这段有点像《致不灭的你》皮欧兰跟不死对话的感觉",
+      "dimension": "叙事手法",
+      "polarity": "0"
+    },
+    {
+      "t": 311.299,
+      "text": "太刀了，我哭死",
+      "dimension": "情感共鸣",
+      "polarity": "0"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "video": "【4K60帧】经典老歌：瑞克·埃斯利《Never Gonna Give You Up》1987 AI修复补帧版",
+  "bvid": "BV1uT4y1P7CX",
+  "duration": 424,
+  "total_classified": 21,
+  "peaks": {
+    "整体": {
+      "peak_bin": 0,
+      "peak_time": 0,
+      "peak_density": 0.3333333333333333,
+      "mean_density": 0.02222222222222222,
+      "peak_ratio": 15.000000000000002
+    },
+    "细节": {
+      "peak_bin": 1,
+      "peak_time": 30,
+      "peak_density": 1.0,
+      "mean_density": 0.24000000000000002,
+      "peak_ratio": 4.166666666666666
+    },
+    "音乐": {
+      "peak_bin": 4,
+      "peak_time": 120,
+      "peak_density": 0.5,
+      "mean_density": 0.04444444444444444,
+      "peak_ratio": 11.250000000000002
+    },
+    "演技": {
+      "peak_bin": 2,
+      "peak_time": 60,
+      "peak_density": 1.0,
+      "mean_density": 0.2833333333333333,
+      "peak_ratio": 3.5294117647058822
+    }
+  },
+  "dim_entropy": {
+    "整体": -0.0,
+    "细节": 0.5755477990317764,
+    "音乐": 0.2076531463079713,
+    "演技": 0.5358649353560113
+  }
+}

@@ -1,0 +1,296 @@
+{
+  "video": "《绝区零》星徽骑士EP丨拂晓之空 闪耀之誓",
+  "bvid": "BV1HTZpYSExJ",
+  "total_raw": 1200,
+  "after_rule_filter": 113,
+  "sample_classified": 113,
+  "evaluative_count": 45,
+  "evaluative_rate": 0.39823008849557523,
+  "dimension_distribution": {
+    "整体": 12,
+    "情感共鸣": 5,
+    "音乐": 4,
+    "画面": 17,
+    "节奏": 3,
+    "创意": 1,
+    "剧情": 2,
+    "细节": 1
+  },
+  "polarity_distribution": {
+    "+": 18,
+    "0": 18,
+    "-": 9
+  },
+  "evaluative_samples": [
+    {
+      "t": 17.368,
+      "text": "好浓的昭和特摄的味道",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 18.53,
+      "text": "突然觉得sp比利抽到也挺好的",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 19.898,
+      "text": "真的好治愈好温柔",
+      "dimension": "情感共鸣",
+      "polarity": "+"
+    },
+    {
+      "t": 27.345,
+      "text": "还是昭和版主题曲的调",
+      "dimension": "音乐",
+      "polarity": "0"
+    },
+    {
+      "t": 30.78,
+      "text": "学到了学到了",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 31.79,
+      "text": "忍不住多看几遍",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 35.756,
+      "text": "gooooooood",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 36.96,
+      "text": "jojo风op",
+      "dimension": "音乐",
+      "polarity": "0"
+    },
+    {
+      "t": 40.32,
+      "text": "浓浓的昭和味儿。",
+      "dimension": "音乐",
+      "polarity": "0"
+    },
+    {
+      "t": 44.541,
+      "text": "笑不活了家人们",
+      "dimension": "情感共鸣",
+      "polarity": "+"
+    },
+    {
+      "t": 45.392,
+      "text": "这个挺帅的",
+      "dimension": "画面",
+      "polarity": "+"
+    },
+    {
+      "t": 46.087,
+      "text": "感觉这个发型很会打牌的样子",
+      "dimension": "画面",
+      "polarity": "0"
+    },
+    {
+      "t": 47.021,
+      "text": "这么帅?！！米哈游我要这个进池子！！",
+      "dimension": "画面",
+      "polarity": "+"
+    },
+    {
+      "t": 48.043,
+      "text": "味儿真足",
+      "dimension": "整体",
+      "polarity": "0"
+    },
+    {
+      "t": 51.189,
+      "text": "好像E总！",
+      "dimension": "画面",
+      "polarity": "0"
+    },
+    {
+      "t": 61.388,
+      "text": "狠狠戳中笑点",
+      "dimension": "情感共鸣",
+      "polarity": "+"
+    },
+    {
+      "t": 67.146,
+      "text": "太真实了 狠狠共鸣了",
+      "dimension": "情感共鸣",
+      "polarity": "+"
+    },
+    {
+      "t": 71.291,
+      "text": "卧槽，有那味了。。。",
+      "dimension": "整体",
+      "polarity": "0"
+    },
+    {
+      "t": 82.005,
+      "text": "这段是不是偷懒了（笑）整点高燃打斗啊",
+      "dimension": "节奏",
+      "polarity": "-"
+    },
+    {
+      "t": 84.907,
+      "text": "感觉看着很像破晓战队",
+      "dimension": "画面",
+      "polarity": "0"
+    },
+    {
+      "t": 89.656,
+      "text": "给点活路吧，一个愚人节整活都能有这么好听的歌，再搞动画别人怎么玩",
+      "dimension": "音乐",
+      "polarity": "+"
+    },
+    {
+      "t": 90.565,
+      "text": "这也太绝了吧",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 95.998,
+      "text": "op一抖，小手没有（doge）",
+      "dimension": "画面",
+      "polarity": "0"
+    },
+    {
+      "t": 99.523,
+      "text": "这也太会了吧",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 107.699,
+      "text": "几张图你放4分钟？（doge）",
+      "dimension": "节奏",
+      "polarity": "-"
+    },
+    {
+      "t": 110.211,
+      "text": "太有创意了吧",
+      "dimension": "创意",
+      "polarity": "+"
+    },
+    {
+      "t": 112.187,
+      "text": "素材复用严重（）",
+      "dimension": "画面",
+      "polarity": "-"
+    },
+    {
+      "t": 117.927,
+      "text": "特摄特有素材复用（）",
+      "dimension": "画面",
+      "polarity": "0"
+    },
+    {
+      "t": 121.344,
+      "text": "每一秒都不想错过",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 124.373,
+      "text": "明显就是游戏登陆时的画面 只是加了一首歌",
+      "dimension": "画面",
+      "polarity": "0"
+    },
+    {
+      "t": 127.117,
+      "text": "不重复，难不成真拍电影！嗯，我是没意见的。。。",
+      "dimension": "剧情",
+      "polarity": "0"
+    },
+    {
+      "t": 129.22,
+      "text": "以前的动画片就是同样画面重复播……很正常",
+      "dimension": "节奏",
+      "polarity": "0"
+    },
+    {
+      "t": 142.308,
+      "text": "特摄味浓鼠了",
+      "dimension": "整体",
+      "polarity": "0"
+    },
+    {
+      "t": 150.067,
+      "text": "兼用卡大师",
+      "dimension": "画面",
+      "polarity": "-"
+    },
+    {
+      "t": 157.617,
+      "text": "素材复用严重啊（",
+      "dimension": "画面",
+      "polarity": "-"
+    },
+    {
+      "t": 167.129,
+      "text": "谁能想象他们动画的原版居然是比利。",
+      "dimension": "细节",
+      "polarity": "0"
+    },
+    {
+      "t": 174.587,
+      "text": "缺钱是不会缺钱的，就是故意以前的风味",
+      "dimension": "画面",
+      "polarity": "0"
+    },
+    {
+      "t": 178.794,
+      "text": "因为特摄片穷，一人饰三角，一图多用",
+      "dimension": "画面",
+      "polarity": "-"
+    },
+    {
+      "t": 189.308,
+      "text": "总觉得这是战队不是骑士",
+      "dimension": "剧情",
+      "polarity": "0"
+    },
+    {
+      "t": 206.495,
+      "text": "直接戳中我的心巴",
+      "dimension": "情感共鸣",
+      "polarity": "+"
+    },
+    {
+      "t": 230.479,
+      "text": "这下想通为什么素材复用严重了",
+      "dimension": "画面",
+      "polarity": "0"
+    },
+    {
+      "t": 233.831,
+      "text": "这也太优秀了",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 236.354,
+      "text": "原来是狡兔屋拍的，难怪素材重复率这么高。",
+      "dimension": "画面",
+      "polarity": "-"
+    },
+    {
+      "t": 239.405,
+      "text": "艹，原来是狡兔屋拍的，合理解释素材复用了说是",
+      "dimension": "画面",
+      "polarity": "-"
+    },
+    {
+      "t": 245.558,
+      "text": "难怪一股子穷酸味",
+      "dimension": "画面",
+      "polarity": "-"
+    }
+  ]
+}

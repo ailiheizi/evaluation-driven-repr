@@ -1,0 +1,50 @@
+{
+  "video": "反转悬疑神剧！凶手死后继续作案，福尔摩斯来都得懵圈！",
+  "bvid": "BV1XHmwYpE8s",
+  "duration": 2325,
+  "total_classified": 310,
+  "peaks": {
+    "画面": {
+      "peak_bin": 0,
+      "peak_time": 0,
+      "peak_density": 0.5,
+      "mean_density": 0.011446886446886448,
+      "peak_ratio": 43.68
+    },
+    "剧情": {
+      "peak_bin": 3,
+      "peak_time": 90,
+      "peak_density": 1.0,
+      "mean_density": 0.6842935822347587,
+      "peak_ratio": 1.4613610677659883
+    },
+    "整体": {
+      "peak_bin": 20,
+      "peak_time": 600,
+      "peak_density": 1.0,
+      "mean_density": 0.0848227520673341,
+      "peak_ratio": 11.789289732148502
+    },
+    "叙事手法": {
+      "peak_bin": 65,
+      "peak_time": 1950,
+      "peak_density": 1.0,
+      "mean_density": 0.02958152958152958,
+      "peak_ratio": 33.80487804878049
+    },
+    "节奏": {
+      "peak_bin": 0,
+      "peak_time": 0,
+      "peak_density": 0.3333333333333333,
+      "mean_density": 0.007575757575757575,
+      "peak_ratio": 33.33333333333333
+    }
+  },
+  "dim_entropy": {
+    "画面": 0.2645496391291544,
+    "剧情": 0.9355406716633162,
+    "整体": 0.6222298545533571,
+    "叙事手法": 0.3401142572312824,
+    "节奏": -0.0
+  }
+}

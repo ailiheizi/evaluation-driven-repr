@@ -1,0 +1,26 @@
+{
+  "video": "如何成为<班级面壁人>",
+  "bvid": "BV14HZqYiETU",
+  "duration": 388,
+  "total_classified": 116,
+  "peaks": {
+    "剧情": {
+      "peak_bin": 0,
+      "peak_time": 0,
+      "peak_density": 1.0,
+      "mean_density": 0.9722222222222222,
+      "peak_ratio": 1.0285714285714287
+    },
+    "节奏": {
+      "peak_bin": 0,
+      "peak_time": 0,
+      "peak_density": 0.25,
+      "mean_density": 0.03611111111111111,
+      "peak_ratio": 6.923076923076923
+    }
+  },
+  "dim_entropy": {
+    "剧情": 0.9989021260670946,
+    "节奏": 0.268064694594085
+  }
+}

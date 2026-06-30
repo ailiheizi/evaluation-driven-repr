@@ -1,0 +1,150 @@
+{
+  "video": "【4K60帧】经典老歌：瑞克·埃斯利《Never Gonna Give You Up》1987 AI修复补帧版",
+  "bvid": "BV1uT4y1P7CX",
+  "total_raw": 1200,
+  "after_rule_filter": 278,
+  "sample_classified": 150,
+  "evaluative_count": 21,
+  "evaluative_rate": 0.14,
+  "dimension_distribution": {
+    "整体": 4,
+    "音乐": 4,
+    "细节": 6,
+    "字幕": 2,
+    "演技": 4,
+    "剧情": 1
+  },
+  "polarity_distribution": {
+    "-": 4,
+    "+": 13,
+    "0": 4
+  },
+  "evaluative_samples": [
+    {
+      "t": 0.0,
+      "text": "我 被 首 页 推 荐 骗 了",
+      "dimension": "整体",
+      "polarity": "-"
+    },
+    {
+      "t": 0.207,
+      "text": "这个视频制作的真好",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 1.81,
+      "text": "这本来应该是首很好听的音乐",
+      "dimension": "音乐",
+      "polarity": "+"
+    },
+    {
+      "t": 1.826,
+      "text": "诈骗小曲。如果看到这个你就骗了。",
+      "dimension": "音乐",
+      "polarity": "-"
+    },
+    {
+      "t": 2.04,
+      "text": "不正常。。。。。。。",
+      "dimension": "整体",
+      "polarity": "-"
+    },
+    {
+      "t": 4.478,
+      "text": "豪   俊   金   曲",
+      "dimension": "音乐",
+      "polarity": "+"
+    },
+    {
+      "t": 8.448,
+      "text": "字幕有惊喜",
+      "dimension": "细节",
+      "polarity": "0"
+    },
+    {
+      "t": 24.945,
+      "text": "开英文字幕你会发现官方整活",
+      "dimension": "细节",
+      "polarity": "0"
+    },
+    {
+      "t": 41.798,
+      "text": "我的世界牛逼",
+      "dimension": "整体",
+      "polarity": "+"
+    },
+    {
+      "t": 42.619,
+      "text": "let you down意思是让你失望，哪来的让你向下[笑哭]",
+      "dimension": "细节",
+      "polarity": "0"
+    },
+    {
+      "t": 53.2,
+      "text": "BV1uT4y1P7CX维德的枪法练好了",
+      "dimension": "细节",
+      "polarity": "+"
+    },
+    {
+      "t": 59.479,
+      "text": "逆天字幕",
+      "dimension": "字幕",
+      "polarity": "-"
+    },
+    {
+      "t": 67.453,
+      "text": "《你有心脏病罗志祥！》字幕",
+      "dimension": "字幕",
+      "polarity": "0"
+    },
+    {
+      "t": 105.004,
+      "text": "这个男人笑起来好好看！！",
+      "dimension": "演技",
+      "polarity": "+"
+    },
+    {
+      "t": 111.819,
+      "text": "说实话这个男人一笑确实感觉挺帅的",
+      "dimension": "演技",
+      "polarity": "+"
+    },
+    {
+      "t": 114.299,
+      "text": "《官方弄字幕好调皮》",
+      "dimension": "细节",
+      "polarity": "+"
+    },
+    {
+      "t": 131.523,
+      "text": "好听！经典永流传",
+      "dimension": "音乐",
+      "polarity": "+"
+    },
+    {
+      "t": 142.108,
+      "text": "这字幕真有趣",
+      "dimension": "细节",
+      "polarity": "+"
+    },
+    {
+      "t": 170.424,
+      "text": "这个笑！好帅",
+      "dimension": "演技",
+      "polarity": "+"
+    },
+    {
+      "t": 177.52,
+      "text": "这完美的黄金回旋",
+      "dimension": "剧情",
+      "polarity": "+"
+    },
+    {
+      "t": 186.414,
+      "text": "我一男的 觉得他好帅啊",
+      "dimension": "演技",
+      "polarity": "+"
+    }
+  ]
+}

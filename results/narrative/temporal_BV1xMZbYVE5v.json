@@ -1,0 +1,50 @@
+{
+  "video": "错位的时空，命运的交织。",
+  "bvid": "BV1xMZbYVE5v",
+  "duration": 202,
+  "total_classified": 71,
+  "peaks": {
+    "细节": {
+      "peak_bin": 5,
+      "peak_time": 150,
+      "peak_density": 0.7619047619047619,
+      "mean_density": 0.286734693877551,
+      "peak_ratio": 2.65717674970344
+    },
+    "情感共鸣": {
+      "peak_bin": 0,
+      "peak_time": 0,
+      "peak_density": 0.42857142857142855,
+      "mean_density": 0.16632653061224487,
+      "peak_ratio": 2.5766871165644174
+    },
+    "整体": {
+      "peak_bin": 0,
+      "peak_time": 0,
+      "peak_density": 0.2857142857142857,
+      "mean_density": 0.061224489795918366,
+      "peak_ratio": 4.666666666666666
+    },
+    "剧情": {
+      "peak_bin": 1,
+      "peak_time": 30,
+      "peak_density": 0.7333333333333333,
+      "mean_density": 0.37891156462585035,
+      "peak_ratio": 1.9353680430879712
+    },
+    "画面": {
+      "peak_bin": 2,
+      "peak_time": 60,
+      "peak_density": 0.5,
+      "mean_density": 0.1246031746031746,
+      "peak_ratio": 4.012738853503184
+    }
+  },
+  "dim_entropy": {
+    "细节": 0.7975974155503329,
+    "情感共鸣": 0.7788946244272833,
+    "整体": 0.3271035759815648,
+    "剧情": 0.8389139000282366,
+    "画面": 0.4449129221498761
+  }
+}
