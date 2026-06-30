@@ -1,0 +1,87 @@
+{
+  "silhouette_analysis": [
+    {
+      "k": 3,
+      "silhouette": 0.09217198193073273,
+      "inertia": 25.697242736816406
+    },
+    {
+      "k": 4,
+      "silhouette": 0.08731016516685486,
+      "inertia": 24.64572525024414
+    },
+    {
+      "k": 5,
+      "silhouette": 0.09376002103090286,
+      "inertia": 23.73988914489746
+    },
+    {
+      "k": 6,
+      "silhouette": 0.09947677701711655,
+      "inertia": 22.91769790649414
+    },
+    {
+      "k": 7,
+      "silhouette": 0.09966575354337692,
+      "inertia": 22.001752853393555
+    },
+    {
+      "k": 8,
+      "silhouette": 0.10400403290987015,
+      "inertia": 21.096799850463867
+    },
+    {
+      "k": 9,
+      "silhouette": 0.08966466784477234,
+      "inertia": 20.434972763061523
+    },
+    {
+      "k": 10,
+      "silhouette": 0.0900924876332283,
+      "inertia": 19.688772201538086
+    },
+    {
+      "k": 11,
+      "silhouette": 0.1220802515745163,
+      "inertia": 18.75634002685547
+    },
+    {
+      "k": 12,
+      "silhouette": 0.08627830445766449,
+      "inertia": 18.338848114013672
+    },
+    {
+      "k": 13,
+      "silhouette": 0.09323511272668839,
+      "inertia": 17.685379028320312
+    },
+    {
+      "k": 14,
+      "silhouette": 0.10090643167495728,
+      "inertia": 16.939327239990234
+    }
+  ],
+  "optimal_k": {
+    "k": 11,
+    "silhouette": 0.1220802515745163,
+    "inertia": 18.75634002685547
+  },
+  "permutation_test_fixed": {
+    "test": "dimension_label_shuffle",
+    "description": "Shuffle dimension labels keeping timestamps fixed. Tests whether semantic dimension assignment causes temporal concentration.",
+    "real_mean_entropy": 0.4133039056706085,
+    "perm_mean_entropy": 0.4203319619536549,
+    "perm_std": 0.017929572557516683,
+    "p_value": 0.334,
+    "n_permutations": 500,
+    "significant": false,
+    "per_dimension": {
+      "细节": 0.3722294735148496,
+      "演技": 0.35515495892857624,
+      "整体": 0.4649483470238079,
+      "剧情": 0.4608828432152004
+    }
+  },
+  "old_permutation_p": 0.365,
+  "conclusion": "Label shuffle not significant - needs investigation"
+}

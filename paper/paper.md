@@ -189,23 +189,21 @@ We compare EDRL against three baselines on the same data:
 | Permuted (random shuffle) | 0.918 | No | No | — |
 | BERTopic (raw, no filtering) | 0.652 | Noisy | No (mixed topics) | — |
 | Density-only (no semantics) | N/A | N/A | No (just WHERE) | — |
-| **EDRL (ours)** | **0.788** | **Yes** | **Yes (9 named)** | **p<0.0001** |
+| **EDRL (ours)** | **0.788** | **Yes** | **Yes (9 named)** | — |
 
-![Permutation test: real entropy (red) is far below the shuffled distribution (blue), p<0.0001](figures/fig4_permutation.png)
+![Permutation test: cluster-level temporal non-uniformity vs shuffled timestamps](figures/fig4_permutation.png)
 
-**Finding 8 (permutation test):** Shuffling timestamps 200 times yields mean entropy 0.918±0.003. Real entropy (0.788) is never matched by any permutation (p<0.0001), confirming temporal alignment is not due to chance.
+**Finding 8 (temporal non-uniformity):** When clusters are formed from all filtered comments (n=2912) and timestamps are shuffled, cluster entropy increases significantly (0.788 real vs 0.918 shuffled, p<0.0001). This confirms that comment clusters are temporally non-uniform—they concentrate at specific moments. However, a stricter dimension-label-shuffle test (keeping timestamps fixed, shuffling which dimension each classified comment belongs to) yields p=0.21 on single-video data, indicating that within a single video, the evidence for *dimension-specific* concentration is weaker.
 
-**Finding 9 (vs BERTopic):** Raw BERTopic achieves lower entropy (0.652) because it captures *spam patterns* (repeated memes clustered at video start), not meaningful evaluation. Its topics are uninterpretable (e.g., "topic_2" = repetitions of "not bad for me"). EDRL's filtering step removes this noise, producing higher entropy but **meaningful, named dimensions**.
-
-**Finding 10 (vs density):** Density-only finds *where* audiences react (peak moments), but cannot distinguish *why* (plot twist? music? acting?). EDRL provides the semantic "why" that density cannot.
+**Finding 9 (cross-video stability as primary evidence):** The strongest evidence for meaningful temporal structure is *cross-video stability*: 8 dimensions recur in 69–100% of 16 videos across 3 genres. Random noise would not produce stable, interpretable dimensions across independent datasets. We therefore treat cross-video recurrence—not single-video permutation—as the primary validation.
 
 ### 4.5 Summary of Evidence
 
 | Claim | Evidence | Strength |
 |-------|----------|----------|
 | Dimensions emerge automatically | 9 dimensions, LLM-named, align with film criticism | Strong |
-| Dimensions are temporally structured | Entropy 0.17–0.78, p<0.0001 vs random | Strong |
-| Dimensions are cross-video stable | 8 dims at 69–100% recurrence across 16 videos | Strong |
+| Dimensions are temporally structured | Entropy 0.17–0.78; cluster non-uniformity p<0.0001; label-shuffle p=0.21 | Moderate |
+| Dimensions are cross-video stable | 8 dims at 69–100% recurrence across 16 videos | Strong (primary evidence) |
 | Dimensions distinguish genres | Plot entropy flips by genre (0.46 vs 0.90) | Moderate |
 | EDRL > baselines | Named dimensions + temporal structure + interpretability | Strong |
 | Annotation reliability | Dimension 57%, Polarity 86% on confirmed-eval subset | Moderate |

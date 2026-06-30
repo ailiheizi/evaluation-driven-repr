@@ -1,0 +1,9 @@
+{
+  "n_classified": 277,
+  "real_entropy": 0.4596207147393031,
+  "label_shuffle_perm_mean": 0.4746884923578021,
+  "label_shuffle_perm_std": 0.019279256664969067,
+  "label_shuffle_p": 0.213,
+  "label_shuffle_n": 1000,
+  "timestamp_shuffle_p": 0.216
+}
