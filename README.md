@@ -86,6 +86,46 @@ This extends our earlier paper ["Boundaries of Learnability"](https://github.com
 - Paper 1: Keywords mark structure (4.5×), but semantic content alone fails (1.05×)
 - **This paper**: The semantic signal *is* present — it requires dimension-aware clustering to unlock
 
+## Beyond Video: The EDRL Paradigm
+
+EDRL is not limited to video danmaku. **Any domain where humans naturally produce evaluative feedback** can use this framework:
+
+### Demonstrated (this paper)
+- **Video content** → Danmaku/comments reveal plot, acting, music, pacing dimensions
+
+### Immediate extensions
+- **Food/Recipes** → Taste reviews ("太咸了"/"鲜味不够") → discover flavor dimensions (saltiness, umami, bitterness) → optimize recipes by navigating flavor space
+- **Product design** → Customer reviews → discover quality dimensions (durability, aesthetics, ergonomics) → guide iterative design
+- **Game balance** → Player feedback → discover experience dimensions (difficulty, fairness, pacing) → tune gameplay
+
+### Theoretical extensions
+- **Image aesthetics** → "好看"/"构图差" → discover visual dimensions → not predefined (rule of thirds, color harmony) but *emergent from human perception*
+- **Code quality** → Code review comments → discover quality dimensions (readability, performance, correctness) → train code models with human-aligned objectives
+- **Life decisions** → Personal reflections/ratings → build personalized world models where every experience updates a learned embedding space
+
+### The deeper claim
+
+Traditional ML asks: "Given labels, learn features."
+RLHF asks: "Given preferences, learn a reward."
+**EDRL asks: "Given natural evaluations, discover what dimensions matter — then use those dimensions to structure all downstream learning."**
+
+The key insight is that human evaluations are **not scalar rewards** — they are **structured, multi-dimensional, semantically rich signals** that implicitly encode:
+1. What dimensions exist (automatic taxonomy)
+2. Which dimensions are active in this context (temporal/spatial alignment)
+3. What the human judgment is along each dimension (polarity)
+4. How dimensions interact and trade off (implicit preference structure)
+
+This is strictly more information than a single reward signal, and it's **generated for free** by every review, comment, and reaction on the internet.
+
+### Connection to world models
+
+If we view EDRL as a continuous process:
+```
+Experience → Evaluate → Update representation → Better predictions → Better experiences
+```
+
+This is precisely the loop that builds a **world model aligned with human values** — not by optimizing a reward function, but by continuously discovering and refining the dimensions that humans care about.
+
 ## Citation
 
 ```bibtex
