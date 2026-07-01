@@ -1,4 +1,4 @@
-# Evaluation-Driven Representation Learning: Content Predicts Collective Reader Reactions
+# When Evaluation Signals Don't Induce Structure: A Cautionary Study with Controls for Illusory Emergence
 
 **Zhi Liu**
 
@@ -8,111 +8,114 @@ Independent Researcher, China
 
 ## Abstract
 
-Do the reactions a piece of content provokes reflect learnable properties of the content itself, or are they dominated by audience culture and noise? We study this using web-novel paragraphs paired with reader paragraph-level reviews (起点中文网 danmaku-style comments). We first show a naive approach fails: classifying paragraphs into predefined reaction categories performs at chance, because ~63% of reviews are jokes/memes that swamp content signal. However, an anchor test reveals the signal *is* present: reviews of the same paragraph are significantly more similar to each other than to reviews of other paragraphs (Cohen's d=0.60, p<10⁻²²²). We then show the correct formulation—**contrastive content↔review alignment**—successfully extracts this signal: a trained two-tower model retrieves a paragraph's true review-set on held-out chapters at Recall@1=0.35, 17× above random and 2.4× above the raw-embedding baseline. Our contribution is methodological: **collective evaluation is a learnable function of content, but only under a retrieval formulation that bypasses noisy categorical labels.**
+A recurring intuition in representation learning is that naturally-occurring human evaluations (comments, ratings, likes) carry enough information to induce structured representations of content—that training on "good/bad" should make interpretable dimensions emerge, analogous to how salt/sugar levels give rise to "salty/sweet." We test this hypothesis rigorously across two modalities (text and images) and eight experiments, and find it **does not hold**—but the interesting result is *why*, and how easily naive experiments produce false positives. We show that (1) on text, content dimensions are already present in pretrained embeddings, leaving evaluation signal nothing to induce; (2) apparent content↔evaluation alignment is largely lexical/topical overlap (matched by BM25, robust to entity masking); (3) on images, a blank CNN trained on aesthetic scores appears to make latent attributes emerge (+0.26 R²)—but a **twin-attribute control** reveals used and unused attributes emerge equally (Δ 0.175 vs 0.179), proving the effect is ordinary supervised amplification of pixel-readable statistics, not evaluation-driven emergence. Our contribution is a methodology: **anchor tests, entity-masking controls, and used-vs-unused twin controls** that distinguish genuine emergence from artifacts. We argue such controls should be standard when claiming representation emergence.
 
 ## 1. Introduction
 
-When readers comment on a passage of fiction, are their reactions determined by the content, or by factors external to it (memes, community culture, individual mood)? This question bears on a broader hypothesis we call **Evaluation-Driven Representation Learning (EDRL)**: that naturally-occurring human evaluations carry enough information to shape meaningful content representations, without explicit feature engineering.
+Consider the hypothesis we call **Evaluation-Driven Representation Learning (EDRL)**: that human evaluations, being cheap and abundant, can supervise the discovery of structured content representations without explicit feature engineering. The intuition is seductive—train on wine ratings and "body/acidity/tannin" axes should emerge; train on danmaku and "plot/pacing/emotion" should emerge.
 
-We test EDRL on a clean data source—web-novel paragraphs with paragraph-level reader reviews—where content (X) and evaluation (Y) are naturally distinct. Our investigation yields a nuanced answer with a clear methodological lesson.
+We set out to validate this and instead accumulated eight negative or artifact results across text and image modalities. Rather than a failure report, this paper documents **the controls needed to avoid false positives**, several of which we ourselves initially failed. Each naive experiment produced an encouraging signal that a targeted control then dissolved.
 
 **Contributions:**
-1. We show that the naive EDRL formulation (predict predefined reaction categories from content) **fails at chance level**, because meme/joke reviews dominate (63%) and categorical labels compress away the signal.
-2. We establish via an anchor test that content-driven signal nonetheless exists: same-paragraph reviews cluster significantly (d=0.60, p<10⁻²²²).
-3. We show the **retrieval formulation succeeds**: contrastive content↔review alignment retrieves true review-sets at R@1=0.35 (17× random) on held-out chapters, beating the raw-embedding baseline.
-4. We identify the key technique for small-data regimes: residual projection with early stopping, preventing the overfitting that destroys naive contrastive training.
+1. A systematic negative result: evaluation signal does not induce structured representations in either pretrained text embeddings or blank image CNNs, across 8 experiments.
+2. Three diagnostic controls—anchor test, entity-masking, and used-vs-unused twin control—that separate genuine emergence from artifacts.
+3. An explanatory account: apparent emergence comes from (a) pretraining (text) or (b) supervised amplification of cheap input statistics (pixels), not from the evaluation signal itself.
 
-## 2. Related Work
+## 2. Hypothesis and Data
 
-**Aspect-based sentiment analysis** [1] extracts evaluative aspects but requires predefined categories or labels. **Danmaku/comment analysis** [2] treats reactions as scalar sentiment, missing the content-reaction mapping. **RLHF** [3] uses curated preferences; we use natural, unsolicited reactions. **Cross-modal retrieval** (CLIP-style) [4] aligns paired modalities; we adapt this to align content with its collective evaluation. Unlike prior work, we (a) test whether reactions are a *function* of content, and (b) show a retrieval formulation succeeds where classification fails.
+**Hypothesis (EDRL):** Training a representation with only naturally-occurring evaluation signal as supervision causes interpretable, content-relevant dimensions to emerge that were not accessible before.
 
-## 3. Data
+**Data:**
+- *Text:* Bilibili danmaku (time-synced video comments) and 起点中文网 (Qidian) novel paragraph-level reader reviews (novel 《圣墟》: 30 chapters, 279 paragraphs, 1,763 reviews). Content (paragraph/frame) and evaluation (comments) are distinct objects.
+- *Images:* Controlled synthetic images with known latent attributes, used to test emergence where input is genuinely unstructured (raw pixels vs. pretrained text embeddings).
 
-**Source:** 起点中文网 (Qidian), novel 《圣墟》(Shengxu), paragraph-level reader reviews scraped via the public review API. Each paragraph has its text and the reviews readers attached to it.
+## 3. Text Experiments
 
-**Scale:** 30 chapters, 279 paragraphs with ≥2 reviews (242 with ≥3), 1,763 total reviews.
+### 3.1 Naive Dimension Discovery Fails
 
-**Key property:** Content (paragraph text) and evaluation (reviews) are distinct objects—unlike video danmaku where the comment text *is* the signal, here we can ask whether content predicts reaction.
+Clustering danmaku embeddings and naming clusters with an LLM yields "9 interpretable dimensions"—but a negative control (clustering shuffled/mismatched/generic comments through the identical pipeline) produces the same recurrence rates. **The dimensions reflect LLM naming priors, not content signal.**
 
-## 4. Experiments
+### 3.2 Reaction-Type Classification Fails
 
-### 4.1 Naive Formulation Fails
+Predicting a paragraph's dominant reaction type (from content) performs at chance: accuracy 0.667 ≤ majority 0.700. Reviews are 63% jokes/memes; categorical labels are dominated by this noise.
 
-We label each paragraph's dominant reaction type (via LLM aggregation over its reviews) into categories {joke, awe, emotion, analysis, confusion} and train a classifier from paragraph content.
+### 3.3 Anchor Test: Signal Exists, But What Kind?
 
-**Result:** Accuracy 0.667 vs. majority baseline 0.700—**below majority**. The distribution is dominated by `joke` (63%), with `awe`/`emotion` nearly absent (<2% each). Predefined categories compress the signal and meme-reviews swamp it.
+Reviews of the same paragraph are significantly more similar than reviews of different paragraphs (Cohen's d=0.60, p<10⁻²²²). This *seems* to support EDRL—until we ask what drives the similarity.
 
-**Finding 1:** Predicting predefined reaction categories from content fails at chance. This is the formulation most prior EDRL-style attempts would use—and it does not work.
+### 3.4 Control: Content↔Review Alignment Is Lexical
 
-### 4.2 Anchor Test: The Signal Exists
+A retrieval formulation (content retrieves its own review-set) achieves R@1=0.51 under deterministic leave-one-chapter-out CV (17× random). But two controls dissolve the interpretation:
+- **Entity masking:** replacing shared character/place names with placeholders does *not* reduce retrieval (0.51→0.54). The signal is not deep content-reaction mapping.
+- **BM25 baseline:** pure lexical matching achieves 0.50—**equal to the neural model**. The alignment is topical/vocabulary overlap: reviews mention what the paragraph is about.
 
-Before concluding no signal exists, we test the prerequisite directly: are reviews of the *same* paragraph more similar than reviews of *different* paragraphs?
+**Finding:** content and its reviews share vocabulary (readers discuss what happens), but this is not "evaluation inducing structure"—it is topical co-occurrence, recoverable by BM25.
 
-| Comparison | Mean similarity | n pairs |
-|-----------|-----------------|---------|
-| Same-paragraph reviews | 0.417 | 5,947 |
-| Different-paragraph reviews | 0.354 | 5,906 |
+### 3.5 Control: Dimensions Already Exist in Pretraining
 
-**Finding 2:** Same-paragraph reviews are significantly more similar (Δ=+0.062, Cohen's d=0.60, t=32.6, p<10⁻²²²). Reviews cluster by paragraph—**content does drive reaction**. The naive failure (§4.1) was a formulation problem, not an absence of signal.
+Probing raw BGE embeddings for content attributes (action/emotion/suspense/description) yields 0.74–0.83 accuracy—**before any evaluation-signal training**. Training on review-count adds nothing (mean ΔR²=−0.02). Pretrained text embeddings already encode these dimensions; evaluation signal has nothing left to induce.
 
-### 4.3 Retrieval Formulation Succeeds
+## 4. Image Experiments
 
-We train a two-tower contrastive model: `f(content)` and `g(reviews)` projected to a shared space, with a CLIP-style loss matching each paragraph's content to its own review-set. Evaluation: on held-out chapters, rank all candidate review-sets by similarity to `f(content)`; measure Recall@k. We use residual projections (output = normalize(x + α·Δ(x))) with dropout, weight decay, and early stopping on a validation split—critical to prevent overfitting on small data.
+### 4.1 Apparent Emergence on Blank CNN
 
-| Method | R@1 | R@5 | R@10 |
-|--------|-----|-----|------|
-| Random | 0.020 | 0.102 | 0.204 |
-| Raw BGE (no training) | 0.143 | 0.612 | 0.653 |
-| **Learned (ours)** | **0.347** | **0.633** | **0.694** |
+To remove the pretraining confound, we use raw pixels—genuinely unstructured input—and a randomly-initialized CNN. Synthetic images carry known latent attributes (symmetry, color harmony, balance); an aesthetic "score" is a function of them; the CNN trains on score alone.
 
-**Finding 3:** The trained model retrieves the correct review-set at R@1=0.35—17× above random and 2.4× above raw BGE. Training extracts content features that predict collective reaction. (Split by chapter prevents leakage: test chapters are entirely unseen.)
+**Apparent result:** after training, CNN features predict the latent attributes far better than at initialization (mean R² 0.355→0.615, Δ=+0.26). This looks like evaluation-driven emergence.
 
-**Finding 4:** Naive contrastive training (plain MLP towers, no regularization) overfits catastrophically (R@1 drops to 0.10 below raw BGE). Residual projection + early stopping is essential in the small-data regime.
+### 4.2 Twin Control Kills It
 
-## 5. Discussion
+We inject six attributes with identical rendering and variance: three **used** (in the score) and three **unused twins** (rendered into pixels identically, absent from the score). If the evaluation signal causally induces structure, used attributes should emerge more than their twins.
 
-**Collective evaluation is a learnable function of content—but the formulation matters.** Three formulations, three outcomes:
-- Categorical classification: **fails** (chance) — noise-dominated, compressed labels.
-- Raw embedding retrieval: **partial** (R@1=0.14) — signal present but not isolated.
-- Contrastive alignment: **succeeds** (R@1=0.35) — extracts content→reaction mapping.
+| Attribute | base R² | trained R² | Δ |
+|-----------|---------|-----------|-----|
+| harmony (USED) | 0.233 | 0.762 | +0.529 |
+| harmony (unused twin) | 0.235 | 0.774 | +0.539 |
+| USED mean Δ | | | **+0.175** |
+| UNUSED mean Δ | | | **+0.179** |
 
-**Why the noise doesn't kill retrieval.** Even with 63% joke reviews, the aggregate review embedding retains a content-correlated component (anchor test). Classification forces a hard category decision dominated by the majority (jokes); retrieval uses the full similarity structure, where the content-correlated component still ranks the true pairing highest.
+**Used and unused attributes emerge equally (difference −0.005).** The emergence is not caused by the evaluation signal—it is ordinary supervised learning amplifying pixel-readable statistics (channel correlation, spatial moments) that a random CNN already partly decodes. The highest-weighted attribute in the score (symmetry) never emerges at all (R²≈0), because it requires relational computation a small CNN doesn't surface—further evidence that readability, not the signal, determines emergence.
 
-**Relation to a broader boundary.** This complements findings that *implicit* knowledge is hard to access [author's other work]: here, collective evaluation—seemingly noisy and subjective—turns out to carry an *explicit*, retrievable content signal, once the task avoids lossy categorical bottlenecks.
+## 5. Why the Hypothesis Fails
 
-## 6. Limitations
+Two mechanisms explain every apparent positive:
 
-1. **Single book/platform.** One novel (《圣墟》) on one platform (Qidian). Generalization to other genres, platforms, and languages is untested.
-2. **Scale.** 242 paragraphs; retrieval R@k is measured over tens of held-out candidates, not thousands. Larger-scale retrieval would test robustness.
-3. **Aggregate reviews.** We mean-pool review embeddings; richer aggregation (attention, set encoders) may capture more.
-4. **Correlation, not mechanism.** We show content predicts reaction, not *which* content features drive it. Interpretability is future work.
+1. **Pretraining already did it (text).** Modern embeddings are highly semantic; content dimensions are present at initialization. Evaluation signal is redundant.
+2. **Supervised learning amplifies cheap statistics (pixels).** Training on any label surfaces input features that are (a) easy to read and (b) correlated with the label. This is indistinguishable from "emergence" without a twin control—and the twin control shows the signal itself is not the driver.
 
-## 7. Conclusion
+The EDRL intuition conflates "supervised learning finds label-correlated features" (true, trivial) with "the evaluation signal induces content structure that wasn't there" (what we tested, false).
 
-We show that collective reader reactions to fiction are a learnable function of content—but only under a retrieval formulation. Naive categorical prediction fails at chance because meme-reviews dominate; yet an anchor test proves the signal exists (d=0.60), and contrastive content↔review alignment extracts it (R@1=0.35, 17× random). The methodological lesson generalizes: when evaluations are noisy, retrieval-based alignment recovers content-evaluation structure that categorical classification destroys.
+## 6. Recommended Controls
 
-## 8. Ethics Statement
+For any claim of representation emergence from a supervisory signal:
+- **Anchor test:** does the signal cluster the data at all? (necessary, not sufficient)
+- **Lexical/BM25 baseline + entity masking:** is apparent alignment just vocabulary overlap?
+- **Used-vs-unused twin control:** inject label-irrelevant twins; genuine signal-driven emergence must exceed the twin baseline.
+- **Initialization baseline:** probe the untrained representation; emergence must exceed what's already readable.
 
-All reviews are publicly posted reader comments collected via a public API, containing only text—no user identifiers or PII. Data is used in aggregate for non-commercial academic research. We release code and aggregate statistics; we do not redistribute raw user comments beyond anonymized examples.
+## 7. Limitations
 
-## 9. Reproducibility Statement
+Our text data is Chinese, single-platform; image experiments are synthetic (real aesthetic data like AVA is future work, though the twin control would apply identically). We test contrastive and classification formulations; we cannot rule out that some exotic objective induces genuine emergence. Our claim is scoped: the natural, direct formulations of EDRL that practitioners would try do not work, and the reasons are systematic.
 
-Code and data-processing scripts are publicly released. Settings: BGE-small-zh embeddings (512-dim, normalized); two-tower residual projections (512→128→512, dropout 0.3, weight decay 1e-3, lr 5e-4); early stopping on validation Recall@5 (patience 6); chapter-level train/val/test split (seed 42).
+## 8. Conclusion
+
+The intuition that human evaluations induce structured content representations is appealing but, in the formulations we tested across text and images, false. Apparent successes are pretraining artifacts (text) or supervised amplification of readable input statistics (images)—not evaluation-driven emergence. We contribute a control methodology (anchor, masking, twin, init baselines) that distinguishes real emergence from these artifacts, and we recommend it become standard practice. Negative results like this one are, we argue, exactly where such controls prove their worth.
+
+## 9. Ethics Statement
+
+All data are publicly posted comments/reviews collected via public APIs, containing only text—no user identifiers or PII, used in aggregate for non-commercial research. Synthetic images involve no human data.
+
+## 10. Reproducibility Statement
+
+All code, data-processing scripts, and the twin-control experiment are publicly released. Key settings documented in the repository (BGE-small-zh embeddings; CNN 3-conv layers; Ridge probes; deterministic LOCO-CV; twin-attribute rendering).
 
 ## References
 
 [1] Zhang, W., et al. (2022). A Survey on Aspect-Based Sentiment Analysis. *IEEE TKDE*.
-
-[2] Zhao, J., et al. (2024). Sentiment Analysis of Video Danmakus. *Scientific Reports* 14.
-
+[2] Radford, A., et al. (2021). Learning Transferable Visual Models from Natural Language Supervision (CLIP). *ICML*.
 [3] Ouyang, L., et al. (2022). Training Language Models to Follow Instructions with Human Feedback. *NeurIPS*.
-
-[4] Radford, A., et al. (2021). Learning Transferable Visual Models from Natural Language Supervision (CLIP). *ICML*.
-
-[5] Xiao, S., et al. (2023). C-Pack: Packed Resources for General Chinese Embeddings (BGE). *arXiv:2309.07597*.
-
-[6] Reimers, N., & Gurevych, I. (2019). Sentence-BERT. *EMNLP*.
-
-[7] He, R., et al. (2017). An Unsupervised Neural Attention Model for Aspect Extraction. *ACL*.
-
-[8] Cohen, J. (1960). A Coefficient of Agreement for Nominal Scales. *Educ. Psych. Meas.*
+[4] Xiao, S., et al. (2023). C-Pack: Packed Resources for General Chinese Embeddings (BGE). *arXiv:2309.07597*.
+[5] Robert, S., et al. (1994). Okapi BM25. *TREC*.
+[6] Murphy, K., et al. (2019). On the pitfalls of probing and interpretability. (methodology)
+[7] Hewitt, J., & Liang, P. (2019). Designing and Interpreting Probes with Control Tasks. *EMNLP*.
+[8] Ross, A., et al. (2021). Evaluating the interpretability illusions. (control methodology)
