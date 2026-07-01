@@ -1,0 +1,16 @@
+{
+  "total_reviews": 1763,
+  "evaluative": 345,
+  "eval_rate": 0.19568916619398752,
+  "strict_segments": 40,
+  "strict_labeled": 40,
+  "dist": {
+    "awe": 2,
+    "analysis": 24,
+    "critique": 13,
+    "emotion": 1
+  },
+  "acc": 0.7,
+  "majority": 0.7,
+  "signal": false
+}

@@ -1,0 +1,13 @@
+{
+  "baseline": {
+    "silhouette": 0.03330764174461365,
+    "probe": 0.8395841592279195
+  },
+  "learned": {
+    "silhouette": 0.6086554527282715,
+    "probe": 0.8657225267589845
+  },
+  "n_train": 3598,
+  "n_test": 1914,
+  "n_test_videos": 12
+}

@@ -1,0 +1,20 @@
+{
+  "baseline": {
+    "silhouette": -0.09969347715377808,
+    "probe": 0.23529411764705882
+  },
+  "learned": {
+    "silhouette": -0.32393985986709595,
+    "probe": 0.23529411764705882
+  },
+  "n_bins": 55,
+  "n_train": 38,
+  "n_test": 17,
+  "valid_types": [
+    "foreshadow",
+    "plot",
+    "negative",
+    "excitement",
+    "humor"
+  ]
+}

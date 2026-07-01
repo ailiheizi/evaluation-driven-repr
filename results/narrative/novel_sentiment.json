@@ -1,0 +1,13 @@
+{
+  "labeled": 279,
+  "dist": {
+    "analysis": 70,
+    "joke": 176,
+    "confusion": 25,
+    "awe": 4,
+    "emotion": 4
+  },
+  "acc": 0.6666666666666666,
+  "majority": 0.7,
+  "n_types": 3
+}
