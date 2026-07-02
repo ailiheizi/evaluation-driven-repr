@@ -29,52 +29,75 @@ We set out to validate this and instead accumulated eight negative or artifact r
 - *Text:* Bilibili danmaku (time-synced video comments) and 起点中文网 (Qidian) novel paragraph-level reader reviews (novel 《圣墟》: 30 chapters, 279 paragraphs, 1,763 reviews). Content (paragraph/frame) and evaluation (comments) are distinct objects.
 - *Images:* Controlled synthetic images with known latent attributes, used to test emergence where input is genuinely unstructured (raw pixels vs. pretrained text embeddings).
 
-## 3. Text Experiments
+## 3. Text Experiments (Video Danmaku)
 
-### 3.1 Naive Dimension Discovery Fails
+### 3.1 Naive Dimension Discovery via Clustering
 
-Clustering danmaku embeddings and naming clusters with an LLM yields "9 interpretable dimensions"—but a negative control (clustering shuffled/mismatched/generic comments through the identical pipeline) produces the same recurrence rates. **The dimensions reflect LLM naming priors, not content signal.**
+Clustering danmaku embeddings (BGE-small-zh) and naming clusters with an LLM yields "9 interpretable dimensions" (plot, acting, music, etc.). **Negative control:** clustering shuffled/mismatched/generic comments through the identical pipeline produces the same recurrence rates (real 15% ≈ shuffled 17% ≈ generic 13%). **Conclusion:** the dimensions reflect LLM naming priors, not content signal.
 
-### 3.2 Reaction-Type Classification Fails
+### 3.2 Same-Bin vs Different-Bin Temporal Similarity
 
-Predicting a paragraph's dominant reaction type (from content) performs at chance: accuracy 0.667 ≤ majority 0.700. Reviews are 63% jokes/memes; categorical labels are dominated by this noise.
+We tested whether comments in the same 30s time window are more similar than random pairs. **Result:** same-bin 0.398 vs diff-bin 0.366 (significant, p<10⁻⁶⁸). But after shuffling characters within comments, the effect persists—indicating **lexical locality** (similar words near same timestamp), not semantic content-reaction alignment.
 
-### 3.3 Anchor Test: Signal Exists, But What Kind?
+### 3.3 Keyword-Supervised Representation Learning
 
-Reviews of the same paragraph are significantly more similar than reviews of different paragraphs (Cohen's d=0.60, p<10⁻²²²). This *seems* to support EDRL—until we ask what drives the similarity.
+Trained a contrastive projection on BGE embeddings using danmaku keyword categories (excitement/foreshadow/emotion/humor/negative/plot) as supervision. **Result:** silhouette 0.03→0.61 (apparent success). **But leave-one-type-out test** (train on 5 types, test on held-out 6th with keywords stripped): learned *below* BGE baseline on all 6 types (mean −0.094). **Conclusion:** projection memorized keyword vocabulary patterns, not generalizable evaluative structure.
 
-### 3.4 Control: Content↔Review Alignment Is Lexical
+### 3.4 ASR Content → Danmaku Evaluation (1 video, then 11 videos)
 
-A retrieval formulation (content retrieves its own review-set) achieves R@1=0.51 under deterministic leave-one-chapter-out CV (17× random). But two controls dissolve the interpretation:
-- **Entity masking:** replacing shared character/place names with placeholders does *not* reduce retrieval (0.51→0.54). The signal is not deep content-reaction mapping.
-- **BM25 baseline:** pure lexical matching achieves 0.50—**equal to the neural model**. The alignment is topical/vocabulary overlap: reviews mention what the paragraph is about.
+Correct EDRL formulation: X=ASR narration (content), Y=danmaku evaluation type. **1 video (55 bins):** insufficient data, no result. **11 videos (171 bins):** silhouette −0.096→−0.332, probe 25%→25%. **Conclusion:** evaluation signal does not improve ASR content representation. Likely cause: same content triggers diverse reactions across different viewers.
 
-**Finding:** content and its reviews share vocabulary (readers discuss what happens), but this is not "evaluation inducing structure"—it is topical co-occurrence, recoverable by BM25.
+## 4. Text Experiments (Novel Reviews)
 
-### 3.5 Control: Dimensions Already Exist in Pretraining
+### 4.1 Reaction-Type Classification
 
-Probing raw BGE embeddings for content attributes (action/emotion/suspense/description) yields 0.74–0.83 accuracy—**before any evaluation-signal training**. Training on review-count adds nothing (mean ΔR²=−0.02). Pretrained text embeddings already encode these dimensions; evaluation signal has nothing left to induce.
+Predicting a paragraph's dominant reaction type (from content) performs at chance: accuracy 0.667 ≤ majority 0.700. Distribution: 63% joke, awe/emotion <2% each. **Conclusion:** categorical labels are dominated by meme-culture noise.
 
-## 4. Image Experiments
+### 4.2 Strict Filtering (Evaluative-Only Reviews)
 
-### 4.1 Apparent Emergence on Blank CNN
+LLM re-classified each review as evaluative vs joke/spam: only 20% are evaluative. After filtering, only 40 segments retain ≥3 evaluative reviews. Re-running type classification: still at majority baseline. **Conclusion:** even removing noise, evaluative reviews are too sparse and the remaining signal is insufficient.
 
-To remove the pretraining confound, we use raw pixels—genuinely unstructured input—and a randomly-initialized CNN. Synthetic images carry known latent attributes (symmetry, color harmony, balance); an aesthetic "score" is a function of them; the CNN trains on score alone.
+### 4.3 Review-Count Prediction (Engagement Intensity)
 
-**Apparent result:** after training, CNN features predict the latent attributes far better than at initialization (mean R² 0.355→0.615, Δ=+0.26). This looks like evaluation-driven emergence.
+Predicting whether a paragraph triggers high vs low review count from content. **Result:** AUC=0.593 (weak, above chance 0.5 but marginal). **Conclusion:** content weakly predicts engagement intensity, but effect is too small for practical use or representation learning.
 
-### 4.2 Twin Control Kills It
+### 4.4 Anchor Test: Same-Paragraph Reviews Cluster
 
-We inject six attributes with identical rendering and variance: three **used** (in the score) and three **unused twins** (rendered into pixels identically, absent from the score). If the evaluation signal causally induces structure, used attributes should emerge more than their twins.
+Reviews of the same paragraph are significantly more similar than reviews of different paragraphs (Cohen's d=0.60, t=32.6, p<10⁻²²²). **This suggested real signal—but subsequent controls dissolved the interpretation.**
 
-| Attribute | base R² | trained R² | Δ |
-|-----------|---------|-----------|-----|
-| harmony (USED) | 0.233 | 0.762 | +0.529 |
-| harmony (unused twin) | 0.235 | 0.774 | +0.539 |
-| USED mean Δ | | | **+0.175** |
-| UNUSED mean Δ | | | **+0.179** |
+### 4.5 Content↔Review Retrieval and Controls
 
-**Used and unused attributes emerge equally (difference −0.005).** The emergence is not caused by the evaluation signal—it is ordinary supervised learning amplifying pixel-readable statistics (channel correlation, spatial moments) that a random CNN already partly decodes. The highest-weighted attribute in the score (symmetry) never emerges at all (R²≈0), because it requires relational computation a small CNN doesn't surface—further evidence that readability, not the signal, determines emergence.
+A two-tower contrastive model achieves R@1=0.51 under deterministic leave-one-chapter-out CV (17× random). **Controls:**
+- **Entity masking:** replacing shared character/place names with placeholders does *not* reduce retrieval (0.51→0.54). Not deep content-reaction mapping.
+- **BM25 baseline:** pure lexical matching achieves 0.50—**equal to the neural model**.
+
+**Conclusion:** the alignment is topical vocabulary overlap (reviews mention what the paragraph is about), not "evaluation inducing structure." Recoverable by BM25.
+
+### 4.6 Dimensions Already Exist in Pretraining
+
+Probing raw BGE embeddings for content attributes (action/emotion/suspense/description) yields 0.74–0.83 accuracy—**before any evaluation-signal training**. Training on review-count adds nothing (mean ΔR²=−0.02). **Conclusion:** pretrained text embeddings already encode these dimensions; evaluation signal is redundant on structured (pretrained) inputs.
+
+## 5. Image Experiments (Synthetic, Controlled)
+
+### 5.1 Apparent Emergence on Blank CNN
+
+To remove the pretraining confound, we use raw pixels (genuinely unstructured) and a randomly-initialized CNN. Synthetic 32×32 images carry known latent attributes (symmetry, color harmony, balance); a nonlinear aesthetic "score" depends on them. CNN trains on score alone.
+
+**Apparent result:** attributes become more readable after training (mean R² 0.355→0.615, Δ=+0.26). This looks like evaluation-driven emergence.
+
+### 5.2 Twin Control: Used-vs-Unused Attributes (Decisive)
+
+We inject six attributes with identical rendering and variance: three **used** (define the score) and three **unused twins** (rendered into pixels identically, absent from the score). If the evaluation signal causally induces structure, used attributes should emerge more than their twins.
+
+| Attribute type | Mean Δ R² |
+|---------------|-----------|
+| USED (in score) | +0.175 |
+| UNUSED (twins, not in score) | +0.179 |
+| Difference | **−0.005** |
+
+**Used and unused attributes emerge equally.** The emergence is not caused by the evaluation signal—it is ordinary supervised learning amplifying pixel-readable statistics (channel correlation, spatial moments). The highest-weighted attribute in the score (symmetry, weight 0.5) never emerges (R²≈0 throughout), because it requires relational computation—further evidence that pixel readability, not the signal, determines what "emerges."
+
+**Conclusion:** apparent emergence was an artifact of (a) the score being a function of attributes and (b) those attributes being pixel-readable. The twin control isolates the causal variable and shows the evaluation signal itself contributes nothing.
 
 ## 5. Why the Hypothesis Fails
 
